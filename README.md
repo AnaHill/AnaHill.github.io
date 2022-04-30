@@ -1,1 +1,1 @@
-# My personal stuff related to Data science, coding, and so on
+# My blog related to Data science, coding, and so on
