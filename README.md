@@ -1,1 +1,1 @@
-# Antti Mäki's homepage
+# My personal stuff related to Data science, coding, and so on
