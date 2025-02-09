@@ -1,3 +1,10 @@
-# My Github pages related to my work history and my studies in the fashinating world of data
-- See https://anahill.github.io/portfolio/ for my portfolio page
-- See DatAnalyzer, my data analysis project using **MATLAB** https://github.com/AnaHill/DatAnalyzer
+# My 
+In these Github pages, I have gathered my work history and my projects
+
+## Portfilio CV
+Check my work portfolio page [here](https://anahill.github.io/portfolio/)
+<!-- separate current portfolio and academic portfolio -->
+
+
+## Projects
+- See [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis project using **MATLAB** 
