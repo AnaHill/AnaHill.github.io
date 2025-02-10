@@ -1,4 +1,4 @@
-# A-J Mäki's GitHub Pages
+# A-J Mäki, PhD, Data Engineer and total data nerd
 Here, I have gathered together my 
 - Work portfolio 
 - Academic portfolio
