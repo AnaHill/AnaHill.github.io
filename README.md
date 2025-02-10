@@ -1,5 +1,5 @@
 # A-J Mäki, PhD, Data Engineer and total data nerd
-Here, I have gathered together my 
+HWelcome to my GitHub-page, where I have gathered together my 
 - Work portfolio 
 - Academic portfolio
 - Projects
@@ -13,3 +13,9 @@ TBD
 
 ## Projects
 - See [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis project using **MATLAB** 
+
+
+<div align="center"> 
+  <p>Visitor count</p>
+  <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
+</div>
