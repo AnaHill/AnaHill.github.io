@@ -2,6 +2,10 @@
 Welcome to my personal website. 
 I am a passionate data nerd, cross-skiing fanatic, and football fan. 
 Currently, working as data engineer @[Solita](https://www.solita.fi/)
+<!-- ## Portfolio CV -->
+My work portfolio page can be found [here](https://anahill.github.io/portfolio/).
+
+![my](pics/ajm_bubble.png)
 
 <!-- badges of tools -->
 
@@ -11,8 +15,6 @@ Currently, working as data engineer @[Solita](https://www.solita.fi/)
 - Projects -->
 
 <!-- separate current portfolio and academic portfolio -->
-<!-- ## Portfolio CV -->
-My work portfolio page can be found [here](https://anahill.github.io/portfolio/).
 
 Academic portfolio showing my research outcomes is 
 <span style="color:red">coming soon</span>.
