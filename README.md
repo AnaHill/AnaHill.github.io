@@ -1,21 +1,27 @@
-# A-J Mäki, PhD, Data Engineer and total data nerd
-HWelcome to my GitHub-page, where I have gathered together my 
+# A-J Mäki, PhD: Data Engineer & Passionate Data Nerd
+Welcome to my personal website. 
+I am a passionate data nerd, cross-skiing fanatic, and football fan. 
+Currently, working as data engineer @[Solita](https://www.solita.fi/)
+
+<!-- badges of tools -->
+
+<!-- , where I have gathered together my 
 - Work portfolio 
 - Academic portfolio
-- Projects
+- Projects -->
 
-## Portfilio CV
-Check my work portfolio page [here](https://anahill.github.io/portfolio/)
 <!-- separate current portfolio and academic portfolio -->
+<!-- ## Portfolio CV -->
+My work portfolio page can be found [here](https://anahill.github.io/portfolio/).
 
-## Academic portfolio
-TBD
+Academic portfolio showing my research outcomes is 
+<span style="color:red">coming soon</span>.
 
 ## Projects
 - See [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis project using **MATLAB** 
 
 
-<div align="center"> 
-  <p>Visitor count</p>
+**Visitor's count**
+<div align="left">   
   <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
 </div>
