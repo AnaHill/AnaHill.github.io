@@ -1,20 +1,21 @@
 <!-- # A-J Mäki, PhD: Data Engineer & Passionate Data Nerd -->
+
+<!-- Please be freely to check my codes -->
 ![my](pics/ajm_bubble.png)
-Welcome to my personal website. 
-I am a passionate data nerd, cross-skiing fanatic, and football fan. 
-Currently, working as data engineer @[Solita](https://www.solita.fi/)
+
+Welcome to my personal website. I am 
+- a passionate data nerd
+- cross-skiing fanatic
+- football fan & family man   
+
+who is currently working as a data engineer [@Solita](https://www.solita.fi/). Check my work portfolio [page](https://anahill.github.io/portfolio/) to find out more.
 <!--  Portfolio CV: separate current portfolio and academic portfolio -->
-My work portfolio page can be found [here](https://anahill.github.io/portfolio/).
 
 Academic portfolio showing my research outcomes is 
 <span style="color:red">coming soon</span>.
 
 <!-- badges of tools -->
 
-<!-- , where I have gathered together my 
-- Work portfolio 
-- Academic portfolio
-- Projects -->
 
 
 ## Projects
