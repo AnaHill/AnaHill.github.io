@@ -3,23 +3,20 @@
 <!-- Please be freely to check my codes -->
 ![my](pics/ajm_bubble.png)
 
-Welcome to my personal website. I am a
-- passionate data nerd
-- cross-skiing fanatic
-- football fan & family man   
+Welcome to my personal website. I am A-J Mäki and 
+- a passionate data nerd
+- a cross-country skiing fanatic
+- a football fan ⚽︎ & family man
 
-who is currently working as a data engineer [@Solita](https://www.solita.fi/). Check my work portfolio [page](https://anahill.github.io/portfolio/) to find out more.
-
-
-Academic portfolio showing my research outcomes is 
-<span style="color:red">coming soon</span>.
+who is currently working as a data engineer [@Solita](https://www.solita.fi/). Check out [<span style="color:green">  **my work portfolio** </span>](https://anahill.github.io/portfolio/ "github.io/portfolio/") to find out more what I am currently working on I have also summarized my research outcomes in my
+[<span style="color:red"> **Academic portfolio** </span>](https://anahill.github.io/academic-portfolio/ "github.io/academic-portfolio/").
 
 <!-- badges of tools -->
 
 
-## Projects
-<span style="color:red">will be updated</span>
-- See [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis project using **MATLAB** 
+## Projects & Blogs
+<span style="color:red">This part will be updated</span>. Most hobby projects will be shown in my [github-repo](https://github.com/AnaHill?tab=repositories), see e.g.
+- [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis tool using **MATLAB** 
 
 
 **Visitor's count**

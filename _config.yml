@@ -1,5 +1,5 @@
-theme: jekyll-theme-minimal
 title: Antti-Juhana Mäki
 logo: /pics/headshot_circle_ajm.png
-# description: A-J Mäki
+description: A-J Mäki, PhD, Passionate Data Guy 
 show_downloads: true
+theme: jekyll-theme-minimal
