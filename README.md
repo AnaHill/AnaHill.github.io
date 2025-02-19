@@ -13,12 +13,12 @@ Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and li
 
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**, where I turn data into insights.  
 
-### 🔍 Explore More  
-📂 **Check out my work:**  
-- [<span style="color:green"> **My Work Portfolio** </span>](https://anahill.github.io/portfolio/ "github.io/portfolio/")  
-- [<span style="color:red"> **My Academic Portfolio** </span>](https://anahill.github.io/academic-portfolio/ "github.io/academic-portfolio/")  
+🔍 **Explore More**  
+- <a href="https://anahill.github.io/portfolio/" class="green-text">**My Work Portfolio**</a>
+- <a href="https://anahill.github.io/academic-portfolio/" class="red-text">**My Work Portfolio**</a>
 
-Let’s connect and build something great! 🚀  
+<!-- - [<span style="color:red"> **My Academic Portfolio** </span>](https://anahill.github.io/academic-portfolio/ "academic-portfolio/")   -->
+
 
 <!-- badges of tools -->
 
