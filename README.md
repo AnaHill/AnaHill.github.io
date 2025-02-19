@@ -24,13 +24,13 @@ Let’s connect and build something great! 🚀
 
 
 ## Projects & Blogs
-<span style="color:red">This part will be updated.</span>
+<span style="color:red"><strong>⚡ This section is under construction!</strong></span>  
 
-Most of hobby projects are shown in my [Github-repo](https://github.com/AnaHill?tab=repositories), see e.g.
-- [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis tool using **MATLAB** 
+I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
+🔍 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)** – A data analysis tool built with **MATLAB**
 
-**Visitor's count**
+📊 **Visitor's count**
 <div align="left">   
   <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
 </div>
