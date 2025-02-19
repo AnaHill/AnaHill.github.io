@@ -1,24 +1,30 @@
 <!-- # A-J Mäki, PhD: Data Engineer & Passionate Data Nerd -->
 
 <!-- Please be freely to check my codes -->
+# 👋 Welcome to My Personal Website  
 ![my](pics/ajm_bubble.png)
 
-Welcome to my personal website. I am A-J Mäki 
-- a passionate data nerd 🤓
-- a cross-country skiing fanatic ⛷️
-- a football fan ⚽ & family man
+Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**.  
 
-who is currently working as a **data engineer [@Solita](https://www.solita.fi/)**. Check out 
-- [<span style="color:green">  **my work portfolio** </span>](https://anahill.github.io/portfolio/ "github.io/portfolio/") 
-- and [<span style="color:red"> **my academic portfolio** </span>](https://anahill.github.io/academic-portfolio/ "github.io/academic-portfolio/")  
+### 🚀 About Me  
+- 🤓 **Data Nerd** – Always finding resilient solutions that can make impact   
+- ⛷️ **Cross-Country Skiing Fanatic** – Nothing beats the thrill of the trails  
+- ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
 
-to find out more about me.
+Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**, where I turn data into insights.  
+
+### 🔍 Explore More  
+📂 **Check out my work:**  
+- [<span style="color:green"> **My Work Portfolio** </span>](https://anahill.github.io/portfolio/ "github.io/portfolio/")  
+- [<span style="color:red"> **My Academic Portfolio** </span>](https://anahill.github.io/academic-portfolio/ "github.io/academic-portfolio/")  
+
+Let’s connect and build something great! 🚀  
 
 <!-- badges of tools -->
 
 
 ## Projects & Blogs
-<span style="color:red">This part will be updated</span>. 
+<span style="color:red">This part will be updated.</span>
 
 Most of hobby projects are shown in my [Github-repo](https://github.com/AnaHill?tab=repositories), see e.g.
 - [DatAnalyzer](https://github.com/AnaHill/DatAnalyzer), my data analysis tool using **MATLAB** 
