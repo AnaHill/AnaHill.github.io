@@ -1,8 +1,6 @@
-<!-- # A-J Mäki, PhD: Data Engineer & Passionate Data Nerd -->
-
 <!-- Please be freely to check my codes -->
-<!-- # 👋 Welcome! I'm **A-J Mäki** -->
 
+<!-- # 👋 Welcome! I'm **A-J Mäki** -->
 Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**. Welcome to my home pages.  
 ![my](pics/ajm_de_bubble.png)
 
@@ -24,14 +22,14 @@ Before transitioning into the world of data, I had a long and diverse academic c
 <a href="https://anahill.github.io/academic-portfolio/" class="red-text">**👨‍🔬My Academic Portfolio**</a> to explore my research.  
 
 
-## Projects & Blogs
+## 📂📝 Projects & Blogs
 <span style="color:red"><strong>⚡ This section is under construction!</strong></span>  
 
 I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
 🔍 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)** – A data analysis tool built with **MATLAB**
 
-📊 **Visitor's count**
+## 📊 **Visitor's count**
 <div align="left">   
   <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
 </div>
