@@ -12,9 +12,8 @@ Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and li
 
 ## 🔍 **Explore More**  
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
-To find out more my skills, tools, and projects, check
-
- [<span style="color:green">👉 🤓🛠️ **My Work Portfolio**👈</span>](https://anahill.github.io/portfolio/)
+To find out more my skills, tools, and projects, check  
+[<span style="color:green">👉 🤓🛠️ **My Work Portfolio**👈</span>](https://anahill.github.io/portfolio/)
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
@@ -22,8 +21,7 @@ To find out more my skills, tools, and projects, check
 <!-- 
 Before transitioning into the world of data, I had a long and diverse academic career. Dive into 
 <a href="https://anahill.github.io/academic-portfolio/" class="red-text">**👨‍🔬My Academic Portfolio**</a> to explore my research.   -->
-Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
-
+Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in  
 [👉👨‍🔬**My Academic Portfolio**👈](https://anahill.github.io/academic-portfolio/)
 
 
