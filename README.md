@@ -2,9 +2,18 @@
 
 <!-- # 👋 Welcome! I'm **A-J Mäki** -->
 Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**. Welcome to my home pages.  
-<!-- ![my](pics/ajm_de_bubble.png) -->
+## 🚀 **About Me**  
+
+- 🤓 **Data Nerd** – Always finding resilient solutions that can make impact   
+- ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just 😎  
+- ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
+
 ![my_profile](pics/ajm_profile.png "my profile")
 
+<figure>
+  <img src="/pics/ajm_profile.png" alt="my profile"/>
+  <figcaption>A-J Mäki</figcaption>
+</figure>
 <!--  
 Using Napkin with something like these, created new profile pic
 A-J Mäki is combosed of
@@ -28,11 +37,6 @@ A-J Mäki is combosed of
   - DataOps
 -->
 
-## 🚀 **About Me**  
-
-- 🤓 **Data Nerd** – Always finding resilient solutions that can make impact   
-- ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just 😎  
-- ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
 
 ## 🔍 **Explore More**  
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
