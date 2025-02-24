@@ -8,11 +8,9 @@ Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and li
 - ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just 😎  
 - ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
 
-![my_profile](pics/ajm_profile.png "my profile")
-
 <figure>
   <img src="/pics/ajm_profile.png" alt="my profile"/>
-  <figcaption>A-J Mäki</figcaption>
+  <figcaption style="display: block; text-align: center; font-style: italic;">"A-J Mäki – Data Engineer with a passion for data, research, and continous learning."</figcaption>
 </figure>
 <!--  
 Using Napkin with something like these, created new profile pic
