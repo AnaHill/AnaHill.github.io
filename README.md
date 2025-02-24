@@ -2,7 +2,31 @@
 
 <!-- # 👋 Welcome! I'm **A-J Mäki** -->
 Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**. Welcome to my home pages.  
-![my](pics/ajm_de_bubble.png)
+<!-- ![my](pics/ajm_de_bubble.png) -->
+![my_profile](pics/ajm_profile.png "my profile")
+
+<!--  
+Using Napkin with something like these, created new profile pic
+A-J Mäki is combosed of
+- Personality
+  - team player
+  - curiosity
+  - continuous learning
+  - mentoring & tutoring
+- Researcher
+  - microfluidics
+  - control engineering
+  - data analysis
+  - MATLAB & Simulink
+  - FEM & COMSOL
+- Data Consultant
+  - Azure
+  - ETL
+  - Python
+  - Databricks
+  - PostgreSQL
+  - DataOps
+-->
 
 ## 🚀 **About Me**  
 
