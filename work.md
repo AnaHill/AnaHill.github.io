@@ -1,3 +1,8 @@
+---
+layout: default
+title: Work portfolio
+---
+
 Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (**ADF** and **DevOps** tools), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">

@@ -1,9 +1,9 @@
-<!-- # A-J Mäki, PhD & Life-Long Reseacher -->
-<h1 align="left">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=false&vCenter=true&width=500&height=70&color=4493F8&duration=4000&lines=Moro!+Hello!+👋;I'm+A-J+Mäki,+PhD;Data+Engineer;Former+Postdoc;Life-Long+Researcher;" />
-</h1>
+---
+layout: default
+title: Academic portfolio
+---
 
-# 🚀 Welcome to My Research Portfolio  
+# 👨‍🔬 Welcome to My Academic Portfolio  
 
 Here, I showcase a **lifelong journey in research**, driven by **curiosity, continuous learning, and a deep passion for data**. I bring together a **strong academic background** with hands-on expertise in **data analysis, machine learning, and data engineering**—a true **data nerd** at heart! 🤓 
 
