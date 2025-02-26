@@ -1,11 +1,13 @@
-<!-- Please be freely to check my codes -->
+---
+layout: default
+title: Main page
+---
 
-<!-- # 👋 Welcome! I'm **A-J Mäki** -->
 Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**. Welcome to my home pages.  
 ## 🚀 **About Me**  
 
 - 🤓 **Data Nerd** – Always finding resilient solutions that can make impact   
-- ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just 😎  
+- ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just so 😎  
 - ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
 
 <figure>
@@ -22,9 +24,7 @@ To find out more my skills, tools, and projects, check
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
 </p>
-<!-- 
-Before transitioning into the world of data, I had a long and diverse academic career. Dive into 
-<a href="https://anahill.github.io/academic-portfolio/" class="red-text">**👨‍🔬My Academic Portfolio**</a> to explore my research.   -->
+
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in  
 [👉👨‍🔬**My Academic Portfolio**👈](https://anahill.github.io/academic-portfolio/)
 
