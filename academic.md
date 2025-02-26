@@ -9,7 +9,7 @@ Here, I showcase a **lifelong journey in research**, driven by **curiosity, cont
 
 🔍 **Want to see what I do daily?**  
 To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out  
-[<span style="color:red">**👉 🤓🛠️ My Work Portfolio👈**</span>](work.md "my work portfolio")
+[<span style="color:red">**👉 🤓🛠️ My Work Portfolio👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
 <!-- ## NAVIGATOR -->
 <style>

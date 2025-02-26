@@ -54,7 +54,7 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 
 ### **Academy, several positions, Tampere University (_2006-2022_)**
 For full academic outcomes, see   
-[👉 **👨‍🔬My Academic Portfolio**👈](academic.md "my academic portfolio")
+[👉 **👨‍🔬My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
 
 **Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)**
 - Main research areas: **microsystems**, **microfluidics**, **control engineering**, **data analysis**

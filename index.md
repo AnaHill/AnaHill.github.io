@@ -19,14 +19,14 @@ Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and li
 ## 🔍 **Explore More**  
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
 To find out more my skills, tools, and projects, check  
-[<span style="color:green">👉 🤓🛠️ **My Work Portfolio**👈</span>](work.md "my work portfolio")
+[<span style="color:red">**👉 🤓🛠️ My Work Portfolio👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
 </p>
 
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in  
-[👉👨‍🔬**My Academic Portfolio**👈](academic.md "my academic portfolio")
+[👉 **👨‍🔬My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
 
 
 ## 📂📝 Projects & Blogs
