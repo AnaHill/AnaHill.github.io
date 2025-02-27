@@ -2,7 +2,7 @@
 title: Work portfolio
 ---
 
-Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (**ADF** and **DevOps** tools), **Databricks**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   Contact me: 
@@ -46,14 +46,13 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 ### **Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)**
 - Building robust and scalable data solutions for customers
 - Main tools and technologies: **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
-- I have also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
+- Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
 ### **Data Engineer @Futurice (_Nov 2022 - March 2023_)**
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
 ### **Academy, several positions, Tampere University (_2006-2022_)**
-For full academic outcomes, see   
-[👉 **👨‍🔬My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
+See [👉**👨‍🔬My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio") for more info.
 
 **Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)**
 - Main research areas: **microsystems**, **microfluidics**, **control engineering**, **data analysis**
@@ -61,9 +60,7 @@ For full academic outcomes, see
 
 **Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)**
 
-
-
-
+<!-- # Certs -->
 ## Certifications
 Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Feb 2024* Agile Data Engine -- Agile Data Engine for Data Engineers 
@@ -76,16 +73,14 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 ## Projects
 
 ### DatAnalyzer: The correct way to analyze FP signals
-A data analysis tool to study signals, especially field potentials (FPs) from 2D human cardiomyocyte cultures. Codes and a scientific paper freely available
-- [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer)  
-- Publication _Opinion: The correct way to analyze FP signals_ available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
+A data analysis tool to study signals, especially field potentials (FPs) from 2D human cardiomyocyte cultures. 
 
 Tools: **MATLAB**
 
 <details>
   <summary><strong>Show more</strong></summary>
   <p>
-    Developed a method and tool (<em>DatAnalyzer</em>) to analyze field potential (FP) signals from 2D human induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures.
+    Developed a method and tool (<em>DatAnalyzer</em>) to analyze field potential (FP) signals from 2D human induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures. Codes and a scientific paper freely available in[DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer) and publication _Opinion: The correct way to analyze FP signals_ in [Zenodo](https://doi.org/10.5281/zenodo.10205591 "Opinion: The correct way to analyze FP signals")
   </p>
   <p>
     I summarized how FP signals have been analyzed in various—sometimes even contradictory—ways in the literature and proposed my own method that could be considered.
