@@ -20,7 +20,7 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 
 ## 🛠️ Skill & Tools
 <!-- TODO: more text,  -->
-![my_expertise](pics/bubble_expertise.png)
+![my_expertise](pics/ajm_de_bubble.png)
 
 <br>
 <p align="left">
@@ -91,7 +91,7 @@ Tools: **MATLAB**
     I summarized how FP signals have been analyzed in various—sometimes even contradictory—ways in the literature and proposed my own method that could be considered.
   </p>
   <p>
-    <img src="/pics/DatAnalyzer.png" alt="DatAnalyzer in action" style="max-width: 100%; height: auto;">
+    <img src="/pics/projects/DatAnalyzer.png" alt="DatAnalyzer in action" style="max-width: 100%; height: auto;">
   </p>
 </details>
 
@@ -121,6 +121,6 @@ Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
     DOI: <a href="https://doi.org/10.1109/TASE.2023.3309668" target="_blank">10.1109/TASE.2023.3309668</a>.
   </blockquote>
   <p>
-    <img src="/pics/write_latex_documents_with_Word.png" alt="How to write LaTeX documents using Word" style="max-width: 100%; height: auto;">
+    <img src="/pics/projects/write_latex_documents_with_Word.png" alt="How to write LaTeX documents using Word" style="max-width: 100%; height: auto;">
   </p>
 </details>
