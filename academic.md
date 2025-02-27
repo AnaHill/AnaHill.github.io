@@ -32,7 +32,7 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
  Use the links below to jump to key sections!
 <nav>
   <a href="#research" class="nav-link" title="My Research">Research</a> -
-  <a href="#academic-work-experience" class="nav-link" title="My Acdemic Work Experience">Work Experience</a> -
+  <a href="#academic-work-experience" class="nav-link" title="My Academic Work Experience">Work Experience</a> -
   <a href="#projects" class="nav-link" title="Project that I have been working on">Projects</a> -
   <a href="#publications" class="nav-link" title="My Publications listed">Publications</a>
 </nav>
@@ -60,7 +60,8 @@ For more insights into my research, you can also contact **Professor Pasi Kallio
 <!-- 🔍 *Additional references are available upon request.*   -->
 
 <!-- ## 🛠️ Main Research Topics, Areas, and Tools -->
-# 👨‍🔬 <span style="color:#228B22;">Research</span>
+# 👨‍🔬 <span id="research" style="color:#228B22;">Research</span>
+
 <div align="left">
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
@@ -91,7 +92,7 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 <!-- - Student exchange, Hong Kong Polytechnic University, 2006-2007   -->
 
 <!-- ############# WORK ############# -->
-# 💼 <span style="color:#228B22;">Academic Work Experience</span>
+# 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
 
 ## Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please be do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
@@ -200,7 +201,8 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 
 
 <!-- ############# Projects ############# -->
-# 🗂️ <span style="color:#228B22;">Projects</span>
+# 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
+
 ## Coeboc
 CoEBOC, '_Centre of Excellence in Body on-Chip Research_' is Academy of Finland funded project for the years 2018-2025. [1] 
 The ultimate goal of CoEBoC is to revolutionize healthcare by developing and applying body on-chip (BoC) technology and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
@@ -290,7 +292,8 @@ Used at least in this publication
 - Finnish military rank: second lieutenant
 
 <!-- ############# -->
-# 📝<span style="color:#228B22;">Publications</span> 
+# 📝 <span id="publications" style="color:#228B22;">Publications</span>
+
 <!-- [my Scholar profile](https://scholar.google.com/citations?user=bmCs6M0AAAAJ). -->
 <div align="left">
   See also my
