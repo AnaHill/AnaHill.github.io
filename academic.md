@@ -1,7 +1,6 @@
 ---
 title: Academic portfolio
 ---
-
 # 👨‍🔬 Welcome to My Academic Portfolio  
 
 Here, I showcase a **lifelong journey in research**, driven by **curiosity, continuous learning, and a deep passion for data**. I bring together a **strong academic background** with hands-on expertise in **data analysis, machine learning, and data engineering**—a true **data nerd** at heart! 🤓 
@@ -95,7 +94,7 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 # 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
 
 ## Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
-Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please be do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
+Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
 <span style="color:blue">**NOTE** </span>
 These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also plan to start blogging, and these will likely be my first topics. Stay tuned! ✍️  
@@ -115,7 +114,7 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 
 
 <!-- ### Part-Time Postdoctoral Researcher ### -->
-## Visiting Scholar @ Tampere University (_Nov 2022 - Dec 2024_)
+## Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
 I continued to work as a part-time (approx. 10 hours/month) researcher with Professor Pasi Kallio, finishing following publications. 
 
 ### Yrjänäinen et al. (2024) _Barrier-free, open-top microfluidic chip for generating two distinct, interconnected 3D microvascular networks_ [link](https://doi.org/10.1038/s41598-024-74493-3 "doi: 10.1038/s41598-024-74493-3") (<span style="color:black">**last author**</span>)
@@ -142,7 +141,7 @@ I lead a **multidisciplinary research team** that has developed a groundbreaking
 
 
 <!-- ### Postdoc ### -->
-## Postdoctoral Research Fellow @ Tampere University (_Sep 2018 - Nov 2022_)
+## Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
 My research focused on **microsystems**, **microfluidics**, **control engineering**, **data analysis** with MATLAB.
 My main tools were **MATLAB**, **Simulink**, **COMSOL (FEM)**, and **soft lithography (PDMS)**.
 
@@ -167,13 +166,13 @@ Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary Co
 9.  Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
 </details>
 
-## Doctoral Researcher @ Tampere University of Technology (_Sep 2011 - Aug 2018_)
+## Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
 
 My main responsibility in the multidisciplinary project was to developed the heat control systems for the autonomous cell cultivation platforms. I was also heavily involved in mathematical modeling and optimization of the cell culture environments, for examaple using FEM-based simulations.
 
-**Selected References**  
+<!-- **Selected References**   -->
 <details>
-  <summary> Show </summary>  
+  <summary><strong>Show Selected References</strong></summary>  
 1. Doctoral dissertation (2018), titled 'Modeling and Control of Microscale Cell Culture Environments' is available in https://urn.fi/URN:ISBN:978-952-15-4174-2
 2. Mäki et al. (2018) https://doi.org/10.1177/2472630318768710
 3. Mäki et al. (2018) https://doi.org/10.1109/TASE.2016.2613912
@@ -185,16 +184,16 @@ My main responsibility in the multidisciplinary project was to developed the hea
 
 </details>
 
-## Project Researcher @ Tampere University of Technology (_Aug 2010 - Sep 2011_)
+## Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
 
 My study was related to immunoassay in microchannels and how they could be used in patient diagnostic.
 
 
-## Thesis Worker and Research Assistant @ Tampere University of Technology (_June 2006 - Aug 2010_)
+## Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
 I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications. [1, 2]
 
 <details>
-  <summary> Show  References </summary>  
+  <summary> Show  more about thesis  </summary>  
 1. Master thesis (2010), titled 'Optically induced electric fields and their use in microfluidics and cell manipulation applications' is available in https://urn.fi/URN:NBN:fi:tty-201008171286
 2. Mäki et al. (2010).  'Modeling continuous optoelectrowetting device', in Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010, https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device
 </details>
