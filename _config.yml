@@ -1,8 +1,8 @@
 title: Antti-Juhana Mäki
 description: PhD, Data Engineer & Passionate Data Guy 
 logo: /pics/headshot_circle_ajm.png
+repository: AnaHill/AnaHill.github.io
 show_downloads: true
-
 theme_color: "#800000"
 remote_theme: pages-themes/merlot@v0.2.0
 plugins:
