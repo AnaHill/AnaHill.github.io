@@ -131,7 +131,7 @@ I lead a **multidisciplinary research team** that has developed a groundbreaking
 > In November 2023, I published a comprehensive report titled **"Opinion: The correct way to analyze FP signals"**. This work encapsulates my extensive experience in analyzing **field potential (FP) signals** derived from **2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
 <details>
-  <summary> Show more </summary>   
+  <summary><strong>Show more</strong></summary>  
 
 > While developing the **DatAnalyzer** software ([GitHub Repository](https://github.com/AnaHill/DatAnalyzer?utm_source=chatgpt.com)), I observed a wide array of methodologies used for FP signal analysis across various studies. This inconsistency often led to confusion, highlighting the need for a **cohesive analytical framework**.  
 > 
@@ -149,21 +149,20 @@ I worked as a postdoc in professor Pasi Kallio's team [1, 2](), where I develope
 
 Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary CoEBoC team [2]() combining cell biologists and engineers, and led a group of researchers developing a novel "body-on-chip" platform for vascularized 3D cell co-cultures studies [11]().
 
-**Selected References**  
 <details>
-  <summary> Show </summary>  
+  <summary><strong>Show Selected References</strong></summary>  
 
 1. Micro- and Nanosystems Research Group, [https://research.tuni.fi/mst/](https://research.tuni.fi/mst/)
 2. CoEBoC, Centre of Excellence in Body on-Chip Research, [https://research.tuni.fi/coeboc/](https://research.tuni.fi/coeboc/)
 3. DatAnalyzer, [Github-repo](https://github.com/AnaHill/DatAnalyzer)
-2. Häkli et al. (2022) https://doi.org/10.1155/2022/9438281
-3. Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
-4. Mykuliak et al. (2022) https://doi.org/10.3389%2Ffbioe.2022.764237
-5. Gaballah et al. (2022) https://doi.org/10.3390/cells11061045
-6. Skogberg et al. (2022) https://doi.org/10.1039/D1NR06937C
-7. Tornberg et al. (2022) https://doi.org/10.1007/s10544-022-00634-y 
-8.  Peussa et al. (2022) https://doi.org/10.1371/journal.pone.0268570
-9.  Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
+4. Häkli et al. (2022) https://doi.org/10.1155/2022/9438281
+5. Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
+6. Mykuliak et al. (2022) https://doi.org/10.3389%2Ffbioe.2022.764237
+7. Gaballah et al. (2022) https://doi.org/10.3390/cells11061045
+8. Skogberg et al. (2022) https://doi.org/10.1039/D1NR06937C
+9. Tornberg et al. (2022) https://doi.org/10.1007/s10544-022-00634-y 
+10. Peussa et al. (2022) https://doi.org/10.1371/journal.pone.0268570
+11. Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
 </details>
 
 ## Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
@@ -172,7 +171,8 @@ My main responsibility in the multidisciplinary project was to developed the hea
 
 <!-- **Selected References**   -->
 <details>
-  <summary><strong>Show Selected References</strong></summary>  
+  <summary><strong id="doctoral_references">Show Selected References</strong></summary>  
+
 1. Doctoral dissertation (2018), titled 'Modeling and Control of Microscale Cell Culture Environments' is available in https://urn.fi/URN:ISBN:978-952-15-4174-2
 2. Mäki et al. (2018) https://doi.org/10.1177/2472630318768710
 3. Mäki et al. (2018) https://doi.org/10.1109/TASE.2016.2613912
@@ -193,7 +193,8 @@ My study was related to immunoassay in microchannels and how they could be used 
 I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications. [1, 2]
 
 <details>
-  <summary> Show  more about thesis  </summary>  
+  <summary><strong>Show more about the thesis </strong></summary>  
+
 1. Master thesis (2010), titled 'Optically induced electric fields and their use in microfluidics and cell manipulation applications' is available in https://urn.fi/URN:NBN:fi:tty-201008171286
 2. Mäki et al. (2010).  'Modeling continuous optoelectrowetting device', in Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010, https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device
 </details>
@@ -213,7 +214,7 @@ CoEBoC brought together six research groups from Tampere University: microsystem
 **Keywords**: microsystems, microfluidics, fem, data analysis, control engineering, iPS, adult stem cells, cardiomyocyte, neuron, imaging
 
 <details>
-  <summary> Show  </summary>  
+  <summary><strong>Show Selected References</strong></summary>  
 1. CoEBoC, Centre of Excellence in Body on-Chip Research, https://research.tuni.fi/coeboc/
 2. Micro- and Nanosystems Research Group, https://research.tuni.fi/mst/ 
 3. Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
@@ -229,7 +230,7 @@ In this multidisciplinary, research-oriented Business Finland (former TEKES) Hum
 **Keywords**: microsystems, microfluidics, iPS, adult stem cells, biomaterials, biomedical engineering
 
 **Selected References**: 
-See _Selected References_ list in [Doctoral Researcher](#doctoral-researcher--tampere-university-of-technology-sep-2011---aug-2018) section.
+See _Show Selected References_ list in [Doctoral Researcher](#doctoral_references) section.
 
 
 <!-- ### Repos/Other project ### -->
@@ -242,7 +243,7 @@ Tools and keywords: **MATLAB**, **data analysis**, **MEA**, **hiPS-CM**
 
 Developed method and tool (DatAnalyzer) to analyze field potential (FP) signals from 2D human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed my own methdod that could be considered.
 
-![DatAnalyzer in action](/pics/project/DatAnalyzer.png)
+![DatAnalyzer in action](/pics/projects/DatAnalyzer.png)
 
 Software has been used at least in the following publications:
 > Gaballah et al. (2022) https://doi.org/10.3390/cells11061045
@@ -305,12 +306,13 @@ Used at least in this publication
 </div>
 <br/>
 
-<span style="color:red">**NOTE** </span> This section will be updated, need to modify bad .bib file, maybe convert then here https://bibtex.online/. 
+<!-- TODO:  -->
+<span style="color:red"><strong>⚡ This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
 
-
-## Selected Publications
+<!-- SELECTED PUBLICATIONS -->
+Here, I list selected publications.
 <details>
-  <summary> Show </summary>  
+  <summary><strong>Show Selected Publications</strong></summary>  
 
 > Yrjänäinen, Alma, Elina, Mesiä, Ella, Lampela, Joose, Kreutzer, Jorma, Vihinen, Kaisa, Tornberg, Hanna, Vuorenpää, Susanna, Miettinen, Pasi, Kallio, and **Antti-Juhana, Mäki**. "Barrier-free, open-top microfluidic chip for generating two distinct, interconnected 3D microvascular networks".Scientific Reports 14, no.1 (2024): 22916.
 
@@ -318,16 +320,17 @@ Used at least in this publication
 
 </details>
 
-## Full Publications List
+<!-- Full Publication list -->
+Here, you can see full publication list.
 <details>
-  <summary> Show </summary>  
+  <summary><strong>Show Full Publication List </strong></summary>   
 
 > A. -J. Mäki, J. T. Koivumäki, J. Hyttinen and P. Kallio, "Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte Cultures," in IEEE Transactions on Automation Science and Engineering, doi: 10.1109/TASE.2023.3309668.
-
+>
 > Yrjänäinen, Alma, Elina, Mesiä, Ella, Lampela, Joose, Kreutzer, Jorma, Vihinen, Kaisa, Tornberg, Hanna, Vuorenpää, Susanna, Miettinen, Pasi, Kallio, and **Antti-Juhana, Mäki**. "Barrier-free, open-top microfluidic chip for generating two distinct, interconnected 3D microvascular networks".Scientific Reports 14, no.1 (2024): 22916.
-
+>
 >Mykuliak, A, A, Yrjänäinen, AJ, Mäki, A, Gebraad, E, Lampela, M, Kääriäinen, TK, Pakarinen, P, Kallio, S, Miettinen, and H, Vuorenpää. "Vasculogenic potency of bone marrow-and adipose tissue-derived mesenchymal stem/stromal cells results in differing vascular network phenotypes in a microfluidic chip. Front Bioeng Biotechnol 10: 764237".Frontiers in Bioengineering and Biotechnology| www. frontiersin. org 10 (2022).
-
+>
 >Mäki, Antti-Juhana, and others. "Optically induced electric fields and their use in microfluidics and cell manipulation applications".Journal is required! (2010).
 
 >Maki, Antti-Juhana, Pekka, Ronkanen, Quan, Zhou, and Pasi, Kallio. "Modeling continuous optoelectrowetting device." . In 2nd European Conference on Microfluidics (pp. $μ$FLU10–270).2010.
