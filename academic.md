@@ -32,10 +32,11 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
  Use the links below to jump to key sections!
 <nav>
   <a href="#research" class="nav-link" title="My Research">Research</a> -
-  <a href="##academic-work-experience" class="nav-link" title="My Acdemic Work Experience">Work Experience</a> -
+  <a href="#academic-work-experience" class="nav-link" title="My Acdemic Work Experience">Work Experience</a> -
   <a href="#projects" class="nav-link" title="Project that I have been working on">Projects</a> -
-  <a href="#publications" class="nav-link" title="My Pulications listed">Publications</a>
+  <a href="#publications" class="nav-link" title="My Publications listed">Publications</a>
 </nav>
+
 
 <!-- ## NAVIGATOR ENDS-->
 
