@@ -58,7 +58,6 @@ For more insights into my research, you can also contact **Professor Pasi Kallio
 
 <!-- 🔍 *Additional references are available upon request.*   -->
 
-<!-- ## 🛠️ Main Research Topics, Areas, and Tools -->
 # 👨‍🔬 <span id="research" style="color:#228B22;">Research</span>
 
 <div align="left">
@@ -234,7 +233,7 @@ See _Show Selected References_ list in [Doctoral Researcher](#doctoral_reference
 
 
 <!-- ### Repos/Other project ### -->
-## DatAnalyzer: The correct way to analyze FP signals
+## <span id="DatAnalyzer">DatAnalyzer: The correct way to analyze FP signals</span>
 Tools to load, visualize, and analyse data using MATLAB.
 - [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer)  
 - Publication _Opinion: The correct way to analyze FP signals_ available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
@@ -253,8 +252,8 @@ Software has been used at least in the following publications:
 > Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
 
 
-## Write LaTeX documents together with co-authors that use MS Word
-Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool
+## <span id="DocxLaTex">Write LaTeX documents together with co-authors that use MS Word</span>
+Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool.
 
 Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
 

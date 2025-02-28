@@ -2,7 +2,7 @@
 title: Work portfolio
 ---
 
-Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (**ADF** and **DevOps** tools), **Databricks**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   Contact me: 
@@ -18,53 +18,46 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
   </a>
 </div>
 
-## 🛠️ Skill & Tools
+# 🛠️ Skill & Tools
 <!-- TODO: more text,  -->
-![my_expertise](pics/ajm_de_bubble.png)
-
-<br>
 <p align="left">
-<!-- https://github.com/tandpfun/skill-icons#readme -->
   <img src="https://skillicons.dev/icons?i=azure,postgres" />
   <img src="https://skillicons.dev/icons?i=python,powershell,bash" />
-  <!-- <img src="https://skillicons.dev/icons?i=azure, adf,databricks,postgres" />
-  <img src="https://skillicons.dev/icons?i=python,sql,spark,powershell,bash" /> -->
 </p>
-<!-- <hr> -->
+![my_expertise](pics/ajm_de_bubble.png)
 
 **Other Skills**: MATLAB, Simulink, COMSOL (FEM), Crosser
 
-## Education
+# Education
 - D. Sc. (Tech.), Tampere University of Technology, Aug 2018
 - M. Sc. (Tech.), Tampere University of Technology, July 2010
 
-## Work Experience
+# Work Experience
 <!-- TODO:  -->
 <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>  
 
 
-### **Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)**
+## **Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)**
 - Building robust and scalable data solutions for customers
 - Main tools and technologies: **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
-- I have also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
+- Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
-### **Data Engineer @Futurice (_Nov 2022 - March 2023_)**
+## **Data Engineer @Futurice (_Nov 2022 - March 2023_)**
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
-### **Academy, several positions, Tampere University (_2006-2022_)**
-For full academic outcomes, see   
-[👉 **👨‍🔬My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
+## 👨‍🔬 Academy, several positions, Tampere University (_2006-2022_)
+See [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio") for more info, here summarizing two last one.
 
-**Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)**
-- Main research areas: **microsystems**, **microfluidics**, **control engineering**, **data analysis**
-- Main tools: **MATLAB**, **Simulink**, **COMSOL (FEM)**, 
+### Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
+- Main research areas: **lab-on-a-chip**, **data analysis**, **microfluidics**, **ips-cm**, **fuzzy control**
+- Main tools: **Soft lithography**,**MATLAB**, **Simulink**, **COMSOL (FEM)** 
 
-**Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)**
+### Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
+- Main research areas: **microsystems**, **microfluidics**, **control engineering**
+- Main tools: **MATLAB**, **Simulink**, **COMSOL (FEM)** 
 
-
-
-
-## Certifications
+<!-- Certs -->
+# Certifications
 Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Feb 2024* Agile Data Engine -- Agile Data Engine for Data Engineers 
 - *Nov 2022* Azure -- Azure AI Fundamentals (AI-900)
@@ -73,54 +66,63 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Dec 2022* AWS -- AWS Certified Cloud Practitioner
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
-## Projects
+# Projects
+<!-- current -->
+## Data Engineering Services | Private Company, Finland (NDA)  
+📅 _March 2024 - Present_  
+🚀 **Role:** Data Engineer  
+🔌 **Industry:** Energy Sector | **Data:** Operational & Analytical  
 
-### DatAnalyzer: The correct way to analyze FP signals
-A data analysis tool to study signals, especially field potentials (FPs) from 2D human cardiomyocyte cultures. Codes and a scientific paper freely available
-- [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer)  
-- Publication _Opinion: The correct way to analyze FP signals_ available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
+### 🌟 Key Contributions:
+- Building and maintaining a scalable **data platform** spanning both **data lakes** and **relational databases**.  
+- Optimizing **data pipelines** to enhance performance and reliability.  
+- Ensuring seamless **data integration** across multiple sources for analytics and operations.  
+- Working with **time-series** data
 
-Tools: **MATLAB**
-
-<details>
-  <summary><strong>Show more</strong></summary>
-  <p>
-    Developed a method and tool (<em>DatAnalyzer</em>) to analyze field potential (FP) signals from 2D human induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures.
-  </p>
-  <p>
-    I summarized how FP signals have been analyzed in various—sometimes even contradictory—ways in the literature and proposed my own method that could be considered.
-  </p>
-  <p>
-    <img src="/pics/projects/DatAnalyzer.png" alt="DatAnalyzer in action" style="max-width: 100%; height: auto;">
-  </p>
-</details>
+### 🛠️ Tech Stack:
+**Azure, Azure Data Factory, Databricks, PostgreSQL** 
 
 
-### Write LaTeX documents together with co-authors that use MS Word
-Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool
+<!-- Palloliitto -->
+##  Data Engineering and Analytics Services| The Football Association of Finland  
+📅 _Aug 2024 - Present_  
+🚀 **Role:** Data Engineer and  Data Analyst 
+🔌 **Industry:** Sport Sector | **Data:** Operational & Analytical  
 
-Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
+### 🌟 Key Contributions:
+- Providing data engineer and analytics services for the customer including **monitoring and maintaining ADF pipelines and small-scale development on Azure**.
 
-<details>
-  <summary><strong>Show more</strong></summary>
-  <p>
-    Do you want to use LaTeX for your (scientific) paper but struggle because your co-authors, such as your supervisor, prefer Word? This tool is for you!
-  </p>
-  <p>
-    Minimize the hassle of exporting files in different formats and copy-pasting text between LaTeX and Word, while still being able to write LaTeX documents and publish high-quality papers.
-  </p>
-  <p>
-    For example, this paper, freely available 
-    <a href="https://ieeexplore.ieee.org/document/10242335" target="_blank">here</a>, 
-    was written using this tool:
-  </p>
-  <blockquote>
-    <strong>A.-J. Mäki, J. T. Koivumäki, J. Hyttinen, and P. Kallio</strong><br>
-    "Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte Cultures,"<br>
-    <em>IEEE Transactions on Automation Science and Engineering</em>,<br>
-    DOI: <a href="https://doi.org/10.1109/TASE.2023.3309668" target="_blank">10.1109/TASE.2023.3309668</a>.
-  </blockquote>
-  <p>
-    <img src="/pics/projects/write_latex_documents_with_Word.png" alt="How to write LaTeX documents using Word" style="max-width: 100%; height: auto;">
-  </p>
-</details>
+### 🛠️ Tech Stack:
+**Azure, Azure Data Factory, Azure CLI, Azure Functions, MySQL** 
+
+<!-- ML -->
+## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
+📅 _May 2023 - April 2024_  
+🚀 **Role:** Machine Learning Engineer and Data Scientist 
+🔌 **Industry:** Public Sector | **Data:** Analytical  
+
+### 🌟 Key Contributions:
+- Developing machine learning capabilities for the customer, using both supervised and unsupervised learning, for example creating a classifier using Databricks. 
+
+### 🛠️ Tech Stack:
+**Databricks, AutoML, Snowflake, SQL, Python & Spark** 
+
+<!-- Futurice -->
+## Developing Machine Learning Capabilities | Finnish retail company (NDA)  
+📅 _Dec 2022 - Feb 2023_  
+🚀 **Role:** Data Engineer 
+🔌 **Industry:** Retail Sector | **Data:** Operational
+
+### 🌟 Key Contributions:
+- Handling customer's operational data, mainly using Azure Data Factory and PostgreSQL, and was part of the team that was improving the system to fulfill the future needs of the customer. 
+
+### 🛠️ Tech Stack:
+**Azure, Azure Data Factory, PostgreSQL, Python, and Databricks** 
+
+
+<!-- open-source projects -->
+## 🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)**
+_DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer)
+
+## 🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
+Write LaTeX documents together with co-authors that use MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown** more info [here](academic.html#DocxLaTex)
