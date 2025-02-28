@@ -85,7 +85,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 
 <!-- Palloliitto -->
 ##  Data Engineering and Analytics Services| The Football Association of Finland  
-📅 _Aug 2024 - Present_  
+📅 _Aug 2023 - Dec 2023_  
 🚀 **Role:** Data Engineer and  Data Analyst 
 🔌 **Industry:** Sport Sector | **Data:** Operational & Analytical  
 
@@ -108,7 +108,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 **Databricks, AutoML, Snowflake, SQL, Python & Spark** 
 
 <!-- Futurice -->
-## Developing Machine Learning Capabilities | Finnish retail company (NDA)  
+## Data Engineering Services | Finnish retail company (NDA)  
 📅 _Dec 2022 - Feb 2023_  
 🚀 **Role:** Data Engineer 
 🔌 **Industry:** Retail Sector | **Data:** Operational
@@ -122,7 +122,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 
 <!-- open-source projects -->
 ## 🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)**
-_DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer)
+_DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer).
 
 ## 🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
-Write LaTeX documents together with co-authors that use MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown** more info [here](academic.html#DocxLaTex)
+Write LaTeX documents together with co-authors that use MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown** more info [here](academic.html#DocxLaTex).
