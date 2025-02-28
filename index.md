@@ -17,15 +17,14 @@ Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and li
 
 ## 🔍 **Explore More**  
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
-To find out more my skills, tools, and projects, check  
-[<span style="color:green">**👉 🤓🛠️ My Work Portfolio👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
+To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
 </p>
 
-Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in  
-[👉 **👨‍🔬My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
+Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
+[👉👨‍🔬My Academic Portfolio👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
 
 
 ## 📂📝 Projects & Blogs
@@ -33,7 +32,10 @@ Before transitioning into the data consultant, I had a long and diverse academic
 
 I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
-🔍 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)** – A data analysis tool built with **MATLAB**
+🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)** – A data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer)
+
+🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)** – Write LaTeX documents together with co-authors that use MS Word, more info [here](academic.html#DocxLaTex)
+
 
 ## 📊 **Visitor's count**
 <div align="center">   
