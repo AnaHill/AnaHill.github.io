@@ -6,8 +6,8 @@ title: Academic portfolio
 Here, I showcase a **lifelong journey in research**, driven by **curiosity, continuous learning, and a deep passion for data**. I bring together a **strong academic background** with hands-on expertise in **data analysis, machine learning, and data engineering**—a true **data nerd** at heart! 🤓 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out  
-[<span style="color:red">**👉 🤓🛠️ My Work Portfolio👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
+To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out 
+[<span style="color:green">**👉🛠️ My Work Portfolio 🤓👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
 <!-- ## NAVIGATOR -->
 <style>

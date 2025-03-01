@@ -1,6 +1,7 @@
 ---
 title: Work portfolio
 ---
+# 🤓 Welcome to My Work Portfolio  
 
 Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
@@ -46,7 +47,7 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy, several positions, Tampere University (_2006-2022_)
-See [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio") for more info, here summarizing two last one.
+See [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio") for more info, here summarizing two last positions.
 
 ### Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
 - Main research areas: **lab-on-a-chip**, **data analysis**, **microfluidics**, **ips-cm**, **fuzzy control**

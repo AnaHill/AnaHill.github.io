@@ -24,7 +24,7 @@ To find out more my skills, tools, and projects, check [<span style="color:green
 </p>
 
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
-[👉👨‍🔬My Academic Portfolio👈]({{ "/academic.html" | relative_url }} "my academic portfolio")
+[👨‍🔬My Academic Portfolio]({{ "/academic.html" | relative_url }} "my academic portfolio")
 
 
 ## 📂 Projects
@@ -37,7 +37,8 @@ I enjoy working on hobby projects, most of them can be found in my **[GitHub rep
 🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)** – Write LaTeX documents together with co-authors that use MS Word, more info [here](academic.html#DocxLaTex)
 
 ## 📝 Blogs
-<span style="color:green"><strong>⚡ Learning this, currently under construction, please be patient. 😊 </strong></span>  
+<span style="color:green"><strong>⚡ Learning this, coming more, please be patient. 😊 </strong></span>  
+
 <ul>
   {% for post in site.posts %}
     <li>
