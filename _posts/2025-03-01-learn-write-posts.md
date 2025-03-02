@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How to start blogging using GitHub Pages (my first posts!)"
+title: "How to start blogging using GitHub Pages (my first post!)"
 ---
-This is my first blog post to learn how to combine Jekyll and GitHub Pages.
+This is my first blog post to describe how to combine Jekyll and GitHub Pages.
 
 Briefly,
 1. add `_post` folder
@@ -12,7 +12,7 @@ Remember to start all your blog post files with the front matter that sets a lay
 ```
 ---
 layout: post
-title: "How to start blogging using GitHub Pages (my first posts!)"
+title: "How to start blogging using GitHub Pages (my first post!)"
 ---
 ```
 
@@ -23,28 +23,28 @@ I had problems to have any theme applied to blog post (I used merlot theme in my
 
 My [post.html](https://github.com/AnaHill/AnaHill.github.io/blob/main/_layouts/post.html) includes following 
 ```html
+{% raw %}
 ---
 layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
   <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em></p>
   <div class="content">
-    {{ content }}
+      {{ content }}
   </div>
   <p><a href="{{ site.url }}/">Back to my main page</a></p>
 </article>
+{% endraw %}
 
 ```
 
-
-So, I create
-https://github.com/AnaHill/AnaHill.github.io/blob/main/_layouts/post.html
-
 You can create list of your (blog) post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). 
+I have included following code in my <p><a href="{{ site.url }}/"> main page</a></p>
 
 ```html
+{% raw %}
 <ul>
   {% for post in site.posts %}
     <li>
@@ -52,6 +52,7 @@ You can create list of your (blog) post with the following command, see more inf
     </li>
   {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 References used
