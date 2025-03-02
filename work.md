@@ -20,23 +20,23 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 </div>
 
 # 🛠️ Skill & Tools
-<!-- TODO: more text,  -->
+<!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
+As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
+
 <p align="left">
   <img src="https://skillicons.dev/icons?i=azure,postgres" />
   <img src="https://skillicons.dev/icons?i=python,powershell,bash" />
 </p>
+
 ![my_expertise](pics/ajm_de_bubble.png)
 
-**Other Skills**: MATLAB, Simulink, COMSOL (FEM), Crosser
+**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), Crosser, Linux (Ubuntu/WSL)
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Aug 2018
 - M. Sc. (Tech.), Tampere University of Technology, July 2010
 
 # Work Experience
-<!-- TODO:  -->
-<span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>  
-
 
 ## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)
 - Building robust and scalable data solutions for customers
@@ -51,14 +51,16 @@ See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | re
 
 ### Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_, part time)
 I continued to work as a part-time (approx. 10 hours/month) researcher in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) lead by Professor Pasi Kallio.
+- Main research areas: **lab-on-a-chip**, **data analysis**, **vascularization**, **fuzzy control**
+- Main tools: **MATLAB**, **Simulink**, **COMSOL (FEM)**
 
 ### Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 - Main research areas: **lab-on-a-chip**, **data analysis**, **microfluidics**, **ips-cm**, **fuzzy control**
-- Main tools: **Soft lithography**,**MATLAB**, **Simulink**, **COMSOL (FEM)** 
+- Main tools: **Soft lithography**, **MATLAB**, **Simulink**, **COMSOL** 
 
 ### Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
 - Main research areas: **microsystems**, **microfluidics**, **control engineering**
-- Main tools: **MATLAB**, **Simulink**, **COMSOL (FEM)** 
+- Main tools: **MATLAB**, **Simulink**, **COMSOL** 
 
 <!-- Certs -->
 # Certifications
@@ -134,10 +136,13 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 ### 🛠️ Tech Stack:
 **Azure, Azure Data Factory, PostgreSQL, Python, and Databricks** 
 
-
-<!-- open-source projects -->
-## 🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)**
+<!-- Own -->
+## Own projects (GitHub repo)
+### 🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)**
 _DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer).
 
-## 🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
+### 🔍 📝 **[DocLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
 Write LaTeX documents together with co-authors that use MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown** more info [here](academic.html#DocxLaTex).
+
+## Blogging
+My blog posts are listed [here](index.html#blogs)
