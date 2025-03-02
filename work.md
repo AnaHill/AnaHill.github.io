@@ -145,4 +145,4 @@ _DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool bu
 Write LaTeX documents together with co-authors that use MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown** more info [here](academic.html#DocxLaTex).
 
 ## Blogging
-My blog posts are listed [here](index.html#blogs)
+I am blogging time-to-time, my posts are listed [here](index.html#blogs).
