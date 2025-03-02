@@ -98,18 +98,17 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 ### 🛠️ Tech Stack:
 **Azure, Azure Data Factory, Azure CLI, Azure Functions, MySQL** 
 
-<!-- MXIE -->
-##  Industrial IoT Data Engineering Services | 
+<!-- IIoT -->
+##  Industrial IoT Data Engineering Services | Collaboration with Nokia, Snowflake, and Crosser
 📅 _Jan 2024 - Jun 2024_  
 🚀 **Role:** Data Engineer and Data Analyst  
-🔌 **Industry:** Enterprise IT infrastructure | **Data:** Operational  
+🔌 **Industry:** Industry 4.0 | **Data:** Operational  
 
 ### 🌟 Key Contributions:
-- Developing methods to **collect and analyze Industrial IoT (IIoT) data by combining Crosser and Snowflake and Streamlit** in the collaboration project with various .
+- Developing methods to **collect and analyze Industrial IoT (IIoT) data by combining Nokia MX Industrial Edge, Crosser, and Snowflake with Streamlit**. Demo presented in 2024 Hannover Messe, more info [here](https://www.youtube.com/watch?v=PduTpPv9Iy8).
 
 ### 🛠️ Tech Stack:
-**Crosser, Snowflake, Streamlit, IIoT, ELT** 
-
+**Crosser, Snowflake, Streamlit, IIoT, Edge computing, Industry 4.0, ELT** 
 
 <!-- ML -->
 ## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
