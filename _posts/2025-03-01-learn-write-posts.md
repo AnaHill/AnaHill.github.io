@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to start blogging using GitHub Pages (my first post!)"
+categories: [blog]
 ---
 This is my first blog post to describe how to combine Jekyll and GitHub Pages. Briefly, you should
 1. add `_post` folder
@@ -11,7 +12,7 @@ Remember to start all your blog post files with the front matter that sets a lay
 ---
 layout: post
 title: "How to start blogging using GitHub Pages (my first post!)"
-categories: blog
+categories: [blog]
 ---
 ```
 
