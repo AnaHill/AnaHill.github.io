@@ -6,7 +6,7 @@ title: Work portfolio
 Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
-  Contact me: 
+  💼 Reach me via:  
   <br>
   <a href="mailto:maki.antti.j@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
@@ -38,18 +38,21 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>  
 
 
-## **Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)**
+## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)
 - Building robust and scalable data solutions for customers
 - Main tools and technologies: **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
-## **Data Engineer @Futurice (_Nov 2022 - March 2023_)**
+## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy, several positions, Tampere University (_2006-2022_)
-See [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio") for more info, here summarizing two last positions.
+See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"), here summarizing three last positions.
 
-### Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
+### Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_, part time)
+I continued to work as a part-time (approx. 10 hours/month) researcher in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) lead by Professor Pasi Kallio.
+
+### Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 - Main research areas: **lab-on-a-chip**, **data analysis**, **microfluidics**, **ips-cm**, **fuzzy control**
 - Main tools: **Soft lithography**,**MATLAB**, **Simulink**, **COMSOL (FEM)** 
 
@@ -81,20 +84,32 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - Working with **time-series** data
 
 ### 🛠️ Tech Stack:
-**Azure, Azure Data Factory, Databricks, PostgreSQL** 
-
+**Databricks, PostgreSQL, Azure, Azure Data Factory, Azure DevOps** 
 
 <!-- Palloliitto -->
-##  Data Engineering and Analytics Services| The Football Association of Finland  
-📅 _Aug 2023 - Dec 2023_  
-🚀 **Role:** Data Engineer and  Data Analyst 
-🔌 **Industry:** Sport Sector | **Data:** Operational & Analytical  
+##  Data Engineering and Analytics Services| The Football Association of Finland ⚽︎  
+📅 _Aug 2023 - Dec 2024_  
+🚀 **Role:** Data Engineer and Data Analyst  
+🔌 **Industry:** Sport Sector ⚽︎ | **Data:** Operational & Analytical  
 
 ### 🌟 Key Contributions:
 - Providing data engineer and analytics services for the customer including **monitoring and maintaining ADF pipelines and small-scale development on Azure**.
 
 ### 🛠️ Tech Stack:
 **Azure, Azure Data Factory, Azure CLI, Azure Functions, MySQL** 
+
+<!-- MXIE -->
+##  Industrial IoT Data Engineering Services | 
+📅 _Jan 2024 - Jun 2024_  
+🚀 **Role:** Data Engineer and Data Analyst  
+🔌 **Industry:** Enterprise IT infrastructure | **Data:** Operational  
+
+### 🌟 Key Contributions:
+- Developing methods to **collect and analyze Industrial IoT (IIoT) data by combining Crosser and Snowflake and Streamlit** in the collaboration project with various .
+
+### 🛠️ Tech Stack:
+**Crosser, Snowflake, Streamlit, IIoT, ELT** 
+
 
 <!-- ML -->
 ## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
@@ -103,7 +118,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🔌 **Industry:** Public Sector | **Data:** Analytical  
 
 ### 🌟 Key Contributions:
-- Developing machine learning capabilities for the customer, using both supervised and unsupervised learning, for example creating a classifier using Databricks. 
+- Developing machine learning capabilities for the customer, using both supervised and unsupervised learning, created for example a supervised classification algorithm using Databricks for the customer ERP system. 
 
 ### 🛠️ Tech Stack:
 **Databricks, AutoML, Snowflake, SQL, Python & Spark** 
