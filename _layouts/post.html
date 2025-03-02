@@ -4,9 +4,9 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-  <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em></p>
+  <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em> 
+    (<a href="{{ site.url }}/">back to main page</a>)</p>
   <div class="content">
     {{ content }}
   </div>
-  <p><a href="{{ site.url }}/">Back to my main page</a></p>
 </article>
