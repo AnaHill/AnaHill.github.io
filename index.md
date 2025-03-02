@@ -36,7 +36,8 @@ I enjoy working on hobby projects, most of them can be found in my **[GitHub rep
 
 🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)** – Write LaTeX documents together with co-authors that use MS Word, more info [here](academic.html#DocxLaTex)
 
-## 📝 Blogs
+## 📝 <span id="blogs"> Blogs </span>
+
 <span style="color:green"><strong>⚡ Learning this, coming more, please be patient. 😊 </strong></span>  
 
 <ul>
