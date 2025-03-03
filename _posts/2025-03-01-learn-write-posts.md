@@ -6,7 +6,7 @@ last_modified_at: 2025-03-03
 categories: [blog]
 ---
 
-This is my first blog post to describe how to combine Jekyll and GitHub Pages. Briefly, you should
+In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
 1. add `_post` folder
 2. where you should add a markdown file named as `YEAR-MONTH-DAY-title.md`, for example this post is named as `2025-03-01-learn-write-posts.md` and write your content
 
@@ -32,12 +32,11 @@ My [post.html](https://github.com/AnaHill/AnaHill.github.io/blob/main/_layouts/p
 ---
 layout: default
 ---
-
 <article class="post">
   <h1>{{ page.title }}</h1>
   <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em>
   {% if page.last_modified_at %}
-    <br><em>(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})</em>
+    <em>&nbsp;(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})</em>
   {% endif %}
   </p>
 
@@ -49,9 +48,7 @@ layout: default
     <strong>Back to my main page</strong>
   </a>
 </article>
-
 {% endraw %}
-
 ```
 
 You can create list of your (blog) post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). 
