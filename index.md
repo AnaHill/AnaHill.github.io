@@ -38,7 +38,7 @@ I enjoy working on hobby projects, most of them can be found in my **[GitHub rep
 
 ## 📝 <span id="blogs"> Blogs </span>
 
-<span style="color:green"><strong>⚡ Learning this, coming more, please be patient. 😊 </strong></span>  
+<span style="color:green"><strong>⚡ Just started, more coming, please be patient. 😊 </strong></span>  
 
 <ul>
   {% for post in site.posts %}
