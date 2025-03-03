@@ -3,7 +3,7 @@ title: Work portfolio
 ---
 # 🤓 Welcome to My Work Portfolio  
 
-Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**. An analytical professional with a strong background in mathematics and data analysis.
 
 <div align="left">
   💼 Reach me via:  
@@ -22,17 +22,17 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 # 🛠️ Skill & Tools
 <!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
 As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
+
 <!-- 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=azure,postgres" />
   <img src="https://skillicons.dev/icons?i=python,powershell,bash" />
 </p> 
 -->
+
 ![my_expertise](pics/ajm_de_bubble.png)
 
 **Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, Markdown, bash, Linux (Ubuntu/WSL)
-
-I am an analytical professional with a strong background in mathematics and data analysis. Over 15+ years in academia, I have developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, and designed various control systems, including those utilizing fuzzy controllers.
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Aug 2018
@@ -49,7 +49,7 @@ I am an analytical professional with a strong background in mathematics and data
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below is a summary of my three most recent positions.
+See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below is a summary of my three most recent positions.  Over 15+ years in academia, I have developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, and designed various control systems, including those utilizing fuzzy controllers.
 
 ### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
@@ -74,7 +74,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Dec 2022* AWS -- AWS Certified Cloud Practitioner
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
-# Projects
+# 📂 Projects
 <!-- current -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
 📅 _March 2024 - Present_  
@@ -139,20 +139,20 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 **Azure, Azure Data Factory, PostgreSQL, Python, Databricks** 
 
 <!-- Own -->
-## Own projects (GitHub repo)
-### 🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)**
-_DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer).
+## 📂 Own projects
 
-### 🔍 📝 **[DocLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
-Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown**, more details [here](academic.html#DocLaTex).
+### 🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) – A data analysis tool built with **MATLAB**, described [here](academic.html#DatAnalyzer).
 
-## Blogging
-I am blogging time-to-time:
+### 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
+
+## 📝 Blogging  
+I share my thoughts from time to time:  
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
+      <em>({{ post.date | date: "%B %d, %Y" }})</em>
     </li>
   {% endfor %}
 </ul>
