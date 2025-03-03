@@ -60,7 +60,7 @@ layout: default
   <a href="{{ site.baseurl }}/blog/" style="color:blue;">
     <strong>⬅ Back to My Blog list</strong>
   </a>
-  <br
+  <br>
   <a href="{{ site.baseurl }}" style="color:green">
     <strong>⬅ Back to My Main Page</strong>
   </a>
