@@ -141,9 +141,11 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 <!-- Own -->
 ## 📂 Own projects
 
-### 🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) – A data analysis tool built with **MATLAB**, described [here](academic.html#DatAnalyzer).
+### 🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) 
+A data analysis tool built with **MATLAB**, described [here](academic.html#DatAnalyzer).
 
-### 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
+### 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) 
+Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
 
 ## 📝 Blogging  
 I share my thoughts from time to time:  
