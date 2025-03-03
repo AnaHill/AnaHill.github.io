@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: default
 title: "📝 Blog Archive"
 permalink: /blog/
 ---
 
+# 📝 Blog Archive
 Here you can find all my blog posts, sorted by date.
 
 <ul>
