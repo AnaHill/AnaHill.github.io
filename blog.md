@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "📝 Blog Archive"
 permalink: /blog/
 ---
@@ -16,6 +16,6 @@ Here you can find all my blog posts, sorted by date.
   {% endfor %}
 </ul>
 
-<a href="{{ site.baseurl | relative_url }}" style="color:green;">
+<a href="{{ site.url }}" style="color:green;">
   <strong>⬅ Back to Main Page</strong>
 </a>
