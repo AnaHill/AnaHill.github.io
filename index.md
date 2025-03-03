@@ -40,17 +40,17 @@ Before transitioning into the data consultant, I had a long and diverse academic
 
 
 ## 📂 Projects
-<span style="color:red"><strong>⚡ This section is under construction!</strong></span>  
+<span style="color:green"><strong>⚡ This section is under construction!</strong></span>  
 
 I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
-🔍 📈 **[DatAnalyzer](https://github.com/AnaHill/DatAnalyzer)** – A data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer)
+🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) – A data analysis tool built with **MATLAB**, described [here](academic.html#DatAnalyzer).
 
-🔍 📝 **[DocxLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)** – Write LaTeX documents together with co-authors that use MS Word, more info [here](academic.html#DocxLaTex)
+🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, more info [here](academic.html#DocLaTex).
 
 ## 📝 <span id="blogs"> Blogs </span>
 
-<span style="color:green"><strong>⚡ Just started, more coming, please be patient. 😊 </strong></span>  
+<span style="color:green"><strong>⚡ Just started blogging, more are coming, please be patient. 😊 </strong></span>  
 
 <ul>
   {% for post in site.posts %}
