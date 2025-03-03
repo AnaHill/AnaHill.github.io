@@ -252,7 +252,7 @@ Software has been used at least in the following publications:
 > Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
 
 
-## <span id="DocxLaTex">Write LaTeX documents together with co-authors that use MS Word</span>
+## <span id="DocLaTex">Write LaTeX documents together with co-authors that use MS Word</span>
 Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool.
 
 Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
@@ -304,6 +304,8 @@ Used at least in this publication
   </a>
 </div>
 <br/>
+
+![Google Scholar statistics (March 2025)](pics/scholar_statistics_2025_03.png "Google Scholar Statisctics March 2025")
 
 <!-- TODO:  -->
 <span style="color:red"><strong>⚡ This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
