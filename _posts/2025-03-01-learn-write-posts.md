@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "How to start blogging using GitHub Pages (my first post!)"
+date: 2025-03-01
+last_modified_at: 2025-03-03
 categories: [blog]
 ---
+
 This is my first blog post to describe how to combine Jekyll and GitHub Pages. Briefly, you should
 1. add `_post` folder
 2. where you should add a markdown file named as `YEAR-MONTH-DAY-title.md`, for example this post is named as `2025-03-01-learn-write-posts.md` and write your content
