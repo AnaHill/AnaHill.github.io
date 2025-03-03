@@ -52,7 +52,7 @@ I enjoy working on hobby projects, most of them can be found in my **[GitHub rep
 
 <span style="color:green"><strong>⚡ Just started blogging, more are coming, please be patient. 😊 </strong></span>  
 
-I share my thoughts from time to time; here are my latest posts:  
+I share my thoughts from time to time; my latest posts are following:  
 
 <ul>
   {% for post in site.posts limit:5 %}
@@ -63,7 +63,7 @@ I share my thoughts from time to time; here are my latest posts:
   {% endfor %}
 </ul>
 
-➡ **[See all blog posts](/blog/)**  
+➡ **See all my blog posts** [here](/blog/)  
 
 ## 📊 **Visitor's count**
 <div align="center">   
