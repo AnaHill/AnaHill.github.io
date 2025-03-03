@@ -112,9 +112,9 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 > My proposal how to set up Python environment for (hobby) data projects by combining  **Miniconda, pip, VS Code,...**
 
 
-<!-- ### Part-Time Postdoctoral Researcher ### -->
+<!-- ### Part-Time Researcher  / Visiting Scholar ### -->
 ## Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
-I continued to work as a part-time (approx. 10 hours/month) researcher with Professor Pasi Kallio, finishing following publications. 
+Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
 ### Yrjänäinen et al. (2024) _Barrier-free, open-top microfluidic chip for generating two distinct, interconnected 3D microvascular networks_ [link](https://doi.org/10.1038/s41598-024-74493-3 "doi: 10.1038/s41598-024-74493-3") (<span style="color:black">**last author**</span>)
 
