@@ -53,6 +53,7 @@ I enjoy working on hobby projects, most of them can be found in my **[GitHub rep
 <span style="color:green"><strong>⚡ Just started blogging, more are coming, please be patient. 😊 </strong></span>  
 
 I share my thoughts from time to time:  
+➡ **[See all blog posts](/blog/)**  
 
 <ul>
   {% for post in site.posts %}
