@@ -22,15 +22,17 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
 # 🛠️ Skill & Tools
 <!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
 As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
-
+<!-- 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=azure,postgres" />
   <img src="https://skillicons.dev/icons?i=python,powershell,bash" />
-</p>
-
+</p> 
+-->
 ![my_expertise](pics/ajm_de_bubble.png)
 
-**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), Crosser, Linux (Ubuntu/WSL)
+**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, Markdown, bash, Linux (Ubuntu/WSL)
+
+I am an analytical professional with a strong background in mathematics and data analysis. Over 15+ years in academia, I have developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, and designed various control systems, including those utilizing fuzzy controllers.
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Aug 2018
@@ -46,21 +48,21 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
-## 👨‍🔬 Academy, several positions, Tampere University (_2006-2022_)
-See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"), here summarizing three last positions.
+## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
+See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below is a summary of my three most recent positions.
 
-### Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_, part time)
-I continued to work as a part-time (approx. 10 hours/month) researcher in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) lead by Professor Pasi Kallio.
-- Main research areas: **lab-on-a-chip**, **data analysis**, **vascularization**, **fuzzy control**
-- Main tools: **MATLAB**, **Simulink**, **COMSOL (FEM)**
+### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
+Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
+- **Research areas**: Lab-on-a-chip, data analysis, vascularization, fuzzy control
+- **Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
-### Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
-- Main research areas: **lab-on-a-chip**, **data analysis**, **microfluidics**, **ips-cm**, **fuzzy control**
-- Main tools: **Soft lithography**, **MATLAB**, **Simulink**, **COMSOL** 
+### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
+- **Research areas**: Lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
+- **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 
-### Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
-- Main research areas: **microsystems**, **microfluidics**, **control engineering**
-- Main tools: **MATLAB**, **Simulink**, **COMSOL** 
+### 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
+- **Research areas**: Microsystems, microfluidics, control engineering
+- **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 
 <!-- Certs -->
 # Certifications
@@ -107,15 +109,15 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🔌 **Industry:** Industry 4.0 | **Data:** Operational  
 
 ### 🌟 Key Contributions:
-- Developing methods to **collect and analyze Industrial IoT (IIoT) data by combining Nokia MX Industrial Edge, Crosser, and Snowflake with Streamlit**. Demo presented in 2024 Hannover Messe, more info [here](https://www.youtube.com/watch?v=PduTpPv9Iy8).
+- Developing methods to **collect and analyze Industrial IoT (IIoT) data by combining Nokia MX Industrial Edge, Crosser, and Snowflake with Streamlit**. Demo related to Industry 4.0 presented in 2024 Hannover Messe, more info [here](https://www.youtube.com/watch?v=PduTpPv9Iy8). 
 
 ### 🛠️ Tech Stack:
-**Crosser, Snowflake, Streamlit, IIoT, Edge computing, Industry 4.0, ELT** 
+**Crosser, Snowflake, Streamlit, ELT** 
 
 <!-- ML -->
 ## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
 📅 _May 2023 - April 2024_  
-🚀 **Role:** Machine Learning Engineer and Data Scientist 
+🚀 **Role:** Machine Learning Engineer and Data Scientist  
 🔌 **Industry:** Public Sector | **Data:** Analytical  
 
 ### 🌟 Key Contributions:
@@ -127,14 +129,14 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 <!-- Futurice -->
 ## Data Engineering Services | Finnish retail company (NDA)  
 📅 _Dec 2022 - Feb 2023_  
-🚀 **Role:** Data Engineer 
+🚀 **Role:** Data Engineer  
 🔌 **Industry:** Retail Sector | **Data:** Operational
 
 ### 🌟 Key Contributions:
 - Handling customer's operational data, mainly using Azure Data Factory and PostgreSQL, and was part of the team that was improving the system to fulfill the future needs of the customer. 
 
 ### 🛠️ Tech Stack:
-**Azure, Azure Data Factory, PostgreSQL, Python, and Databricks** 
+**Azure, Azure Data Factory, PostgreSQL, Python, Databricks** 
 
 <!-- Own -->
 ## Own projects (GitHub repo)
@@ -142,7 +144,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 _DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer).
 
 ### 🔍 📝 **[DocLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
-Write LaTeX documents together with co-authors that use MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown** more info [here](academic.html#DocxLaTex).
+Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown**, more details [here](academic.html#DocxLaTex).
 
 ## Blogging
 I am blogging time-to-time, my posts are listed [here](index.html#blogs).
