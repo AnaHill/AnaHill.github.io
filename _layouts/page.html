@@ -2,19 +2,29 @@
 layout: default
 ---
 
-<div class="container">
-    <div class="page-content">
-      <h1>{{ page.title }}</h1>
-      
-      <div class="page-body">
-        {{ content }}
-      </div>
-      
-      <!-- Optionally, add a back to homepage link -->
-      <a href="{{ site.url }}" style="color:green;">
-        <strong>⬅ Back to Main Page</strong>
-      </a>
+<article class="page">
+    <h1>{{ page.title }}</h1>  
+    {% if page.tags %}
+    <p>
+      <strong>Tags:</strong>
+      {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" style="color:blue;">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+    {% endif %}
+    
+  
+    <div class="content">
+      {{ content }}
     </div>
-</div>
+    
+    <a href="{{ site.baseurl }}/blog/" style="color:blue;">
+      <strong>⬅ Back to Blog list</strong>
+    </a>
+  
+    <a href="{{ site.baseurl | relative_url }}" style="color:green">
+      <strong>Back to my main page</strong>
+    </a>
+</article>
 
 
