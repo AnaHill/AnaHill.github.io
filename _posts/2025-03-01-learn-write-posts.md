@@ -15,6 +15,8 @@ Remember to start all your blog post files with the front matter that sets a lay
 ---
 layout: post
 title: "How to start blogging using GitHub Pages (my first post!)"
+date: 2025-03-01
+last_modified_at: 2025-03-03
 categories: [blog]
 ---
 ```
@@ -33,11 +35,19 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-  <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em> 
-    (<a href="{{ site.url }}/">back to main page</a>)</p>
+  <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em>
+  {% if page.last_modified_at %}
+    <br><em>(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})</em>
+  {% endif %}
+  </p>
+
   <div class="content">
     {{ content }}
   </div>
+
+  <a href="{{ site.baseurl | relative_url }}" style="color:green">
+    <strong>Back to my main page</strong>
+  </a>
 </article>
 
 {% endraw %}
