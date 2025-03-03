@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "How to start blogging using GitHub Pages (my first post!)"
+title: "How to start blogging using GitHub Pages"
 date: 2025-03-01
 last_modified_at: 2025-03-03
-categories: [blog]
+categories: [blogging]
+tags: [GitHub Pages, Jekyll, Blogging]
 ---
 
 In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
@@ -14,10 +15,11 @@ Remember to start all your blog post files with the front matter that sets a lay
 ```
 ---
 layout: post
-title: "How to start blogging using GitHub Pages (my first post!)"
+title: "How to start blogging using GitHub Pages"
 date: 2025-03-01
 last_modified_at: 2025-03-03
-categories: [blog]
+categories: [blogging]
+tags: [GitHub Pages, Jekyll, Blogging]
 ---
 ```
 
@@ -59,7 +61,8 @@ I have included following code in my <a href="{{ site.url }}/"> main page</a> to
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
+      <em>({{ post.date | date: "%B %d, %Y" }})</em>
     </li>
   {% endfor %}
 </ul>
