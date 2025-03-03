@@ -34,6 +34,7 @@ My [post.html](https://github.com/AnaHill/AnaHill.github.io/blob/main/_layouts/p
 ---
 layout: default
 ---
+
 <article class="post">
   <h1>{{ page.title }}</h1>
   <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em>
@@ -42,14 +43,29 @@ layout: default
   {% endif %}
   </p>
 
+  {% if page.tags %}
+  <p>
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" style="color:blue;">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  
+
   <div class="content">
     {{ content }}
   </div>
-
-  <a href="{{ site.baseurl | relative_url }}" style="color:green">
-    <strong>Back to my main page</strong>
+  
+  <a href="{{ site.baseurl }}/blog/" style="color:blue;">
+    <strong>⬅ Back to My Blog list</strong>
+  </a>
+  <br
+  <a href="{{ site.baseurl }}" style="color:green">
+    <strong>⬅ Back to My Main Page</strong>
   </a>
 </article>
+
 {% endraw %}
 ```
 
