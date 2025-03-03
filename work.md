@@ -144,7 +144,15 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 _DatAnalyzer_: The correct way to analyze FP signals, is a data analysis tool built with **MATLAB**, more info [here](academic.html#DatAnalyzer).
 
 ### 🔍 📝 **[DocLaTex](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)**
-Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown**, more details [here](academic.html#DocxLaTex).
+Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, **Markdown**, more details [here](academic.html#DocLaTex).
 
 ## Blogging
-I am blogging time-to-time, my posts are listed [here](index.html#blogs).
+I am blogging time-to-time:
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
