@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "📝 Blog Archive"
 permalink: /blog/
 ---
