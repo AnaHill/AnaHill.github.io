@@ -52,17 +52,18 @@ I enjoy working on hobby projects, most of them can be found in my **[GitHub rep
 
 <span style="color:green"><strong>⚡ Just started blogging, more are coming, please be patient. 😊 </strong></span>  
 
-I share my thoughts from time to time:  
-➡ **[See all blog posts](/blog/)**  
+I share my thoughts from time to time; here are my latest posts:  
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
       <em>({{ post.date | date: "%B %d, %Y" }})</em>
     </li>
   {% endfor %}
 </ul>
+
+➡ **[See all blog posts](/blog/)**  
 
 ## 📊 **Visitor's count**
 <div align="center">   
