@@ -8,7 +8,7 @@ layout: default
     <h1>{{ page.title }}</h1>
 
     <!-- If this is the Tags page, display tags with links -->
-    {% if page.title == "🏷️ Tags" %}
+    {% if page.title == "🏷️ Tags in my posts" %}
       <div class="tags-list">
         <ul>
           {% for tag in site.tags %}
@@ -18,8 +18,12 @@ layout: default
           {% endfor %}
         </ul>
       </div>
+      <a href="{{ site.baseurl }}/blog/" style="color:blue;">
+        <strong>⬅ To My Blog list</strong>
+      </a>
     {% elsif page.title == "📝 Blog Archive" %}
       <!-- Blog List: Shows posts in reverse chronological order -->
+      Here you can find all my blog posts, sorted by date.
       <ul class="blog-posts">
         {% for post in site.posts %}
           <li>
@@ -38,6 +42,6 @@ layout: default
 
   <!-- Back to Main Page link -->
   <a href="{{ site.url }}" style="color:green;">
-    <strong>⬅ Back to Main Page</strong>
+    <strong>⬅ To My Main Page</strong>
   </a>
 </div>
