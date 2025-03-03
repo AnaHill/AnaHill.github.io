@@ -4,7 +4,6 @@ title: "📝 Blog Archive"
 permalink: /blog/
 ---
 
-## 📝 Blog Archive  
 Here you can find all my blog posts, sorted by date.
 
 <ul>
@@ -16,6 +15,8 @@ Here you can find all my blog posts, sorted by date.
   {% endfor %}
 </ul>
 
+<!-- 
 <a href="{{ site.url }}" style="color:green;">
   <strong>⬅ Back to Main Page</strong>
-</a>
+</a> 
+-->
