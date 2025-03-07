@@ -28,8 +28,5 @@ Here are the topics I frequently write about:
   {% endfor %}
 </ul>
 
-<a href="{{ site.baseurl | relative_url }}" style="color:green;">
-  <strong>⬅ Back to Main Page</strong>
-</a>
 
 
