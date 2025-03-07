@@ -12,13 +12,11 @@ layout: minimalist
       <div class="tags-list">
         <ul>
           {% for tag in site.tags %}
-            <li>
-              <a href="/tags/{{ tag[0] | slugify }}/">{{ tag[0] }}</a> ({{ tag[1] | size }} posts)
-            </li>
+            <li><strong>{{ tag[0] }}</strong> ({{ tag[1] | size }} posts)</li>
           {% endfor %}
         </ul>
       </div>
-      <a href="{{ site.baseurl }}/blog/" style="color:blue;">
+      <a href="{{ site.baseurl }}/blog/" style="color:green;">
         <strong>⬅ To My Blog list</strong>
       </a>
     {% elsif page.title == "📝 Blog Archive" %}
