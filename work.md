@@ -148,13 +148,19 @@ A data analysis tool built with **MATLAB**, described [here](academic.html#DatAn
 Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
 
 ## 📝 Blogging  
-I share my thoughts from time to time:  
+I share my thoughts from time to time; my latest posts are following:  
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
       <em>({{ post.date | date: "%B %d, %Y" }})</em>
     </li>
   {% endfor %}
 </ul>
+
+➡ **See all my blog posts [here](/blog/)**  
+
+<a href="{{ site.baseurl }}/" style="color:green">
+  <strong>⬅ To My Main Page</strong>
+</a>
