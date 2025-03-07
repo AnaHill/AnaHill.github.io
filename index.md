@@ -63,7 +63,7 @@ I share my thoughts from time to time; my latest posts are following:
   {% endfor %}
 </ul>
 
-➡ **See all my blog posts** [here](/blog/)  
+➡ **See all my blog posts [here](/blog/)**  
 
 ## 📊 **Visitor's count**
 <div align="center">   
