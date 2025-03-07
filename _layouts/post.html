@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimalist
 ---
 
 <article class="post">
@@ -14,17 +14,18 @@ layout: default
   <p>
     <strong>Tags:</strong>
     {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" style="color:blue;">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+      <span style="color:blue;">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </p>
-  {% endif %}
+{% endif %}
+
   
 
   <div class="content">
     {{ content }}
   </div>
   
-  <a href="{{ site.baseurl }}/blog/" style="color:blue;">
+  <a href="{{ site.baseurl }}/blog/" style="color:green;">
     <strong>⬅ Back to My Blog list</strong>
   </a>
   <br>
