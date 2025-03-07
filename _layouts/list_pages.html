@@ -7,35 +7,10 @@ layout: minimalist
     <!-- Page Title -->
     <h1>{{ page.title }}</h1>
 
-    <!-- If this is the Tags page, display tags with links -->
-    {% if page.title == "🏷️ Tags in my posts" %}
-      <div class="tags-list">
-        <ul>
-          {% for tag in site.tags %}
-            <li><strong>{{ tag[0] }}</strong> ({{ tag[1] | size }} posts)</li>
-          {% endfor %}
-        </ul>
-      </div>
-      <a href="{{ site.baseurl }}/blog/" style="color:green;">
-        <strong>⬅ To My Blog list</strong>
-      </a>
-    {% elsif page.title == "📝 Blog Archive" %}
-      <!-- Blog List: Shows posts in reverse chronological order -->
-      Here you can find all my blog posts, sorted by date.
-      <ul class="blog-posts">
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
-            <em>({{ post.date | date: "%B %d, %Y" }})</em>
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
-      <!-- Regular Page Content -->
-      <div class="page-body">
-        {{ content }}
-      </div>
-    {% endif %}
+    <!-- Page Content (blog list & tags from blog.md) -->
+    <div class="page-body">
+      {{ content }}
+    </div>
   </div>
 
   <!-- Back to Main Page link -->
