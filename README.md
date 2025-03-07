@@ -6,5 +6,7 @@ Welcome to my personal website! This site showcases my life; data-nerd work stuf
 ## 📂 Site Structure
 - 🛠️ **[Work Portfolio](https://anahill.github.io/work.html)** – Projects and professional work. With a hinch on data nerd stuff 🤓.
 - 👨‍🔬 **[Academic Portfolio](https://anahill.github.io/academic.html)** – Research and academic achievements, lifelong researcher.
+- 📝 Check out my blog posts **[here](https://anahill.github.io/blog/)** — 🚨 but fair warning 🤓, they’re often deep dives into data nerd territory! 😉  
+
 
 Built with [GitHub Pages](https://pages.github.com/) using the [Merlot theme](https://github.com/pages-themes/merlot).
