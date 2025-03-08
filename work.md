@@ -3,7 +3,7 @@ title: Work portfolio
 ---
 # 🤓 Welcome to My Work Portfolio  
 
-Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**. An analytical professional with 
+Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   💼 Reach me via:  
@@ -19,7 +19,7 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
   </a>
 </div>
 
-🔍 By the way, **Solita** is constantly looking for talented persons, check our 👉 [open positions](https://www.solita.fi/join-us/ "open positions at Solita") 👈 or drop me a message ✉︎. 
+🔍 By the way, **Solita** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.solita.fi/join-us/ "open positions at Solita") 👈 or just drop me a message ✉︎. 
 
 # 🛠️ Skill & Tools
 <!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
@@ -43,7 +43,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 # Work Experience
 
 ## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)
-- Building robust and scalable data solutions for customers; check my [Projects](#projects) section to find out more
+- Building robust and scalable data solutions for customers; check my [**Projects**](#projects) section to find out more
 - Main tools and technologies: **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
@@ -51,7 +51,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records in [👉**My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below is a summary of my three most recent positions.  Over 15+ years in academia, I have developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, and designed various control systems, including those utilizing fuzzy controllers.
+See full records in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my three most recent positions. Over 15+ years in academia, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, including those utilizing fuzzy controllers, and developed microfluidics chips.
 
 ### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
