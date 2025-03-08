@@ -65,6 +65,7 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
 ### 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
 - **Research areas**: Microsystems, microfluidics, control engineering
 - **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
+- Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
 
 <!-- Certs -->
 # Certifications
