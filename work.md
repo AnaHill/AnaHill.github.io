@@ -3,7 +3,7 @@ title: Work portfolio
 ---
 # 🤓 Welcome to My Work Portfolio  
 
-Passionate and experienced data guy. Currently, working as a **Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**. An analytical professional with a strong background in mathematics and data analysis.
+Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**. An analytical professional with 
 
 <div align="left">
   💼 Reach me via:  
@@ -18,6 +18,8 @@ Passionate and experienced data guy. Currently, working as a **Data Engineer [@S
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
+
+🔍 By the way, **Solita** is constantly looking for talented persons, check our 👉 [open positions](https://www.solita.fi/join-us/ "open positions at Solita") 👈 or drop me a message ✉︎. 
 
 # 🛠️ Skill & Tools
 <!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
@@ -41,7 +43,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 # Work Experience
 
 ## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)
-- Building robust and scalable data solutions for customers
+- Building robust and scalable data solutions for customers; check my [Projects](#projects) section to find out more
 - Main tools and technologies: **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
@@ -74,7 +76,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Dec 2022* AWS -- AWS Certified Cloud Practitioner
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
-# 📂 Projects
+# 📂 <span id="projects">Projects</span>
 <!-- current -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
 📅 _March 2024 - Present_  
@@ -147,8 +149,8 @@ A data analysis tool built with **MATLAB**, described [here](academic.html#DatAn
 ### 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) 
 Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
 
-## 📝 Blogging  
-I share my thoughts from time to time; my latest posts are following:  
+# 📝 Blogging  
+I share my thoughts from time to time (all posts 👉[here](/blog/)); my latest posts are following:  
 
 <ul>
   {% for post in site.posts limit:3 %}
@@ -159,8 +161,6 @@ I share my thoughts from time to time; my latest posts are following:
   {% endfor %}
 </ul>
 
-➡ **See all my blog posts [here](/blog/)**  
-
 <a href="{{ site.baseurl }}/" style="color:green">
-  <strong>⬅ To My Main Page</strong>
+  <strong><big>⬅ To My Main Page </big> </strong>
 </a>
