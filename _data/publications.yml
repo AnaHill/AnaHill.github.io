@@ -17,6 +17,34 @@
     3D microvascular networks
   year: '2024'
 - authors:
+  - Mäki, Antti-Juhana
+  - Koivumäki, Jussi
+  - Hyttinen, Jari
+  - Kallio, Pasi
+  category: selected_publication
+  doi: 10.1109/TASE.2023.3309668
+  highlighted_author: Mäki, Antti-Juhana
+  journal: IEEE Transactions on Automation Science and Engineering
+  title: Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte
+    Cultures
+  year: '2024'
+- authors:
+  - Häkli, Martta
+  - Kreutzer, Joose
+  - Mäki, Antti-Juhana
+  - Välimäki, Hannu
+  - Cherian, Reeja Maria
+  - Kallio, Pasi
+  - Aalto-Setälä, Katriina
+  - Pekkanen-Mattila, Mari
+  category: elected_publication
+  doi: 10.1155/2022/9438281
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Stem cells international
+  title: Electrophysiological Changes of Human-Induced Pluripotent Stem Cell-Derived
+    Cardiomyocytes during Acute Hypoxia and Reoxygenation
+  year: '2022'
+- authors:
   - Peussa, Heidi
   - Kreutzer, Joose
   - Mäntylä, Elina
@@ -25,7 +53,7 @@
   - Kallio, Pasi
   - Ihalainen, Teemu
   category: regular
-  doi: ''
+  doi: 10.1371/journal.pone.0268570
   highlighted_author: Mäki, Antti-Juhana
   journal: PloS one
   title: Pneumatic equiaxial compression device for mechanical manipulation of epithelial
