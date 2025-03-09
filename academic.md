@@ -310,64 +310,23 @@ Used at least in this publication
 <!-- TODO:  -->
 <span style="color:red"><strong>⚡ TESTING: This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
 
-
-## Test list
-
-{% for pub in site.data.publications %}
-  <p>
-    <strong>{{ pub.title }}</strong><br>
-    {{ pub.authors | join: ", " }}<br>
-    <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
-    {% if pub.doi %}
-      <a href="https://doi.org/{{ pub.doi }}">DOI</a>
-    {% endif %}
-  </p>
-{% endfor %}
-
-### tuning
-{% for pub in site.data.publications %}
-  <p>
-    <strong>{{ pub.title }}</strong><br>
-    {{ pub.authors | join: ", " }}<br>
-    <em>{{ pub.journal }}</em>, {{ pub.year }}.
-    {% if pub.doi %}
-      <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
-    {% endif %}
-  </p>
-{% endfor %}
-
-
-
-## Test2: this almost works, except doi! and not yet **bolded own name**
-{% for pub in site.data.publications %}
-  {% if pub.category == "selected_publication" %}
-  - {%- for author in pub.authors -%}
-      {{ author }}{%- if forloop.last == false -%}, {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-    {% if pub.doi and pub.doi != "" %} 
-      [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-## Test3: joko toimisi
+## TEST
 {% for pub in site.data.publications %}
 - {%- for author in pub.authors -%}
-          {% if author == pub.highlighted_author %}
+    {% if author == pub.highlighted_author %}
       **{{ author }}**
     {% else %}
       {{ author }}
     {% endif %}
     {%- if forloop.last == false -%}, {% endif %}
   {%- endfor -%}.
-  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-  {% if pub.doi and pub.doi != "" %} 
-    <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>  
-  {% endif %}
+  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}{% if pub.doi and pub.doi != "" %}  
+  [{{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}.
 {% endfor %}
 
-## Test3b: selected
+
+## Selected Publications
+
 {% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
   - {%- for author in pub.authors -%}
@@ -386,48 +345,24 @@ Used at least in this publication
 {% endfor %}
 
 
-
-## Selected Publications
-
-{% for pub in site.data.publications %}
-  {% if pub.category == "selected_publication" %}
-  - {% for author in pub.authors %}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}
-      {%- if forloop.last == false -%}, {% endif %}
-    {% endfor %}
-    . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-    {% if pub.doi and pub.doi != "" %} 
-      [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
 ---
 
 ## All Publications
 
 {% for pub in site.data.publications %}
-- {% for author in pub.authors %}
-    {% if author == pub.highlighted_author %}
+- {%- for author in pub.authors -%}
+          {% if author == pub.highlighted_author %}
       **{{ author }}**
     {% else %}
       {{ author }}
     {% endif %}
     {%- if forloop.last == false -%}, {% endif %}
-  {% endfor %}
-  . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
+  {%- endfor -%}.
+  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
   {% if pub.doi and pub.doi != "" %} 
-    [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
+    <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>  
   {% endif %}
 {% endfor %}
-
-
-
-
 
 
 <a href="{{ site.baseurl }}/" style="color:green">
