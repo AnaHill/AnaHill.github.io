@@ -116,15 +116,29 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 ## Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
+### first list
 {% for pub in site.data.publications %}
   {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
-    {%- for author in pub.authors -%}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{author}}**
+      {% else %}
+        {{author}}
+      {% endif %}{% if forloop.last == false %},{% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
+
+### second tryout
+{% for pub in site.data.publications %}
+  {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
+  - {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
         {{ author }}
-      {% endif %}
-      {%- if forloop.last == false %} and {% endif %}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
