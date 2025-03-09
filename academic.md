@@ -116,6 +116,7 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 ## Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
+> 🚀 *Bringing the future of tissue engineering one step closer!*  
 {% for pub in site.data.publications %}
   {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
   - {%- for author in pub.authors -%}
@@ -128,10 +129,9 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
- > 🚀 *Bringing the future of tissue engineering one step closer!*  
 I lead a **multidisciplinary research team** that has developed a groundbreaking **"body-on-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications.  
 
-
+> 🚀 *Control the beating of cardiomyocyte cultures - by temperature!*  
 {% for pub in site.data.publications %}
   {% if pub.article_id == "maki2024simulation" %}
   - {%- for author in pub.authors -%}
@@ -145,9 +145,7 @@ I lead a **multidisciplinary research team** that has developed a groundbreaking
   {% endif %}
 {% endfor %}
 
-Mäki et al. (2024) _Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte Cultures_ [link](https://doi.org/10.1109/TASE.2023.3309668)  
-
-> I developed a fuzzy controller and a mathematical model to simulate and control temperature-dependency of beating human cardiomyocyte cultures. This research offers valuable guidance for scientists aiming to standardize experimental conditions and improve the reliability of cardiomyocyte-based assays.
+I developed a fuzzy controller and a mathematical model to simulate and control temperature-dependency of beating human cardiomyocyte cultures. This research offers valuable guidance for scientists aiming to standardize experimental conditions and improve the reliability of cardiomyocyte-based assays.
 
 ### Mäki et al. (2023) _Opinion: The correct way to analyze FP signals_ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10205591.svg)](https://doi.org/10.5281/zenodo.10205591)
 
