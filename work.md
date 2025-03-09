@@ -59,7 +59,7 @@ I continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Na
 - **Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
-I worked as a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), where I automatize data analysis of several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel lab-on-a-chip platform for vascularized 3D cell co-cultures studies.
+As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I devloped data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.
 - **Research areas**: Lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 
