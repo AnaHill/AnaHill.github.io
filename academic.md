@@ -311,15 +311,18 @@ Used at least in this publication
 <span style="color:red"><strong>⚡ TESTING: This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
 
 
-## TEST
-{% for author in pub.authors %}
-  {% if author == pub.highlighted_author %}
-    **{{ author }}**
+## Test list
+
+{% for pub in site.data.publications %}
+- {% for author in pub.authors %}
+    {% if author == pub.highlighted_author %}
+      **{{ author }}**
   {% else %}
     {{ author }}
   {% endif %}
   {%- unless forloop.last %}, {% endunless %}
 {% endfor %}
+
 
 ## Selected Publications
 
