@@ -117,12 +117,14 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
 > 🚀 *Bringing the future of tissue engineering one step closer!*  
-I lead a **multidisciplinary research team** that has developed a groundbreaking **"body-on-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications.  
+
+I led a **multidisciplinary research team** that developed a groundbreaking **"lab-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications.
 
 **Reference:** 
 {% for pub in site.data.publications %}
-  {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
-  - {%- for author in pub.authors -%}
+  <!-- {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %} -->
+  {% if pub.article == "yrjanainen2024barrier" %}
+   {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
