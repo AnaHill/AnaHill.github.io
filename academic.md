@@ -316,7 +316,7 @@ Used at least in this publication
 {% for pub in site.data.publications %}
   <p>
     <strong>{{ pub.title }}</strong><br>
-    {{ pub.authors | join: ", " }}<br>  {# This joins the list into a comma-separated string #}
+    {{ pub.authors | join: ", " }}<br>
     <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
     {% if pub.doi %}
       <a href="https://doi.org/{{ pub.doi }}">DOI</a>
@@ -324,8 +324,21 @@ Used at least in this publication
   </p>
 {% endfor %}
 
+### tuning
+{% for pub in site.data.publications %}
+  <p>
+    <strong>{{ pub.title }}</strong><br>
+    {{ pub.authors | join: ", " }}<br>
+    <em>{{ pub.journal }}</em>, {{ pub.year }}.
+    {% if pub.doi %}
+      <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
+    {% endif %}
+  </p>
+{% endfor %}
 
-## Test2
+
+
+## Test2: this almost works, except doi! and not yet **bolded own name**
 {% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
   - {%- for author in pub.authors -%}
@@ -337,6 +350,25 @@ Used at least in this publication
     {% endif %}
   {% endif %}
 {% endfor %}
+
+## Test3: 
+{% for pub in site.data.publications %}
+  {% if pub.category == "selected_publication" %}
+  - {%- for author in pub.authors -%}
+            {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}
+      {%- if forloop.last == false -%}, {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
+    {% if pub.doi and pub.doi != "" %} 
+      [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 
 ## Selected Publications
 
