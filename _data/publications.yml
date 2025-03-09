@@ -1,68 +1,33 @@
 - authors:
-  - Yrj{ä}n{ä}inen, Alma
-  - Mesi{ä}, Elina
+  - Yrjänäinen, Alma
+  - Mesiä, Elina
   - Lampela, Ella
   - Kreutzer, Joose
   - Vihinen, Jorma
   - Tornberg, Kaisa
-  - Vuorenp{ä}{ä}, Hanna
+  - Vuorenpää, Hanna
   - Miettinen, Susanna
   - Kallio, Pasi
-  - M{ä}ki, Antti-Juhana
+  - Mäki, Antti-Juhana
   category: selected_publication
   doi: 10.1038/s41598-024-74493-3
   highlighted_author: Mäki, Antti-Juhana
   journal: Scientific Reports
-  link: https://doi.org/10.1038/s41598-024-74493-3
   title: Barrier-free, open-top microfluidic chip for generating two distinct, interconnected
     3D microvascular networks
   year: '2024'
 - authors:
   - Peussa, Heidi
   - Kreutzer, Joose
-  - M{ä}ntyl{ä}, Elina
-  - M{ä}ki, Antti-Juhana
+  - Mäntylä, Elina
+  - Mäki, Antti-Juhana
   - Nymark, Soile
   - Kallio, Pasi
-  - Ihalainen, Teemu O
+  - Ihalainen, Teemu
   category: regular
   doi: ''
   highlighted_author: Mäki, Antti-Juhana
   journal: PloS one
-  link: ''
   title: Pneumatic equiaxial compression device for mechanical manipulation of epithelial
     cell packing and physiology
-  year: '2022'
-- authors:
-  - Tornberg, Kaisa
-  - V{ä}lim{ä}ki, Hannu
-  - Valaskivi, Silmu
-  - M{ä}ki, Antti-Juhana
-  - Jokinen, Matias
-  - Kreutzer, Joose
-  - Kallio, Pasi
-  category: regular
-  doi: ''
-  highlighted_author: Mäki, Antti-Juhana
-  journal: Biomedical Microdevices
-  link: ''
-  title: Compartmentalized organ-on-a-chip structure for spatiotemporal control of
-    oxygen microenvironments.
-  year: '2022'
-- authors:
-  - H{ä}kli, Martta
-  - Kreutzer, Joose
-  - M{ä}ki, Antti-Juhana
-  - V{ä}lim{ä}ki, Hannu
-  - Cherian, Reeja Maria
-  - Kallio, Pasi
-  - Aalto-Set{ä}l{ä}, Katriina
-  - Pekkanen-Mattila, Mari
-  category: regular
-  doi: ''
-  highlighted_author: Mäki, Antti-Juhana
-  journal: Stem cells international
-  link: ''
-  title: Electrophysiological Changes of Human-Induced Pluripotent Stem Cell-Derived
-    Cardiomyocytes during Acute Hypoxia and Reoxygenation
   year: '2022'
