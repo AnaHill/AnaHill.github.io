@@ -54,15 +54,17 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 See full records in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my three most recent positions. Over 15+ years in academia, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, including those utilizing fuzzy controllers, and developed microfluidics chips.
 
 ### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
-Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
+I continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
 - **Research areas**: Lab-on-a-chip, data analysis, vascularization, fuzzy control
 - **Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
+I worked as a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), where I automatize data analysis of several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel lab-on-a-chip platform for vascularized 3D cell co-cultures studies.
 - **Research areas**: Lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 
 ### 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
+My Ph.D. work involved designing and implementing automation and control systems and microfluidics chips, mathematical modeling and data handling using MATLAB, Simulink, and COMSOL.
 - **Research areas**: Microsystems, microfluidics, control engineering
 - **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 - Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
