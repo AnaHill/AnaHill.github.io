@@ -331,8 +331,8 @@ Used at least in this publication
       {% if author == pub.highlighted_author %}
         **{{author}}**
       {% else %}
-        {{ author}}
-      {% endif %}{% if forloop.last == false %}, {% endif %}
+        {{author}}
+      {% endif %}{% if forloop.last == false %},{% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
