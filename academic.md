@@ -305,7 +305,10 @@ Used at least in this publication
 </div>
 <br/>
 
-![Google Scholar statistics (March 2025)](pics/scholar_statistics_2025_03.png "Google Scholar Statisctics March 2025")
+<!-- ![Google Scholar statistics (March 2025)](pics/scholar_statistics_2025_03.png "Google Scholar Statisctics March 2025") -->
+<img src="pics/scholar_statistics_2025_03.png" alt="Google Scholar Statistics March 2025" style="width:50%;">
+
+
 
 <!-- TODO:  -->
 <span style="color:red"><strong>⚡ TESTING: This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
