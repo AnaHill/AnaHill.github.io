@@ -42,11 +42,12 @@ Before transitioning into the data consultant, I had a long and diverse academic
 ## 📂 Projects
 <span style="color:green"><strong>⚡ This section is under construction!</strong></span>  
 
-I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
+I have list my work-related projects <span style ="color:green"><strong>👉[here](work.html#projects).
+On the other hand, I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
-🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) – A data analysis tool built with **MATLAB**, described [here](academic.html#DatAnalyzer).
+🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) – A data analysis tool built with **MATLAB**, described <span style="color:green"><strong> [here](academic.html#DatAnalyzer) </strong></span>.
 
-🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, more info [here](academic.html#DocLaTex).
+🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, more info <span style ="color:green"><strong> [here](academic.html#DocLaTex) </strong></span>.
 
 ## 📝 <span id="blogs"> Blogs </span>
 
@@ -63,7 +64,7 @@ I share my thoughts from time to time; my latest posts are following:
   {% endfor %}
 </ul>
 
-➡ **See all my blog posts [here](/blog/)**  
+See all my blog posts <span style="color:green">**👉[here](/blog/)** </span>  
 
 ## 📊 **Visitor's count**
 <div align="center">   
