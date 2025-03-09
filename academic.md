@@ -313,7 +313,7 @@ Used at least in this publication
 
 ## Selected Publications
 
-{% for pub in site.data.publications limit:5 %}
+{% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
   - {% assign authors_list = pub.authors | split: ", " %}
     {% for author in authors_list %}
@@ -334,7 +334,7 @@ Used at least in this publication
 
 ## All Publications
 
-{% for pub in site.data.publications limit:3 %}
+{% for pub in site.data.publications %}
 - {% assign authors_list = pub.authors | split: ", " %}
   {% for author in authors_list %}
     {% if author == pub.highlighted_author %}
