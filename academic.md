@@ -351,7 +351,23 @@ Used at least in this publication
   {% endif %}
 {% endfor %}
 
-## Test3: 
+## Test3: joko toimisi
+{% for pub in site.data.publications %}
+- {%- for author in pub.authors -%}
+          {% if author == pub.highlighted_author %}
+      **{{ author }}**
+    {% else %}
+      {{ author }}
+    {% endif %}
+    {%- if forloop.last == false -%}, {% endif %}
+  {%- endfor -%}.
+  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
+  {% if pub.doi and pub.doi != "" %} 
+    <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>  
+  {% endif %}
+{% endfor %}
+
+## Test3b: selected
 {% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
   - {%- for author in pub.authors -%}
@@ -364,10 +380,11 @@ Used at least in this publication
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
     {% if pub.doi and pub.doi != "" %} 
-      [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
+      <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>  
     {% endif %}
   {% endif %}
 {% endfor %}
+
 
 
 ## Selected Publications
