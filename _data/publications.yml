@@ -9,7 +9,9 @@
   - Miettinen, Susanna
   - Kallio, Pasi
   - Mäki, Antti-Juhana
-  category: selected_publication
+  category:
+  - selected_publication
+  - coeboc_publication
   doi: 10.1038/s41598-024-74493-3
   highlighted_author: Mäki, Antti-Juhana
   journal: Scientific Reports
@@ -21,7 +23,8 @@
   - Koivumäki, Jussi
   - Hyttinen, Jari
   - Kallio, Pasi
-  category: selected_publication
+  category:
+  - selected_publication
   doi: 10.1109/TASE.2023.3309668
   highlighted_author: Mäki, Antti-Juhana
   journal: IEEE Transactions on Automation Science and Engineering
@@ -37,7 +40,8 @@
   - Kallio, Pasi
   - Aalto-Setälä, Katriina
   - Pekkanen-Mattila, Mari
-  category: elected_publication
+  category:
+  - elected_publication
   doi: 10.1155/2022/9438281
   highlighted_author: Mäki, Antti-Juhana
   journal: Stem cells international
@@ -52,7 +56,8 @@
   - Nymark, Soile
   - Kallio, Pasi
   - Ihalainen, Teemu
-  category: regular
+  category:
+  - regular
   doi: 10.1371/journal.pone.0268570
   highlighted_author: Mäki, Antti-Juhana
   journal: PloS one

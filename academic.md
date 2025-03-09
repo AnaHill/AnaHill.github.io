@@ -310,7 +310,7 @@ Used at least in this publication
 ## Selected Publications
 
 {% for pub in site.data.publications %}
-  {% if pub.category == "selected_publication" %}
+  {% if pub.category contains "selected_publication" %}
   - {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
@@ -335,6 +335,21 @@ Used at least in this publication
     {% endif %}{% if forloop.last == false %}, {% endif %}
   {%- endfor -%}.
   *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+{% endfor %}
+
+## CoEBoC Publications
+
+{% for pub in site.data.publications %}
+  {% if pub.category contains "coeboc_publication" %}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %}, {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
 {% endfor %}
 
 
