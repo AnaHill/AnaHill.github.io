@@ -1,4 +1,5 @@
-- authors:
+- article_id: yrjanainen2024barrier
+  authors:
   - Yrjänäinen, Alma
   - Mesiä, Elina
   - Lampela, Ella
@@ -18,7 +19,8 @@
   title: Barrier-free, open-top microfluidic chip for generating two distinct, interconnected
     3D microvascular networks
   year: '2024'
-- authors:
+- article_id: maki2024simulation
+  authors:
   - Mäki, Antti-Juhana
   - Koivumäki, Jussi
   - Hyttinen, Jari
@@ -31,7 +33,8 @@
   title: Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte
     Cultures
   year: '2024'
-- authors:
+- article_id: hakli2022electrophysiological
+  authors:
   - Häkli, Martta
   - Kreutzer, Joose
   - Mäki, Antti-Juhana
@@ -48,7 +51,8 @@
   title: Electrophysiological Changes of Human-Induced Pluripotent Stem Cell-Derived
     Cardiomyocytes during Acute Hypoxia and Reoxygenation
   year: '2022'
-- authors:
+- article_id: peussa2022pneumatic
+  authors:
   - Peussa, Heidi
   - Kreutzer, Joose
   - Mäntylä, Elina

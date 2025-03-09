@@ -116,21 +116,6 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 ## Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
-### first list
-{% for pub in site.data.publications %}
-  {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
-  - {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{author}}**
-      {% else %}
-        {{author}}
-      {% endif %}{% if forloop.last == false %},{% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  {% endif %}
-{% endfor %}
-
-### second tryout
 {% for pub in site.data.publications %}
   {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
   - {%- for author in pub.authors -%}
@@ -143,17 +128,24 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
-
-
-<!-- ### Yrjänäinen et al. (2024) _Barrier-free, open-top microfluidic chip for generating two distinct, interconnected 3D microvascular networks_ [link](https://doi.org/10.1038/s41598-024-74493-3 "doi: 10.1038/s41598-024-74493-3") (<span style="color:black">**last author**</span>) -->
-
-> 🚀 *Bringing the future of tissue engineering one step closer!*  
+ > 🚀 *Bringing the future of tissue engineering one step closer!*  
 I lead a **multidisciplinary research team** that has developed a groundbreaking **"body-on-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications.  
 
 
+{% for pub in site.data.publications %}
+  {% if pub.article_id == "maki2024simulation" %}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
 
-
-### Mäki et al. (2024) _Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte Cultures_ [link](https://doi.org/10.1109/TASE.2023.3309668)  
+Mäki et al. (2024) _Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte Cultures_ [link](https://doi.org/10.1109/TASE.2023.3309668)  
 
 > I developed a fuzzy controller and a mathematical model to simulate and control temperature-dependency of beating human cardiomyocyte cultures. This research offers valuable guidance for scientists aiming to standardize experimental conditions and improve the reliability of cardiomyocyte-based assays.
 
