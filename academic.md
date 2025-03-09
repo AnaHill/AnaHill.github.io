@@ -295,7 +295,7 @@ Used at least in this publication
 
 <!-- [my Scholar profile](https://scholar.google.com/citations?user=bmCs6M0AAAAJ). -->
 <div align="left">
-  See also my
+  Here, my publications are listed. For more information, see also my
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
   </a>
@@ -303,47 +303,24 @@ Used at least in this publication
     <img src="https://img.shields.io/badge/ORCHID%20-Blue.svg" />
   </a>
 </div>
-<br/>
-
-<!-- ![Google Scholar statistics (March 2025)](pics/scholar_statistics_2025_03.png "Google Scholar Statisctics March 2025") -->
 <img src="pics/scholar_statistics_2025_03.png" alt="Google Scholar Statistics March 2025" style="width:50%;">
 
-
-
-<!-- TODO:  -->
 <span style="color:red"><strong>⚡ TESTING: This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
-
-## TEST
-{% for pub in site.data.publications %}
-- {%- for author in pub.authors -%}
-    {% if author == pub.highlighted_author %}
-      **{{ author }}**
-    {% else %}
-      {{ author }}
-    {% endif %}
-    {%- if forloop.last == false -%}, {% endif %}
-  {%- endfor -%}.
-  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}{% if pub.doi and pub.doi != "" %}  
-  [{{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}.
-{% endfor %}
-
 
 ## Selected Publications
 
 {% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
   - {%- for author in pub.authors -%}
-            {% if author == pub.highlighted_author %}
+      {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
         {{ author }}
       {% endif %}
       {%- if forloop.last == false -%}, {% endif %}
     {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-    {% if pub.doi and pub.doi != "" %} 
-      <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>  
-    {% endif %}
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %}  
+    [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
 
@@ -354,18 +331,17 @@ Used at least in this publication
 
 {% for pub in site.data.publications %}
 - {%- for author in pub.authors -%}
-          {% if author == pub.highlighted_author %}
+    {% if author == pub.highlighted_author %}
       **{{ author }}**
     {% else %}
       {{ author }}
     {% endif %}
     {%- if forloop.last == false -%}, {% endif %}
   {%- endfor -%}.
-  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-  {% if pub.doi and pub.doi != "" %} 
-    <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>  
-  {% endif %}
+  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %}  
+  [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
 {% endfor %}
+
 
 
 <a href="{{ site.baseurl }}/" style="color:green">
