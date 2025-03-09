@@ -403,6 +403,47 @@ Here, you can see full publication list.
 
 </details>
 
+# TEST LIST PUBLICATIONS
+## Selected Publications
+
+{% for pub in site.data.publications %}
+  {% if pub.category == "selected_publication" %}
+  - {% assign authors_list = pub.authors | split: ", " %}
+    {% for author in authors_list %}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}
+      {%- if forloop.last == false -%}, {% endif %}
+    {% endfor %}
+    . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
+    {% if pub.doi and pub.doi != "" %} [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }}) {% endif %}
+    [Read more]({{ pub.link }})
+  {% endif %}
+{% endfor %}
+
+---
+
+## All Publications
+
+{% for pub in site.data.publications %}
+- {% assign authors_list = pub.authors | split: ", " %}
+  {% for author in authors_list %}
+    {% if author == pub.highlighted_author %}
+      **{{ author }}**
+    {% else %}
+      {{ author }}
+    {% endif %}
+    {%- if forloop.last == false -%}, {% endif %}
+  {% endfor %}
+  . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
+  {% if pub.doi and pub.doi != "" %} [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }}) {% endif %}
+  [Read more]({{ pub.link }})
+{% endfor %}
+
+
+
 <a href="{{ site.baseurl }}/" style="color:green">
   <strong><big>⬅ To My Main Page </big> </strong>
 </a>
