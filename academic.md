@@ -402,3 +402,7 @@ Here, you can see full publication list.
 >
 
 </details>
+
+<a href="{{ site.baseurl }}/" style="color:green">
+  <strong><big>⬅ To My Main Page </big> </strong>
+</a>
