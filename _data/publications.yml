@@ -1,9 +1,9 @@
 - authors: Yrj{\"a}n{\"a}inen, Alma, Mesi{\"a}, Elina, Lampela, Ella, Kreutzer, Joose,
     Vihinen, Jorma, Tornberg, Kaisa, Vuorenp{\"a}{\"a}, Hanna, Miettinen, Susanna,
     Kallio, Pasi, M{\"a}ki, Antti-Juhana
-  category: regular
+  category: selected_publication
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Scientific Reports
   link: ''
   title: Barrier-free, open-top microfluidic chip for generating two distinct, interconnected
@@ -14,7 +14,7 @@
     H
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Frontiers in Bioengineering and Biotechnology| www. frontiersin. org
   link: ''
   title: 'Vasculogenic potency of bone marrow-and adipose tissue-derived mesenchymal
@@ -25,7 +25,7 @@
     Nymark, Soile, Kallio, Pasi, Ihalainen, Teemu O
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: PloS one
   link: ''
   title: Pneumatic equiaxial compression device for mechanical manipulation of epithelial
@@ -33,9 +33,9 @@
   year: '2022'
 - authors: Tornberg, Kaisa, V{\"a}lim{\"a}ki, Hannu, Valaskivi, Silmu, M{\"a}ki, Antti-Juhana,
     Jokinen, Matias, Kreutzer, Joose, Kallio, Pasi
-  category: regular
+  category: selected_publication
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{\"a}ki, Antti-Juhana
   journal: Biomedical Microdevices
   link: ''
   title: Compartmentalized organ-on-a-chip structure for spatiotemporal control of
@@ -46,7 +46,7 @@
     Mari
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Stem cells international
   link: ''
   title: Electrophysiological Changes of Human-Induced Pluripotent Stem Cell-Derived
@@ -57,7 +57,7 @@
     Kallio, Pasi, Miettinen, Susanna, Vuorenp{\"a}{\"a}, Hanna
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Organ Microenvironment in Vascular Formation, Homeostasis and Engineering
   link: ''
   title: Vasculogenic Potency of Bone Marrow-and Adipose Tissue-Derived Mesenchymal
@@ -65,9 +65,9 @@
   year: '2023'
 - authors: M{\"a}ki, Antti-Juhana, Koivum{\"a}ki, Jussi T, Hyttinen, Jari, Kallio,
     Pasi
-  category: regular
+  category: selected_publication
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{\"a}ki, Antti-Juhana
   journal: IEEE Transactions on Automation Science and Engineering
   link: ''
   title: Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte
@@ -76,7 +76,7 @@
 - authors: M{\"a}ki, Antti-Juhana
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: https://doi.org/10.5281/zenodo.10205591
   link: ''
   title: 'Opinion: The correct way to analyze FP signals'
@@ -84,7 +84,7 @@
 - authors: Mäki, Antti-Juhana, Kreutzer, Joose, Kallio, Pasi
   category: regular
   doi: 10.1115/ICNMM2014-21183
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: https://doi.org/10.1115/ICNMM2014-21183
   title: Modeling {Drug} {Delivery} in {Gravity}-{Driven} {Microfluidic} {System
@@ -93,7 +93,7 @@
     Jukka, Kallio, Pasi
   category: regular
   doi: 10.1109/TASE.2016.2613912
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: IEEE Transactions on Automation Science and Engineering
   link: https://doi.org/10.1109/TASE.2016.2613912
   title: Indirect {Temperature} {Measurement} and {Control} {Method} for {Cell} {Culture}
@@ -104,7 +104,7 @@
     Mari
   category: regular
   doi: 10.1038/s41598-021-83740-w
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Scientific Reports
   link: https://doi.org/10.1038/s41598-021-83740-w
   title: Human induced pluripotent stem cell-based platform for modeling cardiac ischemia
@@ -113,7 +113,7 @@
     Kallio, Pasi
   category: regular
   doi: 10.1016/j.ces.2015.06.065
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Chemical Engineering Science
   link: https://doi.org/10.1016/j.ces.2015.06.065
   title: Modeling carbon dioxide transport in {PDMS}-based microfluidic cell culture
@@ -123,7 +123,7 @@
     Rolle, Hytönen, Vesa
   category: regular
   doi: https://doi.org/10.1109/MARSS.2017.8001929
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: https://doi.org/https://doi.org/10.1109/MARSS.2017.8001929
   title: Pneumatically actuated elastomeric device for simultaneous mechanobiological
@@ -133,7 +133,7 @@
     Kallio, Pasi, Aalto-Setälä, Katriina
   category: regular
   doi: 10.3390/cells11061045
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Cells
   link: https://doi.org/10.3390/cells11061045
   title: 'Cardiac {Ischemia} {On}-a-{Chip}: {Antiarrhythmic} {Effect} of {Levosimendan}
@@ -144,7 +144,7 @@
     Miettinen, Susanna, Vuorenpää, Hanna
   category: regular
   doi: 10.3389/fbioe.2022.764237
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Frontiers in Bioengineering and Biotechnology
   link: https://doi.org/10.3389/fbioe.2022.764237
   title: Vasculogenic {Potency} of {Bone} {Marrow}- and {Adipose} {Tissue}-{Derived}
@@ -156,7 +156,7 @@
     Tomas, Kallio, Pasi
   category: regular
   doi: 10.1039/D1NR06937C
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Nanoscale
   link: https://doi.org/10.1039/D1NR06937C
   title: Self-assembled cellulose nanofiber–carbon nanotube nanocomposite films
@@ -165,7 +165,7 @@
 - authors: Mäki, Antti-Juhana
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Modeling and {Control} of {Microscale} {Cell} {Culture} {Environments
@@ -174,7 +174,7 @@
     Kallio, Pasi
   category: regular
   doi: 10.1021/acs.biomac.7b00963
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Biomacromolecules
   link: https://doi.org/10.1021/acs.biomac.7b00963
   title: Cellulose {Nanofiber} {Alignment} {Using} {Evaporation}-{Induced} {Droplet}-{Casting},
@@ -184,7 +184,7 @@
     Narra, Kreutzer, Joose, Hyttinen, Jari, Kallio, Pasi
   category: regular
   doi: 10.1115/1.4028501
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Journal of Fluids Engineering
   link: https://doi.org/10.1115/1.4028501
   title: Modeling and {Experimental} {Characterization} of {Pressure} {Drop} in {Gravity}-{Driven}
@@ -195,7 +195,7 @@
     Katriina, Lekkala, Jukka, Kallio, Pasi
   category: regular
   doi: 10.1177/2472630318768710
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: SLAS Technology
   link: https://doi.org/10.1177/2472630318768710
   title: A {Portable} {Microscale} {Cell} {Culture} {System} with {Indirect} {Temperature}
@@ -205,7 +205,7 @@
     Narkilahti, Susanna, Kallio, Pasi
   category: regular
   doi: 10.1016/j.jneumeth.2017.01.019
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: Journal of Neuroscience Methods
   link: https://doi.org/10.1016/j.jneumeth.2017.01.019
   title: Cell {Culture} {Chamber} with {Gas} {Supply} for {Prolonged} {Recording}
@@ -214,7 +214,7 @@
 - authors: Mäki, Antti-Juhana, Ronkanen, Pekka, Zhou, Quan, Kallio, Pasi
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Modeling continuous optoelectrowetting device
@@ -222,7 +222,7 @@
 - authors: Vilkko, Matti, Kaivosoja, Jyri, Mäki, Antti-Juhana, Kallio, Pasi
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Compensation of detent torque in microstepping of linear permanent magnet
@@ -232,7 +232,7 @@
     Hytönen, Vesa P., Kallio, Pasi
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Cell {Stretching} {Device} for {Live}-{Cell} {Confocal} {Microscopy
@@ -241,7 +241,7 @@
     Jukka, Kallio, Pasi
   category: regular
   doi: 10.1109/NEMS.2016.7758214
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: https://doi.org/10.1109/NEMS.2016.7758214
   title: Design and {Simulation} of a {Thermal} {Flow} {Sensor} for {Gravity}-{Driven}
@@ -251,7 +251,7 @@
     Tomi, Yue, Yong, Lekkala, Jukka, Kallio, Pasi
   category: regular
   doi: 10.3389/conf.fnins.2016.93.00037
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: https://doi.org/10.3389/conf.fnins.2016.93.00037
   title: Indirect {Temperature} {Measurement} in a {Cell} {Culture} {Device
@@ -260,7 +260,7 @@
     Ryyn{\"a}nen, Tomi, Kallio, P, Aalto-Set{\"a}l{\"a}, K, Pekkanen-Mattila, M
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Modeling Cardiac Ischemia with Human Induced Pluripotent Stem Cell-Derived
@@ -270,7 +270,7 @@
     M{\"a}ki, A, Lekkala, J, Kallio, P
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Understanding electrical signals in volume conductor on MEA
@@ -279,7 +279,7 @@
     J, Ryyn{\"a}nen, Tomi, Verho, J, Aalto-Set{\"a}l{\"a}, K, Kallio, P
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Combined electrophysiological and video-based motion analysis for human induced
@@ -289,7 +289,7 @@
     H, Rajan, D, Kreutzer, J, Lekkala, J, Kallio, P
   category: regular
   doi: ''
-  highlighted_author: Your Name Here
+  highlighted_author: M{"a}ki, Antti-Juhana
   journal: ''
   link: ''
   title: Custom-designed 2D microelectrode array fabrication

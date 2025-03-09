@@ -406,7 +406,7 @@ Here, you can see full publication list.
 # TEST LIST PUBLICATIONS
 ## Selected Publications
 
-{% for pub in site.data.publications %}
+{% for pub in site.data.publications limit:5 %}
   {% if pub.category == "selected_publication" %}
   - {% assign authors_list = pub.authors | split: ", " %}
     {% for author in authors_list %}
@@ -427,7 +427,7 @@ Here, you can see full publication list.
 
 ## All Publications
 
-{% for pub in site.data.publications %}
+{% for pub in site.data.publications limit:3 %}
 - {% assign authors_list = pub.authors | split: ", " %}
   {% for author in authors_list %}
     {% if author == pub.highlighted_author %}
