@@ -120,15 +120,16 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
   {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
     {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
-        **{{author}}**
+        **{{ author }}**
       {% else %}
-        {{author}}
+        {{ author }}
       {% endif %}
-      {% if forloop.last == false %} and {% endif %}
-     {%- endfor -%}.
-    *"{{ pub.title }}"*.{{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+      {%- if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
+
 
 <!-- ### Yrjänäinen et al. (2024) _Barrier-free, open-top microfluidic chip for generating two distinct, interconnected 3D microvascular networks_ [link](https://doi.org/10.1038/s41598-024-74493-3 "doi: 10.1038/s41598-024-74493-3") (<span style="color:black">**last author**</span>) -->
 
