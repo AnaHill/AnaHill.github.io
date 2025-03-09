@@ -315,8 +315,7 @@ Used at least in this publication
 
 {% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
-  - {% assign authors_list = pub.authors | split: ", " %}
-    {% for author in authors_list %}
+  - {% for author in pub.authors %}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
@@ -325,7 +324,9 @@ Used at least in this publication
       {%- if forloop.last == false -%}, {% endif %}
     {% endfor %}
     . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-    {% if pub.doi and pub.doi != "" %} [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }}) {% endif %}
+    {% if pub.doi and pub.doi != "" %} 
+      [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -334,8 +335,7 @@ Used at least in this publication
 ## All Publications
 
 {% for pub in site.data.publications %}
-- {% assign authors_list = pub.authors | split: ", " %}
-  {% for author in authors_list %}
+- {% for author in pub.authors %}
     {% if author == pub.highlighted_author %}
       **{{ author }}**
     {% else %}
@@ -344,8 +344,13 @@ Used at least in this publication
     {%- if forloop.last == false -%}, {% endif %}
   {% endfor %}
   . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
-  {% if pub.doi and pub.doi != "" %} [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }}) {% endif %}
+  {% if pub.doi and pub.doi != "" %} 
+    [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
+  {% endif %}
 {% endfor %}
+
+
+
 
 
 
