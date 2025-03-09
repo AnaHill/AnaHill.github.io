@@ -313,15 +313,15 @@ Used at least in this publication
 
 ## Test list
 
-{% for pub in site.data.publications %}
-- {% for author in pub.authors %}
-    {% if author == pub.highlighted_author %}
-      **{{ author }}**
-    {% else %}
-      {{ author }}
+{% for pub in site.data.publications.publications %}
+  <p>
+    <strong>{{ pub.title }}</strong><br>
+    {{ pub.authors | join: ", " }}<br>  {# This joins the list into a comma-separated string #}
+    <em>{{ pub.journal }}</em>, {{ pub.year }}.<br>
+    {% if pub.doi %}
+      <a href="https://doi.org/{{ pub.doi }}">DOI</a>
     {% endif %}
-    {%- unless forloop.last %}, {% endunless %}
-  {% endfor %}
+  </p>
 {% endfor %}
 
 
