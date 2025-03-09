@@ -1,3 +1,16 @@
+{% for pub in site.data.publications %}
+  {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
+
 
 <!-- SELECTED PUBLICATIONS -->
 Here, I list selected publications.
