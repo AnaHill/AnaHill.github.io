@@ -122,9 +122,8 @@ I led a **multidisciplinary research team** that developed a groundbreaking **"l
 
 **Reference:** 
 {% for pub in site.data.publications %}
-  <!-- {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %} -->
   {% if pub.article == "yrjanainen2024barrier" %}
-   {%- for author in pub.authors -%}
+    {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
