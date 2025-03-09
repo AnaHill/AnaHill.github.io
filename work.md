@@ -43,8 +43,8 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 # Work Experience
 
 ## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)
-- Building robust and scalable data solutions for customers; check my [**Projects**](#projects) section to find out more
-- Main tools and technologies: **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
+- Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
+- Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
@@ -149,6 +149,20 @@ A data analysis tool built with **MATLAB**, described [here](academic.html#DatAn
 
 ### 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) 
 Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
+
+
+# 📊 Trainings 💻
+
+## Industrial Data Hothouse - Solita, Solita
+📅 _May 2023 - June 2023_  
+
+In this 4-week long program, participants learned the concepts of industrial data and OT-IT convergence, edge computing and hybrid cloud in manufacturing and industrial data modelling and contextualization. We considered multiple technologies and partners, especially in Industrial IoT (IIoT) perceptive, for example Snowflake, Databricks, Crosser.io, Litmus, Nokia MX Industrial Edge, cybersecurity, Docker, OPC UA, and MQTT.
+
+## Agile Data Engine (ADE) for Data Engineers, Agile Data Engine
+📅 _April 2023 - April 2023_  
+
+The key areas of this certificate are the following: 1) introduction to using ADE, 2) Hands-on training in a streamlined data warehouse project, 3) Comprehensive theory on ADE features and data modeling concepts.  After this one week training, participants can succesfully import, model, and publish data.
+
 
 # 📝 Blogging  
 I share my thoughts from time to time (all posts 👉[here](/blog/)); my latest posts are following:  
