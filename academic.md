@@ -117,13 +117,12 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
 > 🚀 *Bringing the future of tissue engineering one step closer!*  
-
 I led a **multidisciplinary research team** that developed a groundbreaking **"lab-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications.
 
 **Reference:** 
 {% for pub in site.data.publications %}
   {% if pub.article == "yrjanainen2024barrier" %}
-    {%- for author in pub.authors -%}
+  - {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
@@ -134,8 +133,9 @@ I led a **multidisciplinary research team** that developed a groundbreaking **"l
   {% endif %}
 {% endfor %}
 
+> 🎛️ *Control the beating of cardiomyocyte cultures - by temperature!*  
+I developed a fuzzy controller and a mathematical model to simulate and control temperature-dependency of beating human cardiomyocyte cultures. This research offers valuable guidance for scientists aiming to standardize experimental conditions and improve the reliability of cardiomyocyte-based assays.
 
-### > 🎛️ *Control the beating of cardiomyocyte cultures - by temperature!*  
 **Reference:** 
 {% for pub in site.data.publications %}
   {% if pub.article_id == "maki2024simulation" %}
@@ -150,20 +150,20 @@ I led a **multidisciplinary research team** that developed a groundbreaking **"l
   {% endif %}
 {% endfor %}
 
-I developed a fuzzy controller and a mathematical model to simulate and control temperature-dependency of beating human cardiomyocyte cultures. This research offers valuable guidance for scientists aiming to standardize experimental conditions and improve the reliability of cardiomyocyte-based assays.
+> 🎛️ *Truely understand the field potential signals*  
 
-### Mäki et al. (2023) _Opinion: The correct way to analyze FP signals_ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10205591.svg)](https://doi.org/10.5281/zenodo.10205591)
-
-> In November 2023, I published a comprehensive report titled **"Opinion: The correct way to analyze FP signals"**. This work encapsulates my extensive experience in analyzing **field potential (FP) signals** derived from **2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
-
+In November 2023, I published a comprehensive report titled **"Opinion: The correct way to analyze FP signals"**. This work encapsulates my extensive experience in analyzing **field potential (FP) signals** derived from **2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 <details>
   <summary><strong>Show more</strong></summary>  
 
-> While developing the **DatAnalyzer** software ([GitHub Repository](https://github.com/AnaHill/DatAnalyzer?utm_source=chatgpt.com)), I observed a wide array of methodologies used for FP signal analysis across various studies. This inconsistency often led to confusion, highlighting the need for a **cohesive analytical framework**.  
-> 
-> Driven by this realization, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer review process—offers valuable **insights and guidance** for researchers navigating the complexities of FP signal analysis.  
+While developing the **DatAnalyzer** software ([GitHub Repository](https://github.com/AnaHill/DatAnalyzer?utm_source=chatgpt.com)), I observed a wide array of methodologies used for FP signal analysis across various studies. This inconsistency often led to confusion, highlighting the need for a **cohesive analytical framework**.  
+ 
+Driven by this realization, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer review process—offers valuable **insights and guidance** for researchers navigating the complexities of FP signal analysis.  
 
 </details>
+
+**Reference:** 
+Mäki et al. (2023) _Opinion: The correct way to analyze FP signals_ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10205591.svg)](https://doi.org/10.5281/zenodo.10205591)
 
 
 <!-- ### Postdoc ### -->
