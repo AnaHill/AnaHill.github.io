@@ -326,7 +326,6 @@ Used at least in this publication
     {% endfor %}
     . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
     {% if pub.doi and pub.doi != "" %} [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }}) {% endif %}
-    [Read more]({{ pub.link }})
   {% endif %}
 {% endfor %}
 
@@ -346,7 +345,6 @@ Used at least in this publication
   {% endfor %}
   . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
   {% if pub.doi and pub.doi != "" %} [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }}) {% endif %}
-  [Read more]({{ pub.link }})
 {% endfor %}
 
 
