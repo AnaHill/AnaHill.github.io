@@ -317,10 +317,11 @@ Used at least in this publication
 - {% for author in pub.authors %}
     {% if author == pub.highlighted_author %}
       **{{ author }}**
-  {% else %}
-    {{ author }}
-  {% endif %}
-  {%- unless forloop.last %}, {% endunless %}
+    {% else %}
+      {{ author }}
+    {% endif %}
+    {%- unless forloop.last %}, {% endunless %}
+  {% endfor %}
 {% endfor %}
 
 
