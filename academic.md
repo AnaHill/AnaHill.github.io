@@ -313,7 +313,7 @@ Used at least in this publication
 
 ## Test list
 
-{% for pub in site.data.publications.publications %}
+{% for pub in site.data.publications %}
   <p>
     <strong>{{ pub.title }}</strong><br>
     {{ pub.authors | join: ", " }}<br>  {# This joins the list into a comma-separated string #}
@@ -324,14 +324,14 @@ Used at least in this publication
   </p>
 {% endfor %}
 
+
 ## Test2
 {% for pub in site.data.publications %}
   {% if pub.category == "selected_publication" %}
-  - {% for author in pub.authors %}
-      {{ author }}
-      {%- if forloop.last == false -%}, {% endif %}
-    {% endfor %}
-    . *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
+  - {%- for author in pub.authors -%}
+      {{ author }}{%- if forloop.last == false -%}, {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.
     {% if pub.doi and pub.doi != "" %} 
       [DOI: {{ pub.doi }}](https://doi.org/{{ pub.doi }})  
     {% endif %}
