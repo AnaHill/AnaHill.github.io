@@ -117,11 +117,12 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
 > 🚀 *Bringing the future of tissue engineering one step closer!*  
+
 I led a **multidisciplinary research team** that developed a groundbreaking **"lab-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications.
 
 **Reference:** 
 {% for pub in site.data.publications %}
-  {% if pub.article == "yrjanainen2024barrier" %}
+  {% if pub.article_id == "yrjanainen2024barrier" %}
   - {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
@@ -134,6 +135,7 @@ I led a **multidisciplinary research team** that developed a groundbreaking **"l
 {% endfor %}
 
 > 🎛️ *Control the beating of cardiomyocyte cultures - by temperature!*  
+
 I developed a fuzzy controller and a mathematical model to simulate and control temperature-dependency of beating human cardiomyocyte cultures. This research offers valuable guidance for scientists aiming to standardize experimental conditions and improve the reliability of cardiomyocyte-based assays.
 
 **Reference:** 
