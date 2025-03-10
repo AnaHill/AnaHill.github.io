@@ -310,13 +310,17 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
 For example, this paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool.
 {% for pub in site.data.publications %}
   {% if pub.article_id == "maki2024fuzzy" %}
-    {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
+    {%- capture author_list -%}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          **{{ author }}**
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}
+    {%- endcapture -%}
+    
+    {{ author_list }}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
@@ -405,16 +409,15 @@ Used at least in this publication
   <summary><strong>Show List of All Journal Articles</strong></summary>  
 
 {% for pub in site.data.publications %}
-  <p>
-    {{ forloop.index }}. {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  </p>
+  {{ forloop.index }}. {%- for author in pub.authors -%}
+    {% if author == pub.highlighted_author %}
+      **{{ author }}**
+    {% else %}
+      {{ author }}
+    {% endif %}{% if forloop.last == false %} and {% endif %}
+  {%- endfor -%}.
+  *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  <br>
 {% endfor %}
 
 </details>
@@ -422,7 +425,6 @@ Used at least in this publication
 ### Test list
 
 {% for pub in site.data.publications %}
-  <p>
     {{ forloop.index }}. {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
@@ -431,7 +433,7 @@ Used at least in this publication
       {% endif %}{% if forloop.last == false %} and {% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  </p>
+  <br>
 {% endfor %}
 
 ---
