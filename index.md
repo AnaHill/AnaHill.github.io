@@ -2,12 +2,7 @@
 title: Main page
 ---
 
-<!-- Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**.  -->
-
 Welcome to my home pages. I'm **A-J Mäki**, PhD
-<!-- 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=200&duration=2000&pause=500&multiline=true&width=270&height=80&lines=%E2%80%A2+Data+Engineer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;%E2%80%A2+Lifelong+Researcher+%F0%9F%91%A8%E2%80%8D%F0%9F%94%AC;%E2%80%A2+Data+Nerd+%F0%9F%A4%93)](https://git.io/typing-svg) 
--->
 
 <div align="left">
   <a href="https://git.io/typing-svg">
@@ -15,7 +10,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
   </a>
 </div>
 
-## 🚀 **About Me**  
+## 🚀 About Me  
 
 - 🤓 **Data Nerd** – Always finding resilient solutions that can make impact   
 - ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just so 😎  
@@ -27,7 +22,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 </figure>
 
 
-## 🔍 **Explore More**  
+## 🔍 Explore More  
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
 To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
@@ -36,7 +31,7 @@ To find out more my skills, tools, and projects, check [<span style="color:green
 </p>
 
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
-[👨‍🔬My Academic Portfolio]({{ "/academic.html" | relative_url }} "my academic portfolio")
+[**👨‍🔬My Academic Portfolio**]({{ "/academic.html" | relative_url }} "my academic portfolio").
 
 
 ## 📂 Projects
@@ -51,8 +46,6 @@ On the other hand, I enjoy working on hobby projects, most of them can be found 
 
 ## 📝 <span id="blogs"> Blogs </span>
 
-<span style="color:green"><strong>⚡ Just started blogging, more are coming, please be patient. 😊 </strong></span>  
-
 I share my thoughts from time to time; my latest posts are following:  
 
 <ul>
@@ -66,7 +59,7 @@ I share my thoughts from time to time; my latest posts are following:
 
 See all my blog posts <span style="color:green">**👉[here](/blog/)** </span>  
 
-## 📊 **Visitor's count**
+## 📊 Visitor's count
 <div align="center">   
   <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
 </div>
