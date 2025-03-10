@@ -232,19 +232,15 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
 
 ## Coeboc
-CoEBOC, '_Centre of Excellence in Body on-Chip Research_' is Academy of Finland funded project for the years 2018-2025. [1] 
-The ultimate goal of CoEBoC is to revolutionize healthcare by developing and applying body on-chip (BoC) technology and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
+[CoEBOC,](https://research.tuni.fi/coeboc/) '_Centre of Excellence in Body on-Chip Research_' is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to revolutionize healthcare by developing and applying body on-chip (BoC) technology and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
 
 CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
 
-**Role**: Postdoctoral Researcher in professor Pasi Kallio's team [2], my main tasks were analyzing cell culture data, numerical simulations (FEM), leading a group that developed a novel "body-on-chip" platform for vascularized 3D cell co-cultures [3], and designing control systems [4]. 
+**Role**: Postdoctoral Researcher in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), my main tasks were analyzing cell culture data ('biosignal'), perform numerical simulations (FEM), leading a group that developed [a novel "body-on-chip" platform](https://www.nature.com/articles/s41598-024-74493-3) for vascularized 3D cell co-cultures [3], and designing [fuzzy control systems](https://ieeexplore.ieee.org/document/10242335). 
 
 **Keywords**: microsystems, microfluidics, fem, data analysis, control engineering, iPS, adult stem cells, cardiomyocyte, neuron, imaging
 
-<details>
-  <summary><strong>Show Selected References</strong></summary>  
-1. CoEBoC, Centre of Excellence in Body on-Chip Research, https://research.tuni.fi/coeboc/
-2. Micro- and Nanosystems Research Group, https://research.tuni.fi/mst/ 
+**Selected References**
 
 {% for pub in site.data.publications %}
   {% if pub.category contains "coeboc_publication" %}
@@ -258,9 +254,6 @@ CoEBoC brought together six research groups from Tampere University: microsystem
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
-
-</details>
-
 
 ## HS: Human Spare Parts, 2011-2019
 In this multidisciplinary, research-oriented Business Finland (former TEKES) Human Spare Parts - project between Tampere Universities, the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge in vitro models and solutions.
