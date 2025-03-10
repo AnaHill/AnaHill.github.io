@@ -326,7 +326,7 @@ Plot Thermal images from Fluke Ti400 using MATLAB, code available in: https://gi
 Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
 
 Used at least in this publication 
-<small>
+<div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "skogberg2022self" %}
     - {%- for author in pub.authors -%}
@@ -339,7 +339,7 @@ Used at least in this publication
       *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
     {% endif %}
   {% endfor %}
-</small>
+</div>
 
 
 # <span style="color:#228B22;">Languages and merits </span> 
