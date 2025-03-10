@@ -331,16 +331,19 @@ Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
 Used at least in this publication 
 {% for pub in site.data.publications %}
   {% if pub.article_id == "skogberg2022self" %}
-    {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+    <p>
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+    </p>
   {% endif %}
 {% endfor %}
+
 
 > Skogberg et al. (2022), https://doi.org/10.1039/D1NR06937C
 
