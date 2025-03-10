@@ -308,7 +308,18 @@ Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
 Do you want to use LaTeX for you (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, and therefore Word is preferred? This is tool for you! Minimize hasszle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents and publish high-quality papers.
 
 For example, this paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool.
-> A. -J. Mäki, J. T. Koivumäki, J. Hyttinen and P. Kallio, "Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte Cultures," in IEEE Transactions on Automation Science and Engineering, doi: 10.1109/TASE.2023.3309668.
+{% for pub in site.data.publications %}
+  {% if pub.article_id == "maki2024fuzzy" %}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
 
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 
