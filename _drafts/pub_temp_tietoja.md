@@ -1,3 +1,12 @@
+# Index information
+<!-- Hi, I'm **A-J Mäki**—a curious mind with a passion for **data, sports, and lifelong learning**.  -->
+
+<!-- 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=200&duration=2000&pause=500&multiline=true&width=270&height=80&lines=%E2%80%A2+Data+Engineer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;%E2%80%A2+Lifelong+Researcher+%F0%9F%91%A8%E2%80%8D%F0%9F%94%AC;%E2%80%A2+Data+Nerd+%F0%9F%A4%93)](https://git.io/typing-svg) 
+-->
+
+# Publications
+
 {% for pub in site.data.publications %}
   {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
   - {%- for author in pub.authors -%}
