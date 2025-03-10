@@ -3,7 +3,7 @@ title: Academic portfolio
 ---
 # 👨‍🔬 Welcome to My Academic Portfolio  
 
-Here, I showcase my **lifelong journey in science**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background** with hands-on expertise in **data analysis, machine learning, and data engineering**—a true *data nerd* 🤓 at heart! 
+Here, I showcase my **lifelong journey in science**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background** with hands-on expertise in both **data analysis and data engineering** — a true *data nerd* 🤓 at my ❤️! 
 
 🔍 **Want to see what I do daily?**  
 To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 🤓👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
@@ -147,7 +147,7 @@ I developed a fuzzy controller and a mathematical model to simulate and control 
 Read more: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
-    {% if pub.article_id == "maki2024simulation" %}
+    {% if pub.article_id == "maki2024fuzzy" %}
       {%- for author in pub.authors -%}
         {% if author == pub.highlighted_author %}
           <strong>{{ author }}</strong>
@@ -160,23 +160,29 @@ Read more:
     {% endif %}
   {% endfor %}
 </div>
-   
 
 > 📈 *Truely understand the field potential signals*  
 
-In November 2023, I published a comprehensive report titled **"Opinion: The correct way to analyze FP signals"**. This work encapsulates my extensive experience in analyzing **field potential (FP) signals** derived from **2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
-<details>
-  <summary><strong>Show more</strong></summary>  
+I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
-While developing the **DatAnalyzer** software ([GitHub Repository](https://github.com/AnaHill/DatAnalyzer?utm_source=chatgpt.com)), I observed a wide array of methodologies used for FP signal analysis across various studies. This inconsistency often led to confusion, highlighting the need for a **cohesive analytical framework**.  
- 
-Driven by this realization, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer review process—offers valuable **insights and guidance** for researchers navigating the complexities of FP signal analysis.  
+While developing the **DatAnalyzer** software, I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance** for researchers analyzing FP signals .  
 
-</details>
-
-**Reference:** 
-Mäki et al. (2023) _Opinion: The correct way to analyze FP signals_ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10205591.svg)](https://doi.org/10.5281/zenodo.10205591)
-
+Read more: DatAnalyzer [repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "maki2023opinion" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
 
 <!-- ### Postdoc ### -->
 ## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
