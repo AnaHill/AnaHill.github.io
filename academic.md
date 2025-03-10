@@ -3,18 +3,17 @@ title: Academic portfolio
 ---
 # 👨‍🔬 Welcome to My Academic Portfolio  
 
-Here, I showcase a **lifelong journey in research**, driven by **curiosity, continuous learning, and a deep passion for data**. I bring together a **strong academic background** with hands-on expertise in **data analysis, machine learning, and data engineering**—a true **data nerd** at heart! 🤓 
+Here, I showcase my **lifelong journey in science**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background** with hands-on expertise in **data analysis, machine learning, and data engineering**—a true *data nerd* 🤓 at heart! 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out 
-[<span style="color:green">**👉🛠️ My Work Portfolio 🤓👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
+To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 🤓👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
 <!-- ## NAVIGATOR -->
 <style>
   .nav-link {
     font-size: 1.3rem;
     font-weight: bold;
-    color: green;
+    color: #3498db;
     text-decoration: none; /* Removes underline */
   }
 
@@ -23,21 +22,24 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
   }
 </style>
 
-<br>
-<!-- <span style="color:blue;font-size:1.5rem;">**Navigate directly**</span> -->
+---
+
 <div class="nav-highlight" style="font-size: 1.2rem; font-weight: bold;">
   <strong>🚀 Quick Navigation</strong> 
 </div>
  Use the links below to jump to key sections!
 <nav>
-  <a href="#research" class="nav-link" title="My Research">Research</a> -
-  <a href="#academic-work-experience" class="nav-link" title="My Academic Work Experience">Work Experience</a> -
-  <a href="#projects" class="nav-link" title="Project that I have been working on">Projects</a> -
-  <a href="#publications" class="nav-link" title="My Publications listed">Publications</a>
+  <a href="#research" class="nav-link" title="My Research">👉 Research</a> 
+  <br>
+  <a href="#academic-work-experience" class="nav-link" title="My Academic Work Experience">👉 Work Experience</a> 
+  <br>
+  <a href="#projects" class="nav-link" title="Project that I have been working on">👉 Projects</a> 
+  <br>
+  <a href="#publications" class="nav-link" title="My Publications listed">👉 Publications</a>
 </nav>
-
-
 <!-- ## NAVIGATOR ENDS-->
+
+---
 
 I’d love to hear from you! Whether you have an exciting research idea where I could contribute—because science is fun! 👨‍🔬—or just want to discuss my work, feel free to reach me out.  
 
