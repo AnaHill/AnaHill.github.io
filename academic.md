@@ -329,6 +329,19 @@ Plot Thermal images from Fluke Ti400 using MATLAB, code available in: https://gi
 Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
 
 Used at least in this publication 
+{% for pub in site.data.publications %}
+  {% if pub.article_id == "skogberg2022self" %}
+    {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
+
 > Skogberg et al. (2022), https://doi.org/10.1039/D1NR06937C
 
 
@@ -386,8 +399,11 @@ Used at least in this publication
 
 ## All Journal Articles
 
+<details>
+  <summary><strong>Show List of All Journal Articles</strong></summary>  
+
 {% for pub in site.data.publications %}
-- {%- for author in pub.authors -%}
+  {{ forloop.index }}. {%- for author in pub.authors -%}
     {% if author == pub.highlighted_author %}
       **{{ author }}**
     {% else %}
@@ -397,7 +413,10 @@ Used at least in this publication
   *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
 {% endfor %}
 
+</details>
 
+
+---
 
 <a href="{{ site.baseurl }}/" style="color:green">
   <strong><big>⬅ To My Main Page </big> </strong>
