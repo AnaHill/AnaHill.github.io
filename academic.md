@@ -371,7 +371,7 @@ Used at least in this publication
 
 <!-- [my Scholar profile](https://scholar.google.com/citations?user=bmCs6M0AAAAJ). -->
 <div align="left">
-  Here, my publications are listed. For more information, e.g. see my conference paper, check also
+  Here, my publications are listed. For more information, e.g. see my conference papers, check also
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
   </a>
@@ -403,9 +403,8 @@ Used at least in this publication
 </div>
 
 ---
-
 <details>
-  <summary><strong>Show List of All Journal Articles</strong></summary>  
+  <summary><strong>Show All My Journal Articles</strong></summary>  
   <div style="font-size: 0.8em;">
     {% for pub in site.data.publications %}
         {%- for author in pub.authors -%}
