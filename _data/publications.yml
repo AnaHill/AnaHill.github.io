@@ -19,7 +19,7 @@
   title: Barrier-free, open-top microfluidic chip for generating two distinct, interconnected
     3D microvascular networks
   year: '2024'
-- article_id: maki2024simulation
+- article_id: maki2024fuzzy
   authors:
   - Mäki, Antti-Juhana
   - Koivumäki, Jussi
@@ -27,6 +27,7 @@
   - Kallio, Pasi
   category:
   - selected_publication
+  - coeboc_publication
   doi: 10.1109/TASE.2023.3309668
   highlighted_author: Mäki, Antti-Juhana
   journal: IEEE Transactions on Automation Science and Engineering
