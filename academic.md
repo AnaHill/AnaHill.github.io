@@ -245,8 +245,20 @@ CoEBoC brought together six research groups from Tampere University: microsystem
   <summary><strong>Show Selected References</strong></summary>  
 1. CoEBoC, Centre of Excellence in Body on-Chip Research, https://research.tuni.fi/coeboc/
 2. Micro- and Nanosystems Research Group, https://research.tuni.fi/mst/ 
-3. Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
-4. Mäki et al. (2024) https://doi.org/10.1109/TASE.2023.3309668
+
+{% for pub in site.data.publications %}
+  {% if pub.category contains "coeboc_publication" %}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %}, {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
+
 </details>
 
 
@@ -274,11 +286,25 @@ Developed method and tool (DatAnalyzer) to analyze field potential (FP) signals 
 ![DatAnalyzer in action](/pics/projects/DatAnalyzer.png)
 
 Software has been used at least in the following publications:
+{% for pub in site.data.publications %}
+  {% if pub.category contains "DatAnalyzer" %}
+  - {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %}, {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
+  {% endif %}
+{% endfor %}
+<!-- 
 > Gaballah et al. (2022) https://doi.org/10.3390/cells11061045
 > 
 > Häkli et al. (2022) https://doi.org/10.1155/2022/9438281
 > 
 > Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
+ -->
 
 
 ## <span id="DocLaTex">Write LaTeX documents together with co-authors that use MS Word</span>
@@ -324,7 +350,7 @@ Used at least in this publication
 
 <!-- [my Scholar profile](https://scholar.google.com/citations?user=bmCs6M0AAAAJ). -->
 <div align="left">
-  Here, my publications are listed. For more information, see also my
+  Here, my publications are listed. For more information, e.g. see my conference paper, check also
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
   </a>
@@ -332,11 +358,12 @@ Used at least in this publication
     <img src="https://img.shields.io/badge/ORCHID%20-Blue.svg" />
   </a>
 </div>
-<img src="pics/scholar_statistics_2025_03.png" alt="Google Scholar Statistics March 2025" style="width:50%;">
+<figure style="text-align: left;">
+  <img src="pics/scholar_statistics_2025_03.png" alt="Google Scholar Statistics March 2025" style="width:50%;">
+  <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
+</figure>
 
-<span style="color:red"><strong>⚡ TESTING: This section will be updated, need to modify bad .bib file, maybe convert using e.g. [bibtex-online](https://bibtex.online/).</strong></span>  
-
-## Selected Publications
+## Selected Journal Articles
 
 {% for pub in site.data.publications %}
   {% if pub.category contains "selected_publication" %}
@@ -353,7 +380,7 @@ Used at least in this publication
 
 ---
 
-## All Publications
+## All Journal Articles
 
 {% for pub in site.data.publications %}
 - {%- for author in pub.authors -%}
@@ -365,22 +392,6 @@ Used at least in this publication
   {%- endfor -%}.
   *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
 {% endfor %}
-
-## CoEBoC Publications
-
-{% for pub in site.data.publications %}
-  {% if pub.category contains "coeboc_publication" %}
-  - {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %}, {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  {% endif %}
-{% endfor %}
-
 
 
 
