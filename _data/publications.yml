@@ -54,7 +54,8 @@
   - Aalto-Setälä, Katriina
   - Pekkanen-Mattila, Mari
   category:
-  - elected_publication
+  - selected_publication
+  - DatAnalyzer
   doi: 10.1155/2022/9438281
   highlighted_author: Mäki, Antti-Juhana
   journal: Stem cells international
@@ -104,7 +105,7 @@
   - Kallio, Pasi
   - Aalto-Setälä, Katriina
   category:
-  - regular
+  - DatAnalyzer
   doi: 10.3390/cells11061045
   highlighted_author: Mäki, Antti-Juhana
   journal: Cells
@@ -164,7 +165,7 @@
   - Aalto-Setälä, Katriina
   - Pekkanen-Mattila, Mari
   category:
-  - regular
+  - DatAnalyzer
   doi: 10.1038/s41598-021-83740-w
   highlighted_author: Mäki, Antti-Juhana
   journal: Scientific reports
