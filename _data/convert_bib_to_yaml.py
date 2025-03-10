@@ -11,8 +11,8 @@ publication_list_file_name = "publications.bib"
 # publication_list_file_name = "publications_short.bib"
 
 # Define the name of the output (YAML) file to be saved
-save_file_name = "_data/publications.yml"
-# save_file_name = "_data/publications_test.yml"
+# save_file_name = "_data/publications.yml"
+save_file_name = "publications.yml" # if in _data folder
 # ###################################
 
 def convert_latex_text(latex_text):
