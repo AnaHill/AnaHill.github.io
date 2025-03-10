@@ -292,6 +292,22 @@ Software has been used at least in the following publications:
   {% endif %}
 {% endfor %}
 
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.category contains "DatAnalyzer" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+
 
 ## <span id="DocLaTex">Write LaTeX documents together with co-authors that use MS Word</span>
 Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool.
@@ -301,22 +317,21 @@ Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
 Do you want to use LaTeX for you (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, and therefore Word is preferred? This is tool for you! Minimize hasszle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents and publish high-quality papers.
 
 For example, this paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool.
-{% for pub in site.data.publications %}
-  {% if pub.article_id == "maki2024fuzzy" %}
-    {%- capture author_list -%}
-    - {%- for author in pub.authors -%}
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "maki2024fuzzy" %}
+      {%- for author in pub.authors -%}
         {% if author == pub.highlighted_author %}
-          **{{ author }}**
+          <strong>{{ author }}</strong>
         {% else %}
           {{ author }}
         {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}
-    {%- endcapture -%}
-    
-    {{ author_list }}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  {% endif %}
-{% endfor %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 
