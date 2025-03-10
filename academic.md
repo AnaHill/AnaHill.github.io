@@ -249,7 +249,7 @@ CoEBoC brought together six research groups from Tampere University: microsystem
         **{{ author }}**
       {% else %}
         {{ author }}
-      {% endif %}{% if forloop.last == false %}, {% endif %}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
@@ -286,7 +286,7 @@ Software has been used at least in the following publications:
         **{{ author }}**
       {% else %}
         {{ author }}
-      {% endif %}{% if forloop.last == false %}, {% endif %}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
@@ -365,7 +365,7 @@ Used at least in this publication
         **{{author}}**
       {% else %}
         {{author}}
-      {% endif %}{% if forloop.last == false %},{% endif %}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
@@ -381,7 +381,7 @@ Used at least in this publication
       **{{ author }}**
     {% else %}
       {{ author }}
-    {% endif %}{% if forloop.last == false %}, {% endif %}
+    {% endif %}{% if forloop.last == false %} and {% endif %}
   {%- endfor -%}.
   *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
 {% endfor %}
