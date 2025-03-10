@@ -311,7 +311,7 @@ For example, this paper freely available [here](https://ieeexplore.ieee.org/docu
 {% for pub in site.data.publications %}
   {% if pub.article_id == "maki2024fuzzy" %}
     {%- capture author_list -%}
-      {%- for author in pub.authors -%}
+    - {%- for author in pub.authors -%}
         {% if author == pub.highlighted_author %}
           **{{ author }}**
         {% else %}
@@ -336,7 +336,7 @@ Used at least in this publication
 
 {% for pub in site.data.publications %}
   {% if pub.article_id == "skogberg2022self" %}
-    {%- for author in pub.authors -%}
+  - {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
@@ -417,7 +417,6 @@ Used at least in this publication
     {% endif %}{% if forloop.last == false %} and {% endif %}
   {%- endfor -%}.
   *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  <br>
 {% endfor %}
 
 </details>
@@ -433,7 +432,6 @@ Used at least in this publication
       {% endif %}{% if forloop.last == false %} and {% endif %}
     {%- endfor -%}.
     *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  <br>
 {% endfor %}
 
 ---
