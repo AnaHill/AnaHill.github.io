@@ -310,7 +310,7 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
 For example, this paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool.
 {% for pub in site.data.publications %}
   {% if pub.article_id == "maki2024fuzzy" %}
-  - {%- for author in pub.authors -%}
+    {%- for author in pub.authors -%}
       {% if author == pub.highlighted_author %}
         **{{ author }}**
       {% else %}
@@ -329,18 +329,17 @@ Plot Thermal images from Fluke Ti400 using MATLAB, code available in: https://gi
 Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
 
 Used at least in this publication 
+
 {% for pub in site.data.publications %}
   {% if pub.article_id == "skogberg2022self" %}
-    <p>
-      {%- for author in pub.authors -%}
-        {% if author == pub.highlighted_author %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}.
-      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-    </p>
+    {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        **{{ author }}**
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
   {% endif %}
 {% endfor %}
 
