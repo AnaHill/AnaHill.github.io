@@ -386,20 +386,45 @@ Used at least in this publication
 
 ## Selected Journal Articles
 
-{% for pub in site.data.publications %}
-  {% if pub.category contains "selected_publication" %}
-  - {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{author}}**
-      {% else %}
-        {{author}}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  {% endif %}
-{% endfor %}
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.category contains "selected_publication" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> <!-- Add a small break between references -->
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 ---
+## TEST
+<details>
+  <summary><strong>Show List of All Journal Articles</strong></summary>  
+
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.category contains "selected_publication" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> <!-- Add a small break between references -->
+    {% endif %}
+  {% endfor %}
+</div>
+
+</details>
 
 ## All Journal Articles
 
@@ -419,18 +444,6 @@ Used at least in this publication
 
 </details>
 
-### Test list
-
-{% for pub in site.data.publications %}
-    {{ forloop.index }}. {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-{% endfor %}
 
 ---
 
