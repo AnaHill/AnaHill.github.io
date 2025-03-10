@@ -21,9 +21,9 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 - ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just so 😎  
 - ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
 
-<figure>
-  <img src="/pics/ajm_profile.png" alt="my profile"/>
-  <figcaption style="display: block; text-align: center; font-style: italic;">"A-J Mäki – Data Engineer with a passion for data, research, and continous learning."</figcaption>
+<figure style="text-align: center;">
+  <img src="pics/ajm_profile.png" alt="my profile">
+  <figcaption><em>"This is me 🤓 – Data Engineer with a passion for data, research, and continous learning & teaching." </em></figcaption>
 </figure>
 
 
