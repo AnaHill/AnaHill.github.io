@@ -279,19 +279,6 @@ Developed method and tool (DatAnalyzer) to analyze field potential (FP) signals 
 ![DatAnalyzer in action](/pics/projects/DatAnalyzer.png)
 
 Software has been used at least in the following publications:
-{% for pub in site.data.publications %}
-  {% if pub.category contains "DatAnalyzer" %}
-  - {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  {% endif %}
-{% endfor %}
-
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.category contains "DatAnalyzer" %}
@@ -303,6 +290,7 @@ Software has been used at least in the following publications:
         {% endif %}{% if forloop.last == false %} and {% endif %}
       {%- endfor -%}.
       <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> <!-- Add a small break between references -->
     {% endif %}
   {% endfor %}
 </div>
