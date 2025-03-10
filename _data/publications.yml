@@ -56,6 +56,7 @@
   - Pekkanen-Mattila, Mari
   category:
   - selected_publication
+  - coeboc_publication
   - DatAnalyzer
   doi: 10.1155/2022/9438281
   highlighted_author: Mäki, Antti-Juhana
@@ -90,7 +91,7 @@
   - Kreutzer, Joose
   - Kallio, Pasi
   category:
-  - regular
+  - coeboc_publication
   doi: 10.1007/s10544-022-00634-y
   highlighted_author: Mäki, Antti-Juhana
   journal: Biomedical Microdevices
@@ -106,6 +107,7 @@
   - Kallio, Pasi
   - Aalto-Setälä, Katriina
   category:
+  - coeboc_publication
   - DatAnalyzer
   doi: 10.3390/cells11061045
   highlighted_author: Mäki, Antti-Juhana
@@ -126,7 +128,7 @@
   - Miettinen, Susanna
   - Vuorenpää, Hanna
   category:
-  - regular
+  - coeboc_publication
   doi: 10.3389/fbioe.2022.764237
   highlighted_author: Mäki, Antti-Juhana
   journal: Frontiers in Bioengineering and Biotechnology
@@ -147,7 +149,8 @@
   - Björkqvist, Tomas
   - Kallio, Pasi
   category:
-  - regular
+  - coeboc_publication
+  - selected_publication
   doi: 10.1039/d1nr06937c
   highlighted_author: Mäki, Antti-Juhana
   journal: Nanoscale
@@ -167,6 +170,7 @@
   - Pekkanen-Mattila, Mari
   category:
   - DatAnalyzer
+  - coeboc_publication
   doi: 10.1038/s41598-021-83740-w
   highlighted_author: Mäki, Antti-Juhana
   journal: Scientific reports
@@ -208,10 +212,10 @@
   - Lekkala, Jukka
   - Kallio, Pasi
   category:
-  - regular
+  - selected_publication
   doi: 10.1177/2472630318768710
   highlighted_author: Mäki, Antti-Juhana
-  journal: 'SLAS TECHNOLOGY: Translating Life Sciences Innovation'
+  journal: SLAS Technology
   title: A Portable Microscale Cell Culture System with Indirect Temperature Control
   year: '2018'
 - article_id: skogberg2017cellulose
@@ -222,7 +226,7 @@
   - Lahtinen, Panu
   - Kallio, Pasi
   category:
-  - regular
+  - selected_publication
   doi: 10.1021/acs.biomac.7b00963
   highlighted_author: Mäki, Antti-Juhana
   journal: Biomacromolecules
@@ -285,7 +289,7 @@
   - Auvinen, Sanna
   - Kallio, Pasi
   category:
-  - regular
+  - selected_publication
   doi: 10.1016/j.ces.2015.06.065
   highlighted_author: Mäki, Antti-Juhana
   journal: Chemical Engineering Science
