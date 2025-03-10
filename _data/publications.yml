@@ -33,6 +33,16 @@
   title: Simulation-Based Study of Control Strategies for Beating of Human Cardiomyocyte
     Cultures
   year: '2024'
+- article_id: maki2023opinion
+  authors:
+  - Mäki, Antti-Juhana
+  category:
+  - regular
+  doi: 10.5281/zenodo.10205591
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Zenodo
+  title: 'Opinion: The correct way to analyze FP signals'
+  year: '2023'
 - article_id: hakli2022electrophysiological
   authors:
   - Häkli, Martta
@@ -68,3 +78,214 @@
   title: Pneumatic equiaxial compression device for mechanical manipulation of epithelial
     cell packing and physiology
   year: '2022'
+- article_id: tornberg2022compartmentalized
+  authors:
+  - Tornberg, Kaisa
+  - Välimäki, Hannu
+  - Valaskivi, Silmu
+  - Mäki, Antti-Juhana
+  - Jokinen, Matias
+  - Kreutzer, Joose
+  - Kallio, Pasi
+  category:
+  - regular
+  doi: 10.1007/s10544-022-00634-y
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Biomedical Microdevices
+  title: Compartmentalized organ-on-a-chip structure for spatiotemporal control of
+    oxygen microenvironments.
+  year: '2022'
+- article_id: gaballah2022cardiac
+  authors:
+  - Gaballah, Mahmoud
+  - Penttinen, Kirsi
+  - Kreutzer, Joose
+  - Mäki, Antti-Juhana
+  - Kallio, Pasi
+  - Aalto-Setälä, Katriina
+  category:
+  - regular
+  doi: 10.3390/cells11061045
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Cells
+  title: 'Cardiac Ischemia On-a-Chip: Antiarrhythmic Effect of Levosimendan on Ischemic
+    Human-Induced Pluripotent Stem Cell-Derived Cardiomyocytes'
+  year: '2022'
+- article_id: mykuliak2022vasculogenic
+  authors:
+  - Mykuliak, Anastasiia
+  - Yrjänäinen, Alma
+  - Mäki, Antti-Juhana
+  - Gebraad, Arjen
+  - Lampela, Ella
+  - Kääriäinen, Minna
+  - Pakarinen, Toni-Karri
+  - Kallio, Pasi
+  - Miettinen, Susanna
+  - Vuorenpää, Hanna
+  category:
+  - regular
+  doi: 10.3389/fbioe.2022.764237
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Frontiers in Bioengineering and Biotechnology
+  title: Vasculogenic potency of bone marrow-and adipose tissue-derived mesenchymal
+    stem/stromal cells results in differing vascular network phenotypes in a microfluidic
+    chip
+  year: '2022'
+- article_id: skogberg2022self
+  authors:
+  - Skogberg, Anne
+  - Siljander, Sanna
+  - Mäki, Antti-Juhana
+  - Honkanen, Mari
+  - Efimov, Alexander
+  - Hannula, Markus
+  - Lahtinen, Panu
+  - Tuukkanen, Sampo
+  - Björkqvist, Tomas
+  - Kallio, Pasi
+  category:
+  - regular
+  doi: 10.1039/d1nr06937c
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Nanoscale
+  title: Self-assembled cellulose nanofiber–carbon nanotube nanocomposite films with
+    anisotropic conductivity
+  year: '2022'
+- article_id: hakli2021human
+  authors:
+  - Häkli, Martta
+  - Kreutzer, Joose
+  - Mäki, Antti-Juhana
+  - Välimäki, Hannu
+  - Lappi, Henna
+  - Huhtala, Heini
+  - Kallio, Pasi
+  - Aalto-Setälä, Katriina
+  - Pekkanen-Mattila, Mari
+  category:
+  - regular
+  doi: 10.1038/s41598-021-83740-w
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Scientific reports
+  title: Human induced pluripotent stem cell-based platform for modeling cardiac ischemia
+  year: '2021'
+- article_id: rajan2020cardiomyocytes
+  authors:
+  - Rajan, Dhanesh Kattipparambil
+  - Mäki, Antti-Juhana
+  - Pekkanen-Mattila, Mari
+  - Kreutzer, Joose
+  - Ryynänen, Tomi
+  - Välimäki, Hannu
+  - Verho, Jarmo
+  - Koivumäki, Jussi T
+  - Ihalainen, Heimo
+  - Aalto-Setälä, Katriina
+  - others
+  category:
+  - regular
+  doi: 10.1109/ACCESS.2020.3001191
+  highlighted_author: Mäki, Antti-Juhana
+  journal: IEEE Access
+  title: 'Cardiomyocytes: Analysis of Temperature Response and Signal Propagation
+    Between Dissociated Clusters Using Novel Video-Based Movement Analysis Software'
+  year: '2020'
+- article_id: maki2018portable
+  authors:
+  - Mäki, Antti-Juhana
+  - Verho, Jarmo
+  - Kreutzer, Joose
+  - Ryynänen, Tomi
+  - Rajan, Dhanesh
+  - Pekkanen-Mattila, Mari
+  - Ahola, Antti
+  - Hyttinen, Jari
+  - Aalto-Setälä, Katriina
+  - Lekkala, Jukka
+  - others
+  category:
+  - regular
+  doi: 10.1177/2472630318768710
+  highlighted_author: Mäki, Antti-Juhana
+  journal: 'SLAS TECHNOLOGY: Translating Life Sciences Innovation'
+  title: A Portable Microscale Cell Culture System with Indirect Temperature Control
+  year: '2018'
+- article_id: skogberg2017cellulose
+  authors:
+  - Skogberg, Anne
+  - Mäki, Antti-Juhana
+  - Mettänen, Marja
+  - Lahtinen, Panu
+  - Kallio, Pasi
+  category:
+  - regular
+  doi: 10.1021/acs.biomac.7b00963
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Biomacromolecules
+  title: Cellulose Nanofiber Alignment Using Evaporation-Induced Droplet-Casting,
+    and Cell Alignment on Aligned Nanocellulose Surfaces
+  year: '2017'
+- article_id: kreutzer2017cell
+  authors:
+  - Kreutzer, Joose
+  - Ylä-Outinen, Laura
+  - Mäki, Antti-Juhana
+  - Ristola, Mervi
+  - Narkilahti, Susanna
+  - Kallio, Pasi
+  category:
+  - regular
+  doi: 10.1016/j.jneumeth.2017.01.019
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Journal of Neuroscience Methods
+  title: Cell culture chamber with gas supply for prolonged recording of human neuronal
+    cells on microelectrode array
+  year: '2017'
+- article_id: maki2018indirect
+  authors:
+  - Mäki, Antti-Juhana
+  - Ryynänen, Tomi
+  - Verho, Jarmo
+  - Kreutzer, Joose
+  - Lekkala, Jukka
+  - Kallio, Pasi J
+  category:
+  - regular
+  doi: 10.1109/TASE.2016.2613912
+  highlighted_author: Mäki, Antti-Juhana
+  journal: IEEE Transactions on Automation Science and Engineering
+  title: Indirect temperature measurement and control method for cell culture devices
+  year: '2018'
+- article_id: maki2015modeling
+  authors:
+  - Mäki, Antti-Juhana
+  - Hemmilä, Samu
+  - Hirvonen, Juha
+  - Girish, Nathaniel Narra
+  - Kreutzer, Joose
+  - Hyttinen, Jari
+  - Kallio, Pasi
+  category:
+  - regular
+  doi: 10.1115/1.4028501
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Journal of Fluids Engineering
+  title: Modeling and Experimental Characterization of Pressure Drop in Gravity-Driven
+    Microfluidic Systems
+  year: '2015'
+- article_id: maki2015modeling
+  authors:
+  - Mäki, Antti-Juhana
+  - Peltokangas, Mikko
+  - Kreutzer, Joose
+  - Auvinen, Sanna
+  - Kallio, Pasi
+  category:
+  - regular
+  doi: 10.1016/j.ces.2015.06.065
+  highlighted_author: Mäki, Antti-Juhana
+  journal: Chemical Engineering Science
+  title: Modeling carbon dioxide transport in PDMS-based microfluidic cell culture
+    devices
+  year: '2015'
