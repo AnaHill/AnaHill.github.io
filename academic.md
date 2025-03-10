@@ -92,7 +92,7 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 <!-- ############# WORK ############# -->
 # 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
 
-## Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
+## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
 <span style="color:blue">**NOTE** </span>
@@ -113,7 +113,7 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 
 
 <!-- ### Part-Time Researcher  / Visiting Scholar ### -->
-## Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
+## 🤓 Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
 
 > 🚀 *Bringing the future of tissue engineering one step closer!*  
@@ -169,7 +169,7 @@ Mäki et al. (2023) _Opinion: The correct way to analyze FP signals_ [![DOI](htt
 
 
 <!-- ### Postdoc ### -->
-## Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
+## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
 My research focused on **microsystems**, **microfluidics**, **control engineering**, **data analysis** with MATLAB.
 My main tools were **MATLAB**, **Simulink**, **COMSOL (FEM)**, and **soft lithography (PDMS)**.
 
@@ -193,7 +193,7 @@ Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary Co
 11. Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
 </details>
 
-## Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
+## 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
 
 My main responsibility in the multidisciplinary project was to developed the heat control systems for the autonomous cell cultivation platforms. I was also heavily involved in mathematical modeling and optimization of the cell culture environments, for example using FEM-based simulations.
 
@@ -212,12 +212,12 @@ My main responsibility in the multidisciplinary project was to developed the hea
 
 </details>
 
-## Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
+## 🧑🏼‍🔬 Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
 
 My study was related to immunoassay in microchannels and how they could be used in patient diagnostic.
 
 
-## Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
+## 🧑🏼‍🔬 Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
 I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications. [1, 2]
 
 <details>
@@ -231,7 +231,7 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 <!-- ############# Projects ############# -->
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
 
-## Coeboc
+## 🫀 CoEBoC
 [CoEBOC,](https://research.tuni.fi/coeboc/) '_Centre of Excellence in Body on-Chip Research_' is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to revolutionize healthcare by developing and applying body on-chip (BoC) technology and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
 
 CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
@@ -240,22 +240,27 @@ CoEBoC brought together six research groups from Tampere University: microsystem
 
 **Keywords**: microsystems, microfluidics, fem, data analysis, control engineering, iPS, adult stem cells, cardiomyocyte, neuron, imaging
 
-**Selected References**
+<details>
+  <summary><strong>Show Selected Articles</strong></summary>  
+  <div style="font-size: 0.8em;">
+    {% for pub in site.data.publications %}
+      {% if pub.category contains "coeboc_publication" %}
+        {%- for author in pub.authors -%}
+          {% if author == pub.highlighted_author %}
+            <strong>{{ author }}</strong>
+          {% else %}
+            {{ author }}
+          {% endif %}{% if forloop.last == false %} and {% endif %}
+        {%- endfor -%}.
+        <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+        <br><br> 
+      {% endif %}
+    {% endfor %}
+  </div>
 
-{% for pub in site.data.publications %}
-  {% if pub.category contains "coeboc_publication" %}
-  - {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        **{{ author }}**
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    *"{{ pub.title }}"* {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} [doi: {{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %}
-  {% endif %}
-{% endfor %}
+</details>
 
-## HS: Human Spare Parts, 2011-2019
+## 🦾 Human Spare Parts, 2011-2019
 In this multidisciplinary, research-oriented Business Finland (former TEKES) Human Spare Parts - project between Tampere Universities, the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge in vitro models and solutions.
 
 **Role**: Doctoral Researcher in professor Pasi Kallio's team, I was responsible for simulate and developed novel control solutions for in vitro cell culture environments. [1]
@@ -267,7 +272,7 @@ See _Show Selected References_ list in [Doctoral Researcher](#doctoral_reference
 
 
 <!-- ### Repos/Other project ### -->
-## <span id="DatAnalyzer">DatAnalyzer: The correct way to analyze FP signals</span>
+## <span id="DatAnalyzer">📊 DatAnalyzer: The correct way to analyze FP signals</span>
 Tools to load, visualize, and analyse data using MATLAB.
 - [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer)  
 - Publication _Opinion: The correct way to analyze FP signals_ available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
@@ -297,14 +302,14 @@ Software has been used at least in the following publications:
 
 
 
-## <span id="DocLaTex">Write LaTeX documents together with co-authors that use MS Word</span>
+## <span id="DocLaTex">📄✍️ Write LaTeX documents together with co-authors that use MS Word</span>
 Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool.
 
 Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
 
 Do you want to use LaTeX for you (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, and therefore Word is preferred? This is tool for you! Minimize hasszle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents and publish high-quality papers.
 
-For example, this paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool.
+For example, following paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool:
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -320,10 +325,9 @@ For example, this paper freely available [here](https://ieeexplore.ieee.org/docu
   {% endfor %}
 </div>
 
-
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 
-## Plot Fluke Ti400 thermal images
+## 🌡️ Plot Fluke Ti400 thermal images
 Plotting thermal images from Fluke Ti400 device using MATLAB, code available [here](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images).
 
 Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
@@ -344,9 +348,6 @@ Used at least in this publication
     {% endif %}
   {% endfor %}
 </div>
-
-
-
 
 
 # <span style="color:#228B22;">Languages and merits </span> 
@@ -384,8 +385,8 @@ Used at least in this publication
   <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
 </figure>
 
-## Selected Journal Articles
-
+## 📝 Selected Journal Articles
+Here, I list a few selected articles that highlight my academic work.
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.category contains "selected_publication" %}
@@ -397,14 +398,14 @@ Used at least in this publication
         {% endif %}{% if forloop.last == false %} and {% endif %}
       {%- endfor -%}.
       <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-      <br><br> <!-- Add a small break between references -->
+      <br><br> 
     {% endif %}
   {% endfor %}
 </div>
 
 ---
 <details>
-  <summary><strong>Show All My Journal Articles</strong></summary>  
+  <summary><strong>📚 Show All My Journal Articles</strong></summary>  
   <div style="font-size: 0.8em;">
     {% for pub in site.data.publications %}
         {%- for author in pub.authors -%}
