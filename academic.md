@@ -321,7 +321,7 @@ For example, this paper freely available [here](https://ieeexplore.ieee.org/docu
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 
 ## Plot Fluke Ti400 thermal images
-Plot Thermal images from Fluke Ti400 using MATLAB, code available in: https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images
+Plotting thermal images from Fluke Ti400 device using MATLAB, code available [here](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images).
 
 Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
 
