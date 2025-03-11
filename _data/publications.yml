@@ -91,7 +91,7 @@
   - Kreutzer, Joose
   - Kallio, Pasi
   category:
-  - selected_publication
+  - regular
   doi: 10.1007/s10544-022-00634-y
   highlighted_author: Mäki, Antti-Juhana
   journal: Biomedical Microdevices
@@ -107,7 +107,6 @@
   - Kallio, Pasi
   - Aalto-Setälä, Katriina
   category:
-  - selected_publication
   - DatAnalyzer
   doi: 10.3390/cells11061045
   highlighted_author: Mäki, Antti-Juhana
@@ -128,7 +127,7 @@
   - Miettinen, Susanna
   - Vuorenpää, Hanna
   category:
-  - selected_publication
+  - regular
   doi: 10.3389/fbioe.2022.764237
   highlighted_author: Mäki, Antti-Juhana
   journal: Frontiers in Bioengineering and Biotechnology
@@ -249,7 +248,7 @@
   title: Cell culture chamber with gas supply for prolonged recording of human neuronal
     cells on microelectrode array
   year: '2017'
-- article_id: maki2018indirect
+- article_id: maki2016indirect
   authors:
   - Mäki, Antti-Juhana
   - Ryynänen, Tomi
@@ -263,7 +262,7 @@
   highlighted_author: Mäki, Antti-Juhana
   journal: IEEE Transactions on Automation Science and Engineering
   title: Indirect temperature measurement and control method for cell culture devices
-  year: '2018'
+  year: '2016'
 - article_id: maki2015modeling
   authors:
   - Mäki, Antti-Juhana
