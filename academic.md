@@ -39,8 +39,7 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
 
 ---
 
-<br>
-I’d love to hear from you! Whether you have an exciting research idea where I could contribute—because science is fun! 👨‍🔬—or just want to discuss my work, feel free to reach me out.  
+I’d love to hear from you! Whether you have an exciting research idea where I could contribute—because science is fun!🤓—or just want to discuss my work, feel free to reach me out.  
 
 <div align="left">
   <a href="mailto:maki.antti.j@gmail.com">
@@ -55,12 +54,12 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
   <br/>
 </div>
 
-For more insights into my research, you can also contact **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their cool research is [here](https://research.tuni.fi/mst/). 
+For more insights into my research, you can also contact **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research can be found [here](https://research.tuni.fi/mst/). 
 
 <!-- ######### Research ############ -->
 # 👨‍🔬 <span id="research" style="color:#228B22;">Research</span>
 
-My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🛠️. 
+My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
 
 ![my_expertise](pics/bubble_expertise_academic.png "my academic expertise")
 
@@ -84,7 +83,7 @@ See also my
 D. Sc. (Tech.), Tampere University of Technology, Sep 2018
 - Doctoral dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
 
-My Ph.D. work involved designing and implementing automation and control systems, mathematical modeling and data handling using MATLAB and Simulink, FEM simulations with COMSOL, and much laboratory and design work related to microsystems & microfluidics.
+My Ph.D. work involved designing and implementing control systems, mathematical modeling and data handling using MATLAB and Simulink, FEM simulations with COMSOL, and laboratory work with microfluidics chips.
 
 M. Sc. (Tech.), Tampere University of Technology, July 2010  
 - Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
@@ -94,7 +93,7 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 <!-- ############# WORK ############# -->
 # 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
 Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
-- **tl;dr** → I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 👨‍🔬
+**tl;dr**: I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 👨🏻‍🔬
 
 <!--  -->
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
@@ -122,9 +121,9 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
 
 During this time, we finished following three publications.
 
-> 🚀 *Bringing the future of tissue engineering one step closer!* 🧫 
+> 🚀 <span id="vascularization"> *Bringing the future of tissue engineering one step closer!* 🧫 </span>
 
-I led a **multidisciplinary research team** that developed a groundbreaking **"lab-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
+I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
@@ -164,7 +163,7 @@ I developed **fuzzy controllers and mathematical models to simulate and control 
 
 I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
-While developing the **DatAnalyzer** software, I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance** for researchers analyzing FP signals. Read more on DatAnalyzer [repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and from the following article: 
+While developing the [**DatAnalyzer**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer") software, I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance** for researchers analyzing FP signals. Read more on DatAnalyzer [repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and from the following article: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2023opinion" %}
@@ -183,37 +182,35 @@ While developing the **DatAnalyzer** software, I observed a wide array of method
 
 <!-- ### Postdoc ### -->
 ## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
-As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I devloped data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures. More info on [CoEBoC-project](#-coeboc) section.
+As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed **data analysis methods for several challenging biosignals**. Additionally, I worked as Professor Kallio’s **Vice-PI in a multidisciplinary team** combining cell biologists and engineers, and led a group of researchers developing **a novel vascular-on-a-chip platform for 3D cell co-cultures**. More info on [**CoEBoC-project**](#-coeboc) section.
 - **🚀 Research areas**: lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **🛠️ Main tools**: soft lithography (PDMS), MATLAB, Simulink, COMSOL (FEM) 
 <!-- now refs here, only linkin to coeboc? -->
 
 ## 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
-My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info on [Human Spare Parts](#-human-spare-parts) section.
+My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info about the project on [**Human Spare Parts**](#-human-spare-parts) section.
 - **🚀 Research areas**: microsystems, microfluidics, control engineering, heat control
 - **🛠️ Main tools**: soft lithography, MATLAB, Simulink, COMSOL (FEM) 
-- Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
+- Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' is available [**here**](https://urn.fi/URN:ISBN:978-952-15-4174-2 "dissertation at trepo.tuni.fi").
 
 
 ## 🧑🏼‍🔬 Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
-
-My study was related to immunoassay in microchannels and how they could be used in patient diagnostic.
+My study was related to immunoassay in microchannels and how they could be used in patient diagnostics.
 
 ## 🧑🏼‍🔬 Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
 I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications.
-- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available in https://urn.fi/URN:NBN:fi:tty-201008171286
-- 📝 Mäki et al. (2010). '_Modeling continuous optoelectrowetting device_', in Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010, https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device
+- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [**here**](https://urn.fi/URN:NBN:fi:tty-201008171286 "msc thesis at trepo.tuni.fi") and information about the following conference paper 📝 is given [**here**](https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device "Modeling continuous optoelectrowetting device, Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010").
 
 <!-- ############# Projects ############# -->
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
 
-## 🫀 CoEBoC
-[CoEBOC,](https://research.tuni.fi/coeboc/) '_Centre of Excellence in Body on-Chip Research_' is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to revolutionize healthcare by developing and applying body on-chip (BoC) technology and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
+## 🫀 CoEBoC (_2018 - 2025_)
+[**CoEBOC**](https://research.tuni.fi/coeboc/), '_Centre of Excellence in Body on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying body-on-chip (BoC) technology** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
 
 CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
 
-- **Role**: Postdoctoral Researcher in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), my main tasks were analyzing cell culture data ('biosignal'), perform numerical simulations (FEM), leading a group that developed [a novel "body-on-chip" platform](https://www.nature.com/articles/s41598-024-74493-3) for vascularized 3D cell co-cultures [3], and designing [fuzzy control systems](https://ieeexplore.ieee.org/document/10242335). 
-- **🚀 Research areas**: microsystems, microfluidics, fem, data analysis, control engineering, iPS, adult stem cells, cardiomyocyte, neuron, imaging
+- **⚡Own role**: Postdoctoral Researcher, Vice Principal Investigator (Vice-PI), project lead in [**body-on-chip development**](#vascularization) 
+- **🚀 Research areas**: microfluidics, numerical simulations (FEM), data analysis, control engineering, cardiomyocyte culture, vascularization
 
 <details>
   <summary><strong>Show Selected Articles</strong></summary>  
@@ -232,59 +229,65 @@ CoEBoC brought together six research groups from Tampere University: microsystem
       {% endif %}
     {% endfor %}
   </div>
-
 </details>
 
-## 🦾 Human Spare Parts
-In this multidisciplinary, research-oriented Business Finland (former TEKES) Human Spare Parts - project between Tampere Universities (2011-2019), the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge in vitro models and solutions.
+## 🦾 Human Spare Parts (_2011 - 2019_)
+In this Business Finland (former TEKES) Human Spare Parts - project (2011-2019), the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge _in vitro_ models and solutions.
 
-**Role**: Doctoral Researcher in professor Pasi Kallio's team, I was responsible for simulate and developed novel control solutions for in vitro cell culture environments. [1]
-
-**Keywords**: microsystems, microfluidics, iPS, adult stem cells, biomaterials, biomedical engineering
-
-<!-- TODO: list references **Selected References**: 
-See _Show Selected References_ list in [Doctoral Researcher](#doctoral_references) section.
- -->
+- **⚡Own role**: Doctoral Researcher
+- **🚀 Research areas**: microsystems, numerical simulations (FEM), control engineering
 
 <!-- ### Repos/Other project ### -->
-## <span id="DatAnalyzer">📊 DatAnalyzer: The correct way to analyze FP signals</span>
-Tools to load, visualize, and analyse data using MATLAB.
-- [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer)  
-- Publication _Opinion: The correct way to analyze FP signals_ available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
+## Own projects
+Here, I list some of my research projects I have created during my academic career.
 
-Tools and keywords: **MATLAB**, **data analysis**, **MEA**, **hiPS-CM**
+<!-- DatAnalyzer -->
+> 🚀 <strong><big> 📊 DatAnalyzer: The correct way to analyze FP signals </big></strong>
+- ⚡ **Role:** Creator
+- ✅ **Key Contributions:** Developed tools to load, analyze, and visualize electrical biosignals
+- 🛠️ **Tech Stack:** MATLAB
+- 🏷️ **Key Words:** data analysis, MEA, field potential, hiPS-CM
+- 🔗 **References**
+  - [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo")  
+  - Publication _Opinion: The correct way to analyze FP signals_ is available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
 
-Developed method and tool (DatAnalyzer) to analyze field potential (FP) signals from 2D human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed my own methdod that could be considered.
+Developed **DatAnalyzer** software can analyze field potential (FP) signals from human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. Furthermore, I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed new methdod for the proper analysis.
 
 ![DatAnalyzer in action](/pics/projects/DatAnalyzer.png)
 
-Software has been used at least in the following publications:
-<div style="font-size: 0.8em;">
-  {% for pub in site.data.publications %}
-    {% if pub.category contains "DatAnalyzer" %}
-      {%- for author in pub.authors -%}
-        {% if author == pub.highlighted_author %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}.
-      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-      <br><br> <!-- Add a small break between references -->
-    {% endif %}
-  {% endfor %}
-</div>
+<details>
+  <summary><strong>Show Selected Articles where DatAnalyzer have been used</strong></summary>  
+  <div style="font-size: 0.8em;">
+    {% for pub in site.data.publications %}
+      {% if pub.category contains "DatAnalyzer" %}
+        {%- for author in pub.authors -%}
+          {% if author == pub.highlighted_author %}
+            <strong>{{ author }}</strong>
+          {% else %}
+            {{ author }}
+          {% endif %}{% if forloop.last == false %} and {% endif %}
+        {%- endfor -%}.
+        <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+        <br><br> 
+      {% endif %}
+    {% endfor %}
+  </div>
+</details>
 
+---
 
+<!-- DocLaTex -->
+> 🚀 <strong><big> ✍️ Write LaTeX documents together with co-authors that use MS Word </big></strong>
+- ⚡ **Role:** Creator
+- ✅ **Key Contributions:** Developed conversion tool to work with MS Word using Pandoc & Markdowns & LaTeX
+- 🛠️ **Tech Stack:** Powershell, Pandoc, LaTeX, Markdown
+- 🏷️ **Key Words:** automation, publish
+- 🔗 **References**
+  - [Project repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word "Write-LaTeX-documents-using-Word repo")  
 
-## <span id="DocLaTex">📄✍️ Write LaTeX documents together with co-authors that use MS Word</span>
-Project [page](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) explains how to use this tool.
+Do you want to use LaTeX for you (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, and therefore Word is preferred? This is tool for you! Minimize hassle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents. And you are ready to publish high-quality papers like following that was written using this tool!
 
-Tools: **Powershell**, **Pandoc**, **LaTeX**, **Markdown**
-
-Do you want to use LaTeX for you (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, and therefore Word is preferred? This is tool for you! Minimize hasszle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents and publish high-quality papers.
-
-For example, following paper freely available [here](https://ieeexplore.ieee.org/document/10242335) was written using this tool:
+![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -300,15 +303,18 @@ For example, following paper freely available [here](https://ieeexplore.ieee.org
   {% endfor %}
 </div>
 
-![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
+---
 
-## 🌡️ Plot Fluke Ti400 thermal images
-Plotting thermal images from Fluke Ti400 device using MATLAB, code available [here](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images).
+<!-- fluke -->
+> 🚀 <strong><big> 🌡️ Plot Fluke Ti400 thermal images</big></strong>
+- ⚡ **Role:** Creator, co-author
+- ✅ **Key Contributions:** Plot thermal images for the analysis
+- 🛠️ **Tech Stack:** MATLAB, PowerShell, thermal images
+- 🏷️ **Key Words:** automation, publish
+- 🔗 **References**
+  - [Project repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images "Plot Fluke thermal images using MATLAB repo")  
 
-Tools and keywords: **MATLAB**, **PowerShell**, **thermal images**
-
-Used at least in this publication 
-
+ In the following publication, thermal images from Fluke Ti400 device were plotted
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "skogberg2022self" %}
@@ -324,7 +330,7 @@ Used at least in this publication
   {% endfor %}
 </div>
 
-
+<!-- Languages and merits -->
 # <span style="color:#228B22;">Languages and merits </span> 
 ## Language
 - Finnish: Mother tongue
@@ -344,10 +350,8 @@ Used at least in this publication
 
 <!-- ############# -->
 # 📝 <span id="publications" style="color:#228B22;">Publications</span>
-
-<!-- [my Scholar profile](https://scholar.google.com/citations?user=bmCs6M0AAAAJ). -->
 <div align="left">
-  Here, my publications are listed. For more information, e.g. see my conference papers, check also
+  In this section, I list my journal articles; for more information, e.g. see my conference papers, check also the following links
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
   </a>
@@ -360,8 +364,8 @@ Used at least in this publication
   <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
 </figure>
 
-## 📝 Selected Journal Articles
-Here, I list a few selected articles that highlight my academic work.
+<details>
+  <summary><strong>📝 Show Selected Journal Articles that highlight my academic work</strong></summary>  
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.category contains "selected_publication" %}
@@ -377,8 +381,8 @@ Here, I list a few selected articles that highlight my academic work.
     {% endif %}
   {% endfor %}
 </div>
+</details>
 
----
 <details>
   <summary><strong>📚 Show All My Journal Articles</strong></summary>  
   <div style="font-size: 0.8em;">
@@ -394,10 +398,7 @@ Here, I list a few selected articles that highlight my academic work.
         <br><br> <!-- Add a small break between references -->
     {% endfor %}
   </div>
-
 </details>
-
-
 
 ---
 
