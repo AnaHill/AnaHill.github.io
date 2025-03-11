@@ -26,7 +26,42 @@ Passionate data professional with a strong analytical background. Over two years
 
 
 # Publications
+## Postdoc publications
 
+<details>
+  <summary><strong>Show Selected References</strong></summary>  
+
+1. Micro- and Nanosystems Research Group, [https://research.tuni.fi/mst/](https://research.tuni.fi/mst/)
+2. CoEBoC, Centre of Excellence in Body on-Chip Research, [https://research.tuni.fi/coeboc/](https://research.tuni.fi/coeboc/)
+3. DatAnalyzer, [Github-repo](https://github.com/AnaHill/DatAnalyzer)
+4. Häkli et al. (2022) https://doi.org/10.1155/2022/9438281
+5. Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
+6. Mykuliak et al. (2022) https://doi.org/10.3389%2Ffbioe.2022.764237
+7. Gaballah et al. (2022) https://doi.org/10.3390/cells11061045
+8. Skogberg et al. (2022) https://doi.org/10.1039/D1NR06937C
+9. Tornberg et al. (2022) https://doi.org/10.1007/s10544-022-00634-y 
+10. Peussa et al. (2022) https://doi.org/10.1371/journal.pone.0268570
+11. Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
+</details>
+
+## phd publications
+<!-- **Selected References**   -->
+<details>
+  <summary><strong id="doctoral_references">Show Selected References</strong></summary>  
+
+1. Doctoral dissertation (2018), titled 'Modeling and Control of Microscale Cell Culture Environments' is available in https://urn.fi/URN:ISBN:978-952-15-4174-2
+2. Mäki et al. (2018) https://doi.org/10.1177/2472630318768710
+3. Mäki et al. (2018) https://doi.org/10.1109/TASE.2016.2613912
+4. Mäki et al. (2015) https://doi.org/10.1016/j.ces.2015.06.065
+5. Mäki et al. (2015) https://doi.org/10.1115/1.4028501
+6. Kreutzer et al. (2017) https://doi.org/10.1016/j.jneumeth.2017.01.019
+7. Rajan et al. (2020) https://doi.org/10.1109/ACCESS.2020.3001191
+8. Skogberg et al. (2017) https://doi.org/10.1021/acs.biomac.7b00963
+
+</details>
+
+
+## Other
 {% for pub in site.data.publications %}
   {% if pub.title contains "Barrier-free, open-top microfluidic chip for generating two distinct" %}
   - {%- for author in pub.authors -%}
