@@ -59,11 +59,7 @@ For more insights into my research, you can also contact **Professor Pasi Kallio
 <!-- ######### Research ############ -->
 # 👨‍🔬 <span id="research" style="color:#228B22;">Research</span>
 
-My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
-
-![my_expertise](pics/bubble_expertise_academic.png "my academic expertise")
-
-See also my 
+My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. See also my 
 <div align="left">
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
@@ -75,6 +71,8 @@ See also my
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
+
+![my_expertise](pics/bubble_expertise_academic.png "my academic expertise")
 
 ---
 
@@ -93,13 +91,13 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 <!-- ############# WORK ############# -->
 # 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
 Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
-**tl;dr**: I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 👨🏻‍🔬
+- **tl;dr**: 👨🏻‍🔬 I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 
 
 <!--  -->
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
-<span style="color:blue">**NOTE** </span>
+**NOTE**: 
 These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [started blogging](https://anahill.github.io/blog/), and these will likely be my first topics. Stay tuned! ✍️  
 
 <strong><big> My Tips for Academy </big></strong>
@@ -182,13 +180,13 @@ While developing the [**DatAnalyzer**](https://github.com/AnaHill/DatAnalyzer "D
 
 <!-- ### Postdoc ### -->
 ## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
-As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed **data analysis methods for several challenging biosignals**. Additionally, I worked as Professor Kallio’s **Vice-PI in a multidisciplinary team** combining cell biologists and engineers, and led a group of researchers developing **a novel vascular-on-a-chip platform for 3D cell co-cultures**. More info on [**CoEBoC-project**](#-coeboc) section.
+As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed **data analysis methods for several challenging biosignals**. Additionally, I worked as Professor Kallio’s **Vice-PI in a multidisciplinary team** combining cell biologists and engineers, and led a group of researchers developing **a novel vascular-on-a-chip platform for 3D cell co-cultures**. More info on [**CoEBoC-project**](#coeboc) section.
 - **🚀 Research areas**: lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **🛠️ Main tools**: soft lithography (PDMS), MATLAB, Simulink, COMSOL (FEM) 
 <!-- now refs here, only linkin to coeboc? -->
 
 ## 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
-My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info about the project on [**Human Spare Parts**](#-human-spare-parts) section.
+My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info about the project on [**Human Spare Parts**](#hs) section.
 - **🚀 Research areas**: microsystems, microfluidics, control engineering, heat control
 - **🛠️ Main tools**: soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 - Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' is available [**here**](https://urn.fi/URN:ISBN:978-952-15-4174-2 "dissertation at trepo.tuni.fi").
@@ -204,7 +202,7 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 <!-- ############# Projects ############# -->
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
 
-## 🫀 CoEBoC (_2018 - 2025_)
+## 🫀 <span id="coeboc" style="color:#228B22;"> CoEBoC (_2018 - 2025_) </span>
 [**CoEBOC**](https://research.tuni.fi/coeboc/), '_Centre of Excellence in Body on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying body-on-chip (BoC) technology** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
 
 CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
@@ -231,7 +229,7 @@ CoEBoC brought together six research groups from Tampere University: microsystem
   </div>
 </details>
 
-## 🦾 Human Spare Parts (_2011 - 2019_)
+## 🦾 <span id="hs" style="color:#228B22;"> Human Spare Parts (_2011 - 2019_) </span>
 In this Business Finland (former TEKES) Human Spare Parts - project (2011-2019), the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge _in vitro_ models and solutions.
 
 - **⚡Own role**: Doctoral Researcher
@@ -273,6 +271,7 @@ Developed **DatAnalyzer** software can analyze field potential (FP) signals from
     {% endfor %}
   </div>
 </details>
+<br>
 
 ---
 
@@ -285,7 +284,7 @@ Developed **DatAnalyzer** software can analyze field potential (FP) signals from
 - 🔗 **References**
   - [Project repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word "Write-LaTeX-documents-using-Word repo")  
 
-Do you want to use LaTeX for you (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, and therefore Word is preferred? This is tool for you! Minimize hassle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents. And you are ready to publish high-quality papers like following that was written using this tool!
+Do you want to use LaTeX for your (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, thus Word is preferred? This is tool for you! Minimize hassle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents. And you are ready to publish high-quality papers like following that was written using this tool!
 
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 <div style="font-size: 0.8em;">
@@ -302,11 +301,13 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
     {% endif %}
   {% endfor %}
 </div>
+<br>
 
 ---
 
 <!-- fluke -->
 > 🚀 <strong><big> 🌡️ Plot Fluke Ti400 thermal images</big></strong>
+
 - ⚡ **Role:** Creator, co-author
 - ✅ **Key Contributions:** Plot thermal images for the analysis
 - 🛠️ **Tech Stack:** MATLAB, PowerShell, thermal images
@@ -314,7 +315,7 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
 - 🔗 **References**
   - [Project repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images "Plot Fluke thermal images using MATLAB repo")  
 
- In the following publication, thermal images from Fluke Ti400 device were plotted
+ In the following publication, thermal images from Fluke Ti400 device were plotted using this tool.
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "skogberg2022self" %}
@@ -364,8 +365,9 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
   <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
 </figure>
 
+To highlight my academic work, I have chosen following articles:
 <details>
-  <summary><strong>📝 Show Selected Journal Articles that highlight my academic work</strong></summary>  
+  <summary><strong>📝 Show Selected Journal Articles </strong></summary>  
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.category contains "selected_publication" %}
@@ -382,9 +384,11 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
   {% endfor %}
 </div>
 </details>
+<br>
 
+Below, all my journal articles are list.
 <details>
-  <summary><strong>📚 Show All My Journal Articles</strong></summary>  
+  <summary><strong>📚 Show All Journal Articles</strong></summary>  
   <div style="font-size: 0.8em;">
     {% for pub in site.data.publications %}
         {%- for author in pub.authors -%}
@@ -399,6 +403,7 @@ Do you want to use LaTeX for you (scientific) paper, but struggling when co-auth
     {% endfor %}
   </div>
 </details>
+<br>
 
 ---
 
