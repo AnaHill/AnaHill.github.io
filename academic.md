@@ -3,10 +3,10 @@ title: Academic portfolio
 ---
 # 👨‍🔬 Welcome to My Academic Portfolio  
 
-Here, I showcase my **lifelong journey in science**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background** with hands-on expertise in both **data analysis and data engineering** — a true *data nerd* 🤓 at my ❤️! 
+Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background 👨‍🔬** with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 🤓👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
+To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
 
 ---
 
@@ -18,13 +18,10 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
     color: #3498db;
     text-decoration: none; /* Removes underline */
   }
-
   .nav-link:hover {
     color: #DAA520; /* Changes color on hover */
   }
 </style>
-
-
 <div class="nav-highlight" style="font-size: 1.2rem; font-weight: bold;">
   <strong>🚀 Quick Navigation</strong> 
 </div>
@@ -32,7 +29,7 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
 <nav>
   <a href="#research" class="nav-link" title="My Research">👉 Research</a> 
   <br>
-  <a href="#academic-work-experience" class="nav-link" title="My Academic Work Experience">👉 Work Experience</a> 
+  <a href="#academic-work-experience" class="nav-link" title="My Academic Work Experience">👉 Academic Work Experience</a> 
   <br>
   <a href="#projects" class="nav-link" title="Project that I have been working on">👉 Projects</a> 
   <br>
@@ -42,6 +39,7 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
 
 ---
 
+<br>
 I’d love to hear from you! Whether you have an exciting research idea where I could contribute—because science is fun! 👨‍🔬—or just want to discuss my work, feel free to reach me out.  
 
 <div align="left">
@@ -57,12 +55,16 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
   <br/>
 </div>
 
-For more insights into my research, you can also contact **Professor Pasi Kallio**, who leads the [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/).  
+For more insights into my research, you can also contact **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their cool research is [here](https://research.tuni.fi/mst/). 
 
-<!-- 🔍 *Additional references are available upon request.*   -->
-
+<!-- ######### Research ############ -->
 # 👨‍🔬 <span id="research" style="color:#228B22;">Research</span>
 
+My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🛠️. 
+
+![my_expertise](pics/bubble_expertise_academic.png "my academic expertise")
+
+See also my 
 <div align="left">
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
@@ -74,12 +76,8 @@ For more insights into my research, you can also contact **Professor Pasi Kallio
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
-<!-- <br/> -->
 
-My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both **Simulink & MATLAB** and **FEM** (**COMSOL**), and **data analysis** with **MATLAB**.
-
-![my_expertise](pics/bubble_expertise_academic.png "my academic expertise")
-<!-- TODO: Bubble pic academics + data engineer&nerd -->
+---
 
 <!-- ############# -->
 # 🎓<span style="color:#228B22;">Education</span>
@@ -90,36 +88,44 @@ My Ph.D. work involved designing and implementing automation and control systems
 
 M. Sc. (Tech.), Tampere University of Technology, July 2010  
 - Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
-<!-- - Student exchange, Hong Kong Polytechnic University, 2006-2007   -->
+
+---
 
 <!-- ############# WORK ############# -->
 # 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
+Not the easiest job to summarize my over 15+ years in academia. At least so that it would be appealing. 😆
+**tl;dr** I developed **mathematical models** using _FEM/COMSOL_ and _MATLAB & Simulink_, conducted **data analysis** with MATLAB, designed various **control systems**, including those utilizing fuzzy controllers, and developed microfluidics chips. 👨‍🔬
 
+Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
+- **tl;dr** → I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 
+
+<!--  -->
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
 <span style="color:blue">**NOTE** </span>
-These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also plan to start blogging, and these will likely be my first topics. Stay tuned! ✍️  
+These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [started blogging](https://anahill.github.io/blog/), and these will likely be my first topics. Stay tuned! ✍️  
 
+<strong><big> My Tips for Academy </big></strong>
+- Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc 👉 check [link](https://github.com/AnaHill/Tips-for-Academy)
 
-### My Tips for Academy [link](https://github.com/AnaHill/Tips-for-Academy)
-> Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc
+<strong><big> How to write scientific papers </big></strong>
+- A follow-up to my [Write LaTeX Documents using Word](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) guide, this post explores how you can leverage **VS Code, Markdown, Pandoc, LaTeX, and BibTeX** to efficiently format and publish high-quality (scientific) papers <span style="color:red"> link coming soon(ish)</span>
+- **P.S.** 🚀 *Effortless writing not guaranteed—but at least the workflow is smooth(er)!* 🤓  
 
-### How to write scientific papers [<span style="color:red"> link coming soon(ish)</span>]() 
-
-> A follow-up to my [Write LaTeX Documents using Word](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) guide, this post explores how you can leverage **VS Code, Markdown, Pandoc, LaTeX, and BibTeX** to efficiently format and publish high-quality (scientific) papers.  
-> 
-> **P.S.** 🚀 *Effortless writing not guaranteed—but at least the workflow is smooth(er)!* 🤓  
-
-### How to set up Python environments for data projects [link](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects)
-> My proposal how to set up Python environment for (hobby) data projects by combining  **Miniconda, pip, VS Code,...**
+<strong><big> How to set up Python environments for data projects </big></strong>
+- My proposal how to set up Python environment for (hobby) data projects by combining  **Miniconda, pip, VS Code,...** 👉 check [link](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects)
 
 
 <!-- ### Part-Time Researcher  / Visiting Scholar ### -->
 ## 🤓 Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
-Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio to finish the following three publications.
+Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
+- **🚀 Research areas**: lab-on-a-chip, vascularization, data analysis, fuzzy control
+- **🛠️ Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
-> 🚀 *Bringing the future of tissue engineering one step closer!*  
+During this time, we finished following three publications.
+
+> 🚀 *Bringing the future of tissue engineering one step closer!* 🧫 
 
 I led a **multidisciplinary research team** that developed a groundbreaking **"lab-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
 <div style="font-size: 0.8em;">
@@ -137,9 +143,8 @@ I led a **multidisciplinary research team** that developed a groundbreaking **"l
     {% endif %}
   {% endfor %}
 </div>
-   
 
-> 🎛️ *Control the beating of cardiomyocyte cultures - by temperature!*  
+> 🎚️ *Control the beating of cardiomyocyte cultures - by temperature!* 🌡️  
 
 I developed **fuzzy controllers and mathematical models to simulate and control temperature-dependency of beating human cardiomyocyte cultures**. This research offers valuable guidance for scientists aiming to **standardize experimental conditions** and **improve the reliability of cardiomyocyte cell cultures**. Read more: 
 <div style="font-size: 0.8em;">
@@ -158,7 +163,7 @@ I developed **fuzzy controllers and mathematical models to simulate and control 
   {% endfor %}
 </div>
 
-> 📈 *Truely understand the field potential signals*  
+> 📈 *Truely understand the field potential signals* 📊 
 
 I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
@@ -181,63 +186,26 @@ While developing the **DatAnalyzer** software, I observed a wide array of method
 
 <!-- ### Postdoc ### -->
 ## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
-My research focused on **microsystems**, **microfluidics**, **control engineering**, **data analysis** with MATLAB.
-My main tools were **MATLAB**, **Simulink**, **COMSOL (FEM)**, and **soft lithography (PDMS)**.
-
-I worked as a postdoc in professor Pasi Kallio's team [1, 2](), where I developed data engineering and analysis solutions to automatize data analysis of several challenging biosignals and data types (e.g. HDF5, .csv, image, and video). My work involved GUI development and implementation of machine learning solutions in MATLAB environment. [3-8]()
-
-Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary CoEBoC team [2]() combining cell biologists and engineers, and led a group of researchers developing a novel "body-on-chip" platform for vascularized 3D cell co-cultures studies [11]().
-
-<details>
-  <summary><strong>Show Selected References</strong></summary>  
-
-1. Micro- and Nanosystems Research Group, [https://research.tuni.fi/mst/](https://research.tuni.fi/mst/)
-2. CoEBoC, Centre of Excellence in Body on-Chip Research, [https://research.tuni.fi/coeboc/](https://research.tuni.fi/coeboc/)
-3. DatAnalyzer, [Github-repo](https://github.com/AnaHill/DatAnalyzer)
-4. Häkli et al. (2022) https://doi.org/10.1155/2022/9438281
-5. Häkli et al. (2021) https://doi.org/10.1038/s41598-021-83740-w
-6. Mykuliak et al. (2022) https://doi.org/10.3389%2Ffbioe.2022.764237
-7. Gaballah et al. (2022) https://doi.org/10.3390/cells11061045
-8. Skogberg et al. (2022) https://doi.org/10.1039/D1NR06937C
-9. Tornberg et al. (2022) https://doi.org/10.1007/s10544-022-00634-y 
-10. Peussa et al. (2022) https://doi.org/10.1371/journal.pone.0268570
-11. Yrjänäinen et al. (2024) https://doi.org/10.1038/s41598-024-74493-3 
-</details>
+As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I devloped data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures. More info on [CoEBoC-project](#-coeboc) section.
+- **🚀 Research areas**: lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
+- **🛠️ Main tools**: soft lithography (PDMS), MATLAB, Simulink, COMSOL (FEM) 
+<!-- now refs here, only linkin to coeboc? -->
 
 ## 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
+My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info on [Human Spare Parts](#-human-spare-parts) section.
+- **🚀 Research areas**: microsystems, microfluidics, control engineering, heat control
+- **🛠️ Main tools**: soft lithography, MATLAB, Simulink, COMSOL (FEM) 
+- Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
 
-My main responsibility in the multidisciplinary project was to developed the heat control systems for the autonomous cell cultivation platforms. I was also heavily involved in mathematical modeling and optimization of the cell culture environments, for example using FEM-based simulations.
-
-<!-- **Selected References**   -->
-<details>
-  <summary><strong id="doctoral_references">Show Selected References</strong></summary>  
-
-1. Doctoral dissertation (2018), titled 'Modeling and Control of Microscale Cell Culture Environments' is available in https://urn.fi/URN:ISBN:978-952-15-4174-2
-2. Mäki et al. (2018) https://doi.org/10.1177/2472630318768710
-3. Mäki et al. (2018) https://doi.org/10.1109/TASE.2016.2613912
-4. Mäki et al. (2015) https://doi.org/10.1016/j.ces.2015.06.065
-5. Mäki et al. (2015) https://doi.org/10.1115/1.4028501
-6. Kreutzer et al. (2017) https://doi.org/10.1016/j.jneumeth.2017.01.019
-7. Rajan et al. (2020) https://doi.org/10.1109/ACCESS.2020.3001191
-8. Skogberg et al. (2017) https://doi.org/10.1021/acs.biomac.7b00963
-
-</details>
 
 ## 🧑🏼‍🔬 Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
 
 My study was related to immunoassay in microchannels and how they could be used in patient diagnostic.
 
-
 ## 🧑🏼‍🔬 Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
-I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications. [1, 2]
-
-<details>
-  <summary><strong>Show more about the thesis </strong></summary>  
-
-1. Master thesis (2010), titled 'Optically induced electric fields and their use in microfluidics and cell manipulation applications' is available in https://urn.fi/URN:NBN:fi:tty-201008171286
-2. Mäki et al. (2010).  'Modeling continuous optoelectrowetting device', in Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010, https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device
-</details>
-
+I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications.
+- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available in https://urn.fi/URN:NBN:fi:tty-201008171286
+- 📝 Mäki et al. (2010). '_Modeling continuous optoelectrowetting device_', in Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010, https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device
 
 <!-- ############# Projects ############# -->
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
@@ -247,9 +215,8 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 
 CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
 
-**Role**: Postdoctoral Researcher in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), my main tasks were analyzing cell culture data ('biosignal'), perform numerical simulations (FEM), leading a group that developed [a novel "body-on-chip" platform](https://www.nature.com/articles/s41598-024-74493-3) for vascularized 3D cell co-cultures [3], and designing [fuzzy control systems](https://ieeexplore.ieee.org/document/10242335). 
-
-**Keywords**: microsystems, microfluidics, fem, data analysis, control engineering, iPS, adult stem cells, cardiomyocyte, neuron, imaging
+- **Role**: Postdoctoral Researcher in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), my main tasks were analyzing cell culture data ('biosignal'), perform numerical simulations (FEM), leading a group that developed [a novel "body-on-chip" platform](https://www.nature.com/articles/s41598-024-74493-3) for vascularized 3D cell co-cultures [3], and designing [fuzzy control systems](https://ieeexplore.ieee.org/document/10242335). 
+- **🚀 Research areas**: microsystems, microfluidics, fem, data analysis, control engineering, iPS, adult stem cells, cardiomyocyte, neuron, imaging
 
 <details>
   <summary><strong>Show Selected Articles</strong></summary>  
@@ -271,16 +238,16 @@ CoEBoC brought together six research groups from Tampere University: microsystem
 
 </details>
 
-## 🦾 Human Spare Parts, 2011-2019
-In this multidisciplinary, research-oriented Business Finland (former TEKES) Human Spare Parts - project between Tampere Universities, the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge in vitro models and solutions.
+## 🦾 Human Spare Parts
+In this multidisciplinary, research-oriented Business Finland (former TEKES) Human Spare Parts - project between Tampere Universities (2011-2019), the goal was to develop stem cell-based advanced in vitro models and solutions for cardiac, neural, bone, and adipose diseases and traumas. It combined tens of experts from different research fields, such as microsystems, stem cells, biomaterials, and biomedical engineering, and produced several leading edge in vitro models and solutions.
 
 **Role**: Doctoral Researcher in professor Pasi Kallio's team, I was responsible for simulate and developed novel control solutions for in vitro cell culture environments. [1]
 
 **Keywords**: microsystems, microfluidics, iPS, adult stem cells, biomaterials, biomedical engineering
 
-**Selected References**: 
+<!-- TODO: list references **Selected References**: 
 See _Show Selected References_ list in [Doctoral Researcher](#doctoral_references) section.
-
+ -->
 
 <!-- ### Repos/Other project ### -->
 ## <span id="DatAnalyzer">📊 DatAnalyzer: The correct way to analyze FP signals</span>
@@ -369,14 +336,14 @@ Used at least in this publication
 - German: A1
 - Mandarin: A1
 
-## Merits
+## Academic Merits
 - Invention disclosures
   <!-- - Miinan keksari  -->
   - TKS0222021 MEA-signaalin analyysityökalu (”MEA analysis tool”), granted 05/2021
   - TKS0612020 Pilarivapaa 3D monisolukasvatuschippi (”Barrier-free 3D co-culture chip”), granted 06/2020
 - Member of the Organizing Committee, Nordic Organ on a Chip Symposium 2019, 08/2019
 - Member of Future Finders network, Tampere University 2019-2022
-- Finnish military rank: second lieutenant
+<!-- grant TUT's presidents -->
 
 <!-- ############# -->
 # 📝 <span id="publications" style="color:#228B22;">Publications</span>
