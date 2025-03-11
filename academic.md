@@ -93,11 +93,8 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 
 <!-- ############# WORK ############# -->
 # 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
-Not the easiest job to summarize my over 15+ years in academia. At least so that it would be appealing. 😆
-**tl;dr** I developed **mathematical models** using _FEM/COMSOL_ and _MATLAB & Simulink_, conducted **data analysis** with MATLAB, designed various **control systems**, including those utilizing fuzzy controllers, and developed microfluidics chips. 👨‍🔬
-
 Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
-- **tl;dr** → I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 
+- **tl;dr** → I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 👨‍🔬
 
 <!--  -->
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
