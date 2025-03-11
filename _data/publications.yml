@@ -91,7 +91,7 @@
   - Kreutzer, Joose
   - Kallio, Pasi
   category:
-  - coeboc_publication
+  - selected_publication
   doi: 10.1007/s10544-022-00634-y
   highlighted_author: Mäki, Antti-Juhana
   journal: Biomedical Microdevices
@@ -107,7 +107,7 @@
   - Kallio, Pasi
   - Aalto-Setälä, Katriina
   category:
-  - coeboc_publication
+  - selected_publication
   - DatAnalyzer
   doi: 10.3390/cells11061045
   highlighted_author: Mäki, Antti-Juhana
@@ -128,7 +128,7 @@
   - Miettinen, Susanna
   - Vuorenpää, Hanna
   category:
-  - coeboc_publication
+  - selected_publication
   doi: 10.3389/fbioe.2022.764237
   highlighted_author: Mäki, Antti-Juhana
   journal: Frontiers in Bioengineering and Biotechnology
@@ -170,7 +170,7 @@
   - Pekkanen-Mattila, Mari
   category:
   - DatAnalyzer
-  - coeboc_publication
+  - selected_publication
   doi: 10.1038/s41598-021-83740-w
   highlighted_author: Mäki, Antti-Juhana
   journal: Scientific reports
@@ -274,7 +274,7 @@
   - Hyttinen, Jari
   - Kallio, Pasi
   category:
-  - regular
+  - selected_publication
   doi: 10.1115/1.4028501
   highlighted_author: Mäki, Antti-Juhana
   journal: Journal of Fluids Engineering
