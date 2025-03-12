@@ -37,8 +37,6 @@ Before transitioning into the data consultant, I had a long and diverse academic
 
 
 ## 📂 Projects
-<span style="color:green"><strong>⚡ This section is under construction!</strong></span>  
-
 I have list my work-related projects <span style ="color:green"><strong>👉[here](work.html#projects) </strong></span>.
 On the other hand, I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
