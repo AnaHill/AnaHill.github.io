@@ -3,7 +3,7 @@ layout: post
 title: "Create a website from your repo using GitHub Pages"
 date: 2025-03-12
 # last_modified_at: 2025-03-20
-categories: [pages, portfolio]
+categories: [portfolio]
 tags: [GitHub Pages, Jekyll, portfolio]
 ---
 
@@ -42,10 +42,25 @@ As an example, see `readme.md` and `index.md` in my repo
 ![alt text](..\pics\posts\How_indexmd_shows_as_page.png "how index.md is converted to page")
 
 ### Step2: set-up config 
-
+create `_config.yml` in your main folder.
+```yml
+title: A-J Mäki, PhD
+description: Data Engineer & Passionate Data Guy 
+logo: /pics/headshot_circle_ajm.png
+repository: AnaHill/AnaHill.github.io
+url: "https://anahill.github.io"
+baseurl: ""  # Empty baseurl is okay for GitHub Pages
+show_downloads: true
+remote_theme: pages-themes/merlot@v0.2.0
+plugins:
+- jekyll-remote-theme
+```
+Using merlot theme, _title_ and _description_ are following on your main page 
+![title and description](..\pics\posts\how_title_and_description_is_showed.png "how title and description are shown on  page using merlot theme")
+how_title_and_description_is_showed
 
 ## <span id="ref"> Find out more </span>
-- named username.github.io
+- GitHub Pages [documentation](https://pages.github.com/)
 - Chijioke Joseph Okorji: [_From Meh to Marvelous: The Ultimate Guide to Crafting a Killer GitHub Profile_](https://medium.com/@chijiokeokorji/from-meh-to-marvelous-the-ultimate-guide-to-crafting-a-killer-github-profile-8dd3f6c6d602) and [repo](https://github.com/ChijiokeOkorji/ChijiokeOkorji)
 - Shaw Talebi: [_How to Make a (Free) Data Science Portfolio Website With GitHub Pages_](https://medium.com/the-data-entrepreneurs/how-to-make-a-free-data-science-portfolio-website-with-github-pages-aa1e4965e155)
 - Alexandre Sanlim: his [repo](https://github.com/alexandresanlim/) has some nice features worth of checking
