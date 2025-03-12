@@ -55,9 +55,8 @@ remote_theme: pages-themes/merlot@v0.2.0
 plugins:
 - jekyll-remote-theme
 ```
-Using merlot theme, _title_ and _description_ are following on your main page 
+Using merlot theme, _title_ and _description_ are shown like following in your main page 
 ![title and description](..\pics\posts\how_title_and_description_is_showed.png "how title and description are shown on  page using merlot theme")
-how_title_and_description_is_showed
 
 ## <span id="ref"> Find out more </span>
 - GitHub Pages [documentation](https://pages.github.com/)
