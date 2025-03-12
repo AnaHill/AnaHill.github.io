@@ -14,7 +14,6 @@ Resume
 </button>
 </a>
 
-
 ---
 
 <!-- ## NAVIGATOR -->
@@ -34,13 +33,11 @@ Resume
 </div>
  Use the links below to jump to key sections!
 <nav>
-  <a href="#research" class="nav-link" title="My Research">👉 Research</a> 
+  <a href="#academic-work-experience" class="nav-link" title="My research and work experience">👉🔬 Research & 💼 Work History</a> 
   <br>
-  <a href="#academic-work-experience" class="nav-link" title="My Academic Work Experience">👉 Academic Work Experience</a> 
+  <a href="#projects" class="nav-link" title="Project that I have been working on">👉🗂️ Projects </a> 
   <br>
-  <a href="#projects" class="nav-link" title="Project that I have been working on">👉 Projects</a> 
-  <br>
-  <a href="#publications" class="nav-link" title="My Publications listed">👉 Publications</a>
+  <a href="#publications" class="nav-link" title="My Publications listed">👉📝 Publications</a>
 </nav>
 <!-- ## NAVIGATOR ENDS-->
 
@@ -63,11 +60,24 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
 
 For more insights into my research, you can also contact **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research can be found [here](https://research.tuni.fi/mst/). 
 
-<!-- ######### Research ############ -->
-# 👨‍🔬 <span id="research" style="color:#228B22;">Research</span>
+<!-- ############# -->
+# 🎓<span style="color:#228B22;">Education</span>
+D. Sc. (Tech.), Tampere University of Technology, Sep 2018
+- Doctoral dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
 
-My research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. See also my 
+My Ph.D. work involved designing and implementing control systems, mathematical modeling and data handling using MATLAB and Simulink, FEM simulations with COMSOL, and laboratory work with microfluidics chips.
+
+M. Sc. (Tech.), Tampere University of Technology, July 2010  
+- Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
+
+<!-- ############# WORK ############# -->
+#  <span id="academic-work-experience" style="color:#228B22;">💼 My Research & Work Experience</span>
+Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
+- **tl;dr**: My 👨‍🔬 research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
+![research_summary](pics/bubble_expertise_academic.png "summary of my research")
+
 <div align="left">
+  More information on 
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
   </a>
@@ -79,28 +89,8 @@ My research focused on **control engineering**, **microfluidics**, **mathematica
   </a>
 </div>
 
-![my_expertise](pics/bubble_expertise_academic.png "my academic expertise")
-
 ---
 
-<!-- ############# -->
-# 🎓<span style="color:#228B22;">Education</span>
-D. Sc. (Tech.), Tampere University of Technology, Sep 2018
-- Doctoral dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
-
-My Ph.D. work involved designing and implementing control systems, mathematical modeling and data handling using MATLAB and Simulink, FEM simulations with COMSOL, and laboratory work with microfluidics chips.
-
-M. Sc. (Tech.), Tampere University of Technology, July 2010  
-- Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
-
----
-
-<!-- ############# WORK ############# -->
-# 💼 <span id="academic-work-experience" style="color:#228B22;">Academic Work Experience</span>
-Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
-- **tl;dr**: 👨🏻‍🔬 I specialized in **mathematical modeling**, designed **control systems**, dived deep into **data analysis**, and developed cutting-edge **microfluidic chips**. 
-
-<!--  -->
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
@@ -168,7 +158,7 @@ I developed **fuzzy controllers and mathematical models to simulate and control 
 
 I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
-While developing the [**DatAnalyzer**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer") software, I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance** for researchers analyzing FP signals. Read more on DatAnalyzer [repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and from the following article: 
+While developing the [**DatAnalyzer**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer") software, I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance for researchers analyzing FP signals**. More information on DatAnalyzer [**repo**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and in the following article: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2023opinion" %}
