@@ -334,13 +334,12 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 
 ## Academic Merits
 - Invention disclosures
-  <!-- - Miinan keksari  -->
-  - TKS0222021 MEA-signaalin analyysityökalu (”MEA analysis tool”), granted 05/2021
-  - TKS0612020 Pilarivapaa 3D monisolukasvatuschippi (”Barrier-free 3D co-culture chip”), granted 06/2020
+  - TKS0222022 Kudosteknologisen lihaskimpun kehikko (”_Frame of an engineered skeletal muscle bundle_”), granted 08/2022 (second author)
+  - TKS0222021 MEA-signaalin analyysityökalu (”_MEA analysis tool_”), granted 05/2021
+  - TKS0612020 Pilarivapaa 3D monisolukasvatuschippi (”_Barrier-free 3D co-culture chip_”), granted 06/2020
 - Member of the Organizing Committee, Nordic Organ on a Chip Symposium 2019, 08/2019
 - Member of Future Finders network, Tampere University 2019-2022
-- The President's of the Tampere University of Technology grant, 2011-2015
-<!-- TODO: official grant name -->
+- Doctoral Programme of the President of the Tampere University of Technology, 09/2021 – 08/2015; personal salary
 
 <!-- ############# -->
 # 📝 <span id="publications" style="color:#228B22;">Publications</span>
