@@ -1,6 +1,6 @@
 ---
 layout: list_pages
-title: "📝 Blog & Tags"
+title: "📝 A-J Mäki's Blog Posts"
 permalink: /blog/
 ---
 
