@@ -6,7 +6,7 @@ title: Work portfolio
 Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
-  💼 Reach me via:  
+  💼 Reach me via  
   <br>
   <a href="mailto:maki.antti.j@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
@@ -18,6 +18,8 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
+
+<a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
 🔍 By the way, **Solita** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.solita.fi/join-us/ "open positions at Solita") 👈 or just drop me a message ✉︎. 
 

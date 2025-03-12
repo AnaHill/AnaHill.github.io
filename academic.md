@@ -7,12 +7,8 @@ Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, 
 
 🔍 **Want to see what I do daily?**  
 To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
-<a href="data/resume_ajm.pdf" target="_blank" style="padding-top: 5px">
-<button class="resume-btn" type="button" name="button" style="font-family: net !important">
-<i class="fa fa-download" aria-hidden="true"></i>
-Resume
-</button>
-</a>
+
+<a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
 ---
 
@@ -63,12 +59,12 @@ For more insights into my research, you can also contact **Professor Pasi Kallio
 <!-- ############# -->
 # 🎓<span style="color:#228B22;">Education</span>
 D. Sc. (Tech.), Tampere University of Technology, Sep 2018
-- Doctoral dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
+- 📝 Doctoral dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
 
 My Ph.D. work involved designing and implementing control systems, mathematical modeling and data handling using MATLAB and Simulink, FEM simulations with COMSOL, and laboratory work with microfluidics chips.
 
 M. Sc. (Tech.), Tampere University of Technology, July 2010  
-- Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
+- 📝 Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
 
 <!-- ############# WORK ############# -->
 #  <span id="academic-work-experience" style="color:#228B22;">💼 My Research & Work Experience</span>
@@ -114,7 +110,7 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
 - **🚀 Research areas**: lab-on-a-chip, vascularization, data analysis, fuzzy control
 - **🛠️ Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
-During this time, we finished following three publications.
+During this time, we finished following three publications 📝.
 
 > 🚀 <span id="vascularization"> *Bringing the future of tissue engineering one step closer!* 🧫 </span>
 
@@ -186,7 +182,7 @@ As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](
 My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info about the project on [**Human Spare Parts**](#hs) section.
 - **🚀 Research areas**: microsystems, microfluidics, control engineering, heat control
 - **🛠️ Main tools**: soft lithography, MATLAB, Simulink, COMSOL (FEM) 
-- Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' is available [**here**](https://urn.fi/URN:ISBN:978-952-15-4174-2 "dissertation at trepo.tuni.fi").
+- **📖 Thesis**: Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [**here**](https://urn.fi/URN:ISBN:978-952-15-4174-2 "dissertation at trepo.tuni.fi").
 
 
 ## 🧑🏼‍🔬 Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
@@ -194,7 +190,7 @@ My study was related to immunoassay in microchannels and how they could be used 
 
 ## 🧑🏼‍🔬 Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
 I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications.
-- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [**here**](https://urn.fi/URN:NBN:fi:tty-201008171286 "msc thesis at trepo.tuni.fi") and information about the following conference paper 📝 is given [**here**](https://researchportal.tuni.fi/en/publications/modeling-continuous-optoelectrowetting-device "Modeling continuous optoelectrowetting device, Proceedings of the 2nd European Conference on Microfluidics - Microfluidics 2010, Toulouse, December 8-10, 2010").
+- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [**here**](https://urn.fi/URN:NBN:fi:tty-201008171286 "msc thesis at trepo.tuni.fi") and was later presented 🗣 in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010
 
 <!-- ############# Projects ############# -->
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
@@ -238,8 +234,9 @@ Here, I list some of my research projects I have created during my academic care
 
 <!-- DatAnalyzer -->
 > 🚀 <strong><big> 📊 DatAnalyzer: The correct way to analyze FP signals </big></strong>
+
 - ⚡ **Role:** Creator
-- ✅ **Key Contributions:** Developed tools to load, analyze, and visualize electrical biosignals
+- ✅ **Key Contributions:** Developed tools to load, analyze, and visualize data, especially electrical biosignals
 - 🛠️ **Tech Stack:** MATLAB
 - 🏷️ **Key Words:** data analysis, MEA, field potential, hiPS-CM
 - 🔗 **References**
