@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Create a website from your repo using GitHub Pages"
-date: 2025-03-15
+date: 2025-03-12
 # last_modified_at: 2025-03-20
 categories: [pages, portfolio]
 tags: [GitHub Pages, Jekyll, portfolio]
