@@ -229,26 +229,24 @@ In this Business Finland (former TEKES) Human Spare Parts - project (2011-2019),
 - **🚀 Research areas**: microsystems, numerical simulations (FEM), control engineering
 
 <!-- ### Repos/Other project ### -->
-## Own projects
+## 👨‍💻 Own projects
 Here, I list some of my research projects I have created during my academic career.
 
 <!-- DatAnalyzer -->
-> 🚀 <strong><big> 📊 DatAnalyzer: The correct way to analyze FP signals </big></strong>
+> 🚀 <strong><big> DatAnalyzer: The correct way to analyze FP signals 📊 </big></strong>
 
 - ⚡ **Role:** Creator
 - ✅ **Key Contributions:** Developed tools to load, analyze, and visualize data, especially electrical biosignals
 - 🛠️ **Tech Stack:** MATLAB
 - 🏷️ **Key Words:** data analysis, MEA, field potential, hiPS-CM
-- 🔗 **References**
-  - [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo")  
-  - Publication _Opinion: The correct way to analyze FP signals_ is available in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
+- 🔗 **References:** [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and publication _Opinion: The correct way to analyze FP signals_ in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
 
-Developed **DatAnalyzer** software can analyze field potential (FP) signals from human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. Furthermore, I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed new methdod for the proper analysis.
+I developed **DatAnalyzer** software to analyze field potential (FP) signals from human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. Furthermore, I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed new methdod for the proper analysis.
 
 ![DatAnalyzer in action](/pics/projects/DatAnalyzer.png)
 
 <details>
-  <summary><strong>Show Selected Articles where DatAnalyzer have been used</strong></summary>  
+  <summary><strong> List of Publications using DatAnalyzer</strong></summary>  
   <div style="font-size: 0.8em;">
     {% for pub in site.data.publications %}
       {% if pub.category contains "DatAnalyzer" %}
@@ -270,15 +268,14 @@ Developed **DatAnalyzer** software can analyze field potential (FP) signals from
 ---
 
 <!-- DocLaTex -->
-> 🚀 <strong><big> ✍️ Write LaTeX documents together with co-authors that use MS Word </big></strong>
+> 🚀 <strong><big> Write LaTeX documents together with co-authors that use MS Word ✍️</big></strong>
 - ⚡ **Role:** Creator
 - ✅ **Key Contributions:** Developed conversion tool to work with MS Word using Pandoc & Markdowns & LaTeX
 - 🛠️ **Tech Stack:** Powershell, Pandoc, LaTeX, Markdown
 - 🏷️ **Key Words:** automation, publish
-- 🔗 **References**
-  - [Project repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word "Write-LaTeX-documents-using-Word repo")  
+- 🔗 **References:** [Project repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word "Write-LaTeX-documents-using-Word repo")  
 
-Do you want to use LaTeX for your (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, thus Word is preferred? This is tool for you! Minimize hassle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents. And you are ready to publish high-quality papers like following that was written using this tool!
+Do you want to use LaTeX for your (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, thus Word is preferred? This is tool for you! Minimize hassle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents. And you are ready to publish high-quality papers like the following that was written using this tool! 😎
 
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
 <div style="font-size: 0.8em;">
@@ -299,8 +296,7 @@ Do you want to use LaTeX for your (scientific) paper, but struggling when co-aut
 
 ---
 
-<!-- fluke -->
-> 🚀 <strong><big> 🌡️ Plot Fluke Ti400 thermal images</big></strong>
+> 🚀 <strong><big> Plot Fluke Ti400 thermal images 🌡️</big></strong>
 
 - ⚡ **Role:** Creator, co-author
 - ✅ **Key Contributions:** Plot thermal images for the analysis
@@ -309,7 +305,9 @@ Do you want to use LaTeX for your (scientific) paper, but struggling when co-aut
 - 🔗 **References**
   - [Project repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images "Plot Fluke thermal images using MATLAB repo")  
 
- In the following publication, thermal images from Fluke Ti400 device were plotted using this tool.
+![Plot thermal images with MATLAB](/pics/projects/fluke.png "Example thermal image plotted in MATLAB")
+
+In the following publication, thermal images from Fluke Ti400 device were plotted using this tool.
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "skogberg2022self" %}
@@ -341,7 +339,8 @@ Do you want to use LaTeX for your (scientific) paper, but struggling when co-aut
   - TKS0612020 Pilarivapaa 3D monisolukasvatuschippi (”Barrier-free 3D co-culture chip”), granted 06/2020
 - Member of the Organizing Committee, Nordic Organ on a Chip Symposium 2019, 08/2019
 - Member of Future Finders network, Tampere University 2019-2022
-<!-- grant TUT's presidents -->
+- The President's of the Tampere University of Technology grant, 2011-2015
+<!-- TODO: official grant name -->
 
 <!-- ############# -->
 # 📝 <span id="publications" style="color:#228B22;">Publications</span>
@@ -378,8 +377,6 @@ To highlight my academic work, I have chosen following articles:
   {% endfor %}
 </div>
 </details>
-<br>
-
 Below, all my journal articles are list.
 <details>
   <summary><strong>📚 Show All Journal Articles</strong></summary>  
