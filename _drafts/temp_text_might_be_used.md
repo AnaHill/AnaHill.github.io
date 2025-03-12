@@ -9,6 +9,14 @@
 
 <!-- - Student exchange, Hong Kong Polytechnic University, 2006-2007   -->
 
+## resume hienona
+<a href="blob/main/_data/resume_ajm.pdf" target="_blank" style="padding-top: 5px">
+<button class="resume-btn" type="button" name="button" style="font-family: net !important">
+<i class="fa fa-download" aria-hidden="true"></i>
+Resume
+</button>
+</a>
+
 # some text currently not used in CV 
 Besides data engineer tasks like developing and maintaining data pipelines and their monitoring systems, I have e.g. created a machine learning based recommendation system that was integrated to data pipelines for analysis and visualization purposes.
 
