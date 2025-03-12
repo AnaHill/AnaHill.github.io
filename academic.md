@@ -6,7 +6,14 @@ title: Academic portfolio
 Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background 👨‍🔬** with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")
+To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
+<a href="data/resume_ajm.pdf" target="_blank" style="padding-top: 5px">
+<button class="resume-btn" type="button" name="button" style="font-family: net !important">
+<i class="fa fa-download" aria-hidden="true"></i>
+Resume
+</button>
+</a>
+
 
 ---
 
