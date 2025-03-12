@@ -29,6 +29,8 @@ To find out more my skills, tools, and projects, check [<span style="color:green
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
 </p>
+<a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
+
 
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
 [**👨‍🔬My Academic Portfolio**]({{ "/academic.html" | relative_url }} "my academic portfolio").
