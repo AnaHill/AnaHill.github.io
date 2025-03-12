@@ -74,7 +74,7 @@ My research focused on **control engineering**, **microfluidics**, **mathematica
   <a href="https://orcid.org/0000-0001-7565-3530" target="_blank">
     <img src="https://img.shields.io/badge/ORCHID%20-Blue.svg" />
   </a>
-  <a href="https://anahill.github.io/" target="_blank">
+  <a href="https://github.com/AnaHill/" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
