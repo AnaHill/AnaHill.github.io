@@ -39,11 +39,13 @@ As an example, see `readme.md` and `index.md` in my repo
 - 👨‍🔬 **[Academic Portfolio](https://anahill.github.io/academic.html)** 
 - 📝 Check out my blog posts **[here](https://anahill.github.io/blog/)**  
 ```
+
 ![alt text](..\pics\posts\How_indexmd_shows_as_page.png "how index.md is converted to page")
 
 ### Step2: set-up config 
 create `_config.yml` in your main folder.
-```yml
+
+```
 title: A-J Mäki, PhD
 description: Data Engineer & Passionate Data Guy 
 logo: /pics/headshot_circle_ajm.png
@@ -55,6 +57,7 @@ remote_theme: pages-themes/merlot@v0.2.0
 plugins:
 - jekyll-remote-theme
 ```
+
 Using merlot theme, _title_ and _description_ are shown like following in your main page 
 ![title and description](..\pics\posts\how_title_and_description_is_showed.png "how title and description are shown on  page using merlot theme")
 
