@@ -131,7 +131,7 @@ I led a **multidisciplinary research team** that developed a groundbreaking **"b
   {% endfor %}
 </div>
 
-> 🎚️ *Control the beating of cardiomyocyte cultures - by temperature!* 🌡️  
+> 🎚️ <span id="fuzzy_control"> *Control the beating of cardiomyocyte cultures - by temperature!* 🌡️  
 
 I developed **fuzzy controllers and mathematical models to simulate and control temperature-dependency of beating human cardiomyocyte cultures**. This research offers valuable guidance for scientists aiming to **standardize experimental conditions** and **improve the reliability of cardiomyocyte cell cultures**. Read more: 
 <div style="font-size: 0.8em;">
@@ -292,7 +292,7 @@ Do you want to use LaTeX for your (scientific) paper, but struggling when co-aut
     {% endif %}
   {% endfor %}
 </div>
-<br>
+
 
 ---
 
@@ -358,19 +358,41 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 
 ## Selected Articles
 To highlight my academic work, I have chosen following articles that are listed below.
-{% for pub in site.data.publications %}
-  {% if pub.category contains "selected_publication" %}
-    {%- for author in pub.authors -%}
-      {% if author == pub.highlighted_author %}
-        <strong>{{ author }}</strong>
-      {% else %}
-        {{ author }}
-      {% endif %}{% if forloop.last == false %} and {% endif %}
-    {%- endfor -%}.
-    <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-    <br><br> 
-  {% endif %}
-{% endfor %}
+
+This is my first paper where I was the last author. We developed a novel, vascularized 3D chip, see more in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip"). 
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "yrjanainen2024barrier" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
+
+I developed fuzzy controllers and created a simulation environment and mathematical models, see more in [**Control the beating of cardiomyocyte cultures**](#fuzzy_control "fuzzy control environment").
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "maki2024fuzzy" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 
 
