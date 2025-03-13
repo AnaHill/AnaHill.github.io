@@ -357,9 +357,7 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 </figure>
 
 ## Selected Articles
-To highlight my academic work, I have chosen following articles that are listed below.
-
-This is my first paper where I was the last author. We developed a novel, vascularized 3D chip, see more in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip"). 
+To highlight my academic work, I have chosen following articles that are listed below, starting with the first paper where I am the last author. In this study, we developed a novel, vascularized 3D chip, see more in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip"). It was even in Finnish news!
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
