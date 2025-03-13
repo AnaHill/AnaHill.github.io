@@ -2,9 +2,9 @@
 layout: post
 title: "How to start blogging using GitHub Pages"
 date: 2025-03-01
-last_modified_at: 2025-03-03
+last_modified_at: 2025-03-13
 categories: [blogging]
-tags: [GitHub Pages, Jekyll, Blogging]
+tags: [GitHub Pages, Jekyll, blogging]
 ---
 
 In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
