@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "How to set up GitHub Pages"
-date: 2025-03-13
-# last_modified_at: 2025-03-20
-categories: [portfolio]
+date: 2025-03-13 # last_modified_at: 2025-03-20
+categories: [own page]
 tags: [GitHub Pages, Jekyll, portfolio]
 ---
 
