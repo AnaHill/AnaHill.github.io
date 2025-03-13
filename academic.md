@@ -196,11 +196,11 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 # 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
 
 ## 🫀 <span id="coeboc" style="color:#228B22;"> CoEBoC (_2018 - 2025_) </span>
-[**CoEBOC**](https://research.tuni.fi/coeboc/), '_Centre of Excellence in Body on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying body-on-chip (BoC) technology** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
+[**CoEBoC**](https://research.tuni.fi/coeboc/ "CoEBoC, Centre of Excellence in Body-on-Chip Research"), '_Centre of Excellence in Body-on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying Body-on-Chip (BoC) technologies** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
 
 CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
 
-- **⚡Own role**: Postdoctoral Researcher, Vice Principal Investigator (Vice-PI), project lead in [**body-on-chip development**](#vascularization) 
+- **⚡Own role**: Postdoctoral Researcher, Vice Principal Investigator (Vice-PI), project lead in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip") 
 - **🚀 Research areas**: microfluidics, numerical simulations (FEM), data analysis, control engineering, cardiomyocyte culture, vascularization
 
 <details>
@@ -302,8 +302,7 @@ Do you want to use LaTeX for your (scientific) paper, but struggling when co-aut
 - ✅ **Key Contributions:** Plot thermal images for the analysis
 - 🛠️ **Tech Stack:** MATLAB, PowerShell, thermal images
 - 🏷️ **Key Words:** automation, publish
-- 🔗 **References**
-  - [Project repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images "Plot Fluke thermal images using MATLAB repo")  
+- 🔗 **References:** [Project repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images "Plot Fluke thermal images using MATLAB repo")  
 
 ![Plot thermal images with MATLAB](/pics/projects/fluke.png "Example thermal image plotted in MATLAB")
 
@@ -357,7 +356,25 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
   <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
 </figure>
 
-To highlight my academic work, I have chosen following articles:
+## Selected Articles
+To highlight my academic work, I have chosen following articles that are listed below.
+{% for pub in site.data.publications %}
+  {% if pub.category contains "selected_publication" %}
+    {%- for author in pub.authors -%}
+      {% if author == pub.highlighted_author %}
+        <strong>{{ author }}</strong>
+      {% else %}
+        {{ author }}
+      {% endif %}{% if forloop.last == false %} and {% endif %}
+    {%- endfor -%}.
+    <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+    <br><br> 
+  {% endif %}
+{% endfor %}
+
+
+
+### Selected Articles listed
 <details>
   <summary><strong>📝 Show Selected Journal Articles </strong></summary>  
 <div style="font-size: 0.8em;">
@@ -376,7 +393,9 @@ To highlight my academic work, I have chosen following articles:
   {% endfor %}
 </div>
 </details>
-Below, all my journal articles are list.
+
+# All Journal Articles
+Click below to see list of all journal articles I am involved in.
 <details>
   <summary><strong>📚 Show All Journal Articles</strong></summary>  
   <div style="font-size: 0.8em;">
@@ -393,7 +412,6 @@ Below, all my journal articles are list.
     {% endfor %}
   </div>
 </details>
-<br>
 
 ---
 
