@@ -38,7 +38,7 @@ As an example, see `readme.md` and `index.md` in my repo
 - 📝 Check out my blog posts **[here](https://anahill.github.io/blog/)**  
 ```
 
-![index.md to page](..\pics\posts\How_indexmd_shows_as_page.png "how index.md is converted to page")
+![index.md to page](/pics/posts/How_indexmd_shows_as_page.png "how index.md is converted to page")
 
 ### Step2: set-up config 
 create `_config.yml` in your main folder.
@@ -57,7 +57,7 @@ plugins:
 ```
 
 Using merlot theme, _title_ and _description_ are shown like following in your main page 
-![title and description](..\pics\posts\how_title_and_description_is_showed.png "how title and description are shown on  page using merlot theme")
+![title and description](/pics/posts/how_title_and_description_is_showed.png "how title and description are shown on  page using merlot theme")
 
 <!--  -->
 ## <span id="ref"> Find out more </span>
@@ -66,6 +66,5 @@ Using merlot theme, _title_ and _description_ are shown like following in your m
 - Shaw Talebi: [_How to Make a (Free) Data Science Portfolio Website With GitHub Pages_](https://medium.com/the-data-entrepreneurs/how-to-make-a-free-data-science-portfolio-website-with-github-pages-aa1e4965e155)
 - Alexandre Sanlim: his [repo](https://github.com/alexandresanlim/) has some nice features worth of checking
 - Daria Stanilevici: her [repo](https://github.com/daria-stanilevici/daria-stanilevici)  has some nice features worth of checking
-- https://pages.github.com/
 
 --- 

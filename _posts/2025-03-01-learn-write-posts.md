@@ -47,22 +47,23 @@ layout: default
   <p>
     <strong>Tags:</strong>
     {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" style="color:blue;">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+      <span style="color:blue;">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </p>
-  {% endif %}
+{% endif %}
+
   
 
   <div class="content">
     {{ content }}
   </div>
   
-  <a href="{{ site.baseurl }}/blog/" style="color:blue;">
-    <strong>⬅ Back to My Blog list</strong>
+  <a href="{{ site.baseurl }}/blog/" style="color:green;">
+    <strong>⬅ To My Blog list</strong>
   </a>
   <br>
-  <a href="{{ site.baseurl }}" style="color:green">
-    <strong>⬅ Back to My Main Page</strong>
+  <a href="{{ site.baseurl }}/" style="color:green">
+    <strong>⬅ To My Main Page</strong>
   </a>
 </article>
 
@@ -70,8 +71,24 @@ layout: default
 ```
 
 You can create list of your (blog) post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). 
-I have included following code in my <a href="{{ site.url }}/"> main page</a> to list my blog posts
+I have included following code in my <a href="{{ site.url }}/"> main page</a> to list my recent blog posts, where with parameter `limit:5` you can control how many recent blog posts are listed.
 
+```html
+{% raw %}
+I share my thoughts from time to time; my latest posts are following:  
+
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
+      <em>({{ post.date | date: "%B %d, %Y" }})</em>
+    </li>
+  {% endfor %}
+</ul>
+{% endraw %}
+```
+
+I have also created a blog archieve [page](https://anahill.github.io/blog/ "blog post listed") to list all my post with following code.
 ```html
 {% raw %}
 <ul>
@@ -84,6 +101,8 @@ I have included following code in my <a href="{{ site.url }}/"> main page</a> to
 </ul>
 {% endraw %}
 ```
+
+📝 Happy blogging! 😊
 
 ## References used
 - [GitHub Docs to add content with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
