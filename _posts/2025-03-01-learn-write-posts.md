@@ -52,8 +52,6 @@ layout: default
   </p>
 {% endif %}
 
-  
-
   <div class="content">
     {{ content }}
   </div>
@@ -66,11 +64,10 @@ layout: default
     <strong>⬅ To My Main Page</strong>
   </a>
 </article>
-
 {% endraw %}
 ```
 
-You can create list of your post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). I included following code in my <a href="{{ site.url }}/"> main page</a> to list only my recent blog posts; with parameter `{% for post in site.posts limit:5 %}` you can control how many posts are listed. If you want to list all your post, like I have done in my blog archieve [page](https://anahill.github.io/blog/ "blog post listed"), just remove `limit:5` so line would be `{% for post in site.posts %}`.
+You can create list of your post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). I included following code in my <a href="{{ site.url }}/"> main page</a> to list only my recent blog posts; with parameter in the for-loop, `limit:5` you can control how many posts are listed. If you want to list all your post, like I have done in my blog archieve [page](https://anahill.github.io/blog/ "blog post listed"), just remove `limit:5` in the for loop row.
 
 ```html
 {% raw %}
