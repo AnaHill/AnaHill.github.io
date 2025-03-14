@@ -233,7 +233,7 @@ In this Business Finland (former TEKES) Human Spare Parts - project (2011-2019),
 Here, I list some of my research projects I have created during my academic career.
 
 <!-- DatAnalyzer -->
-> 🚀 <strong><big> DatAnalyzer: The correct way to analyze FP signals 📊 </big></strong>
+> 🚀 <span id ="datanalyzer"> <strong><big> DatAnalyzer: The correct way to analyze FP signals 📊 </big></strong> </span>
 
 - ⚡ **Role:** Creator
 - ✅ **Key Contributions:** Developed tools to load, analyze, and visualize data, especially electrical biosignals
@@ -268,7 +268,8 @@ I developed **DatAnalyzer** software to analyze field potential (FP) signals fro
 ---
 
 <!-- DocLaTex -->
-> 🚀 <strong><big> Write LaTeX documents together with co-authors that use MS Word ✍️</big></strong>
+> 🚀 <span id ="doclatex"> <strong><big> Write LaTeX documents together with co-authors that use MS Word ✍️</big></strong> </span>
+
 - ⚡ **Role:** Creator
 - ✅ **Key Contributions:** Developed conversion tool to work with MS Word using Pandoc & Markdowns & LaTeX
 - 🛠️ **Tech Stack:** Powershell, Pandoc, LaTeX, Markdown
