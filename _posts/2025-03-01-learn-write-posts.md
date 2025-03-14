@@ -2,7 +2,7 @@
 layout: post
 title: "How to start blogging using GitHub Pages"
 date: 2025-03-01
-last_modified_at: 2025-03-13
+last_modified_at: 2025-03-14
 categories: [blogging]
 tags: [GitHub Pages, Jekyll, blogging]
 ---
@@ -70,29 +70,12 @@ layout: default
 {% endraw %}
 ```
 
-You can create list of your (blog) post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). 
-I have included following code in my <a href="{{ site.url }}/"> main page</a> to list my recent blog posts, where with parameter `limit:5` you can control how many recent blog posts are listed.
+You can create list of your post with the following command, see more info on [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/). I included following code in my <a href="{{ site.url }}/"> main page</a> to list only my recent blog posts; with parameter `{% for post in site.posts limit:5 %}` you can control how many posts are listed. If you want to list all your post, like I have done in my blog archieve [page](https://anahill.github.io/blog/ "blog post listed"), just remove `limit:5` so line would be `{% for post in site.posts %}`.
 
-```html
-{% raw %}
-I share my thoughts from time to time; my latest posts are following:  
-
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
-      <em>({{ post.date | date: "%B %d, %Y" }})</em>
-    </li>
-  {% endfor %}
-</ul>
-{% endraw %}
-```
-
-I have also created a blog archieve [page](https://anahill.github.io/blog/ "blog post listed") to list all my post with following code.
 ```html
 {% raw %}
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>  
       <em>({{ post.date | date: "%B %d, %Y" }})</em>
