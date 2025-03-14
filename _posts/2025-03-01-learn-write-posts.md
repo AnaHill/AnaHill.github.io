@@ -7,6 +7,7 @@ categories: [blogging]
 tags: [GitHub Pages, Jekyll, blogging]
 ---
 
+
 In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
 1. add `_post` folder
 2. where you should add a markdown file named as `YEAR-MONTH-DAY-title.md`, for example this post is named as `2025-03-01-learn-write-posts.md` and write your content
@@ -88,3 +89,5 @@ You can create list of your post with the following command, see more info on [J
 - [GitHub Docs to add content with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
 - [Jekyll's documentation about posts](https://jekyllrb.com/docs/posts/) 
 - and some help from ChatGPT 😎🤖
+
+--- 

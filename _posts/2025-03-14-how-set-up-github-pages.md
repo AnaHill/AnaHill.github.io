@@ -1,27 +1,32 @@
 ---
 layout: post
-title: "How to set up GitHub Pages"
-date: 2025-03-13 # last_modified_at: 2025-03-20
+title: "Set up GitHub Pages"
+date: 2025-03-14 
+# last_modified_at: 2025-03-14
 categories: [own page]
 tags: [GitHub Pages, Jekyll, portfolio]
 ---
 
-In this post, I will explain how you can start with GitHub Pages.
-As an example, I'll show how I set-up my [main page](https://anahill.github.io/) and created a FREE 🤑 [work portfolio](https://anahill.github.io/work.html).
+In this post, using my [main page](https://anahill.github.io/) as an example, I will explain how you can start with GitHub Pages and show how you create a FREE 🤑 work portfolio like [mine](https://anahill.github.io/work.html).
 
-<strong><big> I don't try to invent the wheel again </big></strong>  
-👉 So, check the [links I provide in the end](#ref), first three links will guide you to set up your portfolio.  
-...except one thing I recommend you to do🚨  
-<strong><big>  Use `index.md` for main page of GitHub Pages and `readme.md`</big></strong>  
-... trust me, you will thank me for this! Next, I will explain why.
+I do **not** try to invent the wheel 𖥞 again.  
+👉 So, check the [links I provide in the end](#ref), first three links will guide you to set up your portfolio...except please consider this one thing I recommend you to do❗ 
+
+<!-- 
+<strong><big>  </big></strong>  
+ -->
+
+⚠️ <strong><big>  Use `index.md` for main page of GitHub Pages and `readme.md` for the main repo. PERIOD.</big></strong>  
+... trust me, you will thank me for this, but let me next explain why.
 
 ## How to set-up your main page
+
 ### Step1: Create a repo (`username.github.io`) and set-up `index.md` and `readme.md` files
 First, create a **public** repo named as `username.github.io`.
 
 After you have created a repo (be sure that your **repo is public**, otherwise this wont't work!)
 - add `index.md` file to your main folder 
-- keep your `readme.md` minimal, I recommend to add link your main page when it is ready.
+- keep your `readme.md` minimal, I recommend to have there mainly a link to your main page when it is ready.
 
 As an example, see `readme.md` and `index.md` in my repo
 - my [repo page](https://github.com/AnaHill/AnaHill.github.io "https://github.com/AnaHill/AnaHill.github.io") shows what is written in `readme.md`
@@ -38,10 +43,11 @@ As an example, see `readme.md` and `index.md` in my repo
 - 📝 Check out my blog posts **[here](https://anahill.github.io/blog/)**  
 ```
 
+The pic below demostrates how `index.md` is converted to your main page.
 ![index.md to page](/pics/posts/How_indexmd_shows_as_page.png "how index.md is converted to page")
 
 ### Step2: set-up config 
-create `_config.yml` in your main folder.
+create `_config.yml` in your main folder. In my case, I have included there following information.
 
 ```
 title: A-J Mäki, PhD
@@ -55,11 +61,11 @@ remote_theme: pages-themes/merlot@v0.2.0
 plugins:
 - jekyll-remote-theme
 ```
+Last three lines above are used to apply merlot theme for the pages; pic below demonstrates how e.g. _title_ and _description_ are shown on your page.
+![title and description](/pics/posts/how_title_and_description_is_showed.png "how title and description are shown on page using merlot theme")
 
-Using merlot theme, _title_ and _description_ are shown like following in your main page 
-![title and description](/pics/posts/how_title_and_description_is_showed.png "how title and description are shown on  page using merlot theme")
+📝 Good luck with your portfolio! 😊
 
-<!--  -->
 ## <span id="ref"> Find out more </span>
 - GitHub Pages [documentation](https://pages.github.com/)
 - Chijioke Joseph Okorji: [_From Meh to Marvelous: The Ultimate Guide to Crafting a Killer GitHub Profile_](https://medium.com/@chijiokeokorji/from-meh-to-marvelous-the-ultimate-guide-to-crafting-a-killer-github-profile-8dd3f6c6d602) and [repo](https://github.com/ChijiokeOkorji/ChijiokeOkorji)

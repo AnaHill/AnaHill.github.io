@@ -26,7 +26,11 @@ tags: [GitHub Pages, Jekyll, Blogging]
 
 <!-- ## 👨‍🔬 <span id="research" style="color:#228B22;">Research</span> -->
 
+📝 Happy blogging! 😊
+
 ## <span id="ref"> References used </span>
 list of your references
 
 See reference [list](#ref)
+
+--- 
