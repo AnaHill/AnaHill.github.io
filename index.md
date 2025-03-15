@@ -2,7 +2,7 @@
 title: Main page
 ---
 
-> 😎 Nerd your day! 🤓
+> <span style="color:green; font-size: 1.2em; font-weight:bold"> 😎 _Nerd your day!_ 🤓 </span>
 
 Welcome to my home pages. I'm **A-J Mäki**, PhD
 
@@ -15,8 +15,8 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 ## 🚀 About Me  
 
 - 🤓 **Data Nerd** – Always finding resilient (data)solutions that can make _positive_ impact   
-- ⛷️ **Cross-Country Skiing Fanatic** – :sunny: Winter & cross-country skiing is just so 😎  
-- ⚽ **Football Enthusiast & Family Man** :family: – Passionate about the game on and off the field  
+- ⛷️ **Cross-Country Skiing Fanatic** – ☀️winter days & cross-country skiing is just so 😎  
+- ⚽ **Football Enthusiast & Family Man** 👪 – Passionate about the game on and off the field  
 
 <figure style="text-align: center;">
   <img src="pics/ajm_profile.png" alt="my profile">
