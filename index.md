@@ -2,6 +2,8 @@
 title: Main page
 ---
 
+> 😎 Nerd your day! 🤓
+
 Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 <div align="left">
@@ -12,13 +14,13 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 ## 🚀 About Me  
 
-- 🤓 **Data Nerd** – Always finding resilient solutions that can make impact   
-- ⛷️ **Cross-Country Skiing Fanatic** – Winter & cross-country skiing is just so 😎  
-- ⚽ **Football Enthusiast & Family Man** – Passionate about the game on and off the field  
+- 🤓 **Data Nerd** – Always finding resilient (data)solutions that can make _positive_ impact   
+- ⛷️ **Cross-Country Skiing Fanatic** – :sunny: Winter & cross-country skiing is just so 😎  
+- ⚽ **Football Enthusiast & Family Man** :family: – Passionate about the game on and off the field  
 
 <figure style="text-align: center;">
   <img src="pics/ajm_profile.png" alt="my profile">
-  <figcaption><em>"This is me 🤓 – Data Engineer with a passion for data, research, and continous learning & teaching." </em></figcaption>
+  <figcaption><em>"This is me 🤓 – Data Engineer with a passion for data & IT and continous learning & teaching." </em></figcaption>
 </figure>
 
 
