@@ -2,7 +2,10 @@
 title: Main page
 ---
 
-> <span style="color:green; font-size: 1.2em; font-weight:bold"> 😎 _Nerd your day!_ 🤓 </span>
+<blockquote style="text-align: center; color: green; font-size: 1.5em; font-weight: bold;">
+  😎 <em>Nerd your day!</em> 🤓 <br>
+  <span style="font-size: 0.7em; font-style: italic; color: darkslategray;">— A-J, data dude </span>
+</blockquote>
 
 Welcome to my home pages. I'm **A-J Mäki**, PhD
 
