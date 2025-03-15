@@ -3,12 +3,10 @@ title: Academic portfolio
 ---
 # 👨‍🔬 Welcome to My Academic Portfolio  
 
-Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a **strong academic background 👨‍🔬** with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
+Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a _strong academic background_ 👨‍🔬 with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
-
-<a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
+To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")   <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 or my resume (pdf)</a>.
 
 ---
 
@@ -91,7 +89,10 @@ Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
 **NOTE**: 
-These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [started blogging](https://anahill.github.io/blog/), and these will likely be my first topics. Stay tuned! ✍️  
+These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [started blogging](https://anahill.github.io/blog/ "my blog page"), and these will likely be my first topics. Stay tuned! ✍️  
+
+<strong><big> How to use GitHub </big></strong>
+- Sharing my tips & tricks how to set up GitHub Pages in my [blog page](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications
 
 <strong><big> My Tips for Academy </big></strong>
 - Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc 👉 check [link](https://github.com/AnaHill/Tips-for-Academy)
@@ -110,7 +111,7 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
 - **🚀 Research areas**: lab-on-a-chip, vascularization, data analysis, fuzzy control
 - **🛠️ Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
-During this time, we finished following three publications 📝 that were already started during my postdoc period 
+During this period, we finished following three publications 📝 
 - 🧫 [**Vascularized Body-on-Chip development**](#vascularization "Nature: 3D vascularized chip"), doi: [10.1038/s41598-024-74493-3](https://doi.org/10.1038/s41598-024-74493-3)
 - 🎚️ [**Fuzzy temperature control**](#fuzzy_control "IEEE: fuzzy temperature controller"), doi: [10.1109/TASE.2023.3309668](https://doi.org/10.1109/TASE.2023.3309668)
 - 📊 [**Understand field potential signals**](#understand_fp "understand and analyze FP signals"), doi: [10.5281/zenodo.10205591](https://doi.org/10.5281/zenodo.10205591)
@@ -284,6 +285,7 @@ I developed **DatAnalyzer** software to analyze field potential (FP) signals fro
 Do you want to use LaTeX for your (scientific) paper, but struggling when co-authors, such as you supervisor, do not use it, thus Word is preferred? This is tool for you! Minimize hassle of exporting files in different formats and copy-paste text from one format to another, while still be able to write LaTeX-documents. And you are ready to publish high-quality papers like the following that was written using this tool! 😎
 
 ![How to write LaTeX documents using Word](/pics/projects/write_latex_documents_with_Word.png)
+Method used in the following publication: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -363,7 +365,7 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 </figure>
 
 ## Selected Articles
-To highlight my academic work, I have chosen following articles that are listed below, starting with the first paper where I am the last author. In this study, we developed a novel, vascularized 3D chip, see more in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip"). It was even in Finnish news!
+To highlight my academic work, I have chosen following articles that are listed below, starting with the first paper where I am the last author and has been explained [**here**](#vascularization "3D vascularized chip"). It was even in Finnish news!
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
@@ -380,7 +382,7 @@ To highlight my academic work, I have chosen following articles that are listed 
   {% endfor %}
 </div>
 
-I developed fuzzy controllers and created a simulation environment and mathematical models, see more in [**Control the beating of cardiomyocyte cultures**](#fuzzy_control "fuzzy control environment").
+I developed fuzzy controllers and created a simulation environment and mathematical models, see more in [**here**](#fuzzy_control "fuzzy control environment").
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -397,27 +399,27 @@ I developed fuzzy controllers and created a simulation environment and mathemati
   {% endfor %}
 </div>
 
+<!-- TODO: -->
 
 
-
-### Selected Articles listed
+### TODO: this part will be removed, as all articles will be listed above
 <details>
   <summary><strong>📝 Show Selected Journal Articles </strong></summary>  
-<div style="font-size: 0.8em;">
-  {% for pub in site.data.publications %}
-    {% if pub.category contains "selected_publication" %}
-      {%- for author in pub.authors -%}
-        {% if author == pub.highlighted_author %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}.
-      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-      <br><br> 
-    {% endif %}
-  {% endfor %}
-</div>
+  <div style="font-size: 0.8em;">
+    {% for pub in site.data.publications %}
+      {% if pub.category contains "selected_publication" %}
+        {%- for author in pub.authors -%}
+          {% if author == pub.highlighted_author %}
+            <strong>{{ author }}</strong>
+          {% else %}
+            {{ author }}
+          {% endif %}{% if forloop.last == false %} and {% endif %}
+        {%- endfor -%}.
+        <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+        <br><br> 
+      {% endif %}
+    {% endfor %}
+  </div>
 </details>
 
 # All Journal Articles
