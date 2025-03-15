@@ -57,7 +57,7 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
 For more insights into my research, you can also contact :teacher: **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research can be found [here](https://research.tuni.fi/mst/). 
 
 <!-- ############# -->
-# 🎓<span style="color:#228B22;">Education</span>
+# 🎓<span style="color:#228B22;"> Education </span>
 D. Sc. (Tech.), Tampere University of Technology, Sep 2018
 - 📝 Doctoral dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
 
@@ -67,7 +67,7 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 - 📝 Thesis '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [here](https://urn.fi/URN:NBN:fi:tty-201008171286 "trepo.tuni.fi") and was presented in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010. 
 
 <!-- ############# WORK ############# -->
-#  <span id="academic-work-experience" style="color:#228B22;">💼 My Research & Work Experience</span>
+#  <span id="academic-work-experience" style="color:#228B22;"> 💼 My Research & Work Experience </span>
 Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
 - **tl;dr**: My 👨‍🔬 research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
 ![research_summary](pics/bubble_expertise_academic.png "summary of my research")
@@ -110,10 +110,64 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
 - **🚀 Research areas**: lab-on-a-chip, vascularization, data analysis, fuzzy control
 - **🛠️ Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
-During this time, we finished following three publications 📝, check links for more info
-- [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip") 
+During this time, we finished following three publications 📝 that were already started during my postdoc period 
+- 🧫 [**Vascularized Body-on-Chip development**](#vascularization "Nature: 3D vascularized chip"), doi: [10.1038/s41598-024-74493-3](https://doi.org/10.1038/s41598-024-74493-3)
+- 🎚️ [**Fuzzy temperature control**](#fuzzy_control "IEEE: fuzzy temperature controller"), doi: [10.1109/TASE.2023.3309668](https://doi.org/10.1109/TASE.2023.3309668)
+- 📊 [**Understand field potential signals**](#understand_fp "understand and analyze FP signals"), doi: [10.5281/zenodo.10205591](https://doi.org/10.5281/zenodo.10205591)
 
-> 🎚️ <span id="fuzzy_control"> *Control the beating of cardiomyocyte cultures - by temperature!* 🌡️  
+<!-- ### Postdoc ### -->
+## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
+As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed **data analysis methods for several challenging biosignals**. Additionally, I worked as Professor Kallio’s **Vice-PI in a multidisciplinary team** combining cell biologists and engineers, and led a group of researchers developing **a novel vascular-on-a-chip platform for 3D cell co-cultures**. More info on [**CoEBoC-project**](#coeboc) section.
+- **🚀 Research areas**: lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
+- **🛠️ Main tools**: soft lithography (PDMS), MATLAB, Simulink, COMSOL (FEM) 
+
+## 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
+My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info about the project on [**Human Spare Parts**](#hs) section.
+- **🚀 Research areas**: microsystems, microfluidics, control engineering, heat control
+- **🛠️ Main tools**: soft lithography, MATLAB, Simulink, COMSOL (FEM) 
+- **📖 Thesis**: Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [**here**](https://urn.fi/URN:ISBN:978-952-15-4174-2 "dissertation at trepo.tuni.fi").
+
+
+## 🧑🏼‍🔬 Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
+My study was related to immunoassay in microchannels and how they could be used in patient diagnostics.
+
+## 🧑🏼‍🔬 Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
+I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications.
+- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [**here**](https://urn.fi/URN:NBN:fi:tty-201008171286 "msc thesis at trepo.tuni.fi") and was later presented 🗣 in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010
+
+<!-- ############# Projects ############# -->
+# 🗂️ <span id="projects" style="color:#228B22;"> Projects </span>
+
+## 🫀 <span id="coeboc" style="color:#228B22;"> CoEBoC (_2018 - 2025_) </span>
+[**CoEBoC**](https://research.tuni.fi/coeboc/ "CoEBoC, Centre of Excellence in Body-on-Chip Research"), '_Centre of Excellence in Body-on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying Body-on-Chip (BoC) technologies** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
+
+CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging. Below, I highlight some selected CoEBoC projects where I was involved.
+
+- **⚡Own role**: Postdoctoral Researcher, Vice Principal Investigator (Vice-PI), project lead in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip") 
+- **🚀 Research areas**: microfluidics, numerical simulations (FEM), data analysis, control engineering, cardiomyocyte culture, vascularization
+
+### <span id="vascularization"> Developing interconnected 3D microvascular networks </span>
+> 🚀 *Bringing the future of tissue engineering one step closer!* 🧫
+
+I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "yrjanainen2024barrier" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
+
+### <span id="fuzzy_control"> When cardiomyocyte culture meets fuzzy controller </span>
+> 🎚️ *Control the beating of cardiomyocyte cultures - by temperature!* 🌡️  
 
 I developed **fuzzy controllers and mathematical models to simulate and control temperature-dependency of beating human cardiomyocyte cultures**. This research offers valuable guidance for scientists aiming to **standardize experimental conditions** and **improve the reliability of cardiomyocyte cell cultures**. Read more: 
 <div style="font-size: 0.8em;">
@@ -132,6 +186,7 @@ I developed **fuzzy controllers and mathematical models to simulate and control 
   {% endfor %}
 </div>
 
+### <span id="understand_fp"> Study of field potential signals from cell cultures </span>
 > 📈 *Truely understand the field potential signals* 📊 
 
 I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
@@ -153,61 +208,7 @@ While developing the [**DatAnalyzer**](https://github.com/AnaHill/DatAnalyzer "D
   {% endfor %}
 </div>
 
-<!-- ### Postdoc ### -->
-## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
-As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed **data analysis methods for several challenging biosignals**. Additionally, I worked as Professor Kallio’s **Vice-PI in a multidisciplinary team** combining cell biologists and engineers, and led a group of researchers developing **a novel vascular-on-a-chip platform for 3D cell co-cultures**. More info on [**CoEBoC-project**](#coeboc) section.
-- **🚀 Research areas**: lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
-- **🛠️ Main tools**: soft lithography (PDMS), MATLAB, Simulink, COMSOL (FEM) 
-<!-- now refs here, only linkin to coeboc? -->
-
-## 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
-My Ph.D. work in the multidisciplinary project involved  implementing automation and control systems, designing microfluidics chips, developing mathematical models, and handling data analysis using MATLAB, Simulink, and COMSOL. More info about the project on [**Human Spare Parts**](#hs) section.
-- **🚀 Research areas**: microsystems, microfluidics, control engineering, heat control
-- **🛠️ Main tools**: soft lithography, MATLAB, Simulink, COMSOL (FEM) 
-- **📖 Thesis**: Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [**here**](https://urn.fi/URN:ISBN:978-952-15-4174-2 "dissertation at trepo.tuni.fi").
-
-
-## 🧑🏼‍🔬 Project Researcher @Tampere University of Technology (_Aug 2010 - Sep 2011_)
-My study was related to immunoassay in microchannels and how they could be used in patient diagnostics.
-
-## 🧑🏼‍🔬 Thesis Worker and Research Assistant @Tampere University of Technology (_June 2006 - Aug 2010_)
-I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy of Finland and collaborated with researchers from Helsinki University of Technology. My task was to model and test optically induced electric fields and to study how they could be used in microfluidics applications.
-- 📖 Master thesis (2010), titled '_Optically induced electric fields and their use in microfluidics and cell manipulation applications_' is available [**here**](https://urn.fi/URN:NBN:fi:tty-201008171286 "msc thesis at trepo.tuni.fi") and was later presented 🗣 in the 2nd European Conference on Microfluidics-Microfluidics 2010, Toulouse, December 8-10, 2010
-
-<!-- ############# Projects ############# -->
-# 🗂️ <span id="projects" style="color:#228B22;">Projects</span>
-
-## 🫀 <span id="coeboc" style="color:#228B22;"> CoEBoC (_2018 - 2025_) </span>
-[**CoEBoC**](https://research.tuni.fi/coeboc/ "CoEBoC, Centre of Excellence in Body-on-Chip Research"), '_Centre of Excellence in Body-on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying Body-on-Chip (BoC) technologies** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
-
-CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging. Below, I highlight some selected CoEBoC projects where I was involved.
-
-- **⚡Own role**: Postdoctoral Researcher, Vice Principal Investigator (Vice-PI), project lead in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip") 
-- **🚀 Research areas**: microfluidics, numerical simulations (FEM), data analysis, control engineering, cardiomyocyte culture, vascularization
-
-### <span id="vascularization"> Developig interconnected 3D microvascular networks
-> 🚀  *Bringing the future of tissue engineering one step closer!* 🧫 </span>
-
-I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
-<div style="font-size: 0.8em;">
-  {% for pub in site.data.publications %}
-    {% if pub.article_id == "yrjanainen2024barrier" %}
-      {%- for author in pub.authors -%}
-        {% if author == pub.highlighted_author %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}.
-      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-      <br><br> 
-    {% endif %}
-  {% endfor %}
-</div>
-
-
-
-
+### List of Selected CoEBoC Articles
 <details>
   <summary><strong>Show Selected Articles</strong></summary>  
   <div style="font-size: 0.8em;">
@@ -346,7 +347,7 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 - Doctoral Programme of the President of the Tampere University of Technology, 09/2021 – 08/2015; personal salary
 
 <!-- ############# -->
-# 📝 <span id="publications" style="color:#228B22;">Publications</span>
+# 📝 <span id="publications" style="color:#228B22;"> Publications </span>
 <div align="left">
   In this section, I list my journal articles; for more information, e.g. see my conference papers, check also the following links
   <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
