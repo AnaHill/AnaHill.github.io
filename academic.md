@@ -6,7 +6,7 @@ title: Academic portfolio
 Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a _strong academic background_ 👨‍🔬 with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")   <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 or my resume (pdf)</a>.
+To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio") or my <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank"> resume 📑 (pdf)</a>.
 
 ---
 
@@ -89,10 +89,10 @@ Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
 **NOTE**: 
-These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [started blogging](https://anahill.github.io/blog/ "my blog page"), and these will likely be my first topics. Stay tuned! ✍️  
+These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [**started blogging**](https://anahill.github.io/blog/ "my blog page"), and these will likely be my first topics. Stay tuned! ✍️  
 
 <strong><big> How to use GitHub </big></strong>
-- Sharing my tips & tricks how to set up GitHub Pages in my [blog page](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications
+- Sharing my tips & tricks how to set up GitHub Pages in my [**blog page**](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications
 
 <strong><big> My Tips for Academy </big></strong>
 - Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc 👉 check [link](https://github.com/AnaHill/Tips-for-Academy)
