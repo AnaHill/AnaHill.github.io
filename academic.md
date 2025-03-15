@@ -54,7 +54,7 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
   <br/>
 </div>
 
-For more insights into my research, you can also contact **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research can be found [here](https://research.tuni.fi/mst/). 
+For more insights into my research, you can also contact :teacher: **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research can be found [here](https://research.tuni.fi/mst/). 
 
 <!-- ############# -->
 # 🎓<span style="color:#228B22;">Education</span>
@@ -110,26 +110,8 @@ Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nano
 - **🚀 Research areas**: lab-on-a-chip, vascularization, data analysis, fuzzy control
 - **🛠️ Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
-During this time, we finished following three publications 📝.
-
-> 🚀 <span id="vascularization"> *Bringing the future of tissue engineering one step closer!* 🧫 </span>
-
-I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
-<div style="font-size: 0.8em;">
-  {% for pub in site.data.publications %}
-    {% if pub.article_id == "yrjanainen2024barrier" %}
-      {%- for author in pub.authors -%}
-        {% if author == pub.highlighted_author %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}.
-      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-      <br><br> 
-    {% endif %}
-  {% endfor %}
-</div>
+During this time, we finished following three publications 📝, check links for more info
+- [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip") 
 
 > 🎚️ <span id="fuzzy_control"> *Control the beating of cardiomyocyte cultures - by temperature!* 🌡️  
 
@@ -198,10 +180,33 @@ I worked in OPTIMI (Optically actuated microfluidics) project funded by Academy 
 ## 🫀 <span id="coeboc" style="color:#228B22;"> CoEBoC (_2018 - 2025_) </span>
 [**CoEBoC**](https://research.tuni.fi/coeboc/ "CoEBoC, Centre of Excellence in Body-on-Chip Research"), '_Centre of Excellence in Body-on-Chip Research_', is Academy of Finland funded project for the years 2018-2025. The ultimate goal of CoEBoC is to **revolutionize healthcare by developing and applying Body-on-Chip (BoC) technologies** and enable more accurate and efficient drug testing, as well as by discovering new tools for diagnosing and treating diseases at the cellular level.
 
-CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging.
+CoEBoC brought together six research groups from Tampere University: microsystems and microfluidics, biomaterials, adult stem cell research, cardiac and neural cell cultures, and computational biophysics and imaging. Below, I highlight some selected CoEBoC projects where I was involved.
 
 - **⚡Own role**: Postdoctoral Researcher, Vice Principal Investigator (Vice-PI), project lead in [**Vascularized Body-on-Chip development**](#vascularization "3D vascularized chip") 
 - **🚀 Research areas**: microfluidics, numerical simulations (FEM), data analysis, control engineering, cardiomyocyte culture, vascularization
+
+### <span id="vascularization"> Developig interconnected 3D microvascular networks
+> 🚀  *Bringing the future of tissue engineering one step closer!* 🧫 </span>
+
+I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "yrjanainen2024barrier" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+
 
 <details>
   <summary><strong>Show Selected Articles</strong></summary>  
@@ -263,7 +268,6 @@ I developed **DatAnalyzer** software to analyze field potential (FP) signals fro
     {% endfor %}
   </div>
 </details>
-<br>
 
 ---
 
@@ -294,7 +298,6 @@ Do you want to use LaTeX for your (scientific) paper, but struggling when co-aut
   {% endfor %}
 </div>
 
-
 ---
 
 > 🚀 <strong><big> Plot Fluke Ti400 thermal images 🌡️</big></strong>
@@ -323,7 +326,8 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
   {% endfor %}
 </div>
 
-<!-- Languages and merits -->
+---
+
 # <span style="color:#228B22;">Languages and merits </span> 
 ## Language
 - Finnish: Mother tongue
