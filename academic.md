@@ -353,24 +353,32 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 - Doctoral Programme of the President of the Tampere University of Technology, 09/2021 – 08/2015; personal salary
 
 <!-- ############# -->
-# 📝 <span id="publications" style="color:#228B22;"> Publications </span>
+# 📚 <span id="publications" style="color:#228B22;"> Publications </span>
 <div align="left">
-  In this section, I list my journal articles; for more information, e.g. see my conference papers, check also the following links
-  <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
-    <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
-  </a>
-  <a href="https://orcid.org/0000-0001-7565-3530" target="_blank">
-    <img src="https://img.shields.io/badge/ORCHID%20-Blue.svg" />
-  </a>
+  <p>
+    In this section, I list my <strong>journal articles</strong>.  
+    For more, including my <strong>conference papers</strong>, check out the links below:
+  </p>
+  <p>
+    <a href="https://scholar.google.com/citations?user=bmCs6M0AAAAJ" target="_blank">
+      <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" alt="Google Scholar Profile" />
+    </a>
+    <a href="https://orcid.org/0000-0001-7565-3530" target="_blank">
+      <img src="https://img.shields.io/badge/ORCID-Blue.svg" alt="ORCID Profile" />
+    </a>
+  </p>
 </div>
 <figure style="text-align: left;">
-  <img src="pics/scholar_statistics_2025_03.png" alt="Google Scholar Statistics March 2025" style="width:50%;">
-  <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
+  <img src="pics/scholar_statistics_2025_03.png" 
+       alt="Google Scholar Statistics March 2025" 
+       style="width:30%; max-width:300px;">
+  <figcaption><em>Google Scholar Profile Statistics – March 2025</em></figcaption>
 </figure>
 
-In the next section, I have chosen some articles to highlight my academic work.
-## 📝 Selected Articles
-### 🧫 A Special One!  
+**Next, I’ve selected a few key articles 📝 to showcase my 🎓 academic journey.**  
+If you're curious, you can also check out my [**all journal articles**](#all_articles "All Journal Articles") listed at the end.  
+
+## 🧫 A Special One!  
 This **must-have** first article is extra special—it's the **first (and maybe last!)** time I’m listed as the **last author**! This study even made it to **Finnish news**! More about it [**here**](#vascularization "3D vascularized chip"). 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -388,7 +396,7 @@ This **must-have** first article is extra special—it's the **first (and maybe 
   {% endfor %}
 </div>
 
-### 🎚️ Fuzzy Logic Meets Beating Heart Cells  
+## 🎚️ Fuzzy Logic Meets Beating Heart Cells  
 One of my **deepest dives into control systems** happened when I combined **fuzzy controllers** with **cardiomyocyte cell cultures** in a simulation environment I built from scratch. Check [**this part**](#fuzzy_control "fuzzy control environment") to find out more. 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -406,11 +414,11 @@ One of my **deepest dives into control systems** happened when I combined **fuzz
   {% endfor %}
 </div>
 
-### 🫀 Biosignals, Ischemia & Data Science  
+## 🫀 Biosignals, Ischemia & Data Science  
 This study uncovered key biological insights—like how **hiPSC-CMs**, despite their immature phenotype, can be used to model **ischemia–reperfusion injury**. On a personal level, it was also a milestone for me:  
 ✅ I built [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer"), software designed for this research.  
 ✅ It marked my **first experience analyzing complex cardiomyocyte biosignals**.  
-✅ This journey eventually led me to explore [*field potential signals from cell cultures*](#understand_fp "Explaining FP signal"), opening up a whole new world of bioelectric data analysis.  
+✅ This journey eventually led me to explore 📈 [*field potential signals from cell cultures*](#understand_fp "Explaining FP signal"), opening up a whole new world of bioelectric data analysis. 📊  
 ✅ It pushed me further into **data-driven science**—the foundation of what I do today! 🤓 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -427,8 +435,9 @@ This study uncovered key biological insights—like how **hiPSC-CMs**, despite t
     {% endif %}
   {% endfor %}
 </div>
+ Truely understand the field potential signals 📊
 
-### 🌱 My Most Cited Paper!  
+## 🌱 My Most Cited Paper!  
 Had to include this one—it’s my **most cited article**! 😎 Beyond citations, it stands out because we successfully **oriented cells** using **aligned cationic cellulose nanofiber (c-CNF) surfaces**, a method that has potential in **guiding cellular growth**. Personally, I had a blast analyzing the data for this project. 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -446,7 +455,7 @@ Had to include this one—it’s my **most cited article**! 😎 Beyond citation
   {% endfor %}
 </div>
 
-### 🎓 Wrapping Up My Doctoral Work  
+## 🎓 Wrapping Up My Doctoral Work  
 These two papers **sum up my PhD research** quite well:  
 🎛️ **The first one** brings together **control engineering, indirect measurement methods, mathematical modeling, electronics, and data analysis**—all powered by **MATLAB & Simulink**. Pretty cool, if you ask me. 😎  
 ✍🏻 **The second one** is a **deep dive into computational modeling, mathematics, chemistry, and microfluidics** 🧮🧪💧, primarily using **COMSOL**. During my PhD defense, this work received **great feedback** from my opponents. 🏆🤓 
@@ -466,8 +475,7 @@ These two papers **sum up my PhD research** quite well:
   {% endfor %}
 </div>
 
-
-## All Journal Articles
+## <span id="all_articles"">  📚 All Journal Articles </span>
 Click below to see list of all journal articles I am involved in.
 <details>
   <summary><strong>📚 Show All Journal Articles</strong></summary>  
