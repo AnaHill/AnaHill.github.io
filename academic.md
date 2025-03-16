@@ -475,7 +475,7 @@ These two papers **sum up my PhD research** quite well:
   {% endfor %}
 </div>
 
-## <span id="all_articles"">  📚 All Journal Articles </span>
+## <span id="all_articles">  📚 All Journal Articles </span>
 Click below to see list of all journal articles I am involved in.
 <details>
   <summary><strong>📚 Show All Journal Articles</strong></summary>  
