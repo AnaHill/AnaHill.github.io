@@ -11,7 +11,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 <div align="left">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=200&duration=2000&pause=500&multiline=true&width=280&height=80&lines=%E2%80%A2+Data+Engineer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;%E2%80%A2+Lifelong+Researcher+%F0%9F%91%A8%E2%80%8D%F0%9F%94%AC;%E2%80%A2+Data+Nerd+%F0%9F%A4%93" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=200&duration=2000&pause=500&multiline=true&width=310&height=80&lines=%E2%80%A2+Data+Engineer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;%E2%80%A2+Lifelong+Researcher+%F0%9F%91%A8%E2%80%8D%F0%9F%94%AC;%E2%80%A2+Data+Nerd+%F0%9F%A4%93" alt="Typing SVG" />
   </a>
 </div>
 
