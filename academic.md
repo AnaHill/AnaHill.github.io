@@ -445,7 +445,6 @@ These two articles summarizes my doctoral work.
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2018portable" or pub.article_id == "maki2015modelingco2" %}
-    {% if pub.article_id == "maki2018portable" %}
       {%- for author in pub.authors -%}
         {% if author == pub.highlighted_author %}
           <strong>{{ author }}</strong>
