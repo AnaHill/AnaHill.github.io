@@ -69,7 +69,7 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
 - **tl;dr**: My 👨‍🔬 research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. 
 
-...Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
+...without forgetting _some_ hours of laboratory work! 😎👨🏻‍🔬🔬. 
 
 <div align="left">
   More information on 
@@ -196,7 +196,7 @@ I developed **fuzzy controllers and mathematical models to simulate and control 
 
 I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
-While developing the [**DatAnalyzer**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer") software, I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance for researchers analyzing FP signals**. More information on DatAnalyzer [**repo**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and in the following article: 
+While developing the **DatAnalyzer** software, [explained here](#datanalyzer "Explaining DatAnalyzer"), I observed a wide array of methodologies used for FP signal analysis across various studies. Driven by realization of this inconsistency, I dedicated significant effort to produce an academically rigorous report that—despite not undergoing formal peer-review process—offers valuable **insights and guidance for researchers analyzing FP signals**. More information on DatAnalyzer [**repo**](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and in the following article: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2023opinion" %}
@@ -369,7 +369,7 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 </figure>
 
 ## Selected Articles
-To highlight my academic work, I have chosen following articles that are listed below, starting with the first paper where I am the last author and has been explained [**here**](#vascularization "3D vascularized chip"). It was even in Finnish news!
+Here, I have chosen some articles to highlight my academic work. The list 'must' start with the article where I am, for the first and who knows maybe last, time **the last author** and has been described [**here**](#vascularization "3D vascularized chip"). This publication was even in Finnish news!
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
@@ -386,7 +386,7 @@ To highlight my academic work, I have chosen following articles that are listed 
   {% endfor %}
 </div>
 
-I developed fuzzy controllers and created a simulation environment and mathematical models, see more in [**here**](#fuzzy_control "fuzzy control environment").
+My 'deep dive' to control systems was when I combined fuzzy controllers & cardiomyocute cell cultures in simulation environments, see more in [**here**](#fuzzy_control "fuzzy control environment").
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -403,28 +403,62 @@ I developed fuzzy controllers and created a simulation environment and mathemati
   {% endfor %}
 </div>
 
-<!-- TODO: -->
+There are several significant biological outcomes of the following publication, like that _despite their immature phenotype, hiPSC-CMs can be utilized in modeling ischemia–reperfusion injury_! Personally, one outcome of the paper was the [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer") software, which also lead to 
+[*Study of field potential signals from cell cultures*](#understand_fp "Explaining FP signal"). It was my first touch for analyzing pretty challenging cardiomyocyte biosignals, which improved my data analysis skills, thus played a role that led to where I am nowadays; a guy doing data nerd stuff! 🤓
 
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "hakli2021human" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
 
-### TODO: this part will be removed, as all articles will be listed above
-<details>
-  <summary><strong>📝 Show Selected Journal Articles </strong></summary>  
-  <div style="font-size: 0.8em;">
-    {% for pub in site.data.publications %}
-      {% if pub.category contains "selected_publication" %}
-        {%- for author in pub.authors -%}
-          {% if author == pub.highlighted_author %}
-            <strong>{{ author }}</strong>
-          {% else %}
-            {{ author }}
-          {% endif %}{% if forloop.last == false %} and {% endif %}
-        {%- endfor -%}.
-        <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-        <br><br> 
-      {% endif %}
-    {% endfor %}
-  </div>
-</details>
+'Must' pick this, as it is my most cited article! 😎 More seriously, this publication stands out on its own shoulders; we could orient cells using aligned cationic cellulose nanofiber (c-CNF) surfaces, a finding that can be used to guide the growth of cells!. Personally, really enjoyed analysizing cellulose nanofiber data.
+
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "skogberg2017cellulose" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
+
+These two articles summarizes my doctoral work. 
+
+<div style="font-size: 0.8em;">
+  {% for pub in site.data.publications %}
+    {% if pub.article_id == "maki2018portable" or pub.article_id == "maki2015modelingco2" %}
+    {% if pub.article_id == "maki2018portable" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 # All Journal Articles
 Click below to see list of all journal articles I am involved in.
