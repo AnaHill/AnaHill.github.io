@@ -271,14 +271,14 @@
   - Hyttinen, Jari
   - Kallio, Pasi
   category:
-  - selected_publication
+  - regular
   doi: 10.1115/1.4028501
   highlighted_author: Mäki, Antti-Juhana
   journal: Journal of Fluids Engineering
   title: Modeling and Experimental Characterization of Pressure Drop in Gravity-Driven
     Microfluidic Systems
   year: '2015'
-- article_id: maki2015modeling
+- article_id: maki2015modelingco2
   authors:
   - Mäki, Antti-Juhana
   - Peltokangas, Mikko
