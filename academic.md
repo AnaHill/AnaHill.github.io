@@ -37,7 +37,7 @@ To learn more about my **current role as a Data Engineer** at [**Solita**](https
 
 ---
 
-I’d love to hear from you! Whether you have an exciting research idea where I could contribute—because science is fun!🤓—or just want to discuss my work, feel free to reach me out.  
+I’d love to hear from you! Whether you have an exciting research idea where I could contribute—because science is fun!🤓—or just want to discuss my work, feel free to reach me out ✉︎.  
 
 <div align="left">
   <a href="mailto:maki.antti.j@gmail.com">
@@ -52,7 +52,7 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
   <br/>
 </div>
 
-For more insights into my research, you can also contact :teacher: **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research can be found [here](https://research.tuni.fi/mst/). 
+For more insights into my research, you can also contact 👨🏻‍🏫 **Professor Pasi Kallio** from Tampere University, who leads Micro- and Nanosystems Research Group. More about their pretty cool research 🔬 can be found [here](https://research.tuni.fi/mst/). 
 
 <!-- ############# -->
 # 🎓<span style="color:#228B22;"> Education </span>
@@ -67,8 +67,9 @@ M. Sc. (Tech.), Tampere University of Technology, July 2010
 <!-- ############# WORK ############# -->
 #  <span id="academic-work-experience" style="color:#228B22;"> 💼 My Research & Work Experience </span>
 Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆  
-- **tl;dr**: My 👨‍🔬 research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
-![research_summary](pics/bubble_expertise_academic.png "summary of my research")
+- **tl;dr**: My 👨‍🔬 research focused on **control engineering**, **microfluidics**, **mathematical modeling** using both *Simulink & MATLAB* and *FEM* (*COMSOL*), and **data analysis** with *MATLAB*. 
+
+...Without forgetting _some_ 😎 hours of laboratory work 👨🏻‍🔬🔬. 
 
 <div align="left">
   More information on 
@@ -83,6 +84,8 @@ Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆
   </a>
 </div>
 
+![research_summary](pics/bubble_expertise_academic.png "summary of my research")
+
 ---
 
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
@@ -92,17 +95,18 @@ Currently, I focus on continuous learning and on my hobby projects, some of them
 These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [**started blogging**](https://anahill.github.io/blog/ "my blog page"), and these will likely be my first topics. Stay tuned! ✍️  
 
 <strong><big> How to use GitHub </big></strong>
-- Sharing my tips & tricks how to set up GitHub Pages in my [**blog page**](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications
+- Sharing my tips & tricks how to set up GitHub Pages in my [**blog page**](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications.
 
 <strong><big> My Tips for Academy </big></strong>
-- Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc 👉 check [link](https://github.com/AnaHill/Tips-for-Academy)
+- Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc. 👉 check more [**here**](https://github.com/AnaHill/Tips-for-Academy)
 
 <strong><big> How to write scientific papers </big></strong>
-- A follow-up to my [Write LaTeX Documents using Word](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) guide, this post explores how you can leverage **VS Code, Markdown, Pandoc, LaTeX, and BibTeX** to efficiently format and publish high-quality (scientific) papers <span style="color:red"> link coming soon(ish)</span>
+- A follow-up to my [**Write LaTeX Documents using Word**](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) guide, this post explores how you can leverage **VS Code, Markdown, Pandoc, LaTeX, and BibTeX** to efficiently format and publish high-quality (scientific) papers, with the combination of Markdown and LaTeX 
+(<span style="color:red"> link coming soon(ish)</span>)
 - **P.S.** 🚀 *Effortless writing not guaranteed—but at least the workflow is smooth(er)!* 🤓  
 
 <strong><big> How to set up Python environments for data projects </big></strong>
-- My proposal how to set up Python environment for (hobby) data projects by combining  **Miniconda, pip, VS Code,...** 👉 check [link](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects)
+- My proposal how to set up Python environment for (hobby) data projects by combining  **Miniconda, pip, VS Code,...** 👉 more [**here**](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects)
 
 
 <!-- ### Part-Time Researcher  / Visiting Scholar ### -->
