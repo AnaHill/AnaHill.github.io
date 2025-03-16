@@ -369,8 +369,9 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 </figure>
 
 In the next section, I have chosen some articles to highlight my academic work.
-## Selected Articles
-🧫 The selected articles list 'must' start with the article where I am, for the first, and who knows maybe last, time as **a last author** and has been described [**here**](#vascularization "3D vascularized chip"). This publication was even in Finnish news!
+## 📝 Selected Articles
+### 🧫 A Special One!  
+This **must-have** first article is extra special—it's the **first (and maybe last!)** time I’m listed as the **last author**! This study even made it to **Finnish news**! More about it [**here**](#vascularization "3D vascularized chip"). 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
@@ -387,7 +388,8 @@ In the next section, I have chosen some articles to highlight my academic work.
   {% endfor %}
 </div>
 
-🎚️ My 'deep dive' to control systems was when I combined fuzzy controllers & cardiomyocute cell cultures in simulation environments that I created, see more in [**here**](#fuzzy_control "fuzzy control environment").
+### 🎚️ Fuzzy Logic Meets Beating Heart Cells  
+One of my **deepest dives into control systems** happened when I combined **fuzzy controllers** with **cardiomyocyte cell cultures** in a simulation environment I built from scratch. Check [**this part**](#fuzzy_control "fuzzy control environment") to find out more. 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -404,9 +406,12 @@ In the next section, I have chosen some articles to highlight my academic work.
   {% endfor %}
 </div>
 
-🫀 There are several significant biological outcomes of the following publication, like that _despite their immature phenotype, hiPSC-CMs can be utilized in modeling ischemia–reperfusion injury_! Personally, one outcome of the paper was the [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer") software, which also lead to 
-[*Study of field potential signals from cell cultures*](#understand_fp "Explaining FP signal"). It was my first touch for analyzing pretty challenging cardiomyocyte biosignals, which improved my data analysis skills, thus played a role that led to where I am nowadays; a guy doing data nerd stuff! 🤓
-
+### 🫀 Biosignals, Ischemia & Data Science  
+This study uncovered key biological insights—like how **hiPSC-CMs**, despite their immature phenotype, can be used to model **ischemia–reperfusion injury**. On a personal level, it was also a milestone for me:  
+✅ I built [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer"), software designed for this research.  
+✅ It marked my **first experience analyzing complex cardiomyocyte biosignals**.  
+✅ This journey eventually led me to explore [*field potential signals from cell cultures*](#understand_fp "Explaining FP signal"), opening up a whole new world of bioelectric data analysis.  
+✅ It pushed me further into **data-driven science**—the foundation of what I do today! 🤓 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "hakli2021human" %}
@@ -423,8 +428,8 @@ In the next section, I have chosen some articles to highlight my academic work.
   {% endfor %}
 </div>
 
-🌱 'Must' pick this one, as it is my most cited article! 😎 More seriously, this publication stands out on its own shoulders; we could orient cells using aligned cationic cellulose nanofiber (c-CNF) surfaces, a finding that can be used to guide the growth of cells!. Personally, really enjoyed doing data analysis for the this paper.
-
+### 🌱 My Most Cited Paper!  
+Had to include this one—it’s my **most cited article**! 😎 Beyond citations, it stands out because we successfully **oriented cells** using **aligned cationic cellulose nanofiber (c-CNF) surfaces**, a method that has potential in **guiding cellular growth**. Personally, I had a blast analyzing the data for this project. 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "skogberg2017cellulose" %}
@@ -441,8 +446,10 @@ In the next section, I have chosen some articles to highlight my academic work.
   {% endfor %}
 </div>
 
-🎓 These two articles summarizes my doctoral work pretty well. 🎛️ More recent one combines **control engineering, novel indirect measurement methdod, mathematical modeling, electronics, and data analysis**, main tools being _MATLAB_ and _Simulink_. Pretty cool stuff, have to say. 😎 Another one is pretty deep dive into ✍🏻 **computational modeling, mathematics, chemistry, and microfluidics**, mainly using _COMSOL_. Got very good feedback from my opponents about this part while I was defending my these. 🤓
-
+### 🎓 Wrapping Up My Doctoral Work  
+These two papers **sum up my PhD research** quite well:  
+🎛️ **The first one** brings together **control engineering, indirect measurement methods, mathematical modeling, electronics, and data analysis**—all powered by **MATLAB & Simulink**. Pretty cool, if you ask me. 😎  
+✍🏻 **The second one** is a **deep dive into computational modeling, mathematics, chemistry, and microfluidics** 🧮🧪💧, primarily using **COMSOL**. During my PhD defense, this work received **great feedback** from my opponents. 🏆🤓 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2018portable" or pub.article_id == "maki2015modelingco2" %}
