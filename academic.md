@@ -368,8 +368,9 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
   <figcaption><em>Google Scholar Profile Statistics – March 2025 </em></figcaption>
 </figure>
 
+In the next section, I have chosen some articles to highlight my academic work.
 ## Selected Articles
-Here, I have chosen some articles to highlight my academic work. The list 'must' start with the article where I am, for the first and who knows maybe last, time **the last author** and has been described [**here**](#vascularization "3D vascularized chip"). This publication was even in Finnish news!
+🧫 The selected articles list 'must' start with the article where I am, for the first, and who knows maybe last, time as **a last author** and has been described [**here**](#vascularization "3D vascularized chip"). This publication was even in Finnish news!
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
@@ -386,7 +387,7 @@ Here, I have chosen some articles to highlight my academic work. The list 'must'
   {% endfor %}
 </div>
 
-My 'deep dive' to control systems was when I combined fuzzy controllers & cardiomyocute cell cultures in simulation environments, see more in [**here**](#fuzzy_control "fuzzy control environment").
+🎚️ My 'deep dive' to control systems was when I combined fuzzy controllers & cardiomyocute cell cultures in simulation environments that I created, see more in [**here**](#fuzzy_control "fuzzy control environment").
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -403,7 +404,7 @@ My 'deep dive' to control systems was when I combined fuzzy controllers & cardio
   {% endfor %}
 </div>
 
-There are several significant biological outcomes of the following publication, like that _despite their immature phenotype, hiPSC-CMs can be utilized in modeling ischemia–reperfusion injury_! Personally, one outcome of the paper was the [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer") software, which also lead to 
+🫀 There are several significant biological outcomes of the following publication, like that _despite their immature phenotype, hiPSC-CMs can be utilized in modeling ischemia–reperfusion injury_! Personally, one outcome of the paper was the [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer") software, which also lead to 
 [*Study of field potential signals from cell cultures*](#understand_fp "Explaining FP signal"). It was my first touch for analyzing pretty challenging cardiomyocyte biosignals, which improved my data analysis skills, thus played a role that led to where I am nowadays; a guy doing data nerd stuff! 🤓
 
 <div style="font-size: 0.8em;">
@@ -422,7 +423,7 @@ There are several significant biological outcomes of the following publication, 
   {% endfor %}
 </div>
 
-'Must' pick this, as it is my most cited article! 😎 More seriously, this publication stands out on its own shoulders; we could orient cells using aligned cationic cellulose nanofiber (c-CNF) surfaces, a finding that can be used to guide the growth of cells!. Personally, really enjoyed analysizing cellulose nanofiber data.
+🌱 'Must' pick this one, as it is my most cited article! 😎 More seriously, this publication stands out on its own shoulders; we could orient cells using aligned cationic cellulose nanofiber (c-CNF) surfaces, a finding that can be used to guide the growth of cells!. Personally, really enjoyed doing data analysis for the this paper.
 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -440,7 +441,7 @@ There are several significant biological outcomes of the following publication, 
   {% endfor %}
 </div>
 
-These two articles summarizes my doctoral work. 
+🎓 These two articles summarizes my doctoral work pretty well. 🎛️ More recent one combines **control engineering, novel indirect measurement methdod, mathematical modeling, electronics, and data analysis**, main tools being _MATLAB_ and _Simulink_. Pretty cool stuff, have to say. 😎 Another one is pretty deep dive into ✍🏻 **computational modeling, mathematics, chemistry, and microfluidics**, mainly using _COMSOL_. Got very good feedback from my opponents about this part while I was defending my these. 🤓
 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -459,7 +460,7 @@ These two articles summarizes my doctoral work.
 </div>
 
 
-# All Journal Articles
+## All Journal Articles
 Click below to see list of all journal articles I am involved in.
 <details>
   <summary><strong>📚 Show All Journal Articles</strong></summary>  
