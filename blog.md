@@ -1,6 +1,6 @@
 ---
 layout: list_pages
-title: "📝 A-J Mäki's _'Nerd your day'_ Blog Posts"
+title: "📝 A-J Mäki's Blog Posts"
 permalink: /blog/
 ---
 
