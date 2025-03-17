@@ -1,8 +1,10 @@
 ---
 layout: list_pages
-title: "📝 A-J Mäki's Blog Posts"
+title: "📝 A-J Mäki's _'Nerd your day'_ Blog Posts"
 permalink: /blog/
 ---
+
+> 😎 Nerd your day! 🤓 
 
 ## 📝 Blog Archive  
 Here you can find all my blog posts, sorted by date.
@@ -28,5 +30,12 @@ Here are the topics I frequently write about:
   {% endfor %}
 </ul>
 
+## this is test: can't make tags-links working properly
+<p>
+  <strong>Tags:</strong>
+  {% for tag in site.tags %}
+    <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" style="color:blue;">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+</p>
 
 
