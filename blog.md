@@ -1,10 +1,10 @@
 ---
 layout: list_pages
-title: "📝 A-J Mäki's 😎 _Nerd your day!_ 🤓 Blog Posts"
+title: "📝 A-J Mäki's 😎 Nerd your day! 🤓 Blog Posts"
 permalink: /blog/
 ---
 
-> 😎 Nerd your day! 🤓 
+> 😎 _Nerd your day!_ 🤓 
 
 ## 📝 Blog Archive  
 Here you can find all my blog posts, sorted by date.
