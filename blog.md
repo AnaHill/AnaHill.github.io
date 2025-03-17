@@ -1,6 +1,6 @@
 ---
 layout: list_pages
-title: "📝 A-J Mäki's Blog Posts"
+title: "📝 A-J Mäki's 😎 _Nerd your day!_ 🤓 Blog Posts"
 permalink: /blog/
 ---
 
@@ -29,13 +29,4 @@ Here are the topics I frequently write about:
     <li><strong>{{ tag[0] }}</strong> ({{ tag[1] | size }} posts)</li>
   {% endfor %}
 </ul>
-
-## this is test: can't make tags-links working properly
-<p>
-  <strong>Tags:</strong>
-  {% for tag in site.tags %}
-    <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" style="color:blue;">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-</p>
-
 
