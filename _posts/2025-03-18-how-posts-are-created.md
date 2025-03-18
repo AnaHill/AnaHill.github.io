@@ -18,7 +18,7 @@ Typically, I use this in my blog post; title in layout is 'reserver' for "H1 lev
 ### Third level heading
 Outcome is like this when make heading with three `###`.
 
-### Fourth last time
+#### Fourth last time
 style.css should now include definition for also forth level headings `####`.
 
 # 📝 Blogging
