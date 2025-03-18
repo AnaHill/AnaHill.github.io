@@ -1,33 +1,38 @@
 ---
-layout: default # minimalist
+layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
-  <p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em>
-  {% if page.last_modified_at %}
-    <em>&nbsp;(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})</em>
-  {% endif %}
-  </p>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      Published on {{ page.date | date: "%B %d, %Y" }}
+      {% if page.last_modified_at %}
+        &nbsp;(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})
+      {% endif %}
+    </p>
+  </header>
 
   {% if page.tags %}
-  <p>
+  <p class="post-tags">
     <strong>Tags:</strong>
     {% for tag in page.tags %}
       <span style="color:blue;">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </p>
-{% endif %}
+  {% endif %}
 
-  <div class="content">
+  <div class="post-content">
     {{ content }}
   </div>
-  
-  <a href="{{ site.baseurl }}/blog/" style="color:green;">
-    <strong>⬅ To My Blog list</strong>
-  </a>
-  <br>
-  <a href="{{ site.baseurl }}/" style="color:green">
-    <strong>⬅ To My Main Page</strong>
-  </a>
+
+  <footer class="post-footer">
+    <a href="{{ site.baseurl }}/blog/" style="color:green;">
+      <strong>⬅ To My Blog List</strong>
+    </a>
+    <br>
+    <a href="{{ site.baseurl }}/" style="color:green">
+      <strong>⬅ To My Main Page</strong>
+    </a>
+  </footer>
 </article>
