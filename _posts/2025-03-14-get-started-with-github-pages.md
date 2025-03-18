@@ -59,10 +59,7 @@ Last three lines above are used to apply merlot theme for the pages; pic below d
 ![title and description](/pics/posts/how_title_and_description_is_showed.png "how title and description are shown on page using merlot theme")
 
 ## Blogging
-For the blogging, I recommend to check my post [_How to start blogging using GitHub Pages_](https://anahill.github.io/own%20page/2025/03/14/get-started-with-github-pages.html)
-
-Check out my previous post on [How to start blogging using GitHub Pages]({% post_url 2025-03-01-learn-write-posts %}).
-
+To start blogging with GitHub Pages,  I recommend to check out my previous post on [_How to start blogging using GitHub Pages_]({% post_url 2025-03-01-learn-write-posts %}).
 
 📝 Have a great time with GitHub Pages! 😊
 
