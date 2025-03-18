@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "How blog post are created"
 date: 2025-03-18
 # last_modified_at: 2025-03-18
