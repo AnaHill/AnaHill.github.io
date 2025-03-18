@@ -18,15 +18,35 @@ footer {
 }
 
 /* Apply only to blog posts */
+/* Blog post heading styles */
 article.post h1 {
-    font-size: 2em; /* Adjust as needed */
+    font-size: 2.2em; /* Bigger for better contrast */
     font-weight: bold;
-  }
-  
-  article.post h2 {
-    font-size: 1.75em;
-  }
-  
-  article.post h3 {
+    color: #600000; /* Slightly darker red */
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+article.post h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #800000; /* Merlot theme dark red */
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+article.post h3 {
     font-size: 1.5em;
-  }
+    font-weight: bold;
+    color: #a00000; /* A slightly lighter red */
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+
+article.post h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #b00000;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+}
