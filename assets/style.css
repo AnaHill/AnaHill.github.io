@@ -16,3 +16,17 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
+
+/* Apply only to blog posts */
+article.post h1 {
+    font-size: 2em; /* Adjust as needed */
+    font-weight: bold;
+  }
+  
+  article.post h2 {
+    font-size: 1.75em;
+  }
+  
+  article.post h3 {
+    font-size: 1.5em;
+  }
