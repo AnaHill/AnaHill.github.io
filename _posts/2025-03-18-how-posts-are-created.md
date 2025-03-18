@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Demonstration"
-date: 2025-03-14 
-# last_modified_at: 2025-03-14
+layout: default
+title: "How blog post are created"
+date: 2025-03-18
+# last_modified_at: 2025-03-18
 categories: [demonstration]
 tags: [GitHub Pages, Jekyll, demo]
 ---
@@ -19,10 +19,8 @@ Typically, I use this in my blog post; title in layout is 'reserver' for "H1 lev
 Outcome is like this when make heading with three `###`.
 
 
-# Blogging
-For the blogging, I recommend to check my post [_How to start blogging using GitHub Pages_](https://anahill.github.io/own%20page/2025/03/14/get-started-with-github-pages.html)
-
-Check out my previous post on [How to start blogging using GitHub Pages]({% post_url 2025-03-01-learn-write-posts %}).
+# 📝 Blogging
+To start blogging with GitHub Pages,  I recommend to check out my previous post on [How to start blogging using GitHub Pages]({% post_url 2025-03-01-learn-write-posts %}).
 
 
 📝 Have a great time with GitHub Pages! 😊
