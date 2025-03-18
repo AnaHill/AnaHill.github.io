@@ -3,10 +3,10 @@ layout: default
 ---
 
 <article class="post">
-  <header class="post-header">
+  <header>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      Published on {{ page.date | date: "%B %d, %Y" }}
+      🗓 Published on {{ page.date | date: "%B %d, %Y" }}
       {% if page.last_modified_at %}
         &nbsp;(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})
       {% endif %}
@@ -15,9 +15,9 @@ layout: default
 
   {% if page.tags %}
   <p class="post-tags">
-    <strong>Tags:</strong>
+    <strong>📌 Tags:</strong>
     {% for tag in page.tags %}
-      <span style="color:blue;">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+      <span style="color: #0056b3;">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </p>
   {% endif %}
@@ -26,13 +26,12 @@ layout: default
     {{ content }}
   </div>
 
-  <footer class="post-footer">
-    <a href="{{ site.baseurl }}/blog/" style="color:green;">
-      <strong>⬅ To My Blog List</strong>
-    </a>
-    <br>
-    <a href="{{ site.baseurl }}/" style="color:green">
-      <strong>⬅ To My Main Page</strong>
-    </a>
+  <hr>
+
+  <footer>
+    <p>
+      <a href="{{ site.baseurl }}/blog/" style="color: #800000; font-weight: bold;">⬅ Back to Blog</a> |  
+      <a href="{{ site.baseurl }}/" style="color: #800000; font-weight: bold;">🏠 Home</a>
+    </p>
   </footer>
 </article>
