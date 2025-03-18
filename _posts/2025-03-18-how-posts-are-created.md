@@ -12,6 +12,9 @@ In this post, I'll be testing and demonstrating how your markdown file is conver
 # This is H1 title text
 You will notice, how this differs from the following
 
+<h1 style="font-size: 2.2em; color: #600000; font-weight: bold;">This is H1 title text with `h1` tage and attributes </h1>
+
+
 ## Second level heading
 Typically, I use this in my blog post; title in layout is 'reserver' for "H1 level headings".
 
