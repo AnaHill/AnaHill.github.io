@@ -15,7 +15,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
   </a>
 </div>
 
-## 🚀 About Me  
+# 🚀 About Me  
 
 - 🤓 **Data Nerd** – Always finding resilient (data)solutions that can make _positive_ impact   
 - ⛷️ **Cross-Country Skiing Fanatic** – ☀️winter days & cross-country skiing is just so 😎  
@@ -27,7 +27,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 </figure>
 
 
-## 🔍 Explore More  
+# 🔍 Explore More  
 Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
 To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
 <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
@@ -40,7 +40,7 @@ Before transitioning into the data consultant, I had a long and diverse academic
 [**👨‍🔬My Academic Portfolio**]({{ "/academic.html" | relative_url }} "my academic portfolio").
 
 
-## 📂 Projects
+# 📂 Projects
 I have list my work-related projects <span style ="color:green"><strong>👉[here](work.html#projects) </strong></span>.
 On the other hand, I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
 
@@ -63,7 +63,9 @@ I share my thoughts from time to time; my latest posts are following:
 
 See all my blog posts <span style="color:green">**👉[here](/blog/)** </span>  
 
-## 📊 Visitor's count
+---
+
+<strong><big> 📊 Visitor's count </big></strong>
 <div align="center">   
   <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
 </div>
