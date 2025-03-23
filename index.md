@@ -48,7 +48,7 @@ On the other hand, I enjoy working on hobby projects, most of them can be found 
 
 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, more info [**here**](academic.html#doclatex).
 
-## 📝 <span id="blogs"> Blogs </span>
+# 📝 <span id="blogs"> Blogs </span>
 
 I share my thoughts from time to time; my latest posts are following:  
 
