@@ -17,11 +17,10 @@ Above text is written as `# This is H1 title text`. If working properly, it shou
 
 
 ## H2 level heading
-Above, is H2 title text starting with two `##`.
-https://anahill.github.io/work.html#-own-projects
+Above line is H2 title text starting with two `##`. Not need to be a sherlock to see the difference! 🤓
 
-# How to apply H1 level text in blog post: use html
-Above line is created with `#` tag, so it should use header level 1 style. You can see the difference if you use the following code
+# Check how H1 looks 
+Above line is created with `#` tag, so it should use header level 1 style. You can see the difference if you use the following code.
 
 ```html
 <h1 style="font-size: 2.2em; color: #600000; font-weight: bold;">
@@ -29,14 +28,15 @@ Above line is created with `#` tag, so it should use header level 1 style. You c
 </h1>
 ```
 
+Above code result following heading text.
 
 <h1 style="font-size: 2.2em; color: #600000; font-weight: bold;">
 This is H1 title text with `h1` tag and attributes written in html 
 </h1>
 
+After page is built, you can see the outcome; so yes, probably I could always manually apply html to each headings in my blog posts, but I do not want to do that.
 
-
-
+![manual_h1_title](/pics/posts/manual_h1_title_outcome.png "how manually written h1 text is shown currently")
 
 <!-- 
 ## Second level heading
