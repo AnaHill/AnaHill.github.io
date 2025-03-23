@@ -94,7 +94,7 @@ Currently, I focus on continuous learning and on my hobby projects, some of them
 **NOTE**: 
 These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [**started blogging**](https://anahill.github.io/blog/ "my blog page"), and these will likely be my first topics. Stay tuned! ✍️  
 
-<strong><big> How to use GitHub </big></strong>
+<strong><big> How to use GitHub Pages </big></strong>
 - Sharing my tips & tricks how to set up GitHub Pages in my [**blog page**](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications.
 
 <strong><big> My Tips for Academy </big></strong>
