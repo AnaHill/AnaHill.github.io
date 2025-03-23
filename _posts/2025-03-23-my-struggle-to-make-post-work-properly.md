@@ -17,9 +17,12 @@ Above text is written as `# This is H1 title text`. If working properly, it shou
 Same goes lower level `H2`heading, example how it should look like is 
 [anahill.github.io/work.html#-own-projects](https://anahill.github.io/work.html#-own-projects "anahill.github.io/work.html#-own-projects")
 
+In the following pic, I try to demonstrate this: left side shows how headings should look when merlot theme is applied properly; right side the current state in this blog post.  
+You do not need to be a sherlock to see the difference! 🤓 
+![comparison_of_heading_](/pics/posts/compare_correct_headings_to_current_post.png "Properly applied headings on the left vs headings on this blog post (right)")
 
 ## H2 level heading
-Above line is H2 title text starting with two `##`. Not need to be a sherlock to see the difference! 🤓
+Above line is H2 title text starting with two `##`. 
 
 # Check how H1 looks 
 Above line is created with `#` tag, so it should use header level 1 style. You can see the difference if you use e.g. the following code.
