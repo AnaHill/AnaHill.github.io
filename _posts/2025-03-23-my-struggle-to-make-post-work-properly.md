@@ -12,7 +12,9 @@ In this post, I'll be documenting my journey to make these blog posts, like this
 There are probably many problems with these blog post pages, but where I noticed it first was headings, they are just not implemented as they should. So, let's deep dive into the problem!
 
 # This is H1 title text
-Above text is written as `# This is H1 title text`. If working properly, it should use H1 level style based on theme I have applied, currently merlot. Example, how this `H1` text should look can be found e.g. on my main page like [H1 level anahill.github.io/#-explore-more](https://anahill.github.io/#-explore-more "anahill.github.io/#-explore-more"). Same goes lower level `H2`heading, example how it should look like is  
+Above text is written as `# This is H1 title text`. If working properly, it should use H1 level style based on theme I have applied, currently merlot. Example, how this `H1` text should look can be found e.g. on my main page like [H1 level anahill.github.io/#-explore-more](https://anahill.github.io/#-explore-more "anahill.github.io/#-explore-more"). 
+
+Same goes lower level `H2`heading, example how it should look like is 
 [anahill.github.io/work.html#-own-projects](https://anahill.github.io/work.html#-own-projects "anahill.github.io/work.html#-own-projects")
 
 
@@ -20,7 +22,7 @@ Above text is written as `# This is H1 title text`. If working properly, it shou
 Above line is H2 title text starting with two `##`. Not need to be a sherlock to see the difference! 🤓
 
 # Check how H1 looks 
-Above line is created with `#` tag, so it should use header level 1 style. You can see the difference if you use the following code.
+Above line is created with `#` tag, so it should use header level 1 style. You can see the difference if you use e.g. the following code.
 
 ```html
 <h1 style="font-size: 2.2em; color: #600000; font-weight: bold;">
@@ -37,6 +39,11 @@ This is H1 title text with `h1` tag and attributes written in html
 After page is built, you can see the outcome; so yes, probably I could always manually apply html to each headings in my blog posts, but I do not want to do that.
 
 ![manual_h1_title](/pics/posts/manual_h1_title_outcome.png "how manually written h1 text is shown currently")
+
+Let's test pure h1 element also, below I have written `<h1> Pure h1 element, no attributes included </h1>`.
+
+<h1> Pure h1 element, no attributes included </h1>
+
 
 <!-- 
 ## Second level heading
