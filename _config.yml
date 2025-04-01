@@ -4,6 +4,7 @@ logo: /pics/headshot_circle_ajm.png
 repository: AnaHill/AnaHill.github.io
 url: "https://anahill.github.io"
 baseurl: ""  # Empty baseurl is okay for GitHub Pages
+permalink: /blog/:title.html
 show_downloads: true
 remote_theme: pages-themes/merlot@v0.2.0
 plugins:
