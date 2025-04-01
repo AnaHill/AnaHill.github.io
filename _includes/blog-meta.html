@@ -1,0 +1,14 @@
+<p><em>Published on {{ page.date | date: "%B %d, %Y" }}</em>
+{% if page.last_modified_at %}
+    <em>&nbsp;(Updated on {{ page.last_modified_at | date: "%B %d, %Y" }})</em>
+{% endif %}
+</p>
+
+{% if page.tags %}
+<p>
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}
+    <span style="color:blue;">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+</p>
+{% endif %}
