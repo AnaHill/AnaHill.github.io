@@ -9,6 +9,8 @@ tags: [GitHub Pages, Jekyll, portfolio]
 
 {% include blog-meta.html %}
 
+> 😎 Nerd your day! 🤓  
+
 In this post, using my [**main page**](https://anahill.github.io/) as an example, I will explain how you can start with GitHub Pages and show how it is possible to create a FREE 🤑 work portfolio like [**mine**](https://anahill.github.io/work.html).
 
 <span style="color:red"> *I do **not** try to invent the wheel 𖥞 again*. </span>  
