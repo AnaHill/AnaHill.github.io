@@ -2,12 +2,19 @@
 layout: default
 title: "How to start blogging using GitHub Pages"
 date: 2025-03-01
-last_modified_at: 2025-03-14
+last_modified_at: 2025-04-06
 categories: [blogging]
 tags: [GitHub Pages, Jekyll, blogging]
 ---
 
 {% include blog-meta.html %}
+
+## Update on April, 2025
+Text below is not anymore used in my blog post. The problem was, that I could not get applied theme (merlot in this case) to work properly when using post.html. I have not find the final reason, but most probably it is something related to liquid and how it creates web pages. Couldn't find solution for this, even thought I tried multiple different (chat-GPT's recommended) ways. Please free to reach me out if you know how to fix it!
+
+## Previous version: using post.html
+**Notice**: your theme might not work as planned, e.g. related to headings, if this approach is applied.
+
 
 In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
 1. add `_post` folder

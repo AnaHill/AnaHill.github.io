@@ -9,7 +9,14 @@ tags: [GitHub Pages, Jekyll, debug]
 
 {% include blog-meta.html %}
 
-**Update**: changing layout to default, and include blog-meta.html, will results following. 
+## Update on April, 2025
+I now found a solution. Not perfect but ok. Basically, now all blog post are
+- using default theme (instead of post that was used previously)
+- metadata like "Published on" etc are included with `include blog-meta.html` command
+- I include links to my blog list and main page in each blog post file
+  - this is a bit bummer, and therefore my previously used "post.html" method, described [here](https://anahill.github.io/blog/learn-write-posts.html), would have been better
+
+## Previous text 
 
 In this post, I'll be documenting my journey to make these blog posts, like this, work probably. Originally, idea was to demonstrate how a markdown file is converted to a blog post. But, because of problems reported below, this turned to be documentation of the problem. Let's see if I find any solution! Please do not hesitate to contact me if you would have any tips that could help me!
 
