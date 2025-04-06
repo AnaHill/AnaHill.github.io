@@ -11,10 +11,13 @@ tags: [academia, publication list]
 
 > 😎 Nerd your day! 🤓  
 
-While creating [**👨‍🔬 My Academic Portfolio**](https://anahill.github.io/academic.html "my academic portfolio"), I struggled how to present my publications. I wanted 
-- **minimum updating**: only need to maintain my [publications.bib](https://github.com/AnaHill/AnaHill.github.io/blob/main/_data/publications.bib "publications.bib file") file : `.bib` is a BibTeX database file that is almost a _de facto_ standard to store bibliography items, such as books, journal and conference articles, and so on...
+While creating [**👨‍🔬 My Academic Portfolio**](https://anahill.github.io/academic.html "my academic portfolio"), I struggled how to list my publications. I wanted 
+- **minimum updating**: only need to maintain my [publications.bib](https://github.com/AnaHill/AnaHill.github.io/blob/main/_data/publications.bib "publications.bib file") file : `.bib` is a BibTeX database file that is almost a _de facto_ standard to store bibliography items such as journal and conference articles, books, theses, and so on...
 - **higlight myself**: when I list any of my publications, my name would automatically appear in **bold**.
-- **be able to cathegorize publications**: using tags, I can list automatically several 
+- **be able to cathegorize publications**: using tags, I can list automatically several publications using that specific tag
+
+For this, I need
+1. An up-to-date BibTeX database file: [publications.bib](https://github.com/AnaHill/AnaHill.github.io/blob/main/_data/publications.bib "publications.bib file") includes publications that I want to list. I used there `category` field to add tags that I use in the web page; for example `selected_publications`
 
 Converted [publications.yml](https://github.com/AnaHill/AnaHill.github.io/blob/main/_data/publications.yml "publications.yml file") file is called with python
 
