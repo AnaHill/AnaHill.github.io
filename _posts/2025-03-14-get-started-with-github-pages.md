@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Get Started With GitHub Pages"
 date: 2025-03-14 
 last_modified_at: 2025-03-18
@@ -70,3 +70,7 @@ To start blogging with GitHub Pages,  I recommend to check out my previous post 
 - Alexandre Sanlim's [repo](https://github.com/alexandresanlim/) as well as [Daria Stanilevici's](https://github.com/daria-stanilevici/daria-stanilevici) have some nice features worth of checking
 
 --- 
+
+<br><br>
+<a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
+<a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a>
