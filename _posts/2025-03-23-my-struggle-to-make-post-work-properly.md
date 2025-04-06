@@ -72,3 +72,6 @@ To start blogging with GitHub Pages, I recommend to check out my previous post o
 - GitHub Pages [documentation](https://pages.github.com/)
 
 --- 
+
+<a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
+<a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a>
