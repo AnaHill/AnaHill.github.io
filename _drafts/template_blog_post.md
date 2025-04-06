@@ -11,25 +11,31 @@ tags: [first, second]
 
 > 😎 Nerd your day! 🤓  
 
-your text here
 
-Linking to your reference list [list](#ref)
 
-📝 Happy blogging! 😊
-<!-- how to include pic
+
+<!-- 
+0) how to linking to your reference section [list](#ref)
+
+1) how to include pic
 ![manual_h1_title](/pics/posts/manual_h1_title_outcome.png "how manually written h1 text is shown currently") 
-
+or 
 <figure style="text-align: center;">
   <img src="pics/ajm_profile.png" alt="my profile">
-  <figcaption><em>"This is me 🤓 – Data Engineer with a passion for data & IT and continous learning & teaching." </em></figcaption>
+  <figcaption><em>"This is me." </em></figcaption>
 </figure>
 
 
+2) how to link to some file in the repo with absolut path
+[View the Python script on GitHub](https://github.com/AnaHill/AnaHill.github.io/blob/main/_data/convert_bib_to_yaml.py "convert bib file to yaml")
 
 -->
 
+
+
+📝 Happy blogging! 😊
 <!-- possible reference section names -->
-## <span id="ref"> References used </span>
+<!-- ## <span id="ref"> References used </span> -->
 ## <span id="ref"> Find out more </span>
 - reference1
 
