@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "How to start blogging using GitHub Pages"
 date: 2025-03-01
 last_modified_at: 2025-03-14
@@ -7,6 +7,7 @@ categories: [blogging]
 tags: [GitHub Pages, Jekyll, blogging]
 ---
 
+{% include blog-meta.html %}
 
 In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
 1. add `_post` folder

@@ -1,11 +1,15 @@
 ---
-layout: post
+layout: default
 title: "My struggles to make posts work properly"
 date: 2025-03-23
-# last_modified_at: 2025-03-23
+last_modified_at: 2025-04-06
 categories: [demonstration]
 tags: [GitHub Pages, Jekyll, debug]
 ---
+
+{% include blog-meta.html %}
+
+**Update**: changing layout to default, and include blog-meta.html, will results following. 
 
 In this post, I'll be documenting my journey to make these blog posts, like this, work probably. Originally, idea was to demonstrate how a markdown file is converted to a blog post. But, because of problems reported below, this turned to be documentation of the problem. Let's see if I find any solution! Please do not hesitate to contact me if you would have any tips that could help me!
 
