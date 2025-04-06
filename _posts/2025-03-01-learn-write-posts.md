@@ -12,7 +12,11 @@ tags: [GitHub Pages, Jekyll, blogging]
 > 😎 Nerd your day! 🤓  
 
 ## Update on April, 2025
-Method described below is not anymore used in my blog posts. The problem was, that I could not get applied theme (merlot in this case) to work properly when using post.html. I have not find the final reason, but most probably it is something related to liquid and how it creates web pages. Couldn't find solution for this, even thought I tried multiple different (chat-GPT's recommended) ways. Please free to reach me out if you know how to fix it!
+Method described in the next section is not anymore used in my blog posts. The problem was, that I could not get applied theme (merlot in this case) to work properly when using post.html. I have not find the final reason, but most probably it is something related to liquid and how it creates web pages. Couldn't find solution for this, even thought I tried multiple different (chat-GPT's recommended) ways. Please free to reach me out if you know how to fix it! My workaround solution is presented below.
+
+![blog_post_workaround](/pics/posts/blog_post_workaround.png "Workaround to make blog post to use my default merlot theme") 
+<figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption>
+
 
 ## Previous version: using post.html
 **Notice**: your theme might not work as planned, e.g. related to headings, if this approach is applied.
