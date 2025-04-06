@@ -18,11 +18,8 @@ I found a solution. Or at least a workaround; not perfect but ok. Basically, now
 - I include links to my blog list and main page in each blog post file
   - this is a bit bummer, and therefore my previously used "post.html" method, described [here](https://anahill.github.io/blog/learn-write-posts.html), would have been better
 
-<!-- ![blog_post_workaround](/pics/posts/blog_post_workaround.png "Workaround to make blog post to use my default merlot theme")  -->
-<figure style="text-align: center;">
-  <img src="pics/post/blog_post_workaround.png" alt="Workaround to make blog post to use my default merlot theme">
-  <figcaption><em>"Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page." </em></figcaption>
-</figure>
+![blog_post_workaround](/pics/posts/blog_post_workaround.png "Workaround to make blog post to use my default merlot theme") 
+<figcaption><em>"Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page." </em></figcaption>
 
 ## Previous text 
 
