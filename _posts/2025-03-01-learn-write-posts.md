@@ -92,3 +92,5 @@ You can create list of your post with the following command, see more info on [J
 - and some help from ChatGPT 😎🤖
 
 --- 
+<a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
+<a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a>
