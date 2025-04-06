@@ -15,10 +15,9 @@ So, check the 👉[links in the end](#ref); first three links will guide you to 
 <span style="color:green; font-size: 1.2em;"> ⚠️ Use `index.md` for main page of GitHub Pages and `readme.md` for the main repo. **PERIOD.** </span>  
 ... trust me, you will thank me for this, but let me next explain how to set-up your main page properly.
 
-## Step1: Create a repo (`username.github.io`) and set-up `index.md` and `readme.md` files
-First, create a **public** repo named as `username.github.io`.
-
-After you have created a repo (be sure that your **repo is public**, otherwise this wont't work!)
+## Step1: Set-up
+First, create a **public** repo named as `username.github.io`. You should get readme.md file automattically. After you have created a repo
+- be sure that your **repo is public**, otherwise it wont't work
 - add `index.md` file to your main folder 
 - keep your `readme.md` minimal, I recommend to have there mainly a link to your main page when it is ready.
 
@@ -40,7 +39,7 @@ As an example, see `readme.md` and `index.md` in my repo
 The pic below demostrates how `index.md` is converted to your main page.
 ![index.md to page](/pics/posts/How_indexmd_shows_as_page.png "how index.md is converted to page")
 
-## Step2: Set-up `_config.yml` file
+## Step2: Config settings
 Create `_config.yml` file in your main folder. In my case, it includes following information.
 
 ```
@@ -71,6 +70,5 @@ To start blogging with GitHub Pages,  I recommend to check out my previous post 
 
 --- 
 
-<br><br>
 <a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
 <a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a>
