@@ -2,10 +2,7 @@
 title: Main page
 ---
 
-<blockquote style="text-align: center; color: green; font-size: 1.5em; font-weight: bold;">
-  😎 <em>Nerd your day!</em> 🤓 <br>
-  <span style="font-size: 0.7em; font-style: italic; color: darkslategray;">— A-J, data dude </span>
-</blockquote>
+> 😎 Nerd your day! 🤓  
 
 Welcome to my home pages. I'm **A-J Mäki**, PhD
 
@@ -23,7 +20,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 <figure style="text-align: center;">
   <img src="pics/ajm_profile.png" alt="my profile">
-  <figcaption><em>"This is me 🤓 – Data Engineer with a passion for data & IT and continous learning & teaching." </em></figcaption>
+  <figcaption><em>"A-J Mäki – 🤓 Data enthusiast with a passion for mentoring and continuous learning."</em></figcaption>
 </figure>
 
 
@@ -32,9 +29,19 @@ Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**.
 To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
 <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
-</p>
+
+<div align="left">
+  💼 Reach me via  
+  <br>
+  <a href="mailto:maki.antti.j@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="https://www.linkedin.com/in/antti-juhana-maki/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://anahill.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
+  </a>
 
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
 [**👨‍🔬My Academic Portfolio**]({{ "/academic.html" | relative_url }} "my academic portfolio").
