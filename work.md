@@ -27,8 +27,10 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
 # 🛠️ Skill & Tools
 <!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
 As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
-
 <!-- 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
+</p>
 <p align="left">
   <img src="https://skillicons.dev/icons?i=azure,postgres" />
   <img src="https://skillicons.dev/icons?i=python,powershell,bash" />
@@ -37,7 +39,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 ![my_expertise](pics/ajm_de_bubble.png)
 
-**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, Markdown, bash, Linux (Ubuntu/WSL)
+**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Aug 2018
