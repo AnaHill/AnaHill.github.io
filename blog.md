@@ -4,8 +4,6 @@ title: "📝 A-J Mäki's 😎 Nerd your day! 🤓 Blog Posts"
 permalink: /blog/
 ---
 
-> 😎 _Nerd your day!_ 🤓 
-
 ## 📝 Blog Archive  
 Here you can find all my blog posts, sorted by date.
 
