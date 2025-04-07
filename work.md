@@ -25,13 +25,11 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
 🔍 By the way, **Solita** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.solita.fi/join-us/ "open positions at Solita") 👈 or just drop me a message ✉︎. 
 
 # 🛠️ Skill & Tools
-<!-- <span style="color:red"><strong>⚡ This section will be updated soon!</strong></span>   -->
 As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
+
 <!-- 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
-</p>
 <p align="left">
+  <img src="https://skillicons.dev/icons?i=azure,postgres,python,powershell,bash" />
   <img src="https://skillicons.dev/icons?i=azure,postgres" />
   <img src="https://skillicons.dev/icons?i=python,powershell,bash" />
 </p> 
