@@ -1,5 +1,6 @@
 ---
-layout: default
+# layout: default
+layout: post
 title: "My struggles to make posts work properly"
 date: 2025-03-23
 last_modified_at: 2025-04-06
@@ -7,7 +8,7 @@ categories: [demonstration]
 tags: [GitHub Pages, Jekyll, debug]
 ---
 
-{% include blog-meta.html %}
+<!-- {% include blog-meta.html %} -->
 
 > 😎 Nerd your day! 🤓  
 
@@ -83,7 +84,9 @@ To start blogging with GitHub Pages, I recommend to check out my previous post o
 ## <span id="ref"> Find out more </span>
 - GitHub Pages [documentation](https://pages.github.com/)
 
+<!-- 
 --- 
 
 <a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
-<a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a>
+<a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a> 
+-->
