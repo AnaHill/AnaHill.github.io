@@ -42,6 +42,7 @@ To find out more my skills, tools, and projects, check [<span style="color:green
   <a href="https://anahill.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
+</div>
 
 Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
 [**👨‍🔬My Academic Portfolio**]({{ "/academic.html" | relative_url }} "my academic portfolio").
