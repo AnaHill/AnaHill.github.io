@@ -22,8 +22,9 @@ I found a solution. Or at least a workaround; not perfect but ok using `blog-met
 <figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption>
 
 Why my `post.html` approach does not work? 
-To be honest, I do not know, but I let our 🤖 chat-GPT to answer. Not sure is this correct or not but sounds reasonable
+To be honest, I do not know, but I let our 🤖 chat-GPT to answer. Not sure is this correct or not but sounds reasonable.
 > That’s called a layout chaining technique, where `post.html` extends `default.html`. That part is totally fine in theory — but in practice, your **_layouts/post.html doesn't contain any actual HTML** content
+> 
 > And here’s the issue: **Jekyll does not render the front matter from a layout file like a normal page/post**. The layout: default inside post.html is ignored. So even though it looks like you're inheriting from default, you're actually not—and that’s why your post page has no CSS or structure applied.
 
 Please do not hesitate to reach me out if you know, how I can fix this! ✉︎
