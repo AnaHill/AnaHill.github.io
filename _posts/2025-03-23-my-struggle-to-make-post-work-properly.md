@@ -12,14 +12,14 @@ tags: [GitHub Pages, Jekyll, debug]
 > 😎 Nerd your day! 🤓  
 
 ## Update on April, 2025
-I found, if not a solution, at least a workaround; with the use `blog-meta.html` file (see [here](/_includes/blog-meta.html "blog-meta.html file")). Basically,
+I found, if not a solution, at least a workaround; with the use `blog-meta.html` file (see [here](https://github.com/AnaHill/AnaHill.github.io/blob/main/_includes/blog-meta.html "blog-meta.html file")). Basically,
 - now all blog post are using default theme with `layout: default` (instead of `layout: post` that was used previously)
 - metadata like "_Published on_" etc are included with `include blog-meta.html` command
 - I add links to my blog list and main page in **each blog post file**
   - this is a bit bummer, and therefore my previously used "post.html" method, described [here](https://anahill.github.io/blog/learn-write-posts.html), would have been better.
 
 ![blog_post_workaround](/pics/posts/blog_post_workaround.png "Workaround to make blog post to use my default merlot theme") 
-<figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption> </br>
+<figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption>  
 
 Why my `post.html` approach does not work? 
 To be honest, I do not know for sure, but based on discussion I had with our own 🤖 friend chat-GPT, its suggestion seems reasonable: 
