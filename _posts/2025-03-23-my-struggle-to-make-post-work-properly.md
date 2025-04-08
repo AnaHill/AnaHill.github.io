@@ -12,17 +12,17 @@ tags: [GitHub Pages, Jekyll, debug]
 > 😎 Nerd your day! 🤓  
 
 ## Update on April, 2025
-I found a solution. Or at least a workaround; not perfect but ok using `blog-meta.html` file. Basically,
+I found, if not a solution, at least a workaround; with the use `blog-meta.html` file (see [here](/_includes/blog-meta.html "blog-meta.html file")). Basically,
 - now all blog post are using default theme with `layout: default` (instead of `layout: post` that was used previously)
 - metadata like "_Published on_" etc are included with `include blog-meta.html` command
 - I add links to my blog list and main page in **each blog post file**
   - this is a bit bummer, and therefore my previously used "post.html" method, described [here](https://anahill.github.io/blog/learn-write-posts.html), would have been better.
 
 ![blog_post_workaround](/pics/posts/blog_post_workaround.png "Workaround to make blog post to use my default merlot theme") 
-<figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption>
+<figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption> </br>
 
 Why my `post.html` approach does not work? 
-To be honest, I do not know, but I let our 🤖 chat-GPT to answer. Not sure is this correct or not but sounds reasonable.
+To be honest, I do not know for sure, but based on discussion I had with our own 🤖 friend chat-GPT, its suggestion seems reasonable: 
 > That’s called a layout chaining technique, where `post.html` extends `default.html`. That part is totally fine in theory — but in practice, your **_layouts/post.html doesn't contain any actual HTML** content
 > 
 > And here’s the issue: **Jekyll does not render the front matter from a layout file like a normal page/post**. The layout: default inside post.html is ignored. So even though it looks like you're inheriting from default, you're actually not—and that’s why your post page has no CSS or structure applied.
@@ -43,9 +43,11 @@ Above text is written as `# This is H1 title text`. If working properly, it shou
 Same goes lower level `H2`heading, example how it should look like is 
 [anahill.github.io/work.html#-own-projects](https://anahill.github.io/work.html#-own-projects "anahill.github.io/work.html#-own-projects")
 
-In the following pic, I try to demonstrate this: left side shows how headings should look when merlot theme is applied properly; right side the state while writing this part. 
-You do not need to be a sherlock to see the difference! 🤓 
+In the following pic, I try to demonstrate this: You do not need to be a sherlock to see the difference! 🤓 
 ![comparison_of_heading_](/pics/posts/compare_correct_headings_to_current_post.png "Properly applied headings on the left vs headings on this blog post (right)")
+<figcaption><em>
+Properly styled headings (left) vs headings at the time of writing when merlot theme is not applied as it should (right)
+.</em></figcaption>
 
 ## H2 level heading
 Above line is H2 title text starting with two `##`. 

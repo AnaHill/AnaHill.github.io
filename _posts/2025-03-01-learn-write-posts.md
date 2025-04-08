@@ -12,15 +12,17 @@ tags: [GitHub Pages, Jekyll, blogging]
 > 😎 Nerd your day! 🤓  
 
 ## Update on April, 2025
-Method described in the next section is not anymore used in my blog posts. The problem was, that I could not get applied theme (merlot in this case) to work properly when using post.html. I have not find the final reason, but most probably it is something related to liquid and how it creates web pages. Couldn't find solution for this, even thought I tried multiple different (chat-GPT's recommended) ways. Please free to reach me out if you know how to fix it! My workaround solution is presented below.
+Method described in next section is **not used anymore in my blog posts**. I just was not able to apply theme (merlot in this case) properly when using `post.html` approach. 
+For the possible reasons, I have given a more detailed information in my [another post](/_posts/2025-03-23-my-struggle-to-make-post-work-properly.md); here, I just let our 🤖 friend named as chat-GPT to answer. 
 
-![blog_post_workaround](/pics/posts/blog_post_workaround.png "Workaround to make blog post to use my default merlot theme") 
-<figcaption><em>Blog post workaround: 1) change layout from post to default, 2) include blog-meta.html, and 3) include links to my blog list and main page.</em></figcaption>
+> That’s called a layout chaining technique, where `post.html` extends `default.html`. That part is totally fine in theory — but in practice, your **_layouts/post.html doesn't contain any actual HTML** content.
+> 
+> And here’s the issue: **Jekyll does not render the front matter from a layout file like a normal page/post**. Therefore, `layout: default` inside `post.html` is **ignored**.
 
+ 
 
 ## Previous version: using post.html
 **Notice**: your theme might not work as planned, e.g. related to headings, if this approach is applied.
-
 
 In this **my first blog post** (oujee! 🤓😎), I describe how to combine Jekyll and GitHub Pages to make a blog post. Briefly, you should
 1. add `_post` folder
