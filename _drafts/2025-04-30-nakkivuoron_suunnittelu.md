@@ -14,18 +14,35 @@ This post is in Finnish, sorry (if there is even any reader whom this matters)!
 
 Tässä kerron tehtävästäni, minkä sain toimiessani joukkueenjohtajana jälkikasvun harrastuksessa, ja kuinka valjastin tekoälyn siinä auttamaan.
 
-## Tehtävä / tavoite: vuorolistasuunnittelu! (ilman aikaisempaa)
+**tl;dr**: tekoälyn avulla tulkitaan vanhempien menot ja yhdistetään talkoovuorotarpeisiin. Näistä sitten koitetaan suunnitella mahdollisimman tasapuolinen vuorolista tietyillä reunaehdoilla.
+
+## Tehtävä / tavoite: vuorolistasuunnittelu! (ilman aikaisempaa kokemusta)
 - 45 tuntia talkoovuoroja viikonlopun aikana
-- tarvitaan vaihtelevast 2-4 henkilöä kerralla
+- tarvitaan vaihtelevasti 2-4 henkilöä kerralla
 - kymmenkunta perhettä joille nämä vuorot pitäisi kohtuullisen tasapuolisesti jakaa
 - ...tietyillä reunaehdoilla
 
-## Oma lähestymistapa: Valjasta tekoäly kaveriksi vuorosuunnitteluun!
-1. pyydä vanhemmilta toiveet/pääsyt
-2. kerää ne yhteen
-3. anonymisoi henkilötiedot (vaikkei tässä nyt ollut kuin etunimi niin olen tarkka etten niitäkään eteenpäin luovuta)
-4. pyydä GenAI:ta analysoimaan toiveet
-5. 
+# Oma lähestymistapa: Valjasta tekoäly kaveriksi vuorosuunnitteluun!
+Tässä projektissa, vaikka datamäärät hyvin pieniä olivatkin, huomasi kyllä konkreettisesti sen vanhan totuuden kuinka paljon aikaa saa kulumaan etukäteisvalmisteluun, kuten datan keruuseen, koontiin ja siivoamiseen, ennen kuin oikeasti pääsee itse kiinnostavaan työvuorosuositteluun. Se nyrkkisääntö 80% piti varmaan aika hyvin kutinsa tässä tapauksessa.
+
+## Alkuvalmistelut
+Aluksi määrittellään talkoovuorotarpeet
+1. hae useammasta eri lähteestä talkoovuorojen aikataulut
+2. etsi niistä mihin kaikkiin vuoroihin joukkueesi on laitettu
+3. koosta niistä karkea aikataulutarve; esimerksi nyt oli aina kaksi henkilöä pelijärkkäreiksi ja kaksi myyntihommiin
+
+Vaiheet 1-2 tehtiin täysin käsin, koska en halunnut jakaa monen muun ryhmän kanssa jaettuja vuorolistoja tekoälylle; olisi toki ollut mahdollista että se olisi löytänyt ja osannut tulkita 
+
+
+
+Vanhempien toiveet/pääsyt
+1. pyydä vanhempien lähettää nämä whatsapilla (vaikutti olevan lopulta helpoin tapa)
+2. kerää tiedot yhteen
+3. anonymisoi henkilötiedot (vaikkei tässä nyt ollut kuin etunimi yleensä niin olen tarkka etten niitäkään eteenpäin luovuta)
+   
+
+pyydä GenAI:ta analysoimaan toiveet
+1. 
 
 
 Muutama esimerkki vanhemmilta ykköskohtaan
@@ -46,6 +63,9 @@ Ohjeistin jokaisen merkkaamaan noin 5 tuntia taulukkoon jonka linkin jaoin; sill
 - minulle helpompi & kiinnostavampi kun pääsin samalla tutustumaan GenAI:n ja Agentteihinkin minua hyödyttävän tehtävän tiimoilta
 - lopulta vanhemmille parempi, koska suuria mussutuksia ei tullut edes ekasta vedosta
 
+## Itse työvuorolistan suunnittelu ja toteutus
+- .csv
+- 
 <!-- 
 1) how to linking to your reference section [list](#ref)
 
