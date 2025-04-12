@@ -20,11 +20,19 @@ Tässä kerron tehtävästäni, minkä sain toimiessani joukkueenjohtajana jälk
 - kymmenkunta perhettä joille nämä vuorot pitäisi kohtuullisen tasapuolisesti jakaa
 - ...tietyillä reunaehdoilla
 
-## Oma lähestymistapa: Valjasta tekoäly kaveriksi
-- kerää vanhemmilta 
+## Oma lähestymistapa: Valjasta tekoäly kaveriksi vuorosuunnitteluun!
+1. pyydä vanhemmilta toiveet/pääsyt
+2. kerää ne yhteen
+3. anonymisoi henkilötiedot (vaikkei tässä nyt ollut kuin etunimi niin olen tarkka etten niitäkään eteenpäin luovuta)
+4. pyydä GenAI:ta analysoimaan toiveet
+5. 
 
 
-Esimer
+Muutama esimerkki vanhemmilta ykköskohtaan
+> - voisin päästä lauantaina klo 13-15 ja henkilöX su aamusta
+> - mulle ei sovi kuin sunnuntai
+> - mä voin olla joko la aamusta tai sitten su iltapäivällä
+> - voin olla pitkän päivän joko la tai su
 
 
 Tätä lukiessa joku voisi miettiä, **miksen vain jakanut jotain taulukkoa mihin vanhemmat saisivat itse laittaa vuoronsa** "_nopeat syövät hitaat periaatteella_"? Arvaapa, teinkö näin aikaisempana vuotena? :D
