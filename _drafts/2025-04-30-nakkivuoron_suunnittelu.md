@@ -10,40 +10,48 @@ tags: [AI, schedule designer]
 {% include blog-meta.html %}
 
 > 😎 Nerd your day! 🤓  
-This post is in Finnish, sorry (if there is even any reader whom this matters)!
+This post is in Finnish, sorry (not sure though, is there even any reader whom this would matter...)!
 
 Tässä kerron tehtävästäni, minkä sain toimiessani joukkueenjohtajana jälkikasvun harrastuksessa, ja kuinka valjastin tekoälyn siinä auttamaan.
 
-**tl;dr**: tekoälyn avulla tulkitaan vanhempien menot ja yhdistetään talkoovuorotarpeisiin. Näistä sitten koitetaan suunnitella mahdollisimman tasapuolinen vuorolista tietyillä reunaehdoilla.
+**tl;dr**: tekoälyn avulla tulkitaan perheiden pääsemiset&toiveet, jotka sitten yhdistetään joukkueen talkoovuorotarpeisiin ja näiden  perusteella suunnitellaan mahdollisimman reilu vuorolista.
 
-## Tehtävä / tavoite: vuorolistasuunnittelu! (ilman aikaisempaa kokemusta)
-- 45 tuntia talkoovuoroja viikonlopun aikana
-- tarvitaan vaihtelevasti 2-4 henkilöä kerralla
+# Tehtävä: Vuorolistasuunnittelu 
+- yhteensä 45 tuntia talkoovuoroja viikonlopun aikana
+- tarvitaan vaihtelevasti 2-4 henkilöä kerralla eri tehtäviin
 - kymmenkunta perhettä joille nämä vuorot pitäisi kohtuullisen tasapuolisesti jakaa
 - ...tietyillä reunaehdoilla
 
-# Oma lähestymistapa: Valjasta tekoäly kaveriksi vuorosuunnitteluun!
-Tässä projektissa, vaikka datamäärät hyvin pieniä olivatkin, huomasi kyllä konkreettisesti sen vanhan totuuden kuinka paljon aikaa saa kulumaan etukäteisvalmisteluun, kuten datan keruuseen, koontiin ja siivoamiseen, ennen kuin oikeasti pääsee itse kiinnostavaan työvuorosuositteluun. Se nyrkkisääntö 80% piti varmaan aika hyvin kutinsa tässä tapauksessa.
+Tätä lukiessa joku voisi miettiä, **miksen vain jakanut jotain taulukkoa mihin vanhemmat saisivat itse laittaa vuoronsa** "_nopeat syövät hitaat periaatteella_" vuorolistasuunnittelun sijaan? Arvaapa, teinkö näin aikaisempana vuotena? :D
+Silloin ohjeistin jokaisen merkitsemään viitisen tuntia netissä jakamaani  taulukkoon; silloin tapahtui
+- täyttämisessä oli yllättäviä vaikeuksia; osa pääsyoikeuksiin liittyen, osa käyttäjien taitoihin; jouduin lopulta melkoisesti neuvomaan ja täyttelemään toisten puolesta sitä taulukkoa
+- kun sitten vuorot saatiin suunnilleen täytettyä, niin arvaapa
+  - oliko siellä aukkoja, esimerkiksi yksittäisiä tunteja, jotka kumminkin on täytettävä
+  - tuliko kaikenlaisia perumisia yms ja jäikö sinne lopulta tuplavuoro minun hoidettavakseni
 
-## Alkuvalmistelut
-Aluksi määrittellään talkoovuorotarpeet
-1. hae useammasta eri lähteestä talkoovuorojen aikataulut
-2. etsi niistä mihin kaikkiin vuoroihin joukkueesi on laitettu
-3. koosta niistä karkea aikataulutarve; esimerksi nyt oli aina kaksi henkilöä pelijärkkäreiksi ja kaksi myyntihommiin
+...edellisen vuoden kokomuksella ajattelin siis, että tämä tämän vuotinen lähestymistapa on 
+- minulle helpompi & kiinnostavampi kun pääsin samalla tutustumaan GenAI:n ja Agentteihinkin minua hyödyttävän tehtävän tiimoilta
+- lopulta vanhemmillekin parempi; perustuen siihen koska suuria mussutuksia tai muutoksia ei tullut edes ekasta vuorolistaehdotuksestani, mistä olin kyllä positiivisen yllättynyt!
 
-Vaiheet 1-2 tehtiin täysin käsin, koska en halunnut jakaa monen muun ryhmän kanssa jaettuja vuorolistoja tekoälylle; olisi toki ollut mahdollista että se olisi löytänyt ja osannut tulkita 
+# Tavoitteeni: Tekoäly kaveriksi vuorosuunnitteluun!
+**Alustuksena**: Tässä projektissa, vaikka datamäärät hyvin pieniä olivatkin, huomasi kyllä konkreettisesti sen vanhan totuuden kuinka paljon aikaa saa kulumaan etukäteisvalmisteluun, kuten datan keruuseen, koontiin ja siivoamiseen (sekä uusien asioiden oppimiseen), ennen kuin oikeasti pääsee tekemään sitä kiinnostavaa työvuorosuosittelua. Se nyrkkisääntö 80% piti varmaan aika hyvin kutinsa tässä tapauksessa.
 
+Ideaalitapauksessa lopullinen ratkaisuni olisi skaalautuva; tässä tapauksessa se toimisi myös muiden talkoovuoroja tekevien joukkueiden, joita kymmenkunta (ja osa huomattavasti isompia sisältäen parikymmentä perhettä), tarpeisiin tulevina vuosina.
 
+# Alkuvalmistelut
+## Joukkueen talkoovuorotarpeiden määritys
+Ensiksi, etsin kaikki joukkueeni talkoovuorotarpeet useammasta eri Excel-taulukosta, missä oli myös kaikkien muiden joukkueiden aikataulut. Sen jälkeen koostin niistä karkean aikataulutarpeen; tällä kertaa meillä oli nyt oli aina kaksi henkilöä pelijärkkäreinä ja kaksi myyntihommissa
 
-Vanhempien toiveet/pääsyt
-1. pyydä vanhempien lähettää nämä whatsapilla (vaikutti olevan lopulta helpoin tapa)
-2. kerää tiedot yhteen
-3. anonymisoi henkilötiedot (vaikkei tässä nyt ollut kuin etunimi yleensä niin olen tarkka etten niitäkään eteenpäin luovuta)
-   
+Nämä vaiheet tein täysin käsin, koska en halunnut jakaa monen muun joukkueen kanssa jaettuja vuorolistoja tekoälylle; olisi toki ollut mahdollista että se olisi löytänyt ja osannut tulkita useamman erimuotoisen Excel-taulukon ja etsiä niistä omaa joukkuettani koskevat, mutta väittäisin ettei se ihan helppoa olisi ollut tässä tapauksessa kun lähdetaulut eivät olleet mitenkään formaalissa muodossa.
 
+## Vanhempien toiveet ja pääsemiset
+Pyysin ensiksi vanhempien lähettää toiveet/pääsemiset/esteet minulle whatsapilla, koska se vaikutti olevan lopulta helpoin tapa. Keräsin nämä sitten yhteen ja anonymisoin henkilötiedot (vaikkei tässä nyt ollut kuin etunimi yleensä niin olen tarkka etten niitäkään eteenpäin luovuta); käytännössä nimet muuttuivat geneerisiin muotoihin _Person1_, _Person2_,... ja perhekokonaisuudet _Family1_, _Family2_ ja niin edelleen.
+
+Tässä vaiheessa kyselin jo tekoälyltä, mikä olisi järkevä tapa antaa nämä toiveet jatkovaiheita varten. Lopulta päädyimme `availability_raw_data.csv` tyyliseen ratkaisuun.
+
+## JATKA: Analysoi toiveet GenAI:ta apuna käyttäen 
 pyydä GenAI:ta analysoimaan toiveet
 1. 
-
 
 Muutama esimerkki vanhemmilta ykköskohtaan
 > - voisin päästä lauantaina klo 13-15 ja henkilöX su aamusta
@@ -52,16 +60,6 @@ Muutama esimerkki vanhemmilta ykköskohtaan
 > - voin olla pitkän päivän joko la tai su
 
 
-Tätä lukiessa joku voisi miettiä, **miksen vain jakanut jotain taulukkoa mihin vanhemmat saisivat itse laittaa vuoronsa** "_nopeat syövät hitaat periaatteella_"? Arvaapa, teinkö näin aikaisempana vuotena? :D
-Ohjeistin jokaisen merkkaamaan noin 5 tuntia taulukkoon jonka linkin jaoin; silloin tapahtui
-- netissä olevan taulukon täyttämisessä oli yllättäviä vaikeuksia; osa pääsyoikeuksiin liittyen, osa käyttäjien taitoihin, jouduin kyllä silloin melkoisesti neuvomaan ja täyttelemään toisten puolesta
-- kun sitten vuorot saatiin suunnilleen täytettyä, niin arvaapa
-  - oliko siellä aukkoja, esim yksittäisiä tunteja, jotka kumminkin on täytettävä
-  - tuliko kaikenlaisia perumisia yms ja jäikö sinne lopulta tuplavuoro minun hoidettavakseni
-
-...edellisen vuoden kokomuksella ajattelin siis, että tämä tämän vuotinen lähestymistapa on 
-- minulle helpompi & kiinnostavampi kun pääsin samalla tutustumaan GenAI:n ja Agentteihinkin minua hyödyttävän tehtävän tiimoilta
-- lopulta vanhemmille parempi, koska suuria mussutuksia ei tullut edes ekasta vedosta
 
 ## Itse työvuorolistan suunnittelu ja toteutus
 - .csv
