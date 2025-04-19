@@ -47,9 +47,21 @@ Nämä vaiheet tein täysin käsin, koska en halunnut jakaa monen muun joukkueen
 ## Vanhempien toiveet ja pääsemiset
 Pyysin ensiksi vanhempien lähettää toiveet/pääsemiset/esteet minulle whatsapilla, koska se vaikutti olevan lopulta helpoin tapa. Keräsin nämä sitten yhteen ja anonymisoin henkilötiedot (vaikkei tässä nyt ollut kuin etunimi yleensä niin olen tarkka etten niitäkään eteenpäin luovuta); käytännössä nimet muuttuivat geneerisiin muotoihin _Person1_, _Person2_,... ja perhekokonaisuudet _Family1_, _Family2_ ja niin edelleen.
 
-Tässä vaiheessa kyselin jo tekoälyltä, mikä olisi järkevä tapa antaa nämä toiveet jatkovaiheita varten. Lopulta päädyimme `availability_raw_data.csv` tyyliseen ratkaisuun.
+Tässä vaiheessa kyselin jo tekoälyltä, mikä olisi järkevä tapa antaa nämä toiveet jatkovaiheita varten. Lopulta päädyimme `availability_raw_data.csv` tyyliseen ratkaisuun. Tässä tekoäly tulkitsi ensin suomenkieliset tekstit englanniksi ja teki niistä alla olevan tyyylisen koosteen
 
-## JATKA: Analysoi toiveet GenAI:ta apuna käyttäen 
+JATKA: 
+```csv
+Family,PersonID,Availability
+Family1,Person1a,"Sunday 9-12 better but Saturday 9-12 possible"
+Family1,Person1b,"Sunday 9-12 better but Saturday 9-12 possible"
+Family2,Person2a,"Saturday 10-12"
+Family2,Person2b,"Sunday 13-15"
+Family3,Person3,"Saturday 12-17 or Sunday 12-15"
+Family4,Person4,"Saturday whole day or Su 9-12"
+```
+
+
+## Analysoi toiveet GenAI:ta apuna käyttäen 
 pyydä GenAI:ta analysoimaan toiveet
 1. 
 
