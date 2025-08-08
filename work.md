@@ -74,7 +74,8 @@ My Ph.D. work involved designing and implementing automation and control systems
 
 <!-- Certs -->
 # Certifications
-Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
+See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
+- *Aug 2025* Databricks -- Databricks Certified Data Engineer Associate
 - *Feb 2024* Agile Data Engine -- Agile Data Engine for Data Engineers 
 - *Nov 2022* Azure -- Azure AI Fundamentals (AI-900)
 - *Nov 2022* Azure -- Azure Data Fundamentals (DP-900)
@@ -85,7 +86,7 @@ Full list available in [Credly](https://www.credly.com/users/antti-juhana-maki).
 # 📂 <span id="projects">Projects</span>
 <!-- current -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
-📅 _March 2024 - Present_  
+📅 _March 2024 - June 2025_  
 🚀 **Role:** Data Engineer  
 🔌 **Industry:** Energy Sector | **Data:** Operational & Analytical  
 
