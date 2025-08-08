@@ -74,6 +74,6 @@ See all my blog posts <span style="color:green">**👉[here](/blog/)** </span>
 ---
 
 <strong><big> 📊 Visitor's count </big></strong>
-<div align="center">   
-  <img src="https://profile-counter.glitch.me/AnaHill/count.svg" alt="Visitor's Count" />
+<div align="center">
+  <img src="https://profile-counter.deno.dev/AnaHill/count.svg" alt="Visitor's Count" />
 </div>
