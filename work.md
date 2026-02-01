@@ -45,7 +45,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 # Work Experience
 
-## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 -Present_)
+## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 - Present_)
 - Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
 - Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also worked with **Fabric**
@@ -90,6 +90,19 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 
 # 📂 <span id="projects">Projects</span>
 <!-- current -->
+## GenAI in-house | Solita In-house  
+📅 _Sep 2025 - Jan 20256_  
+🚀 **Role:** Tech Lead / Project manager / Scrum master  
+🔌 **Industry:** Energy Sector | **Data:** Operational & Analytical  
+
+### 🌟 Key Contributions:
+- Leading in-house MCP   
+
+### 🛠️ Tech Stack:
+**Azure, Azure DevOps, Miro, Obsidian & Excalidraw** 
+
+
+<!-- energy sector -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
 📅 _March 2024 - June 2025_  
 🚀 **Role:** Data Engineer  
