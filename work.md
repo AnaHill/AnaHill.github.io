@@ -4,7 +4,7 @@ title: Work portfolio
 
 # 🤓 Welcome to My Work Portfolio  
 
-Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Data Engineer [@Solita](https://www.solita.fi/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   💼 Reach me via  
@@ -22,7 +22,7 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
 
 <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
-🔍 By the way, **Solita** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.solita.fi/join-us/ "open positions at Solita") 👈 or just drop me a message ✉︎. 
+🔍 By the way, **Siili** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.siili.com/join-us#openpositions "open positions at SSiili") 👈 or just drop me a message ✉︎. 
 
 # 🛠️ Skill & Tools
 As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
@@ -45,10 +45,15 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 # Work Experience
 
-## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Present_)
+## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 -Present_)
 - Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
 - Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
-- Also worked with **Snowflake**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
+- Also worked with **Fabric**
+
+## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Jan 2026_)
+- Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
+- Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
+- Also worked with **Snowflake**, **Fabric**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
 - I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
