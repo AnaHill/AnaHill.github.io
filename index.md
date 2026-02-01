@@ -25,7 +25,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 
 # 🔍 Explore More  
-Currently, I work as a **Data Engineer [@Solita](https://www.solita.fi/)**. 
+Currently, I work as a **Senior Data Engineer [@Siili](https://www.siili.com/)**. 
 To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
 <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
