@@ -50,7 +50,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 - Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also working with **Fabric**
 
-## 👨‍💼🎯🧠 GenAI Operational Accelerator – Tech Lead & Architect @ Solita (_Sep 2025 – Jan 2026_)
+## 👨‍💼🎯🧠 GenAI Operational Accelerator – Tech Lead & Architect @Solita (_Sep 2025 – Jan 2026_)
 - Led an in-house **agent-based (MCP server) innovation and development team** (7 members) as Technical Lead, Project Manager, and Scrum Master, collaborating closely with cross-functional stakeholders
 - Designed the **MCP Reference Architecture** for internal GenAI accelerators
 
@@ -90,16 +90,16 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 <!-- current -->
 
 <!-- in-house -->
-## GenAI Operational Accelerator  | Solita (in-house project), Finland 
+## GenAI Operational Accelerator | Solita (In-house Project), Finland
 📅 _Sep 2025 - Jan 2026_  
 🚀 **Role:** Tech Lead / GenAI Solutions Architect / Project manager / Scrum master  
-🔌 **Industry:** Energy Sector | **Data:** Operational & Analytical  
+🔌 **Data:** Operational & Analytical  
 
 ### 🌟 Key Contributions
-- Leading in-house agents (MCP servers) innovations and development team as a techical lead and project manager + scrum master roles
-  - Team including several experienced developers, a cloud engineer, and IT specialist
-- Father of MCP Reference Architecture for in-house accelerators
-- Collaboration with different in-house stakeholders
+- Led in-house **agent-based (MCP server) innovation and development efforts**, serving as Technical Lead, Project Manager, and Scrum Master
+  - Team comprised of experienced software developers, a cloud engineer, and an IT specialist
+- Designed and established the **MCP Reference Architecture** for internal GenAI accelerators
+- Collaborated closely with multiple in-house stakeholders across business and technology domains
 
 ### 🛠️ Tech Stack
 - Azure, Azure AI Search, Azure DevOps, Miro, Obsidian & Excalidraw
