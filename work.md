@@ -22,7 +22,7 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
 
 <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
-🔍 By the way, **Siili** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.siili.com/join-us#openpositions "open positions at SSiili") 👈 or just drop me a message ✉︎. 
+🔍 By the way, **Siili** is constantly looking for talented persons, check out our 👉 [**open positions**](https://www.siili.com/join-us#openpositions "open positions at Siili") 👈 or just drop me a message ✉︎. 
 
 # 🛠️ Skill & Tools
 As the saying goes, a picture is worth a thousand words. Here’s a visual summary of my skills and the tools I use.
@@ -46,20 +46,24 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 # Work Experience
 
 ## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 - Present_)
-- Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
+- Developing and maintaining robust and scalable data solutions for customers, both in data lake and relational databases; check my [**Projects**](#projects) section to find out more
 - Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
-- Also worked with **Fabric**
+- Also working with **Fabric**
 
-## 👨‍💻 Data Engineer [@Solita](https://www.solita.fi/) (_March 2023 - Jan 2026_)
+## 👨‍💼🎯🧠 GenAI Operational Accelerator – Tech Lead & Architect @ Solita (_Sep 2025 – Jan 2026_)
+- Led an in-house **agent-based (MCP server) innovation and development team** (7 members) as Technical Lead, Project Manager, and Scrum Master, collaborating closely with cross-functional stakeholders
+- Designed the **MCP Reference Architecture** for internal GenAI accelerators
+
+## 👨‍💻 Data Engineer @Solita (_March 2023 - Jan 2026_)
 - Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
 - Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also worked with **Snowflake**, **Fabric**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
-- I started my career shift from academia to the world of data consultant. Intensive learning, [certifications](#Certifications), and customer work in retail industry. 
+- I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my three most recent positions. Over 15+ years in academia, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, including those utilizing fuzzy controllers, and developed microfluidics chips.
+See full records in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my postdoc era. In over 15+ years in academia, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, including those utilizing fuzzy controllers, and developed microfluidics chips.
 
 ### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
 I continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
@@ -71,12 +75,6 @@ As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](
 - **Research areas**: Lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 
-### 👨‍🔬 Doctoral Researcher @Tampere University of Technology (_Sep 2011 - Aug 2018_)
-My Ph.D. work involved designing and implementing automation and control systems and microfluidics chips, mathematical modeling and data handling using MATLAB, Simulink, and COMSOL.
-- **Research areas**: Microsystems, microfluidics, control engineering
-- **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
-- Dissertation '_Modeling and Control of Microscale Cell Culture Environments_' available [here](https://urn.fi/URN:ISBN:978-952-15-4174-2 "trepo.tuni.fi")
-
 <!-- Certs -->
 # Certifications
 See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
@@ -85,22 +83,26 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Nov 2022* Azure -- Azure AI Fundamentals (AI-900)
 - *Nov 2022* Azure -- Azure Data Fundamentals (DP-900)
 - *Nov 2022* Azure -- Azure Fundamentals (AZ-900)
-- *Dec 2022* AWS -- AWS Certified Cloud Practitioner
+- *Dec 2022* AWS -- AWS Certified Cloud Practitioner (recertified Dec 2025)
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
 # 📂 <span id="projects">Projects</span>
 <!-- current -->
-## GenAI in-house | Solita In-house  
-📅 _Sep 2025 - Jan 20256_  
-🚀 **Role:** Tech Lead / Project manager / Scrum master  
+
+<!-- in-house -->
+## GenAI Operational Accelerator  | Solita (in-house project), Finland 
+📅 _Sep 2025 - Jan 2026_  
+🚀 **Role:** Tech Lead / GenAI Solutions Architect / Project manager / Scrum master  
 🔌 **Industry:** Energy Sector | **Data:** Operational & Analytical  
 
-### 🌟 Key Contributions:
-- Leading in-house MCP   
+### 🌟 Key Contributions
+- Leading in-house agents (MCP servers) innovations and development team as a techical lead and project manager + scrum master roles
+  - Team including several experienced developers, a cloud engineer, and IT specialist
+- Father of MCP Reference Architecture for in-house accelerators
+- Collaboration with different in-house stakeholders
 
-### 🛠️ Tech Stack:
-**Azure, Azure DevOps, Miro, Obsidian & Excalidraw** 
-
+### 🛠️ Tech Stack
+- Azure, Azure AI Search, Azure DevOps, Miro, Obsidian & Excalidraw
 
 <!-- energy sector -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
@@ -108,14 +110,14 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🚀 **Role:** Data Engineer  
 🔌 **Industry:** Energy Sector | **Data:** Operational & Analytical  
 
-### 🌟 Key Contributions:
+### 🌟 Key Contributions
 - Building and maintaining a scalable **data platform** spanning both **data lakes** and **relational databases**.  
 - Optimizing **data pipelines** to enhance performance and reliability.  
 - Ensuring seamless **data integration** across multiple sources for analytics and operations.  
 - Working with **time-series** data
 
-### 🛠️ Tech Stack:
-**Databricks, PostgreSQL, Azure, Azure Data Factory, Azure DevOps** 
+### 🛠️ Tech Stack
+- Databricks, PostgreSQL, Azure, Azure Data Factory, Azure DevOps
 
 <!-- Palloliitto -->
 ##  Data Engineering and Analytics Services| The Football Association of Finland ⚽︎  
@@ -123,11 +125,11 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🚀 **Role:** Data Engineer and Data Analyst  
 🔌 **Industry:** Sport Sector ⚽︎ | **Data:** Operational & Analytical  
 
-### 🌟 Key Contributions:
+### 🌟 Key Contributions
 - Providing data engineer and analytics services for the customer including **monitoring and maintaining ADF pipelines and small-scale development on Azure**.
 
-### 🛠️ Tech Stack:
-**Azure, Azure Data Factory, Azure CLI, Azure Functions, MySQL** 
+### 🛠️ Tech Stack
+- Azure, Azure Data Factory, Azure CLI, Azure Functions, MySQL
 
 <!-- IIoT -->
 ##  Industrial IoT Data Engineering Services | Collaboration with Nokia, Snowflake, and Crosser
@@ -135,11 +137,11 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🚀 **Role:** Data Engineer and Data Analyst  
 🔌 **Industry:** Industry 4.0 | **Data:** Operational  
 
-### 🌟 Key Contributions:
+### 🌟 Key Contributions
 - Developing methods to **collect and analyze Industrial IoT (IIoT) data by combining Nokia MX Industrial Edge, Crosser, and Snowflake with Streamlit**. Demo related to Industry 4.0 presented in 2024 Hannover Messe, more info [here](https://www.youtube.com/watch?v=PduTpPv9Iy8). 
 
-### 🛠️ Tech Stack:
-**Crosser, Snowflake, Streamlit, ELT** 
+### 🛠️ Tech Stack
+- Crosser, Snowflake, Streamlit, ELT
 
 <!-- ML -->
 ## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
@@ -147,11 +149,11 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🚀 **Role:** Machine Learning Engineer and Data Scientist  
 🔌 **Industry:** Public Sector | **Data:** Analytical  
 
-### 🌟 Key Contributions:
+### 🌟 Key Contributions
 - Developing machine learning capabilities for the customer, using both supervised and unsupervised learning, created for example a supervised classification algorithm using Databricks for the customer ERP system. 
 
-### 🛠️ Tech Stack:
-**Databricks, AutoML, Snowflake, SQL, Python & Spark** 
+### 🛠️ Tech Stack
+- Databricks, AutoML, Snowflake, SQL, Python & Spark
 
 <!-- Futurice -->
 ## Data Engineering Services | Finnish retail company (NDA)  
@@ -159,11 +161,11 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 🚀 **Role:** Data Engineer  
 🔌 **Industry:** Retail Sector | **Data:** Operational
 
-### 🌟 Key Contributions:
+### 🌟 Key Contributions
 - Handling customer's operational data, mainly using Azure Data Factory and PostgreSQL, and was part of the team that was improving the system to fulfill the future needs of the customer. 
 
-### 🛠️ Tech Stack:
-**Azure, Azure Data Factory, PostgreSQL, Python, Databricks** 
+### 🛠️ Tech Stack
+- Azure, Azure Data Factory, PostgreSQL, Python, Databricks
 
 <!-- Own -->
 ## 📂 Own projects
