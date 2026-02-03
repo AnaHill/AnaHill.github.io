@@ -6,7 +6,7 @@ title: Academic portfolio
 Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a _strong academic background_ 👨‍🔬 with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
 
 🔍 **Want to see what I do daily?**  
-To learn more about my **current role as a Data Engineer** at [**Solita**](https://www.solita.fi/ "www.solita.fi"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio") or my <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank"> resume 📑 (pdf)</a>.
+To learn more about my **current role as a Senior Data Engineer** at [**Siili**](https://www.siili.com/ "www.siili.com"), check out [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio") or my <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank"> resume 📑 (pdf)</a>.
 
 ---
 
