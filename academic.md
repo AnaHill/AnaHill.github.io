@@ -154,7 +154,7 @@ CoEBoC brought together six research groups from Tampere University: microsystem
 ### <span id="vascularization"> Developing interconnected 3D microvascular networks </span>
 > 🚀 *Bringing the future of tissue engineering one step closer!* 🧫
 
-I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more: 
+I led a **multidisciplinary research team** that developed a groundbreaking **"body-on-a-chip" platform** for studying vascularized **3D cell co-cultures**. Our team introduced an **innovative open-top microfluidic chip** that enables the cultivation of **two distinct 3D cell cultures** within a single device—**without physical barriers**. This breakthrough technology opens new possibilities for **studying cell-cell interactions** in a precisely controlled microenvironment and advancing **drug testing** applications. Read more [here](https://healthmedicinet.com/researchers-succeed-in-creating-two-interconnected-vascular-networks/ "healthmedicinet") and in the following publication: 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
