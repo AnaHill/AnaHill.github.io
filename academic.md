@@ -424,20 +424,6 @@ This study uncovered key biological insights—like how **hiPSC-CMs**, despite t
 ✅ It pushed me further into **data-driven science**—the foundation of what I do today! 🤓 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
-    {% if pub.article_id == "hakli2021human" %}
-      {%- for author in pub.authors -%}
-        {% if author == pub.highlighted_author %}
-          <strong>{{ author }}</strong>
-        {% else %}
-          {{ author }}
-        {% endif %}{% if forloop.last == false %} and {% endif %}
-      {%- endfor -%}.
-      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
-      <br><br> 
-    {% endif %}
-  {% endfor %}
-
-  {% for pub in site.data.publications %}
     {% if pub.category contains "DatAnalyzer" %}
       {%- for author in pub.authors -%}
         {% if author == pub.highlighted_author %}
