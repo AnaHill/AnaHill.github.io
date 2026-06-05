@@ -240,10 +240,11 @@ In this Business Finland (former TEKES) Human Spare Parts - project (2011-2019),
 - **🚀 Research areas**: microsystems, numerical simulations (FEM), control engineering
 
 <!-- ### Repos/Other project ### -->
-## 👨‍💻 Own projects
+## 👨‍💻 <span id="own_projects" style="color:#228B22;"> Own projects </span>
+
 Here, I list some of my research projects I have created during my academic career.
 
-<!-- DatAnalyzer -->
+### DatAnalyzer
 > 🚀 <span id ="datanalyzer"> <strong><big> DatAnalyzer: The correct way to analyze FP signals 📊 </big></strong> </span>
 
 - ⚡ **Role:** Creator
@@ -277,7 +278,7 @@ I developed **DatAnalyzer** software to analyze field potential (FP) signals fro
 
 ---
 
-<!-- DocLaTex -->
+### DocLaTex 
 > 🚀 <span id ="doclatex"> <strong><big> Write LaTeX documents together with co-authors that use MS Word ✍️</big></strong> </span>
 
 - ⚡ **Role:** Creator
@@ -307,6 +308,7 @@ Method used in the following publication:
 
 ---
 
+### Thermal Image analysis
 > 🚀 <strong><big> Plot Fluke Ti400 thermal images 🌡️</big></strong>
 
 - ⚡ **Role:** Creator, co-author
@@ -379,7 +381,7 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
 If you're curious, you can also check out my [**all journal articles**](#all_articles "All Journal Articles") listed at the end.  
 
 ## 🧫 A Special One!  
-This **must-have** first article is extra special—it's the **first (and maybe last!)** time I’m listed as the **last author**! This study even made it to **Finnish news**! More about it [**here**](#vascularization "3D vascularized chip"). 
+This **must-have** first article is extra special—it's the **first (and maybe last ;) )** time I’m listed as the **last author**. This study even made it to **Finnish news**! More about it [**here**](#vascularization "3D vascularized chip"). 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "yrjanainen2024barrier" %}
@@ -397,7 +399,7 @@ This **must-have** first article is extra special—it's the **first (and maybe 
 </div>
 
 ## 🎚️ Fuzzy Logic Meets Beating Heart Cells  
-One of my **deepest dives into control systems** happened when I combined **fuzzy controllers** with **cardiomyocyte cell cultures** in a simulation environment I built from scratch. Check [**this part**](#fuzzy_control "fuzzy control environment") to find out more. 
+My **deepest dives into control systems** happened when I combined **fuzzy controllers** with **cardiomyocyte cell cultures** in a simulation environment I built from scratch. Check [**this part**](#fuzzy_control "fuzzy control environment") to find out more. 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
     {% if pub.article_id == "maki2024fuzzy" %}
@@ -418,7 +420,7 @@ One of my **deepest dives into control systems** happened when I combined **fuzz
 This study uncovered key biological insights—like how **hiPSC-CMs**, despite their immature phenotype, can be used to model **ischemia–reperfusion injury**. On a personal level, it was also a milestone for me:  
 ✅ I built [**DatAnalyzer**](#datanalyzer "Explaining DatAnalyzer"), software designed for this research.  
 ✅ It marked my **first experience analyzing complex cardiomyocyte biosignals**.  
-✅ This journey eventually led me to explore 📈 [*field potential signals from cell cultures*](#understand_fp "Explaining FP signal"), opening up a whole new world of bioelectric data analysis. 📊  
+✅ This journey eventually led me to explore 📈 [*field potential signals from cell cultures*](#understand_fp "Explaining FP signal"), opening up a whole new world of bioelectric data analysis. See publication _Opinion: The correct way to analyze FP signals_ in [Zenodo](https://doi.org/10.5281/zenodo.10205591) 📊
 ✅ It pushed me further into **data-driven science**—the foundation of what I do today! 🤓 
 <div style="font-size: 0.8em;">
   {% for pub in site.data.publications %}
@@ -434,6 +436,21 @@ This study uncovered key biological insights—like how **hiPSC-CMs**, despite t
       <br><br> 
     {% endif %}
   {% endfor %}
+
+  {% for pub in site.data.publications %}
+    {% if pub.category contains "DatAnalyzer" %}
+      {%- for author in pub.authors -%}
+        {% if author == pub.highlighted_author %}
+          <strong>{{ author }}</strong>
+        {% else %}
+          {{ author }}
+        {% endif %}{% if forloop.last == false %} and {% endif %}
+      {%- endfor -%}.
+      <em>"{{ pub.title }}"</em> {{ pub.journal }}, {{ pub.year }}.{% if pub.doi and pub.doi != "" %} doi: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>{% endif %}
+      <br><br> 
+    {% endif %}
+  {% endfor %}
+
 </div>
 
 ## 🌱 My Most Cited Paper!  
