@@ -369,10 +369,10 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
   </p>
 </div>
 <figure style="text-align: left;">
-  <img src="pics/scholar_statistics_2026_01.png" 
-       alt="Google Scholar Statistics end of year 2025" 
+  <img src="pics/scholar_statistics_2026_06.png" 
+       alt="Google Scholar Statistics" 
        style="width:30%; max-width:300px;">
-  <figcaption><em>Google Scholar Profile Statistics – August 2025</em></figcaption>
+  <figcaption><em>Google Scholar Profile Statistics – Jun 2026</em></figcaption>
 </figure>
 
 **Next, I’ve selected a few key articles 📝 to showcase my 🎓 academic journey.**  
