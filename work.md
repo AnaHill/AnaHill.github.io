@@ -91,6 +91,33 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 
 # 📂 <span id="projects">Projects</span>
 <!-- current -->
+<!-- food industry -->
+## Data Engineering Services | Private Company, Finland (NDA)  
+📅 _Apr 2026 - Present_  
+🚀 **Role:** Lead Senior Data Engineer  
+🔌 **Industry:** Food Industry | **Data:** Operational & Analytical  
+
+### 🌟 Key Contributions
+- Designing and building a scalable **data platform** in Microsoft Fabric  
+- Lead developer with architectural responsibilities, leading a small development team
+
+### 🛠️ Tech Stack
+- Fabric (especially Lakehouses, shortcuts, notebooks, pipelines, Warehouses), Azure DevOps 
+
+
+
+<!-- in-house -->
+## GenAI Platform | Siili (In-house Project), Finland
+📅 _Feb 2026 - March 2026_  
+🚀 **Role:** Data & AI Engineer 
+🔌 **Data:** Analytical  
+
+### 🌟 Key Contributions
+- Designed and implemented the **RAG POC** pipeline for internal modular LLM platform: SharePoint -> Azure Blob -> Azure AI Search (vector database)
+- Azure infra work as well
+
+### 🛠️ Tech Stack
+- Azure, Azure CLI, Azure AI Search, Azure Data Factory, SharePoint
 
 <!-- in-house -->
 ## GenAI Operational Accelerator | Solita (In-house Project), Finland
