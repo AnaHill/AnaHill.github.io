@@ -14,7 +14,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 # 🚀 About Me  
 
-- 🤓 **Data Nerd** – Always finding resilient (data)solutions that can make _positive_ impact   
+- 🤓 **Data Nerd** – Always finding resilient data solutions that can make _positive_ impact   
 - ⛷️ **Cross-Country Skiing Fanatic** – ☀️winter days & cross-country skiing is just so 😎  
 - ⚽ **Football Enthusiast & Family Man** 👪 – Passionate about the game on and off the field  
 
@@ -25,7 +25,7 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 
 # 🔍 Explore More  
-Currently, I work as a **Senior Data Engineer [@Siili](https://www.siili.com/)**. 
+Currently, I work as a **Senior Data Engineer [@Siili Solutions](https://www.siili.com/)**. 
 To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
 <a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
 
@@ -39,7 +39,7 @@ To find out more my skills, tools, and projects, check [<span style="color:green
   <a href="https://www.linkedin.com/in/antti-juhana-maki/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href="https://anahill.github.io/" target="_blank">
+  <a href="https://github.com/AnaHill" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>

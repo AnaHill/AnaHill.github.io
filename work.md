@@ -1,6 +1,9 @@
 ---
 title: Work portfolio
 ---
+<a href="{{ site.baseurl }}/" style="color:green">
+  <strong><big>⬅ To My Main Page </big> </strong>
+</a>
 
 # 🤓 Welcome to My Work Portfolio  
 
@@ -15,7 +18,7 @@ Passionate and experienced data guy 🤓 with a strong background in 🧮 mathem
   <a href="https://www.linkedin.com/in/antti-juhana-maki/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href="https://anahill.github.io/" target="_blank">
+  <a href="https://github.com/AnaHill" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
@@ -40,7 +43,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 **Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
 
 # Education
-- D. Sc. (Tech.), Tampere University of Technology, Aug 2018
+- D. Sc. (Tech.), Tampere University of Technology, Sep 2018
 - M. Sc. (Tech.), Tampere University of Technology, July 2010
 
 # Work Experience
@@ -71,7 +74,7 @@ I continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Na
 - **Main tools**: MATLAB, Simulink, COMSOL (FEM)
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
-As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I devloped data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.
+As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.
 - **Research areas**: Lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **Main tools**: Soft lithography, MATLAB, Simulink, COMSOL (FEM) 
 
@@ -171,10 +174,10 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 ## 📂 Own projects
 
 ### 🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) 
-A data analysis tool built with **MATLAB**, described [here](academic.html#DatAnalyzer).
+A data analysis tool built with **MATLAB**, described [here](academic.html#datanalyzer).
 
 ### 🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) 
-Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#DocLaTex).
+Write LaTeX documents together with co-authors that use only MS Word, combines **Powershell**, **Pandoc**, **LaTeX**, and **Markdown**, more info [here](academic.html#doclatex).
 
 
 # 📊 Trainings 💻
@@ -187,7 +190,7 @@ In this 4-week long program, participants learned the concepts of industrial dat
 ## Agile Data Engine (ADE) for Data Engineers, Agile Data Engine
 📅 _April 2023 - April 2023_  
 
-The key areas of this certificate are the following: 1) introduction to using ADE, 2) Hands-on training in a streamlined data warehouse project, 3) Comprehensive theory on ADE features and data modeling concepts.  After this one week training, participants can succesfully import, model, and publish data.
+The key areas of this certificate are the following: 1) introduction to using ADE, 2) Hands-on training in a streamlined data warehouse project, 3) Comprehensive theory on ADE features and data modeling concepts.  After this one week training, participants can successfully import, model, and publish data.
 
 
 # 📝 Blogging  

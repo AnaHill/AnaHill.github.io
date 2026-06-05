@@ -1,6 +1,10 @@
 ---
 title: Academic portfolio
 ---
+<a href="{{ site.baseurl }}/" style="color:green">
+  <strong><big>⬅ To My Main Page </big> </strong>
+</a>
+
 # 👨‍🔬 Welcome to My Academic Portfolio  
 
 Here, I showcase my **lifelong journey in science 🔬**, driven by *curiosity, continuous learning, and a deep passion for data*. I bring together a _strong academic background_ 👨‍🔬 with hands-on expertise in both **🛠️ data engineering and analysis 📈** — a true *data nerd* 🤓 at my ❤️! 
@@ -46,7 +50,7 @@ I’d love to hear from you! Whether you have an exciting research idea where I 
   <a href="https://www.linkedin.com/in/antti-juhana-maki/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href="https://anahill.github.io/" target="_blank">
+  <a href="https://github.com/AnaHill" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
   <br/>
@@ -77,7 +81,7 @@ Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆
     <img src="https://img.shields.io/badge/Google-Scholar-lightgrey" target="_blank" />
   </a>
   <a href="https://orcid.org/0000-0001-7565-3530" target="_blank">
-    <img src="https://img.shields.io/badge/ORCHID%20-Blue.svg" />
+    <img src="https://img.shields.io/badge/ORCID-Blue.svg" />
   </a>
   <a href="https://github.com/AnaHill/" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
@@ -100,17 +104,13 @@ These are projects I’m actively working on—whether they’ll ever be *truly*
 <strong><big> My Tips for Academy </big></strong>
 - Sharing my tips & tricks for the academic career. For example, how to make "version control" clever in the case of you are not familiar with git etc. 👉 check more [**here**](https://github.com/AnaHill/Tips-for-Academy)
 
-<strong><big> How to write scientific papers </big></strong>
-- A follow-up to my [**Write LaTeX Documents using Word**](https://github.com/AnaHill/Write-LaTeX-documents-using-Word) guide, this post explores how you can leverage **VS Code, Markdown, Pandoc, LaTeX, and BibTeX** to efficiently format and publish high-quality (scientific) papers, with the combination of Markdown and LaTeX 
-(<span style="color:red"> link coming soon(ish)</span>)
-- **P.S.** 🚀 *Effortless writing not guaranteed—but at least the workflow is smooth(er)!* 🤓  
 
 <strong><big> How to set up Python environments for data projects </big></strong>
 - My proposal how to set up Python environment for (hobby) data projects by combining  **Miniconda, pip, VS Code,...** 👉 more [**here**](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects)
 
 
 <!-- ### Part-Time Researcher  / Visiting Scholar ### -->
-## 🤓 Visiting Scholar @Tampere University (_Nov 2022 - Dec 2024_)
+## 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_)
 Continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
 - **🚀 Research areas**: lab-on-a-chip, vascularization, data analysis, fuzzy control
 - **🛠️ Main tools**: MATLAB, Simulink, COMSOL (FEM)
@@ -121,7 +121,7 @@ During this period, we finished following three publications 📝
 - 📊 [**Understand field potential signals**](#understand_fp "understand and analyze FP signals"), doi: [10.5281/zenodo.10205591](https://doi.org/10.5281/zenodo.10205591)
 
 <!-- ### Postdoc ### -->
-## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Nov 2022_)
+## 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed **data analysis methods for several challenging biosignals**. Additionally, I worked as Professor Kallio’s **Vice-PI in a multidisciplinary team** combining cell biologists and engineers, and led a group of researchers developing **a novel vascular-on-a-chip platform for 3D cell co-cultures**. More info on [**CoEBoC-project**](#coeboc) section.
 - **🚀 Research areas**: lab-on-a-chip, data analysis, microfluidics, iPS-CM, fuzzy control
 - **🛠️ Main tools**: soft lithography (PDMS), MATLAB, Simulink, COMSOL (FEM) 
@@ -192,7 +192,7 @@ I developed **fuzzy controllers and mathematical models to simulate and control 
 </div>
 
 ### <span id="understand_fp"> Study of field potential signals from cell cultures </span>
-> 📈 *Truely understand the field potential signals* 📊 
+> 📈 *Truly understand the field potential signals* 📊 
 
 I encapsulated my extensive experience in **analyzing field potential (FP) signals derived from 2D human-induced pluripotent stem cell-derived cardiomyocyte (hiPSC-CM) cultures**. 
 
@@ -249,10 +249,10 @@ Here, I list some of my research projects I have created during my academic care
 - ⚡ **Role:** Creator
 - ✅ **Key Contributions:** Developed tools to load, analyze, and visualize data, especially electrical biosignals
 - 🛠️ **Tech Stack:** MATLAB
-- 🏷️ **Key Words:** data analysis, MEA, field potential, hiPS-CM
+- 🏷️ **Key Words:** data analysis, MEA, field potential, hiPSC-CM
 - 🔗 **References:** [DatAnalyzer home page](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer repo") and publication _Opinion: The correct way to analyze FP signals_ in [Zenodo](https://doi.org/10.5281/zenodo.10205591)
 
-I developed **DatAnalyzer** software to analyze field potential (FP) signals from human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. Furthermore, I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed new methdod for the proper analysis.
+I developed **DatAnalyzer** software to analyze field potential (FP) signals from human induced pluripotent stem cells derived cardiomyocyte (hiPSC-CM) cultures. Furthermore, I summarized how FP signals have been analyzed various, sometimes even contradictory, ways in the literature, and proposed new method for the proper analysis.
 
 ![DatAnalyzer in action](/pics/projects/DatAnalyzer.png)
 
@@ -350,7 +350,7 @@ In the following publication, thermal images from Fluke Ti400 device were plotte
   - TKS0612020 Pilarivapaa 3D monisolukasvatuschippi (”_Barrier-free 3D co-culture chip_”), granted 06/2020
 - Member of the Organizing Committee, Nordic Organ on a Chip Symposium 2019, 08/2019
 - Member of Future Finders network, Tampere University 2019-2022
-- Doctoral Programme of the President of the Tampere University of Technology, 09/2021 – 08/2015; personal salary
+- Doctoral Programme of the President of the Tampere University of Technology, 09/2011 – 08/2015; personal salary
 
 <!-- ############# -->
 # 📚 <span id="publications" style="color:#228B22;"> Publications </span>
@@ -435,7 +435,6 @@ This study uncovered key biological insights—like how **hiPSC-CMs**, despite t
     {% endif %}
   {% endfor %}
 </div>
- Truely understand the field potential signals 📊
 
 ## 🌱 My Most Cited Paper!  
 Had to include this one—it’s my **most cited article**! 😎 Beyond citations, it stands out because we successfully **oriented cells** using **aligned cationic cellulose nanofiber (c-CNF) surfaces**, a method that has potential in **guiding cellular growth**. Personally, I had a blast analyzing the data for this project. 

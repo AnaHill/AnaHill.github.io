@@ -33,7 +33,7 @@ Please do not hesitate to reach me out if you know, how I can fix this! ✉︎
 
 ## Previous text 
 
-In this post, I'll be documenting my journey to make my blog posts, like this, work probably. Originally, idea was to demonstrate how a markdown file is converted to a blog post. But, because of problems reported below, this turned to be documentation of the problem. Let's see if I find any solution! 
+In this post, I'll be documenting my journey to make my blog posts, like this, work properly. Originally, idea was to demonstrate how a markdown file is converted to a blog post. But, because of problems reported below, this turned to be documentation of the problem. Let's see if I find any solution! 
 
 I noticed problems related to blog post pages from the headings; they are just not implemented as they should. So, let's deep dive into the problem!
 

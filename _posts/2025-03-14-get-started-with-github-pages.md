@@ -20,8 +20,8 @@ So, check the 👉[links in the end](#ref); first three links will guide you to 
 ... trust me, you will thank me for this, but let me next explain how to set-up your main page properly.
 
 ## Step1: Set-up
-First, create a **public** repo named as `username.github.io`. You should get readme.md file automattically. After you have created a repo
-- be sure that your **repo is public**, otherwise it wont't work
+First, create a **public** repo named as `username.github.io`. You should get readme.md file automatically. After you have created a repo
+- be sure that your **repo is public**, otherwise it won't work
 - add `index.md` file to your main folder 
 - keep your `readme.md` minimal, I recommend to have there mainly a link to your main page when it is ready.
 
@@ -40,7 +40,7 @@ As an example, see `readme.md` and `index.md` in my repo
 - 📝 Check out my blog posts **[here](https://anahill.github.io/blog/)**  
 ```
 
-The pic below demostrates how `index.md` is converted to your main page.
+The pic below demonstrates how `index.md` is converted to your main page.
 ![index.md to page](/pics/posts/How_indexmd_shows_as_page.png "how index.md is converted to page")
 
 ## Step2: Config settings
