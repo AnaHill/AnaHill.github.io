@@ -49,12 +49,8 @@ Before transitioning into the data consultant, I had a long and diverse academic
 
 
 # 📂 Projects
-I have list my work-related projects <span style ="color:green"><strong>👉[here](work.html#projects) </strong></span>.
-On the other hand, I enjoy working on hobby projects, most of them can be found in my **[GitHub repositories](https://github.com/AnaHill?tab=repositories)**. Check out for example:  
-
-🔍 📈 **DatAnalyzer** ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer")) – A data analysis tool built with **MATLAB**, described [**here**](academic.html#datanalyzer).
-
-🔍 📝 **DocLaTex** ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word)) – Write LaTeX documents together with co-authors that use only MS Word, more info [**here**](academic.html#doclatex).
+I have collected all my projects — work, academic, and hobby — on a dedicated page:  
+[<span style="color:green">**👉🗂️ My Projects 👈**</span>]({{ "/projects.html" | relative_url }} "my projects")
 
 # 📝 <span id="blogs"> Blogs </span>
 
