@@ -31,7 +31,7 @@ To learn more about my **current role as a Senior Data Engineer** at [**Siili**]
 </div>
  Use the links below to jump to key sections!
 <nav>
-  <a href="#academic-work-experience" class="nav-link" title="My research and work experience">👉🔬 Research & 💼 Work History</a> 
+  <a href="#academic-work-experience" class="nav-link" title="My research and work experience">👉🔬 Research & 💼 Academic Work History</a> 
   <br>
   <a href="#projects" class="nav-link" title="Project that I have been working on">👉🗂️ Projects </a> 
   <br>

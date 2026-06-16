@@ -38,9 +38,83 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 </p> 
 -->
 
-![my_expertise](pics/ajm_de_bubble.png)
+<!-- ![my_expertise](pics/ajm_de_bubble.png) -->
 
-**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
+<div style="max-width:620px; margin:0 auto;">
+  <canvas id="ajm-skills-chart" height="380"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+<script>
+(function () {
+  // ── Muokkaa tästä: sijainti (x,y 0-100), säde (r px) ─────────────
+  var SKILLS = [
+    // Tekkistakki — punainen, isot kuplat
+    { label: 'Azure',         x: 22, y: 70, r: 48, cat: 0 },
+    { label: 'Databricks',    x: 55, y: 78, r: 48, cat: 0 },
+    { label: 'Fabric',        x: 37, y: 44, r: 48, cat: 0 },
+    { label: 'ETL\nprocesses',x: 72, y: 57, r: 48, cat: 0 },
+    // Konsultaatiotaidot — tummanharmaa, keskikokoiset kuplat
+    { label: 'Problem\nsolving', x: 83, y: 28, r: 36, cat: 1 },
+    { label: 'Team\nplayer',     x: 14, y: 30, r: 36, cat: 1 },
+    { label: 'Mentoring',        x: 52, y: 17, r: 36, cat: 1 },
+    // Toisarvoiset tekkistakki — vaaleanharmaa, pienet kuplat
+    { label: 'GenAI',        x: 67, y: 88, r: 22, cat: 2 },
+    { label: 'Snowflake',    x: 88, y: 67, r: 22, cat: 2 },
+    { label: 'DataOps',      x:  5, y: 54, r: 22, cat: 2 },
+    { label: 'Python\n& SQL',x: 40, y:  5, r: 22, cat: 2 },
+  ];
+
+  var CATS = [
+    { label: 'Tech Stack',        bg: 'rgba(214,39,40,0.82)',   border: '#d62728' },
+    { label: 'Consulting Skills', bg: 'rgba(50,50,50,0.82)',    border: '#323232' },
+    { label: 'Other Tech',        bg: 'rgba(170,170,170,0.82)', border: '#999'    },
+  ];
+  // ─────────────────────────────────────────────────────────────────
+
+  Chart.register(ChartDataLabels);
+
+  var datasets = CATS.map(function (cat, i) {
+    return {
+      label: cat.label,
+      data: SKILLS.filter(function (s) { return s.cat === i; })
+                  .map(function (s) { return { x: s.x, y: s.y, r: s.r, label: s.label }; }),
+      backgroundColor: cat.bg,
+      borderColor: cat.border,
+      borderWidth: 2,
+    };
+  });
+
+  new Chart(document.getElementById('ajm-skills-chart'), {
+    type: 'bubble',
+    data: { datasets: datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 14, padding: 14 } },
+        tooltip: { callbacks: { label: function (ctx) { return ctx.raw.label.replace('\n', ' '); } } },
+        datalabels: {
+          color: '#fff',
+          textAlign: 'center',
+          font: function (ctx) {
+            var r = ctx.dataset.data[ctx.dataIndex].r;
+            return { weight: 'bold', size: Math.max(9, Math.round(r * 0.27)) };
+          },
+          formatter: function (v) { return v.label; },
+        },
+      },
+      scales: {
+        x: { display: false, min: 0, max: 100 },
+        y: { display: false, min: 0, max: 100 },
+      },
+    },
+  });
+})();
+</script>
+
+**Other Technical Skills**: Fabric, MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Sep 2018
@@ -50,7 +124,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 ## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 - Present_)
 - Developing and maintaining robust and scalable data solutions for customers, both in data lake and relational databases; check my [**Projects**](#projects) section to find out more
-- Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
+- Main tools and technologies: **ETL / ELT**, **Microsoft Fabric** **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also working with **Fabric**
 
 ## 👨‍💼🎯🧠 GenAI Operational Accelerator – Tech Lead & Architect @Solita (_Sep 2025 – Jan 2026_)
@@ -66,12 +140,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 - I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my postdoc era. In over 15+ years in academia, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, including those utilizing fuzzy controllers, and developed microfluidics chips.
-
-### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
-I continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
-- **Research areas**: Lab-on-a-chip, data analysis, vascularization, fuzzy control
-- **Main tools**: MATLAB, Simulink, COMSOL (FEM)
+See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my postdoc era. I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips.
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.
