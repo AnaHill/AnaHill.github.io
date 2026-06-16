@@ -4,7 +4,7 @@ title: Main page
 
 > 😎 Nerd your day! 🤓  
 
-Welcome to my home pages. I'm **A-J Mäki**, PhD
+Welcome to my home pages. I'm **A-J Mäki**
 
 <div align="left">
   <a href="https://git.io/typing-svg">
@@ -26,8 +26,9 @@ Welcome to my home pages. I'm **A-J Mäki**, PhD
 
 # 🔍 Explore More  
 Currently, I work as a **Senior Data Engineer [@Siili Solutions](https://www.siili.com/)**. 
-To find out more my skills, tools, and projects, check [<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
-<a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 Click here to open my resume (pdf) </a>
+To find out more my skills, tools, and projects, check  
+[<span style="color:green">**👉🤓My Work Portfolio🛠️👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio")  
+<a href="https://anahill.github.io/resume_ajm.pdf" target="_blank">📑 or open my resume (pdf) </a>
 
 
 <div align="left">
@@ -44,13 +45,15 @@ To find out more my skills, tools, and projects, check [<span style="color:green
   </a>
 </div>
 
-Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in 
-[**👨‍🔬My Academic Portfolio**]({{ "/academic.html" | relative_url }} "my academic portfolio").
+Before transitioning into the data consultant, I had a long and diverse academic career, which I have summarized in  
+[**👉👨‍🔬My Academic Portfolio🔬👈**]({{ "/academic.html" | relative_url }} "my academic portfolio").
 
+# 🎓 Education
+- D. Sc. (Tech.), Tampere University of Technology, Sep 2018
+- M. Sc. (Tech.), Tampere University of Technology, July 2010
 
 # 📂 Projects
-I have collected all my projects — work, academic, and hobby — on a dedicated page:  
-[<span style="color:green">**👉🗂️ My Projects 👈**</span>]({{ "/projects.html" | relative_url }} "my projects")
+I have collected all my projects — work, academic, and hobby — on a dedicated page: [<span style="color:green">**👉🗂️ My Projects 👈**</span>]({{ "/projects.html" | relative_url }} "my projects")
 
 # 📝 <span id="blogs"> Blogs </span>
 

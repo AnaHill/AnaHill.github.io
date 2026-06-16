@@ -66,12 +66,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 - I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my postdoc era. In over 15+ years in academia, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, including those utilizing fuzzy controllers, and developed microfluidics chips.
-
-### 🤓 Visiting Scholar @Tampere University (_Oct 2022 - Dec 2024_, part time)
-I continued as a part-time researcher (approx. 10 hours/month) in [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/) led by Professor Pasi Kallio.
-- **Research areas**: Lab-on-a-chip, data analysis, vascularization, fuzzy control
-- **Main tools**: MATLAB, Simulink, COMSOL (FEM)
+See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my postdoc era. I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips.
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.

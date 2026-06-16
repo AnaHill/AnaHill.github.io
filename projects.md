@@ -9,11 +9,13 @@ title: Projects
 
 Here I list both my **work-related** and **personal hobby** projects.  
 For my full work history, see [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio").  
-For academic projects, see [<span style="color:green">**👉👨‍🔬 My Academic Portfolio 👈**</span>]({{ "/academic.html" | relative_url }} "my academic portfolio").
+For academic projects, see [<span style="color:green">**👉👨‍🔬 My Academic Portfolio 🔬👈**</span>]({{ "/academic.html" | relative_url }} "my academic portfolio").
 
 ---
 
 # 👨‍💻 Work Projects
+
+See full details in Project section in [**My Work Portfolio**]({{ "/work.html" | relative_url }}#projects).
 
 ## Data Engineering Services | Food Industry (NDA)
 📅 _Apr 2026 - Present_  
@@ -40,7 +42,10 @@ For academic projects, see [<span style="color:green">**👉👨‍🔬 My Acade
 🚀 **Role:** Data Engineer & Data Analyst  
 🛠️ **Tech Stack:** Azure, Azure Data Factory, MySQL
 
-See full project details in [**My Work Portfolio**]({{ "/work.html" | relative_url }}#projects).
+## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
+📅 _May 2023 - April 2024_  
+🚀 **Role:** Machine Learning Engineer and Data Scientist  
+🛠️ **Tech Stack:** Databricks, AutoML, Snowflake, SQL, Python & Spark
 
 ---
 
