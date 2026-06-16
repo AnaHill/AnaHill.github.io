@@ -114,7 +114,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 })();
 </script>
 
-**Other Technical Skills**: Fabric, MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
+**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Sep 2018
