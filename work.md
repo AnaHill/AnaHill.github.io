@@ -40,7 +40,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 ![my_expertise](pics/ajm_de_bubble.png)
 
-**Other Technical Skills**: MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
+**Other Technical Skills**: Fabric, MATLAB, Simulink, COMSOL (FEM), git, Powershell, Crosser, GitHub Pages, Markdown, bash, Linux (Ubuntu/WSL)
 
 # Education
 - D. Sc. (Tech.), Tampere University of Technology, Sep 2018
@@ -50,7 +50,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 ## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 - Present_)
 - Developing and maintaining robust and scalable data solutions for customers, both in data lake and relational databases; check my [**Projects**](#projects) section to find out more
-- Main tools and technologies: **ETL / ELT**, **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
+- Main tools and technologies: **ETL / ELT**, **Microsoft Fabric** **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
 - Also working with **Fabric**
 
 ## 👨‍💼🎯🧠 GenAI Operational Accelerator – Tech Lead & Architect @Solita (_Sep 2025 – Jan 2026_)
