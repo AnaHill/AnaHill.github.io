@@ -39,7 +39,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 -->
 
 <!-- ![my_expertise](pics/ajm_de_bubble.png) -->
-
+<!-- TODO: better -->
 <div style="max-width:620px; margin:0 auto;">
   <canvas id="ajm-skills-chart" height="380"></canvas>
 </div>
@@ -140,7 +140,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 - I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#Certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Below, I briefly summarize my postdoc era. I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips.
+See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Shortly, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips. Below, I briefly summarize my postdoc era. 
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.
@@ -159,21 +159,21 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
 # 📂 <span id="projects">Projects</span>
-<!-- current -->
+
 <!-- food industry -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
-📅 _Apr 2026 - Present_  
+📅 _Apr 2026 - August_  
 🚀 **Role:** Lead Senior Data Engineer  
 🔌 **Industry:** Food Industry | **Data:** Operational & Analytical  
 
 ### 🌟 Key Contributions
 - Designing and building a scalable **data platform** in Microsoft Fabric  
 - Lead developer with architectural responsibilities, leading a small development team
+- Consolidated a fragmented set of orchestration pipelines into one reliable production pipeline
+- Authored the team's technical documentation: architecture guides, naming conventions, and an interactive column-mapping reference
 
 ### 🛠️ Tech Stack
-- Fabric (especially Lakehouses, shortcuts, notebooks, pipelines, Warehouses), Azure DevOps 
-
-
+- Microsoft Fabric (Lakehouse, Warehouse, Data Pipelines, Notebooks, DAGs, PySpark/Delta Lake), Azure DevOps 
 
 <!-- in-house -->
 ## GenAI Platform | Siili (In-house Project), Finland
