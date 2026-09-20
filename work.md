@@ -162,7 +162,18 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 
 <!-- food industry -->
 ## Data Engineering Services | Private Company, Finland (NDA)  
-📅 _Apr 2026 - August_  
+📅 _Sep 2026 - Present_  
+🚀 **Role:** Senior Data Engineer  
+🔌 **Industry:** Heavy machinery | **Data:** Operational & Analytical  
+
+### 🌟 Key Contributions
+- Developing a **data platform** in Azure and Snowflake  
+
+### 🛠️ Tech Stack
+- Azure, Snowflake 
+
+## Data Engineering Services | Private Company, Finland (NDA)  
+📅 _Apr 2026 - August 2026_  
 🚀 **Role:** Lead Senior Data Engineer  
 🔌 **Industry:** Food Industry | **Data:** Operational & Analytical  
 
