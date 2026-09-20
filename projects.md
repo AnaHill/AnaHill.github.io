@@ -16,13 +16,13 @@ See my public GitHub [repositories](https://github.com/AnaHill?tab=repositories)
 ## 🏠 Check smart relay status ([repo](https://github.com/AnaHill/shelly_check_status))
 Automated daily status checker for a Shelly smart relay — sends a push notification via `ntfy.sh` if the relay wasn't active the previous day. Runs on a schedule with **GitHub Actions**.
 
-## DBML-SSOT: AI-assisted data architecture and visualization ([repo](https://github.com/AnaHill/dbml-ssot))
+## 🗄️ DBML-SSOT: AI-assisted data architecture and visualization ([repo](https://github.com/AnaHill/dbml-ssot))
 Single source of truth: A data architecture described as code in one place — readable by a human, safe for an AI agent to maintain.
 
-## AI DP-700 CertAssistant ([repo](https://github.com/AnaHill/DP700_Assistant))
+## 🎓 AI DP-700 CertAssistant ([repo](https://github.com/AnaHill/DP700_Assistant))
 AI-powered study assistant for the DP-700 (Fabric Data Engineer Associate) certification. `Agents.md` with guardrails and Microsoft Learn Fabric MCP server.
 
-##  LLM wiki 
+## 📚 LLM wiki 
 I have created two different LLM wiki templates that are maintained by an AI agent. A template for building [a personal wiki](https://github.com/AnaHill/llm-wiki-template). Another one is a  template [for academic researchers](https://github.com/AnaHill/llm-wiki-academic-template).
 
 
@@ -57,27 +57,27 @@ My proposal for setting up Python environments for data projects using Miniconda
 
 See full details in Project section in [**My Work Portfolio**]({{ "/work.html" | relative_url }}#projects).
 
-## Data Engineering Services | Machninery Industry (NDA)
+## 🏭 Data Engineering Services | Machninery Industry (NDA)
 📅 _Sep 2026 - present_  
 🚀 **Role:** Senior Data Engineer  
 🛠️ **Tech Stack:** Azure, Snowflake, Azure DevOps
 
-## Data Engineering Services | Food Industry (NDA)
+## 🍏 Data Engineering Services | Food Industry (NDA)
 📅 _Apr 2026 - Aug 2026_  
 🚀 **Role:** Lead Senior Data Engineer  
 🛠️ **Tech Stack:** Microsoft Fabric, Azure DevOps
 
-## GenAI Platform | Siili (In-house)
+## 🤖 GenAI Platform | Siili (In-house)
 📅 _Feb 2026 - March 2026_  
 🚀 **Role:** Data & AI Engineer  
 🛠️ **Tech Stack:** Azure, Azure AI Search, Azure Data Factory, SharePoint
 
-## GenAI Operational Accelerator | Solita (In-house)
+## ⚙️ GenAI Operational Accelerator | Solita (In-house)
 📅 _Sep 2025 - Jan 2026_  
 🚀 **Role:** Tech Lead / GenAI Solutions Architect  
 🛠️ **Tech Stack:** Azure, Azure AI Search, Azure DevOps
 
-## Data Engineering Services | Energy Sector (NDA)
+## ⚡ Data Engineering Services | Energy Sector (NDA)
 📅 _March 2024 - June 2025_  
 🚀 **Role:** Data Engineer  
 🛠️ **Tech Stack:** Databricks, PostgreSQL, Azure Data Factory
@@ -87,7 +87,7 @@ See full details in Project section in [**My Work Portfolio**]({{ "/work.html" |
 🚀 **Role:** Data Engineer & Data Analyst  
 🛠️ **Tech Stack:** Azure, Azure Data Factory, MySQL
 
-## Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
+## 🏛️ Developing Machine Learning Capabilities | Public sector organization in Finland (NDA)  
 📅 _May 2023 - April 2024_  
 🚀 **Role:** Machine Learning Engineer and Data Scientist  
 🛠️ **Tech Stack:** Databricks, AutoML, Snowflake, SQL, Python & Spark
@@ -96,10 +96,10 @@ See full details in Project section in [**My Work Portfolio**]({{ "/work.html" |
 
 # 🔬 Academic Projects
 
-## CoEBoC – Centre of Excellence in Body-on-Chip Research (_2018–2025_)
+## 🧬 CoEBoC – Centre of Excellence in Body-on-Chip Research (_2018–2025_)
 Academy of Finland funded project. My role: Postdoctoral Researcher and Vice-PI. More details [**here**]({{ "/academic.html" | relative_url }}#coeboc).
 
-## Human Spare Parts (_2011–2019_)
+## 🫀 Human Spare Parts (_2011–2019_)
 Business Finland funded project. My role: Doctoral Researcher. More details [**here**]({{ "/academic.html" | relative_url }}#hs).
 
 ---
