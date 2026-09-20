@@ -97,10 +97,10 @@ See full details in Project section in [**My Work Portfolio**]({{ "/work.html" |
 # 🔬 Academic Projects
 More details [**here**]({{ "/academic.html" | relative_url }}#coeboc).
 
-## 🧬 CoEBoC – Centre of Excellence in Body-on-Chip Research (_2018–2025_)
+## 🧬 CoEBoC – Centre of Excellence in Body-on-Chip Research (_2018 - 2025_)
 Academy of Finland funded project. My role: Postdoctoral Researcher and Vice-PI. 
 
-## 🫀 Human Spare Parts (_2011–2019_)
+## 🫀 Human Spare Parts (_2011 - 2019_)
 Business Finland funded project. My role: Doctoral Researcher.
 
 ---
