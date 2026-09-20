@@ -138,8 +138,8 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
 - I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#certifications), and customer work in retail industry. 
 
-## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
-See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Shortly, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips. Below, I briefly summarize my postdoc era. 
+## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022 full-time, 2022-2024 part-time_)
+See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Shortly, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips. Below, I briefly summarize my postdoc era; from late 2022 I continued part-time as Visiting Scholar until 2024 — see my Academic Portfolio for details. 
 
 ### 👨🏼‍🎓 Postdoctoral Research Fellow @Tampere University (_Sep 2018 - Oct 2022_)
 As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](https://research.tuni.fi/mst/), I developed data analysis methods for several challenging biosignals. Additionally, I worked as professor Kallio’s Vice-PI in a multidisciplinary team combining cell biologists and engineers, and led a group of researchers developing a novel vascular-on-a-chip platform for 3D cell co-cultures.
