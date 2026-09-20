@@ -7,7 +7,7 @@ title: Work portfolio
 
 # 🤓 Welcome to My Work Portfolio  
 
-Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Fabric**, **Databricks**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   💼 Reach me via  
@@ -125,7 +125,6 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 ## 👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/) (_Feb 2026 - Present_)
 - Developing and maintaining robust and scalable data solutions for customers, both in data lake and relational databases; check my [**Projects**](#projects) section to find out more
 - Main tools and technologies: **ETL / ELT**, **Microsoft Fabric** **Azure**, especially **Data Factory** and **DevOps**, **Databricks**, **PostgreSQL**, **Python**
-- Also working with **Fabric**
 
 ## 👨‍💼🎯🧠 GenAI Operational Accelerator – Tech Lead & Architect @Solita (_Sep 2025 – Jan 2026_)
 - Led an in-house **agent-based (MCP server) innovation and development team** (7 members) as Technical Lead, Project Manager, and Scrum Master, collaborating closely with cross-functional stakeholders
@@ -137,7 +136,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 - Also worked with **Snowflake**, **Fabric**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
 
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
-- I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#Certifications), and customer work in retail industry. 
+- I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#certifications), and customer work in retail industry. 
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022_)
 See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Shortly, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips. Below, I briefly summarize my postdoc era. 
@@ -151,11 +150,11 @@ As a postdoc in Professor Pasi Kallio's [Micro- and Nanosystems Research Group](
 # Certifications
 See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Aug 2025* Databricks -- Databricks Certified Data Engineer Associate
-- *Feb 2024* Agile Data Engine -- Agile Data Engine for Data Engineers 
+- *Apr 2023* Agile Data Engine -- Agile Data Engine for Data Engineers 
+- *Dec 2022* AWS -- AWS Certified Cloud Practitioner (recertified Dec 2025)
 - *Nov 2022* Azure -- Azure AI Fundamentals (AI-900)
 - *Nov 2022* Azure -- Azure Data Fundamentals (DP-900)
 - *Nov 2022* Azure -- Azure Fundamentals (AZ-900)
-- *Dec 2022* AWS -- AWS Certified Cloud Practitioner (recertified Dec 2025)
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
 # 📂 <span id="projects">Projects</span>
