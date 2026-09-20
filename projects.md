@@ -1,15 +1,55 @@
 ---
-title: Projects
+title:  🗂️ Projects
 ---
 <a href="{{ site.baseurl }}/" style="color:green">
   <strong><big>⬅ To My Main Page </big> </strong>
 </a>
 
-# 🗂️ Projects
+<!-- # 🗂️ Projects -->
 
-Here I list both my **work-related** and **personal hobby** projects.  
-For my full work history, see [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio").  
+Here I list my **personal hobby** projects and briefly summarizing some of my **work-related** project; for my full work history, see [<span style="color:green">**👉🛠️ My Work Portfolio 👨🏻‍💻👈**</span>]({{ "/work.html" | relative_url }} "my work portfolio").  
 For academic projects, see [<span style="color:green">**👉👨‍🔬 My Academic Portfolio 🔬👈**</span>]({{ "/academic.html" | relative_url }} "my academic portfolio").
+
+# 💻 Own / Hobby Projects
+See my public GitHub [repositories](https://github.com/AnaHill?tab=repositories).
+
+## 🏠 Check smart relay status ([repo](https://github.com/AnaHill/shelly_check_status))
+Automated daily status checker for a Shelly smart relay — sends a push notification via `ntfy.sh` if the relay wasn't active the previous day. Runs on a schedule with **GitHub Actions**.
+
+## DBML-SSOT: AI-assisted data architecture and visualization ([repo](https://github.com/AnaHill/dbml-ssot))
+Single source of truth: A data architecture described as code in one place — readable by a human, safe for an AI agent to maintain.
+
+## AI DP-700 CertAssistant ([repo](https://github.com/AnaHill/DP700_Assistant))
+AI-powered study assistant for the DP-700 (Fabric Data Engineer Associate) certification. `Agents.md` with guardrails and Microsoft Learn Fabric MCP server.
+
+##  LLM wiki 
+I have created two different LLM wiki templates that are maintained by an AI agent. A template for building [a personal wiki](https://github.com/AnaHill/llm-wiki-template). Another one is a  template [for academic researchers](https://github.com/AnaHill/llm-wiki-academic-template).
+
+
+## ⚽ Kokoonpano-avustaja ([repo](https://github.com/AnaHill/kokoonpano_avustaja) | [app](https://anahill.github.io/kokoonpano_avustaja/))
+Browser-based football team lineup planner — organize player positions and formations based on who's available. No installation needed, runs directly in the browser.
+
+## ⚽ Harjoitus-avustaja ([repo](https://github.com/AnaHill/harjoitus_avustaja)
+Browser-based football practice planner. No installation needed, runs directly in the browser.
+
+## 🍽️ Ruokasuunnittelija ([repo](https://github.com/AnaHill/viikon_ruuat) | [app](https://anahill.github.io/viikon_ruuat/))
+Weekly meal planner for families — generates varied meal schedules, shopping lists, and recipe instructions. Works offline; optionally uses AI for meal suggestions.
+
+## 🔍 📈 DatAnalyzer ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer"))
+Data analysis tool for field potential signals, built with **MATLAB**. More details [**here**]({{ "/academic.html" | relative_url }}#datanalyzer).
+
+## 🔬 O2-measurement-tools ([repo](https://github.com/AnaHill/O2-measurement-tools))
+MATLAB tools for oxygen measurement experiments in Professor Pasi Kallio's Micro- and Nanosystems Research Group at TUNI. Includes measurement, calibration, data cropping, plotting, and analysis scripts.
+
+## 🔍 📝 DocLaTex ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word))
+Write LaTeX documents together with co-authors who use MS Word — combines **PowerShell, Pandoc, LaTeX, Markdown**. More details [**here**]({{ "/academic.html" | relative_url }}#doclatex).
+
+## 🌡️ Plot Fluke Ti400 Thermal Images ([repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images))
+MATLAB tool for plotting and analyzing thermal images from Fluke Ti400.
+
+<!-- 
+### 🐍 How to Set Up Python Environments ([repo](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects))
+My proposal for setting up Python environments for data projects using Miniconda, pip, and VS Code. -->
 
 ---
 
@@ -17,8 +57,13 @@ For academic projects, see [<span style="color:green">**👉👨‍🔬 My Acade
 
 See full details in Project section in [**My Work Portfolio**]({{ "/work.html" | relative_url }}#projects).
 
+## Data Engineering Services | Machninery Industry (NDA)
+📅 _Sep 2026 - present_  
+🚀 **Role:** Senior Data Engineer  
+🛠️ **Tech Stack:** Azure, Snowflake, Azure DevOps
+
 ## Data Engineering Services | Food Industry (NDA)
-📅 _Apr 2026 - Present_  
+📅 _Apr 2026 - Aug 2026_  
 🚀 **Role:** Lead Senior Data Engineer  
 🛠️ **Tech Stack:** Microsoft Fabric, Azure DevOps
 
@@ -52,43 +97,10 @@ See full details in Project section in [**My Work Portfolio**]({{ "/work.html" |
 # 🔬 Academic Projects
 
 ## CoEBoC – Centre of Excellence in Body-on-Chip Research (_2018–2025_)
-Academy of Finland funded project. My role: Postdoctoral Researcher and Vice-PI.  
-→ More details [**here**]({{ "/academic.html" | relative_url }}#coeboc).
-
-### 🔍 📈 DatAnalyzer ([repo](https://github.com/AnaHill/DatAnalyzer "DatAnalyzer"))
-Data analysis tool for field potential signals, built with **MATLAB**.  
-→ More details [**here**]({{ "/academic.html" | relative_url }}#datanalyzer).
-
-### 🔬 O2-measurement-tools ([repo](https://github.com/AnaHill/O2-measurement-tools))
-MATLAB tools for oxygen measurement experiments in Professor Pasi Kallio's Micro- and Nanosystems Research Group at TUNI. Includes measurement, calibration, data cropping, plotting, and analysis scripts.
+Academy of Finland funded project. My role: Postdoctoral Researcher and Vice-PI. More details [**here**]({{ "/academic.html" | relative_url }}#coeboc).
 
 ## Human Spare Parts (_2011–2019_)
-Business Finland funded project. My role: Doctoral Researcher.  
-→ More details [**here**]({{ "/academic.html" | relative_url }}#hs).
-
----
-
-# 💻 Own / Hobby Projects
-
-
-### 🔍 📝 DocLaTex ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word))
-Write LaTeX documents together with co-authors who use MS Word — combines **PowerShell, Pandoc, LaTeX, Markdown**.  
-→ More details [**here**]({{ "/academic.html" | relative_url }}#doclatex).
-
-### 🏠 Check smart relay status ([repo](https://github.com/AnaHill/shelly_check_status))
-Automated daily status checker for a Shelly smart relay — sends a push notification via `ntfy.sh` if the relay wasn't active the previous day. Runs on a schedule with **GitHub Actions**.
-
-### ⚽ Kokoonpano-avustaja ([repo](https://github.com/AnaHill/kokoonpano_avustaja) | [app](https://anahill.github.io/kokoonpano_avustaja/))
-Browser-based football team lineup planner — organize player positions and formations based on who's available. No installation needed, runs directly in the browser.
-
-### 🍽️ Ruokasuunnittelija ([repo](https://github.com/AnaHill/viikon_ruuat) | [app](https://anahill.github.io/viikon_ruuat/))
-Weekly meal planner for families — generates varied meal schedules, shopping lists, and recipe instructions. Works offline; optionally uses AI for meal suggestions.
-
-### 🌡️ Plot Fluke Ti400 Thermal Images ([repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images))
-MATLAB tool for plotting and analyzing thermal images from Fluke Ti400.
-
-### 🐍 How to Set Up Python Environments ([repo](https://github.com/AnaHill/How-to-set-up-Python-environments-for-data-projects))
-My proposal for setting up Python environments for data projects using Miniconda, pip, and VS Code.
+Business Finland funded project. My role: Doctoral Researcher. More details [**here**]({{ "/academic.html" | relative_url }}#hs).
 
 ---
 
