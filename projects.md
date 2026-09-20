@@ -41,7 +41,7 @@ Data analysis tool for field potential signals, built with **MATLAB**. More deta
 ## 🔬 O2-measurement-tools ([repo](https://github.com/AnaHill/O2-measurement-tools))
 MATLAB tools for oxygen measurement experiments in Professor Pasi Kallio's Micro- and Nanosystems Research Group at TUNI. Includes measurement, calibration, data cropping, plotting, and analysis scripts.
 
-## 🔍 📝 DocLaTex ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word))
+## 📝 DocLaTex ([repo](https://github.com/AnaHill/Write-LaTeX-documents-using-Word))
 Write LaTeX documents together with co-authors who use MS Word — combines **PowerShell, Pandoc, LaTeX, Markdown**. More details [**here**]({{ "/academic.html" | relative_url }}#doclatex).
 
 ## 🌡️ Plot Fluke Ti400 Thermal Images ([repo](https://github.com/AnaHill/Plot_Fluke_Ti400_thermal_images))
@@ -57,7 +57,7 @@ My proposal for setting up Python environments for data projects using Miniconda
 
 See full details in Project section in [**My Work Portfolio**]({{ "/work.html" | relative_url }}#projects).
 
-## 🏭 Data Engineering Services | Machninery Industry (NDA)
+## 🏭 Data Engineering Services | Heavy Machinery (NDA)
 📅 _Sep 2026 - present_  
 🚀 **Role:** Senior Data Engineer  
 🛠️ **Tech Stack:** Azure, Snowflake, Azure DevOps
@@ -82,7 +82,7 @@ See full details in Project section in [**My Work Portfolio**]({{ "/work.html" |
 🚀 **Role:** Data Engineer  
 🛠️ **Tech Stack:** Databricks, PostgreSQL, Azure Data Factory
 
-## Data Engineering & Analytics | Football Association of Finland ⚽
+## ⚽ Data Engineering & Analytics | Football Association of Finland 
 📅 _Aug 2023 - Dec 2024_  
 🚀 **Role:** Data Engineer & Data Analyst  
 🛠️ **Tech Stack:** Azure, Azure Data Factory, MySQL
@@ -95,12 +95,13 @@ See full details in Project section in [**My Work Portfolio**]({{ "/work.html" |
 ---
 
 # 🔬 Academic Projects
+More details [**here**]({{ "/academic.html" | relative_url }}#coeboc).
 
 ## 🧬 CoEBoC – Centre of Excellence in Body-on-Chip Research (_2018–2025_)
-Academy of Finland funded project. My role: Postdoctoral Researcher and Vice-PI. More details [**here**]({{ "/academic.html" | relative_url }}#coeboc).
+Academy of Finland funded project. My role: Postdoctoral Researcher and Vice-PI. 
 
 ## 🫀 Human Spare Parts (_2011–2019_)
-Business Finland funded project. My role: Doctoral Researcher. More details [**here**]({{ "/academic.html" | relative_url }}#hs).
+Business Finland funded project. My role: Doctoral Researcher.
 
 ---
 
