@@ -157,6 +157,10 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 - *Nov 2022* Azure -- Azure Fundamentals (AZ-900)
 - *Oct 2022* Scrum -- Professional Scrum Master I (PSM I)
 
+# 🏆 Awards
+## 🏅 The Clippy Award 2024 — Solita
+Awarded to a colleague always ready to help and **always share his knowledge** — for example through mentoring and by driving several internal study groups that raised the team's know-how of modern technologies.
+
 # 📂 <span id="projects">Projects</span>
 
 <!-- food industry -->
@@ -281,6 +285,11 @@ For my own and hobby projects, see [<span style="color:green">**👉🗂️ My P
 
 
 # 📊 Trainings 💻
+
+## Connected Data Architect Academy (CoDa), Solita
+📅 _Jan 2025 - Dec 2025_  
+   
+A year-long internal academy (~one day/month) for passing on Solita's diverse architectural expertise across countries and units. Rather than a technology deep-dive, it develops human skills, general architect skills, and business skills & customer insight, covering topics such as architect–project lead co-operation, architecting the big picture, and customer insights.
 
 ## Industrial Data Hothouse - Solita, Solita
 📅 _May 2023 - June 2023_  
