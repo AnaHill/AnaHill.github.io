@@ -7,7 +7,7 @@ title: Work portfolio
 
 # 🤓 Welcome to My Work Portfolio  
 
-Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Fabric**, **Databricks**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Fabric**, **Databricks**, **Snowflake**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   💼 Reach me via  
@@ -69,7 +69,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
   var CATS = [
     { label: 'Tech Stack',        bg: 'rgba(214,39,40,0.82)',   border: '#d62728' },
     { label: 'Consulting Skills', bg: 'rgba(50,50,50,0.82)',    border: '#323232' },
-    { label: 'Other Tech',        bg: 'rgba(170,170,170,0.82)', border: '#999'    },
+    { label: 'Secondary Tech',    bg: 'rgba(170,170,170,0.82)', border: '#999'    },
   ];
   // ─────────────────────────────────────────────────────────────────
 

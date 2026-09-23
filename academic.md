@@ -95,8 +95,13 @@ Summarizing 15+ years in academia? Not the easiest task... but let's try! 😆
 ## 💡 Lifelong Researcher & Passionate Hobby Scientist (_Jan 2025 – Present_)  
 Currently, I focus on continuous learning and on my hobby projects, some of them listed below. But, please do not hesitate to contact me if you would have some research study in your mind. 👨‍🔬
 
+🔍 **Want to see more?** Check out my [<span style="color:green">**👉🗂️ Projects page 👈**</span>]({{ "/projects.html" | relative_url }} "my projects page") for a fuller list of my recent hobby projects.
+
 **NOTE**: 
 These are projects I’m actively working on—whether they’ll ever be *truly* finished is another story! 🤓 I also 📝 [**started blogging**](https://anahill.github.io/blog/ "my blog page"), and these will likely be my first topics. Stay tuned! ✍️  
+
+<strong><big> 🧫 MEA Review — an LLM-assisted academic research project </big></strong>
+- A genuine academic research project: a review on multielectrode array (MEA) signal analysis, written and maintained as an **LLM-assisted wiki**. 👉 check more [**here**](https://github.com/AnaHill/MEA_review_llm_wiki)
 
 <strong><big> How to use GitHub Pages </big></strong>
 - Sharing my tips & tricks how to set up GitHub Pages in my [**blog page**](https://anahill.github.io/blog/ "my blog page"). For example, how to make portfolio page, start blogging, or how to list your academic publications.
