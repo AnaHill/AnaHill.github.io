@@ -8,7 +8,7 @@ title: Work portfolio
 
 # 🤓 Welcome to My Work Portfolio
 
-Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Microsoft Fabric**, **Databricks**, **Snowflake**, **Python**, and **PostgreSQL**.
+Passionate and experienced data guy 🤓 with a strong background in 🧮 mathematical modeling and 🎛️ control engineering. Currently, working as a **👨‍💻 Senior Data Engineer [@Siili](https://www.siili.com/)** and building resilient data solutions for the customers using modern cloud platforms and tools like **Azure** (especially **Azure Data Factory** and **Azure DevOps**), **Databricks**, **Microsoft Fabric**, **Snowflake**, **Python**, and **PostgreSQL**.
 
 <div align="left">
   💼 Reach me via
@@ -119,11 +119,11 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
 
 ## 👨‍💻 Data Engineer @Solita (_Mar 2023 - Jan 2026_)
 - Developing and maintaining robust and scalable data solutions, both in data lake and relational databases, for customers; check my [**Projects**](#projects) section to find out more
-- Main tools and technologies: **ETL / ELT**, **Azure** (especially **Data Factory** and **Azure DevOps**), **Databricks**, **PostgreSQL**, **Python**
-- Also worked with **Snowflake**, **Fabric**, **Crosser** and IIoT data, **Docker**, **git**, and write small **Powershell** and **bash** scripts.
+- Main tools and technologies: **ETL / ELT**, **Azure** (especially **Data Factory** and **DevOps**), **Databricks**, **PostgreSQL**, **Python**
+- Also worked with **Snowflake**, **Microsoft Fabric**, **Crosser** and IIoT data, **Docker**, **git**, and wrote small **Powershell** and **bash** scripts.
 
 ## 👨‍💻 Data Engineer @Futurice (_Oct 2022 - Feb 2023_)
-- I started my career shift from academia to the world of data consultant. Intensive learning, five [certifications](#certifications), and customer work in retail industry.
+- I started my career shift from academia to the world of data consulting. Intensive learning, five [certifications](#certifications), and customer work in retail industry.
 
 ## 👨‍🔬 Academy - Various Positions, Tampere University (_2006-2022 full-time, 2022-2024 part-time_)
 See full records of over 15 years in academia in [👉**👨‍🔬 My Academic Portfolio**👈]({{ "/academic.html" | relative_url }} "my academic portfolio"). Shortly, I developed mathematical models using FEM/COMSOL and MATLAB & Simulink, conducted data analysis with MATLAB, designed various control systems, and developed microfluidics chips. Below, I briefly summarize my postdoc era; from late 2022 I continued part-time as Visiting Scholar until 2024 — see my Academic Portfolio for details.
@@ -145,7 +145,7 @@ See more info in [Credly](https://www.credly.com/users/antti-juhana-maki).
 
 # 🏆 Awards
 ## 🏅 The Clippy Award 2024 — Solita
-Awarded to a colleague always ready to help and **always share his knowledge** — for example through mentoring and by driving several internal study groups that raised the team's know-how of modern technologies.
+Awarded to a colleague always ready to help and **always sharing his knowledge** — for example through mentoring and by driving several internal study groups that raised the team's know-how of modern technologies.
 
 # 📂 <span id="projects">Projects</span>
 
@@ -268,10 +268,10 @@ For my own and hobby projects, see [<span style="color:green">**👉🗂️ My P
 
 A year-long internal academy (~one day/month) for passing on Solita's diverse architectural expertise across countries and units. Rather than a technology deep-dive, it develops human skills, general architect skills, and business skills & customer insight, covering topics such as architect–project lead co-operation, architecting the big picture, and customer insights.
 
-## Industrial Data Hothouse - Solita, Solita
+## Industrial Data Hothouse, Solita
 📅 _May 2023 - Jun 2023_  
 
-In this 4-week long program, participants learned the concepts of industrial data and OT-IT convergence, edge computing and hybrid cloud in manufacturing and industrial data modelling and contextualization. We considered multiple technologies and partners, especially in Industrial IoT (IIoT) perceptive, for example Snowflake, Databricks, Crosser.io, Litmus, Nokia MX Industrial Edge, cybersecurity, Docker, OPC UA, and MQTT.
+In this 4-week long program, participants learned the concepts of industrial data and OT-IT convergence, edge computing and hybrid cloud in manufacturing and industrial data modelling and contextualization. We considered multiple technologies and partners, especially in Industrial IoT (IIoT) perspective, for example Snowflake, Databricks, Crosser.io, Litmus, Nokia MX Industrial Edge, cybersecurity, Docker, OPC UA, and MQTT.
 
 ## Agile Data Engine (ADE) for Data Engineers, Agile Data Engine
 📅 _Apr 2023_  
