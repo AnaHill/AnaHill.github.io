@@ -49,7 +49,7 @@ As the saying goes, a picture is worth a thousand words. Here’s a visual summa
     { label: "Team\nplayer", x: 14, y: 30, r: 36, cat: 1 },
     { label: "Mentoring", x: 52, y: 17, r: 36, cat: 1 },
     { label: "GenAI", x: 67, y: 88, r: 22, cat: 2 },
-    { label: "Snowflake", x: 88, y: 67, r: 22, cat: 2 },
+    { label: "Snowflake", x: 88, y: 67, r: 27, cat: 2 },
     { label: "DataOps", x: 5, y: 54, r: 22, cat: 2 },
     { label: "Python\n& SQL", x: 40, y: 5, r: 22, cat: 2 },
   ];
