@@ -155,10 +155,10 @@ Awarded to a colleague always ready to help and **always sharing his knowledge**
 🔌 **Industry:** Heavy machinery | **Data:** Operational & Analytical  
 
 ### 🌟 Key Contributions
-- Developing a **data platform** in Azure and Snowflake
+- Developing a **data platform** in Azure and Snowflake with **Data Vault** modeling on Agile Data Engine (ADE)
 
 ### 🛠️ Tech Stack
-- Azure, Snowflake
+- Azure, Snowflake, Agile Data Engine (ADE)
 
 ## Data Engineering Services | Private Company, Finland (NDA)
 📅 _Apr 2026 - Aug 2026_  
