@@ -13,8 +13,8 @@ kts `_notes\llm-wiki-post\notes_OHJEET.md` ohjeet, tähän vain ajatukset.
 
 - [critical_assignment](../pics/posts/critical_assignment.png) hyvä lisä LLM-wikissä
 - Graph view of wiki without index [graph view](../pics/posts/graph_view_wiki_exclude_index.png)
-- Clauden muistista ![claudemuisti](../pics/posts/claude_memory.png)
-
+- Clauden muistista [claudemuisti](../pics/posts/claude_memory.png)
+- Human in the loop [human-in-the-loop-tarkeys](../pics/posts/human-in-the-loop-tarkeys.png) " Opetus: AI:n tekemä paikkakorjaus voi jättää virkkeen ristiriitaiseksi, joten korjauksen jälkeen koko virke pitää lukea uudelleen: "*When correcting a claim, re-read and if needed rewrite the whole sentence, not only the part that was wrong.*"
 
 ## Mikä toimi
 
