@@ -4,7 +4,7 @@ Hajanainen työtiedosto. Kirjoita tähän vapaasti, rakenne tulee myöhemmin (ks
 
 ## Lähteet ja aineisto
 
-- Paperin repo: [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki) (narratiivinen katsaus, kardiomyosyyttien MEA-analyysin kehitys vuodesta 2022). Rakenne: `raw/` (lähde-PDF:t, muuttumattomat), `wiki/` (LLM:n ylläpitämät sivut: paperiyhteenvedot, käsitteet, aukot, `index.md`, `log.md`, `references.md`), `main.md` (paperiluonnos), `skills/`, `CLAUDE.md` (skeema ja ohjeet LLM:lle), `llm-wiki.md` (menetelmän selitys).
+- Paperin repo: [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki) (narratiivinen katsaus, kardiomyosyyttien MEA-analyysin kehitys vuodesta 2022). Rakenne: `raw/` (lähde-PDF:t, muuttumattomat), `wiki/` (LLM:n ylläpitämät sivut: paperiyhteenvedot, käsitteet, aukot, `index.md`, `log.md`, `references.md`), `main.md` (paperiluonnos), `skills/`, `AGENTS.md` (skeema ja ohjeet LLM:lle; `CLAUDE.md` vain viittaa siihen), `llm-wiki.md` (menetelmän selitys).
 - Neljä operaatiota, joita agentilta pyydetään: **Ingest** (PDF → yhteenvetosivu + wiki-päivitys + viite), **Query** (kysymys → vastaus wikistä lähdeviitteineen), **Draft** (kirjoita tai kirjoita uudelleen osio), **Lint** (terveystarkastus: vanhentuneet väitteet, orvot sivut, tukemattomat väitteet).
 - Työkalut: VS Code + [Foam](https://foambubble.github.io/foam/) (graafinäkymä, linkitys), LLM-agentti.
 - Pohjat, jotka olen tehnyt: [llm-wiki-template](https://github.com/AnaHill/llm-wiki-template) (henkilökohtainen wiki) ja [llm-wiki-academic-template](https://github.com/AnaHill/llm-wiki-academic-template) (tutkijoille).

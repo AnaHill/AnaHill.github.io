@@ -11,15 +11,15 @@ kts `_notes\llm-wiki-post\notes_OHJEET.md` ohjeet, tähän vain ajatukset.
 
 ## Ajatuksia ja väitteitä 
 
-- [critical_assignment](../pics/posts/critical_assignment.png) hyvä lisä LLM-wikissä
-- Graph view of wiki without index [graph view](../pics/posts/graph_view_wiki_exclude_index.png)
-- Clauden muistista [claudemuisti](../pics/posts/claude_memory.png)
-- kuinka päivittää useamman kohdan samalla kertaa ![eka](../pics/posts/loop_work.png) ja ![toka](../pics/posts/loop_work.png2.png)
-- Human in the loop [human-in-the-loop-tarkeys](../pics/posts/human-in-the-loop-tarkeys.png) " Opetus: AI:n tekemä paikkakorjaus voi jättää virkkeen ristiriitaiseksi, joten korjauksen jälkeen koko virke pitää lukea uudelleen: "*When correcting a claim, re-read and if needed rewrite the whole sentence, not only the part that was wrong.*"
+- [critical_assignment](../pics/posts/llm-wiki_critical_assignment.png) hyvä lisä LLM-wikissä
+- Graph view of wiki without index [graph view](../pics/posts/llm-wiki_graph_view_wiki_exclude_index.png)
+- Clauden muistista [claudemuisti](../pics/posts/llm-wiki_claude_memory.png)
+- kuinka päivittää useamman kohdan samalla kertaa [eka](../pics/posts/llm-wiki_loop_work.png) ja [toka](../pics/posts/llm-wiki_loop_work2.png)
+- Human in the loop [human-in-the-loop-tarkeys](../pics/posts/llm-wiki_human-in-the-loop-tarkeys.png) " Opetus: AI:n tekemä paikkakorjaus voi jättää virkkeen ristiriitaiseksi, joten korjauksen jälkeen koko virke pitää lukea uudelleen: "*When correcting a claim, re-read and if needed rewrite the whole sentence, not only the part that was wrong.*"
 
 ## Mikä toimi
-
-- ...
+Hyviä ehdotuksia/ohjeita 
+- > Kun haet PDF:t, ota Li 2025:stä myös supplementary-tiedosto. Supplementary Table 3 sisältää spike amplituden ja slopen lukuarvot.
 
 ## Mikä ei toiminut / yllätti
 
