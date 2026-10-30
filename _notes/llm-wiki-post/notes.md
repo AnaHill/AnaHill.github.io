@@ -7,13 +7,14 @@ kts `_notes\llm-wiki-post\notes_OHJEET.md` ohjeet, tähän vain ajatukset.
 - Paperin sisällöstä (MEA) lyhyesti, pääosuus miten tämä LLM-wiki menetelmä rakennettiin ja miten se toimii ja opetukset
 - Samanlainen **DISCLAIMER** alkuun kuin postaukseen:* Vältetään AI sloppya*, joten kävin itse läpi kaikki lähteet ja varsinkin väitökset
 
-
+**DISCLAIMER**: Be responsible. Avoid AI sloppy. Even though "*vibe-researching*" is educative (and fun!), I have done my best (with limited free time) to fix errors and epätarkkuudet. In science, DETAILS. DO. MATTER. It is not good result, if my claims are 90% correct. 
 
 ## Ajatuksia ja väitteitä 
 
 - [critical_assignment](../pics/posts/critical_assignment.png) hyvä lisä LLM-wikissä
 - Graph view of wiki without index [graph view](../pics/posts/graph_view_wiki_exclude_index.png)
 - Clauden muistista [claudemuisti](../pics/posts/claude_memory.png)
+- kuinka päivittää useamman kohdan samalla kertaa ![eka](../pics/posts/loop_work.png) ja ![toka](../pics/posts/loop_work.png2.png)
 - Human in the loop [human-in-the-loop-tarkeys](../pics/posts/human-in-the-loop-tarkeys.png) " Opetus: AI:n tekemä paikkakorjaus voi jättää virkkeen ristiriitaiseksi, joten korjauksen jälkeen koko virke pitää lukea uudelleen: "*When correcting a claim, re-read and if needed rewrite the whole sentence, not only the part that was wrong.*"
 
 ## Mikä toimi
