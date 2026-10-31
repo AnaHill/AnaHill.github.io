@@ -1,6 +1,6 @@
 # Blogipostauksen luonnostelu: akateeminen paperi LLM-wiki-menetelmällä
 
-Hajanainen työtiedosto. Kirjoita tähän vapaasti, rakenne tulee myöhemmin (ks. [outline.md](outline.md)). Tämä kansio ei julkaista sivustolle, mutta se näkyy julkisessa repossa, ja se on tarkoituksella sallittu, koska paperin repo [MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki) on jo julkinen.
+Hajanainen työtiedosto. **Postauksen koottu luonnos on [draft.md](draft.md)**; opit ovat tiedostossa [llm-wiki-post-lessons.md](llm-wiki-post-lessons.md). Kirjoita tähän vapaasti, rakenne tulee myöhemmin (ks. [outline.md](outline.md)). Tämä kansio ei julkaista sivustolle, mutta se näkyy julkisessa repossa, ja se on tarkoituksella sallittu, koska paperin repo [MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki) on jo julkinen.
 
 ## Lähteet ja aineisto
 
@@ -70,7 +70,7 @@ Tämä osio poistetaan, kun postaus on julkaistu.
    ```
 
 3. Siirrä kuvat kansiosta `_notes/pics/posts/` kansioon `pics/posts/`. Siirrä vain ne, joita postaus käyttää, ja tarkista, ettei samannimistä kuvaa ole jo olemassa. Linkkejä ei tarvitse muuttaa.
-4. Siirrä teksti `_notes/llm-wiki-post/notes.md` → `_posts/YYYY-MM-DD-otsikko.md` ja lisää alkuun front matter ja include (kohta 2).
+4. Siirrä teksti `_notes/llm-wiki-post/draft.md` → `_posts/YYYY-MM-DD-otsikko.md` ja lisää alkuun front matter ja include (kohta 2).
 5. Aja Jekyll paikallisesti tai tarkista GitHub Pagesin build push:n jälkeen. Tarkista erityisesti, että kuvat näkyvät postauksen sivulla (`../pics/posts/…` ratkeaa osoitteessa `/blog/<otsikko>.html` kansioon `/pics/posts/`). Jos ei, vaihda polut muotoon `/pics/posts/…`, kuten aiemmissa postauksissa.
 6. Poista `_notes/llm-wiki-post/` tai merkitse se valmiiksi, kun postaus on julkaistu.
 
