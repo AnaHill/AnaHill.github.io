@@ -3,12 +3,14 @@
 Kieli: englanti (sama kuin blogissa). Julkaistaan blogin jälkeen, kun Zenodo-DOI on olemassa. Pituus: noin 150–250 sanaa, koska LinkedIn näyttää ennen "see more" -katkoa vain 2–3 ensimmäistä riviä.
 
 ---
+<!-- älä poista tätä, sisältää mahdollisia emojia: 👨‍🔬Passionate Hobby Scientist hello! 💡 👨🏼‍🎓 
+-->
 
 ## Versio A: oppi edellä
 
 Can an AI agent help write a scientific review without producing AI slop?
 
-I tried. The result is a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes, written with an "LLM wiki": the agent summarises every source into a wiki, keeps the reference list and logs in sync, and drafts text. I select the sources, make the decisions and check every claim.
+I tried, applying my day job in data & AI to my old postdoc topic as a hobby scientist. 👨‍🔬 The result is a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes. I wrote it with an "LLM wiki": the agent summarises every source into a wiki, keeps the reference list and logs in sync, and drafts text. I select the sources, make the decisions and check the claims.
 
 What I learned:
 🔹 Check sources at ingest, not at the end. One misread summary spread to five places before I caught it.
@@ -41,6 +43,31 @@ The biggest lesson: AI makes errors cheap to create and expensive to find. Catch
 💻 Repo: https://github.com/AnaHill/MEA_review_llm_wiki
 
 #AIinResearch #OpenScience #LLM #ResearchIntegrity
+
+---
+
+## Versio C: konkreettinen tapaus edellä (3.11., noin 170 sanaa)
+
+Erot versioon A: avaus on konkreettinen tapaus eikä kysymys; harrastajatutkijan rooli on toisessa kappaleessa eikä vie ensimmäistä riviä; kerrotaan suoraan, että virhe korjattiin ennen julkaisua; kolme oppia viiden sijaan; tarkistamattomat väitteet ("five places", "every claim", "easy to co-write") pois; kolme linkkiä ja neljä hashtagia. Templaattilinkki ei ole omana rivinään, joten varmista, että templaatti löytyy repon README:stä. "Check the claims against the original papers" pitää paikkansa vasta A3:n jälkeen.
+
+My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
+
+I'm a passionate hobby scientist 👨‍🔬, and I wrote a narrative review on MEA analysis of hiPSC-derived cardiomyocytes with an AI agent and an "LLM wiki": the agent summarises every source into linked notes and keeps references and logs in sync. I choose the sources, make the decisions and check the claims against the original papers.
+
+I caught that sentence before publication, redid the search properly and documented it. The new search found two relevant papers that the first one had missed.
+
+What I learned:
+🔹 Check each source when it comes in. One misread summary is copied into the wiki, the draft and finally the abstract.
+🔹 Scripts check structure, not truth. Only the source does that.
+🔹 Use a strong model where errors hide, and read everything yourself at the end.
+
+In science, details do matter. 90 % correct is not good enough.
+
+📝 Blog, the whole story: <BLOG-LINKKI>
+📄 Paper (Zenodo): <ZENODO-DOI>
+💻 Sources, wiki, logs and a template to try it: https://github.com/AnaHill/MEA_review_llm_wiki
+
+#AIinResearch #OpenScience #ResearchIntegrity #ScientificWriting
 
 ---
 
