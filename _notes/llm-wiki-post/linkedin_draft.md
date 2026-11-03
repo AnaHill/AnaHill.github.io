@@ -48,7 +48,7 @@ The biggest lesson: AI makes errors cheap to create and expensive to find. Catch
 
 ## Versio C: konkreettinen tapaus edellä (3.11., noin 170 sanaa)
 
-Erot versioon A: avaus on konkreettinen tapaus eikä kysymys; harrastajatutkijan rooli on toisessa kappaleessa eikä vie ensimmäistä riviä; kerrotaan suoraan, että virhe korjattiin ennen julkaisua; kolme oppia viiden sijaan; tarkistamattomat väitteet ("five places", "every claim", "easy to co-write") pois; kolme linkkiä ja neljä hashtagia. Templaattilinkki ei ole omana rivinään, joten varmista, että templaatti löytyy repon README:stä. "Check the claims against the original papers" pitää paikkansa vasta A3:n jälkeen.
+Erot versioon A: avaus on konkreettinen tapaus eikä kysymys; harrastajatutkijan rooli on toisessa kappaleessa eikä vie ensimmäistä riviä; kerrotaan suoraan, että virhe korjattiin ennen julkaisua; kolme oppia viiden sijaan; tarkistamattomat väitteet ("five places", "easy to co-write") pois; kolme linkkiä ja neljä hashtagia. Templaattilinkki ei ole omana rivinään, joten varmista, että templaatti löytyy repon README:stä.
 
 My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
 
@@ -71,12 +71,37 @@ In science, details do matter. 90 % correct is not good enough.
 
 ---
 
+## Versio D: suositus (C:n runko, A:n esittely ja B:n ydinlause, 3.11., noin 190 sanaa)
+
+My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
+
+I applied my day job in data & AI to my old postdoc topic as a hobby scientist 👨‍🔬 and wrote a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes. I used an AI agent and an "LLM wiki": the agent summarises every source into linked notes and keeps references and logs in sync. I choose the sources, make the decisions and check every claim against the original papers.
+
+I caught that sentence before publication, redid the search properly and documented it. The new search found two relevant papers that the first one had missed.
+
+The biggest lesson: AI makes errors cheap to create and expensive to find.
+🔹 Check each source when it comes in. One misread summary is copied into the wiki, the draft and finally the abstract.
+🔹 Scripts check structure, not truth. Only the source does that.
+🔹 Use a strong model where errors hide, and read everything yourself at the end.
+
+In science, details do matter. 90 % correct is not good enough.
+
+📝 Blog, the whole story: <BLOG-LINKKI>
+📄 Paper (Zenodo): <ZENODO-DOI>
+💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
+💻 a template to try it yourself: 
+https://github.com/AnaHill/llm-wiki-academic-template
+
+#AIinResearch #OpenScience #ResearchIntegrity #ScientificWriting
+
+---
+
 ## Muistiinpanot postaukseen
 
 - **Linkkien sijainti:** LinkedIn rajoittaa ulkoisten linkkien näkyvyyttä. Vaihtoehto on laittaa linkit ensimmäiseen kommenttiin ja tekstiin "links in the first comment 👇". Päätä itse. Linkit tekstissä ovat suoraviivaisempi ratkaisu, ja ne kertovat avoimuudesta.
 - **Avaus on tärkein:** ensimmäinen rivi näkyy ennen katkoa. Kysymys ("Can an AI agent…") tai provokaatio ("90 % correct is not good enough") toimii.
+- **Oletus:** kaikki väitteet tarkistetaan lähteitä vasten ennen julkaisua, joten postauksessa voi sanoa "check every claim".
 - **Tarkistettavat väitteet ennen julkaisua:**
-  - "I check every claim" pitää paikkansa vasta, kun ToDo:n A3-lähdetarkistus on tehty.
   - "spread to five places" on tyyppiesimerkki virhetyypistä A. Tarkista, löytyykö oikea luku, tai muotoile yleisemmin ("spread to several places").
   - "Easy to co-write" on toistaiseksi idea, koska Word-ingestiä ei ole kokeiltu. Muotoile "designed for co-writing" tai jätä pois.
   - Lint on kirjoitettu muotoon "health checks of the wiki", koska sana "lint" on LinkedIn-yleisölle jargonia. Blogi selittää sen tarkemmin.
