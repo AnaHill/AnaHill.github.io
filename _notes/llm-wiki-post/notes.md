@@ -18,7 +18,7 @@ Kaikki kansiossa `_notes/pics/posts/`. Luonnoksessa pelkkinä linkkeinä, julkai
 
 | Kuva | Missä luonnoksessa | Parannusideoita |
 |---|---|---|
-| `llm-wiki_markmap_analysis.png` | The paper in brief | Teksti katkeaa oikealta; rajaa tai ota kuva leveämmästä ikkunasta. |
+| `llm-wiki_markmap_analysis.png` | The paper in brief | Näyttää vielä vanhan otsikon ("Charting the Field…"); ota uusi kuva. Teksti katkeaa oikealta; rajaa tai ota kuva leveämmästä ikkunasta. |
 | `llm-wiki_graph_view_wiki_exclude_index.png` | The method | Obsidianin graafinäkymä, filtteri rajattu punaisella. Ehkä vähemmän päällekkäisiä nimiä. |
 | `llm-wiki_loop_work.png` | The wiki structure pays off | Suomenkielinen agentin raportti; harkitse englanninkielistä tai lisää figcaptioniin "(in Finnish)". |
 | `llm-wiki_loop_work2.png` | The wiki structure pays off | |

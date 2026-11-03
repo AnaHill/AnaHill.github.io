@@ -33,13 +33,14 @@ I wanted to write a narrative review on how the analysis of cardiomyocyte microe
 
 ## The paper in brief
 
-The paper is called *Charting the Field: Cardiomyocyte MEA Analysis Evolution Since 2022*. Its highlights in short:
+The paper is called *Four Gaps Limiting Comparability in MEA Analysis of hiPSC-Cardiomyocytes*. It is a narrative review of field potential analysis methods for MEA recordings of human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) since 2022, and it identifies four gaps that limit comparability between studies:
 
-- MEA tools define field potential duration (FPD) differently, so their FPD values are not directly comparable.
-- No rate correction specific to hiPSC-derived cardiomyocytes (hiPSC-CMs) exists, and Fridericia can mislead at extreme beating rates.
-- No validated MEA-derived reference values for hiPSC-CM maturation were found.
-- Waveform morphology is handled case by case, without shared criteria.
-- Without these, machine learning on MEA data may learn analysis differences rather than biology.
+1. No validated field potential duration (FPD) rate correction for hiPSC-CMs was found.
+2. Shared, validated waveform morphology classification criteria were not identified.
+3. The transfer of 2D-calibrated analysis frameworks to 3D models and ultra-high-density platforms proceeds empirically.
+4. hiPSC-CM maturation status lacks MEA-derived reference values.
+
+- [ ] TODO: update the Markmap screenshot; the current one still shows the old title ("Charting the Field…").
 
 [Markmap view of the paper structure](../pics/posts/llm-wiki_markmap_analysis.png "Markmap view of the paper")
 <figcaption><em>The structure of the paper (main.md) as a Markmap mind map.</em></figcaption>

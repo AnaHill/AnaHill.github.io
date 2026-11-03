@@ -8,7 +8,7 @@ Kieli: englanti (sama kuin blogissa). Julkaistaan blogin jälkeen, kun Zenodo-DO
 
 Can an AI agent help write a scientific review without producing AI slop?
 
-I tried. The result is a narrative review on how cardiomyocyte MEA analysis has evolved since 2022, written with an "LLM wiki": the agent summarises every source into a wiki, keeps the reference list and logs in sync, and drafts text. I select the sources, make the decisions and check every claim.
+I tried. The result is a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes, written with an "LLM wiki": the agent summarises every source into a wiki, keeps the reference list and logs in sync, and drafts text. I select the sources, make the decisions and check every claim.
 
 What I learned:
 🔹 Check sources at ingest, not at the end. One misread summary spread to five places before I caught it.
