@@ -178,6 +178,30 @@ A documented search also produced new findings, not just confirmation. Once the 
 
 - [ ] TODO (optional): the confusingly large difference between Claude Code and Gemini notebook. Decide whether it is worth a paragraph.
 
+## Which model for which step?
+
+<!-- Pohjana Clauden ehdotus 3.11. Mallinimet vanhenevat nopeasti; tarkista ne julkaisuhetkellä. -->
+
+Not every step needs the strongest (and most expensive) model, but not everything should run on a lighter one either. My rule of thumb: **use a strong model where an error would go unnoticed**, that is, reading the sources and wording the claims, and a lighter model for the bookkeeping. This is my own judgment; I have not measured the models for this work.
+
+| Step | Model |
+|---|---|
+| Ingest: reading PDFs (text, figures, tables) into summary pages | Strong model. This is where an error starts spreading to the whole wiki. |
+| Bookkeeping: index, log, references, `check.py` | A lighter model is enough, e.g. Sonnet 5.5 with medium effort. |
+| Drafting and writing `main.md` | Strong model. Whether a claim is correct often depends on how strongly it is worded and how it is hedged. |
+| Checking claims against the sources | Strong model, and a human (me) last. |
+| Decisions and `/grill-paper` | Strong model. It has to look up the facts from the wiki and the sources itself, while I make the decisions. |
+| Final review | A different model family. |
+
+Checking the claims is a good example of how the choice depends on who does what:
+
+- **I read the sources, the agent fixes.** The agent edits the marked spots in `main.md`, the claims list and the log, and runs the scripts. This is routine work, and Sonnet with medium effort handles it.
+- **The agent reads the PDFs and compares them with the claims.** Here the errors are subtle: a number, a hedge ("rarely", "may") or the wrong figure. So I would use Opus 5.5 or Fable 5.1, or Sonnet with a higher effort level. The repo has had invented references, so this is where paying for quality pays off.
+
+A review by another model family is useful because it is independent: re-checking with the same model easily repeats the same error. I ran the final review with Gemini; a third check with an OpenAI model would be an optional extra.
+
+And still, my own read-through comes last. Switching models does not replace it.
+
 ## What else worked
 
 - **A critical assessment page.** A wiki page where the agent critically assesses claims, including my own earlier claims, was a good addition to the LLM wiki. It also gets corrected when the details are wrong, for example which figure in a source actually shows what.
@@ -224,8 +248,9 @@ I have not tried the Word route in this project yet, so take this as a possibili
 - Mark unsupported sentences with `[CITATION NEEDED]` instead of letting the agent guess a source.
 - Keep a claims-by-source list and check it against the sources, not against the wiki.
 - Use scripts like `check.py` for structural checks, but remember that they do not check content.
-- Run lint rounds regularly.
+- Run a lint round (a health check of the wiki: contradictions, stale claims, orphan pages, unsupported claims in `main.md`) after every few ingests, findings only, and decide yourself what gets fixed. Lint checks the wiki against itself, not against the sources, so it does not replace reading the PDFs.
 - Give each new chat one narrow task, the files to read first, and what it may not touch.
+- Use a strong model for reading sources and wording claims, a lighter one for bookkeeping, and another model family for the final review.
 
 ## Where the paper is published
 

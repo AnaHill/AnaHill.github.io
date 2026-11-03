@@ -12,8 +12,9 @@ I tried. The result is a narrative review on how cardiomyocyte MEA analysis has 
 
 What I learned:
 🔹 Check sources at ingest, not at the end. One misread summary spread to five places before I caught it.
-🔹 Scripts catch structure (missing references, broken links), not truth. Only reading the source does that.
+🔹 Scripts catch structure (missing references, broken links), and the agent's health checks of the wiki catch contradictions and stale claims. Neither catches a misread source. Only reading the source does that.
 🔹 A plausible-sounding sentence can still be wrong. "A targeted search of PubMed…" had no record behind it, so I redid the search properly, and it found two relevant papers.
+🔹 Use the strongest model where an error would go unnoticed (reading sources, wording claims), a lighter one for bookkeeping, and another model family for the final check. No model replaces my own read-through.
 🔹 Everything is plain markdown under version control: transparent, reproducible, and easy to co-write.
 
 In science, details do matter. A paper that is 90 % correct is not good enough.
@@ -51,6 +52,8 @@ The biggest lesson: AI makes errors cheap to create and expensive to find. Catch
   - "I check every claim" pitää paikkansa vasta, kun ToDo:n A3-lähdetarkistus on tehty.
   - "spread to five places" on tyyppiesimerkki virhetyypistä A. Tarkista, löytyykö oikea luku, tai muotoile yleisemmin ("spread to several places").
   - "Easy to co-write" on toistaiseksi idea, koska Word-ingestiä ei ole kokeiltu. Muotoile "designed for co-writing" tai jätä pois.
+  - Lint on kirjoitettu muotoon "health checks of the wiki", koska sana "lint" on LinkedIn-yleisölle jargonia. Blogi selittää sen tarkemmin.
+  - Mallivalinta-kohta on harkintaa, ei mittaus (blogissa sanotaan tämä suoraan). Jos versio A on liian pitkä, tämä kohta on helpoin pudottaa, koska blogi kertoo sen tarkemmin.
 - **Mainitse yhteistyö?** Jos CoEBoC-kollegat tai muut haluavat näkyä, mainitse heidät postauksessa (@-maininnat vasta luvan kanssa).
 - **Lopetus:** kutsu kokeilemaan templaattia tai kysymys yleisölle ("How do you check AI-assisted text in your work?") lisää kommentteja.
 
