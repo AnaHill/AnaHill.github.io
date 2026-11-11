@@ -57,7 +57,7 @@ The repository has three layers:
 - `wiki/`: pages maintained by the LLM: one summary page per paper, concept pages, a page for the gaps in the literature, plus `index.md`, `log.md` and `references.md`.
 - `main.md`: the paper itself. This is the single source of truth.
 
-On top of these, `AGENTS.md` tells the agent how to work (`CLAUDE.md` only points to it), `skills/` holds reusable instructions, and `llm-wiki.md` explains the method. Next to them, `docs/` holds supporting material such as `claims-by-source.md` (every claim in the paper listed by its source) and the search documentation, and `check.py` runs structural checks.
+On top of these, `AGENTS.md` tells the agent how to work (`CLAUDE.md` only points to it), `.claude/skills/` holds two skills that load only when I call them (`/grill-paper` and `/grinding`, more on both below), and `llm-wiki.md` explains the method. Next to them, `docs/` holds supporting material such as `claims-by-source.md` (every claim in the paper listed by its source) and the search documentation, and four small scripts do the mechanical work: `check.py` (references, DOIs, links), `claim_quotes.py` (copies the current sentences of `main.md` under each claim), `check_abbreviations.py` and `render_pdf_pages.py` (PDF text and figures for the agent).
 
 I ask the agent to do four operations:
 
@@ -73,6 +73,10 @@ My tools were VS Code, [Obsidian](https://obsidian.md/) or [Foam](https://foambu
 [Graph view of the wiki in Obsidian](../pics/posts/llm-wiki_graph_view_wiki_exclude_index.png "Graph view of the wiki")
 <figcaption><em>Graph view of the wiki in Obsidian. Red nodes are wiki pages (papers and concepts), green ones are tags. The filter <code>path:wiki -index.md</code> leaves the index out, because otherwise everything links to it.</em></figcaption>
 
+### One agent, thin tools, hard limits
+
+Without planning it that way, the repository ended up close to what Anthropic's article [Building agents: when to fold subagents into your main agent loop](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop) recommends: one agent in one context window instead of an orchestrator handing work to specialist subagents, with "*one clear system prompt, 4-5 thin data tools, and firm output guardrails*". Here that means `AGENTS.md` as the one system prompt, the four scripts as thin tools, skills that load only when needed, and guardrails in the tooling rather than only in the prompt: `.claude/settings.json` denies the agent any edits to `raw/` and to my own `notes.md`, and a hook runs the abbreviation and consistency checks after every edit of `main.md`. A rule written in `AGENTS.md` works as long as the agent remembers it; a rule in the settings works every time.
+
 ## The workflow in practice
 
 Looking back, a sensible order of work would be this:
@@ -80,7 +84,7 @@ Looking back, a sensible order of work would be this:
 1. **Vibe-researching first.** Bounce ideas, get a rough first version, and search for sources both with the agent and by yourself (recommended!).
 2. **Catch mistakes sooner, not later**, and save time, nerves and some money too! Once there is a rough version, read `main.md` yourself and fix the errors. Update (by yourself or by your agent) `wiki/` pages if needed. Save new additions for the next round. Go through `claims-by-source.md` early, when there are still only a few claims to check. Rem
 3. **Additions.** New ideas, new sources, new sections.
-4. **Grinding.** Read the final `main.md` through, update the claims after it, and check every claim against its source one by one. DETAILS DO MATTER in science.
+4. **Grinding.** Read the final `main.md` through, update the claims after it, and check every claim against its source one by one. DETAILS DO MATTER in science. The repo now has a `/grinding <source>` skill for this: the agent reads one source in full and reports a verdict per claim (holds, check, does not hold) with the sentence from `main.md`, the supporting passage and its page, and changes nothing until I ask. The ticking is still mine.
 5. **Finishing touches.** Highlights, references, figure captions and abbreviations (and a possible choice of journal).
 
 - [ ] TODO: check the order against `wiki/log.md` in the paper repo, which is a ready-made timeline of what was actually done. Maybe add one concrete example: one paper, its summary page, and how it ends up as a citation in `main.md` (or a paragraph where `[CITATION NEEDED]` is replaced by a real citation).
@@ -120,6 +124,17 @@ What makes this work:
 - **The search itself is documented**, so the method sentence in the paper describes a search that actually happened. Why this mattered is explained below.
 - **I decide what gets ingested.** The agent never adds sources to `raw/` on its own.
 
+## Human in the loop, by design
+
+The agent does the bookkeeping; the judgement stays with me. That split is built into the files rather than left to good intentions:
+
+- **Every claim has a checkbox.** `claims-by-source.md` lists about 190 claims under their 29 sources, each with the current sentence of `main.md` under it. I tick a claim only after reading the passage in the source, and a source gets a ✅ in its heading once all its claims are ticked. <!-- - [ ] TODO: final numbers before publishing -->
+- **My own inferences are kept apart.** Whatever the paper says that is my inference rather than a source's finding goes into a separate register in the same file, so it is visible which sentences rest on a source and which on me.
+- **The agent proposes, I decide.** When I asked it to shorten over-detailed passages, it listed candidates with a recommendation for each; I accepted most and rejected one. When I wanted to reinterpret another group's published figures (I suspected their signals were shown upside down), it laid out the arguments for and against and suggested keeping only a neutral sentence in the paper. I agreed, and the full reasoning went onto a separate wiki page.
+- **Checking goes both ways.** I check the agent against the sources, and it checks me: looking up my own tool's GitHub repository showed that the paper had the wrong programming language and release year for it, and that the repository had no licence, which I then added.
+
+This is also why the agent never commits: every change passes through my diff review.
+
 ## The main lesson: data quality
 
 If I did this again, I would check the sources, and the decisions made from them, much more carefully right at the start. Even though vibe-researching is fun, going through the sources as early as possible pays off in the end. The reason is how errors spread in an LLM wiki.
@@ -152,7 +167,9 @@ The lesson: **the earlier an error is born, the more places it is copied to.** S
 | Check | Catches | Misses |
 |---|---|---|
 | `check.py` | structural errors: missing references, DOI mismatches, broken links | content, so A, B and C all pass |
+| Hook after every edit of `main.md` | missing abbreviations and broken references, immediately rather than at the end | content |
 | `claims-by-source.md` + reading the source | A and B, when the claim is checked against the source and not against the wiki page | C |
+| `/grinding` (the agent reads the whole source) | A and B claim by claim, with page references, as a first pass | C, and anything the agent misreads itself |
 | A human reading the whole text | C and contradictions between sections | |
 
 Scripts are still worth it for the boring parts. For example, abbreviations are easy to leave to the very end: once the text is otherwise ready, a script (`check_abbreviations.py`) lists what is missing, and the agent runs it and fixes the list until nothing is missing.
@@ -241,6 +258,7 @@ I have not tried the Word route in this project yet, so take this as a possibili
 - Go through `claims-by-source.md` early, while it is still short.
 - Search for sources in several ways from the beginning, not only through the agent.
 - Use grilling for decisions from day one. <!-- [CLAUDE] -->
+- Put the hard rules into the tool settings from the start, not only into `AGENTS.md`.
 
 ## Practical tips
 
@@ -252,6 +270,8 @@ I have not tried the Word route in this project yet, so take this as a possibili
 - Run a lint round (a health check of the wiki: contradictions, stale claims, orphan pages, unsupported claims in `main.md`) after every few ingests, findings only, and decide yourself what gets fixed. Lint checks the wiki against itself, not against the sources, so it does not replace reading the PDFs.
 - Give each new chat one narrow task, the files to read first, and what it may not touch.
 - Use a strong model for reading sources and wording claims, a lighter one for bookkeeping, and another model family for the final review.
+- Put absolute rules into the tool settings, not only into the prompt: deny edits to the sources, and run the checks automatically with a hook.
+- Ask for findings first and fixes only after your go-ahead. The agent proposes, you decide.
 
 ## Where the paper is published
 
@@ -261,6 +281,8 @@ I chose Zenodo instead of Preprints.org because the paper is not going to a jour
 ## Summary
 
 AI agents make writing faster, but at the same time they make a high-quality data foundation, good data management and the right architecture decisions even more important. In an LLM wiki, the sources are the data, the three layers and `AGENTS.md` are the architecture, and the scripts and the claims list are the data management. An error in the data does not stay in one place; it spreads. So check the sources early, and read everything yourself at the end. 🤓
+
+And keep a human in the loop where it matters. The agent can do the bookkeeping, and it does it well, but choosing the sources, deciding what the paper claims and ticking each claim against its source stay with me.
 
 📝 Happy (careful) writing! 😊
 

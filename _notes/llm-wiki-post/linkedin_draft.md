@@ -71,7 +71,7 @@ In science, details do matter. 90 % correct is not good enough.
 
 ---
 
-## Versio D: suositus (C:n runko, A:n esittely ja B:n ydinlause, 3.11., noin 190 sanaa)
+## Versio D (C:n runko, A:n esittely ja B:n ydinlause, 3.11., noin 190 sanaa)
 
 My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
 
@@ -95,6 +95,31 @@ https://github.com/AnaHill/llm-wiki-academic-template
 #AIinResearch #OpenScience #ResearchIntegrity #ScientificWriting
 
 ---
+
+## Versio E: suositus (D:n runko + human in the loop, 11.11., noin 230 sanaa)
+
+Erot versioon D: toinen kappale sanoo suoraan, mitä agentti tekee ja mitä ihminen; oppilista on otsikoitu human-in-the-loopin kautta ja siinä on väitelista ja asetuksiin kirjatut kovat rajat; ydinlause "AI makes errors cheap to create…" on siirretty loppuun. Väitteiden määrä (noin 190) tarkistetaan julkaisuhetkellä (`docs/claims-by-source.md`). Jos teksti on liian pitkä, pudota ensimmäisenä "Hard rules live in the tooling" -kohta; blogi kertoo sen.
+
+My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
+
+I applied my day job in data & AI to my old postdoc topic as a hobby scientist 👨‍🔬 and wrote a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes, with an AI agent and an "LLM wiki". The agent does the bookkeeping: it summarises every source into linked notes and keeps references, logs and checks in sync. I stay in the loop wherever judgement is needed: I choose the sources, make the decisions and check every claim against the original paper.
+
+I caught that sentence before publication, redid the search properly and documented it. The new search found two relevant papers that the first one had missed.
+
+What made human-in-the-loop work in practice:
+🔹 Every claim in the paper (about 190) is listed under its source, and I tick each one off against the PDF.
+🔹 Check each source when it comes in. One misread summary is copied into the wiki, the draft and finally the abstract.
+🔹 Hard rules live in the tooling, not just in the prompt: the agent cannot edit the sources, and the checks run after every change.
+🔹 Scripts check structure, not truth. Only the source, read by a human, does that.
+
+AI makes errors cheap to create and expensive to find. In science, details do matter. 90 % correct is not good enough.
+
+📝 Blog, the whole story: <BLOG-LINKKI>
+📄 Paper (Zenodo): <ZENODO-DOI>
+💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
+🧰 A template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template
+
+#AIinResearch #HumanInTheLoop #OpenScience #ResearchIntegrity #ScientificWriting
 
 ## Muistiinpanot postaukseen
 
