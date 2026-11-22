@@ -98,7 +98,7 @@ https://github.com/AnaHill/llm-wiki-academic-template
 
 ## Versio E: suositus (D:n runko + human in the loop, 11.11., noin 230 sanaa)
 
-Erot versioon D: toinen kappale sanoo suoraan, mitä agentti tekee ja mitä ihminen; oppilista on otsikoitu human-in-the-loopin kautta ja siinä on väitelista ja asetuksiin kirjatut kovat rajat; ydinlause "AI makes errors cheap to create…" on siirretty loppuun. Väitteiden määrä (noin 190) tarkistetaan julkaisuhetkellä (`docs/claims-by-source.md`). Jos teksti on liian pitkä, pudota ensimmäisenä "Hard rules live in the tooling" -kohta; blogi kertoo sen.
+Erot versioon D: toinen kappale sanoo suoraan, mitä agentti tekee ja mitä ihminen; oppilista on otsikoitu human-in-the-loopin kautta ja siinä on väitelista ja asetuksiin kirjatut kovat rajat; ydinlause "AI makes errors cheap to create…" on siirretty loppuun. Väitteiden määrä pyöristetty 22.11. muotoon "200+" (tarkka 205, kaikki rastitettu), jotta se ei vanhene pienistä muutoksista. 22.11.: "Hard rules live in the tooling" -kohta korvattu harness-bulletilla (blogin osio "The harness: what surrounds the agent"), ja hashtag #AIAgents lisätty. Jos teksti on liian pitkä, harness-bulletin voi lyhentää muotoon "Most of the work was building the harness around the agent, not prompting." Lisätty 14.11.: "Knowledge flows both ways" -kohta (wikin paluusuunta main.md:stä, ks. blogin osio "Knowledge has to flow back from the paper to the wiki"); teksti on nyt noin 250 sanaa, joten jos pituus on ongelma, valitse joko tämä tai "Hard rules" -kohta. Lisätty 15.11.: PaperOrchestra-rivi (ks. blogin osio "Finished or verified?"); nyt noin 265 sanaa. Rivi on helppo pudottaa, mutta se antaa postaukselle ajankohtaisen vertailukohdan. Jos julkaisu viivästyy kuukausia, sana "new" kannattaa poistaa.
 
 My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
 
@@ -107,10 +107,13 @@ I applied my day job in data & AI to my old postdoc topic as a hobby scientist �
 I caught that sentence before publication, redid the search properly and documented it. The new search found two relevant papers that the first one had missed.
 
 What made human-in-the-loop work in practice:
-🔹 Every claim in the paper (about 190) is listed under its source, and I tick each one off against the PDF.
+🔹 Every claim in the paper (200+) is listed under its source, and I ticked each one off against the PDF.
 🔹 Check each source when it comes in. One misread summary is copied into the wiki, the draft and finally the abstract.
-🔹 Hard rules live in the tooling, not just in the prompt: the agent cannot edit the sources, and the checks run after every change.
+🔹 Most of the work was not prompting but building the harness around the agent: rules, checks that run after every edit, hard permission limits. Each part exists because something went wrong without it.
+🔹 Knowledge flows both ways: when the paper connects two sources, the wiki has to learn it too, and a script flags it when it doesn't.
 🔹 Scripts check structure, not truth. Only the source, read by a human, does that.
+
+Fully automated pipelines, such as Google's new PaperOrchestra, optimise for a finished manuscript. I wanted a verified one.
 
 AI makes errors cheap to create and expensive to find. In science, details do matter. 90 % correct is not good enough.
 
@@ -119,7 +122,15 @@ AI makes errors cheap to create and expensive to find. In science, details do ma
 💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
 🧰 A template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template
 
-#AIinResearch #HumanInTheLoop #OpenScience #ResearchIntegrity #ScientificWriting
+#AIinResearch #AIAgents #HumanInTheLoop #OpenScience #ResearchIntegrity #ScientificWriting
+
+### Vaihtoehtoja versioon E (22.11.)
+
+**Avaus A (nykyinen):** "My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened."
+
+**Avaus B:** "The strongest claim in my paper was its title." Jatko esimerkiksi: "After weeks of checking every claim against its source, the title still promised more than the text could support. No script caught it; reading did." Tämä sopii, jos haluat painottaa tarkistamista enemmän kuin AI:n virhettä. Huom: B:n kanssa toinen kappale ("I caught that sentence…") pitää muotoilla uudelleen tai poistaa, koska se viittaa avauksen A lauseeseen.
+
+**Bulletti, jos haluat vaihtaa jonkin nykyisistä:** "🔹 Summaries drift: after fixing a claim in the text, re-read the title, highlights and abstract. They keep saying the old thing." Ehdokas korvattavaksi: "Check each source when it comes in", joka on blogissa laajemmin.
 
 ## Muistiinpanot postaukseen
 

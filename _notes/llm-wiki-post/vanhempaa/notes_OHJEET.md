@@ -7,7 +7,7 @@ Ohjeet ja muistilista. Tämä kansio ei julkaista sivustolle, mutta se näkyy ju
 - [2026-11-10-llm-wiki-and-academic-review.md](2026-11-10-llm-wiki-and-academic-review.md): **blogipostauksen luonnos** (englanti), jossa front matter ja include ovat jo valmiina. Avoimet kohdat on merkitty `- [ ] TODO` ja Clauden ehdotukset `[CLAUDE]`.
 - [linkedin_draft.md](linkedin_draft.md): LinkedIn-postauksen hahmotelma (julkaistaan blogin jälkeen).
 - [notes.md](notes.md): raakamuistiinpanot, ideat, kuvien lista ja alkuperäinen ohjeistuskehote. Uudet ajatukset kirjataan tänne, ja niistä siirretään luonnokseen.
-- Kuvat: `_notes/pics/posts/llm-wiki_*.png` (lista ja parannusideat tiedostossa notes.md).
+- Kuvat: `docs/private/pics/posts/llm-wiki_*.png` (lista ja parannusideat tiedostossa notes.md).
 
 ## Lähteet ja aineisto
 
