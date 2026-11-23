@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Writing an academic review with an LLM wiki: what worked and what didn't"
-date: 2026-11-10
+date: 2026-11-23
 categories: [llm]
 tags: [LLM wiki, agent harness, academic writing, Claude Code, data quality]
 ---
@@ -9,7 +9,7 @@ tags: [LLM wiki, agent harness, academic writing, Claude Code, data quality]
 {% include blog-meta.html %}
 
 <!--
-LUONNOS. Siirto julkaisuun: ks. notes_OHJEET.md.
+LUONNOS. Siirto julkaisuun: ks. tehtavat.md, "Julkaisu kotisivulle".
 - [ ] TODO = puuttuu sisältöä tai tarkistettava ennen julkaisua.
 - [CLAUDE] = kohta perustuu Clauden ehdotuksiin (lessons-osio "Lisäykset 31.10."), ei omiin muistiinpanoihin. Tarkista tai poista.
 - Kuvat ovat luonnosvaiheessa pelkkinä linkkeinä. Julkaisussa lisää jokaisen eteen ! (figcaption on jo valmiina).
