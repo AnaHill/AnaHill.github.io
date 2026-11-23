@@ -382,7 +382,7 @@ I don't think so, because it optimises for something else. As far as the README 
 
 AI agents make writing faster, but at the same time they make a high-quality data foundation, good data management and the right architecture decisions even more important. In an LLM wiki, the sources are the data, the three layers and `AGENTS.md` are the architecture, and the scripts and the claims list are the data management. An error in the data does not stay in one place; it spreads. So check the sources early, and read everything yourself at the end. 🤓
 
-And keep a human in the loop where it matters. The agent can do the bookkeeping, and it does it well, but choosing the sources, deciding what the paper claims and ticking each claim against its source stay with me.
+And **keep a human in the loop where it matters**. The agent can do the bookkeeping, and it does it well, but choosing the sources, deciding what the paper claims and ticking each claim against its source stay with me.
 
 📝 Happy (careful) writing! 😊
 
@@ -392,7 +392,6 @@ And keep a human in the loop where it matters. The agent can do the bookkeeping,
 - Template for researchers: [llm-wiki-academic-template](https://github.com/AnaHill/llm-wiki-academic-template)
 - The paper repository: [MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki)
 - The paper on Zenodo: [doi.org/10.5281/zenodo.24459573](https://doi.org/10.5281/zenodo.24459573)
-- The repository as published (v1.0) on Zenodo: [doi.org/10.5281/zenodo.24459822](https://doi.org/10.5281/zenodo.24459822)
 
 ---
 <a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
