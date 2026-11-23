@@ -21,8 +21,8 @@ LUONNOS. Siirto julkaisuun: ks. notes_OHJEET.md.
 
 In this post, I describe how I wrote a scientific review paper with an AI agent and an **LLM wiki**, and what I learned along the way. Spoiler: the biggest lesson was not about AI at all but about **data quality**. 🤓
 
-- 📄 The paper: [Zenodo](TODO) <!-- - [ ] TODO: Zenodo DOI -->
-- 💻 Everything behind it (sources, wiki, logs, scripts): [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki)
+- 📄 The paper: [Zenodo](https://doi.org/10.5281/zenodo.24459573) (preprint, 23 November 2026)
+- 💻 Everything behind it (sources, wiki, logs, scripts): [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki), archived as published: [Zenodo, v1.0](https://doi.org/10.5281/zenodo.24459822)
 - 🧰 Template to try it yourself: [llm-wiki-academic-template](https://github.com/AnaHill/llm-wiki-academic-template)
 
 ## Why an LLM wiki?
@@ -369,6 +369,9 @@ I have not tried the Word route in this project yet, so take this as a possibili
 <!-- [CLAUDE] koko osio -->
 I chose Zenodo instead of Preprints.org because the paper is not going to a journal. For a hobby project, Europe PMC visibility did not outweigh the uncertainty of the screening (affiliation, AI policy). Findability comes from posts like this one and from the repository.
 
+<!-- [CLAUDE 23.11.] uusi kappale julkaisun jälkeen -->
+The deposit is the PDF only, published on 23 November 2026 ([doi.org/10.5281/zenodo.24459573](https://doi.org/10.5281/zenodo.24459573)). The repository as it was at publication is archived as a record of its own ([doi.org/10.5281/zenodo.24459822](https://doi.org/10.5281/zenodo.24459822)): the paper cites its own search record and checklist, and a GitHub repository can move, change or disappear, while a Zenodo record stays. The source text, the claims list and the log of the published version are therefore kept as long as the paper is.
+
 ## Finished or verified?
 
 While I was finishing this, Google Research published [PaperOrchestra](https://github.com/google-research/paper-orchestra) ([arXiv 2604.05018](https://arxiv.org/abs/2604.05018)): five specialised agents (outline, literature review, section writing, refinement and plotting) turn an idea and an experimental log into a LaTeX manuscript, and find the literature themselves through Semantic Scholar. In side-by-side human evaluation it clearly beat other autonomous writers, especially on the literature review. My first reaction was "oh no, did this just make my setup obsolete?" 😅
@@ -388,7 +391,8 @@ And keep a human in the loop where it matters. The agent can do the bookkeeping,
 - Template for a personal wiki: [llm-wiki-template](https://github.com/AnaHill/llm-wiki-template)
 - Template for researchers: [llm-wiki-academic-template](https://github.com/AnaHill/llm-wiki-academic-template)
 - The paper repository: [MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki)
-- The paper on Zenodo: TODO <!-- - [ ] TODO: Zenodo DOI -->
+- The paper on Zenodo: [doi.org/10.5281/zenodo.24459573](https://doi.org/10.5281/zenodo.24459573)
+- The repository as published (v1.0) on Zenodo: [doi.org/10.5281/zenodo.24459822](https://doi.org/10.5281/zenodo.24459822)
 
 ---
 <a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>

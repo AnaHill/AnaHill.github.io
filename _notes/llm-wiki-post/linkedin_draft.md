@@ -1,6 +1,6 @@
 # LinkedIn-postaus: hahmotelma (2.11.2026)
 
-Kieli: englanti (sama kuin blogissa). Julkaistaan blogin jälkeen, kun Zenodo-DOI on olemassa. Pituus: noin 150–250 sanaa, koska LinkedIn näyttää ennen "see more" -katkoa vain 2–3 ensimmäistä riviä.
+Kieli: englanti (sama kuin blogissa). Julkaistaan blogin jälkeen. Zenodo-DOI on olemassa (paperi julkaistu 23.11.2026). Pituus: noin 150–250 sanaa, koska LinkedIn näyttää ennen "see more" -katkoa vain 2–3 ensimmäistä riviä.
 
 ---
 <!-- [CLAUDE 23.11.] "four gaps that limit comparability" → "four methodological gaps" kaikissa versioissa: paperin otsikko heikennettiin tarkoituksella ("limit" oli vahvempi kuin teksti, joka sanoo sen vain uskottavaksi), ja blogi kertoo tämän. -->
@@ -23,7 +23,7 @@ What I learned:
 In science, details do matter. A paper that is 90 % correct is not good enough.
 
 📝 Blog post, the whole story: <BLOG-LINKKI>
-📄 The paper (Zenodo, open access): <ZENODO-DOI>
+📄 The paper (Zenodo, open access): https://doi.org/10.5281/zenodo.24459573
 💻 Everything behind it, including sources, wiki and logs: https://github.com/AnaHill/MEA_review_llm_wiki
 🧰 Template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template
 
@@ -40,7 +40,7 @@ I wrote a review on cardiomyocyte MEA analysis using an LLM-maintained wiki. The
 The biggest lesson: AI makes errors cheap to create and expensive to find. Catch them at the source, early.
 
 📝 Blog: <BLOG-LINKKI>
-📄 Paper: <ZENODO-DOI>
+📄 Paper: https://doi.org/10.5281/zenodo.24459573
 💻 Repo: https://github.com/AnaHill/MEA_review_llm_wiki
 
 #AIinResearch #OpenScience #LLM #ResearchIntegrity
@@ -65,7 +65,7 @@ What I learned:
 In science, details do matter. 90 % correct is not good enough.
 
 📝 Blog, the whole story: <BLOG-LINKKI>
-📄 Paper (Zenodo): <ZENODO-DOI>
+📄 Paper (Zenodo): https://doi.org/10.5281/zenodo.24459573
 💻 Sources, wiki, logs and a template to try it: https://github.com/AnaHill/MEA_review_llm_wiki
 
 #AIinResearch #OpenScience #ResearchIntegrity #ScientificWriting
@@ -88,7 +88,7 @@ The biggest lesson: AI makes errors cheap to create and expensive to find.
 In science, details do matter. 90 % correct is not good enough.
 
 📝 Blog, the whole story: <BLOG-LINKKI>
-📄 Paper (Zenodo): <ZENODO-DOI>
+📄 Paper (Zenodo): https://doi.org/10.5281/zenodo.24459573
 💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
 💻 a template to try it yourself: 
 https://github.com/AnaHill/llm-wiki-academic-template
@@ -119,7 +119,7 @@ Fully automated pipelines, such as Google's new PaperOrchestra, optimise for a f
 AI makes errors cheap to create and expensive to find. In science, details do matter. 90 % correct is not good enough.
 
 📝 Blog, the whole story: <BLOG-LINKKI>
-📄 Paper (Zenodo): <ZENODO-DOI>
+📄 Paper (Zenodo): https://doi.org/10.5281/zenodo.24459573
 💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
 🧰 A template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template
 
