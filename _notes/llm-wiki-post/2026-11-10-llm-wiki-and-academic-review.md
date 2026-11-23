@@ -74,6 +74,15 @@ My tools were VS Code, [Obsidian](https://obsidian.md/) or [Foam](https://foambu
 [Graph view of the wiki in Obsidian](../pics/posts/llm-wiki_graph_view_fpd-end-conventions.png "Graph view of the wiki")
 <figcaption><em>The wiki in Obsidian's graph view: paper pages in blue, concept and method pages in orange, tags in green. Highlighted is the page that sets side by side how each source defines the end of the field potential duration, one of the four gaps of the paper. It holds no new evidence; it gathers what the paper pages record. A reference manager stores the sources; the wiki also stores how they relate.</em></figcaption>
 
+<!-- [CLAUDE 23.11.] Uusi osio: postauksen pääviesti (ToDo D), Karpathyn työnjako ja lint-lista llm-wiki.md:stä. Luvut ja esimerkit samat kuin README:ssä ("The work that is easy to skip"). Tarkista, ettei toistu liikaa myöhemmin tekstissä (esim. vinkki lint-kierroksesta lopussa). -->
+## The part that is easy to skip
+
+Karpathy's description of the pattern divides the work clearly: "*The human's job is to curate sources, direct the analysis, ask good questions, and think about what it all means. The LLM's job is everything else.*" Everything else includes a periodic lint: contradictions between pages, stale claims, orphan pages, missing cross-references. And all of it rests on one sentence that is easy to read past: "*I browse the results in real time — following links, checking the graph view, reading the updated pages.*"
+
+That sentence is what makes the rest true. A wiki nobody reads does not stay empty; it fills with plausible, well-formatted, confidently cross-referenced material that nobody has checked. Lint helps, but it checks the wiki against itself, not against the sources: a source misread the same way on every page passes every health check.
+
+In this project the bookkeeping was as cheap as promised. The checking was not. "Curate sources" turned into verifying every bibliographic detail, after invented author lists for two real papers, an entry that could not be verified and one paper that does not exist. "Think about what it all means" turned into reading over 200 claims back against their sources, one source at a time, and writing down nearly forty statements that are my own reasoning rather than any source's. The rest of this post is mostly about how to make that part manageable.
+
 ## The harness: what surrounds the agent
 
 "Agent harness" is a hot term right now, and for once the buzzword fits. A harness is everything around the model: the instructions it reads, the tools it can call, what it is allowed to touch, the checks that run after it acts, the procedures it loads on demand, what it remembers between sessions, how its output is evaluated, and the trace it leaves. Looking back, most of my work in this project was not prompting. It was building the harness, one piece at a time.

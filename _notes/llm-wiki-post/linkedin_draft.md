@@ -133,6 +133,8 @@ AI makes errors cheap to create and expensive to find. In science, details do ma
 
 **Bulletti, jos haluat vaihtaa jonkin nykyisistä:** "🔹 Summaries drift: after fixing a claim in the text, re-read the title, highlights and abstract. They keep saying the old thing." Ehdokas korvattavaksi: "Check each source when it comes in", joka on blogissa laajemmin.
 
+**Bulletti pääviestistä (23.11.), vaihtoehto jollekin nykyisistä:** "🔹 The LLM wiki pattern says the human curates sources and thinks about what it all means, and the LLM does everything else. "Everything else" was cheap. Checking it was not." Sama ajatus on blogissa osiona "The part that is easy to skip".
+
 ## Muistiinpanot postaukseen
 
 - **Linkkien sijainti:** LinkedIn rajoittaa ulkoisten linkkien näkyvyyttä. Vaihtoehto on laittaa linkit ensimmäiseen kommenttiin ja tekstiin "links in the first comment 👇". Päätä itse. Linkit tekstissä ovat suoraviivaisempi ratkaisu, ja ne kertovat avoimuudesta.
