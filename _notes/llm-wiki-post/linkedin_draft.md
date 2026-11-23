@@ -3,6 +3,7 @@
 Kieli: englanti (sama kuin blogissa). Julkaistaan blogin jälkeen, kun Zenodo-DOI on olemassa. Pituus: noin 150–250 sanaa, koska LinkedIn näyttää ennen "see more" -katkoa vain 2–3 ensimmäistä riviä.
 
 ---
+<!-- [CLAUDE 23.11.] "four gaps that limit comparability" → "four methodological gaps" kaikissa versioissa: paperin otsikko heikennettiin tarkoituksella ("limit" oli vahvempi kuin teksti, joka sanoo sen vain uskottavaksi), ja blogi kertoo tämän. -->
 <!-- älä poista tätä, sisältää mahdollisia emojia: 👨‍🔬Passionate Hobby Scientist hello! 💡 👨🏼‍🎓 
 -->
 
@@ -10,7 +11,7 @@ Kieli: englanti (sama kuin blogissa). Julkaistaan blogin jälkeen, kun Zenodo-DO
 
 Can an AI agent help write a scientific review without producing AI slop?
 
-I tried, applying my day job in data & AI to my old postdoc topic as a hobby scientist. 👨‍🔬 The result is a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes. I wrote it with an "LLM wiki": the agent summarises every source into a wiki, keeps the reference list and logs in sync, and drafts text. I select the sources, make the decisions and check the claims.
+I tried, applying my day job in data & AI to my old postdoc topic as a hobby scientist. 👨‍🔬 The result is a narrative review of four methodological gaps in MEA analysis of hiPSC-derived cardiomyocytes. I wrote it with an "LLM wiki": the agent summarises every source into a wiki, keeps the reference list and logs in sync, and drafts text. I select the sources, make the decisions and check the claims.
 
 What I learned:
 🔹 Check sources at ingest, not at the end. One misread summary spread to five places before I caught it.
@@ -75,7 +76,7 @@ In science, details do matter. 90 % correct is not good enough.
 
 My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
 
-I applied my day job in data & AI to my old postdoc topic as a hobby scientist 👨‍🔬 and wrote a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes. I used an AI agent and an "LLM wiki": the agent summarises every source into linked notes and keeps references and logs in sync. I choose the sources, make the decisions and check every claim against the original papers.
+I applied my day job in data & AI to my old postdoc topic as a hobby scientist 👨‍🔬 and wrote a narrative review of four methodological gaps in MEA analysis of hiPSC-derived cardiomyocytes. I used an AI agent and an "LLM wiki": the agent summarises every source into linked notes and keeps references and logs in sync. I choose the sources, make the decisions and check every claim against the original papers.
 
 I caught that sentence before publication, redid the search properly and documented it. The new search found two relevant papers that the first one had missed.
 
@@ -102,7 +103,7 @@ Erot versioon D: toinen kappale sanoo suoraan, mitä agentti tekee ja mitä ihmi
 
 My AI agent wrote a perfectly plausible methods sentence about a literature search that never happened.
 
-I applied my day job in data & AI to my old postdoc topic as a hobby scientist 👨‍🔬 and wrote a narrative review of four gaps that limit comparability in MEA analysis of hiPSC-derived cardiomyocytes, with an AI agent and an "LLM wiki". The agent does the bookkeeping: it summarises every source into linked notes and keeps references, logs and checks in sync. I stay in the loop wherever judgement is needed: I choose the sources, make the decisions and check every claim against the original paper.
+I applied my day job in data & AI to my old postdoc topic as a hobby scientist 👨‍🔬 and wrote a narrative review of four methodological gaps in MEA analysis of hiPSC-derived cardiomyocytes, with an AI agent and an "LLM wiki". The agent does the bookkeeping: it summarises every source into linked notes and keeps references, logs and checks in sync. I stay in the loop wherever judgement is needed: I choose the sources, make the decisions and check every claim against the original paper.
 
 I caught that sentence before publication, redid the search properly and documented it. The new search found two relevant papers that the first one had missed.
 
@@ -168,7 +169,7 @@ Vaihtoehdot paremmuusjärjestyksessä:
 
 1. **Virheen leviämisen kaavio (oma kuva, suositus).** Kuvassa näkyy, kuinka yksi lähteen väärinluku leviää: raw PDF → wiki-sivu → käsitesivu → index → main.md → abstrakti. Vieressä on, mikä pysäyttää minkäkin: check.py, claims-rekisteri tai ihmisen luenta. Tämä on postauksen ydinviesti visuaalisena, ja se erottuu geneerisistä AI-kuvista. Muoto: neliö (1080×1080) tai pysty (1080×1350), iso fontti, koska kuvaa katsotaan puhelimella.
 2. **Kolmen kerroksen arkkitehtuuri:** `raw/` → `wiki/` → `main.md` ja niiden alla AGENTS.md ja skriptit. Selkeä mutta tavallisempi.
-3. **Wikin graafinäkymä** (Obsidian tai Foam, jo kuvattu: llm-wiki_graph_view_wiki_exclude_index.png). Näyttävä, mutta kertoo vähän ilman selitystä. Sopii parhaiten karuselliin muiden kuvien rinnalle.
+3. **Wikin graafinäkymä, yksi sivu korostettuna** (`llm-wiki_graph_view_fpd-end-conventions.png`, sama kuin repon README:ssä ja blogissa, 23.11.). Keskellä menetelmäsivu, joka vertaa, miten lähteet määrittelevät FPD:n lopun, ja sen linkit 14 paperisivulle. Kertoo enemmän kuin vanha korostamaton graafi (`llm-wiki_graph_view_wiki_exclude_index.png`), mutta tarvitsee silti yhden rivin selitystä, esim. "One wiki page that sets side by side how the sources define the same measurement, and the pages it connects. A reference manager stores the sources; the wiki also stores how they relate." (Älä sano "14 sources define": kaikki 14 linkitettyä sivua eivät ole FPD-taulukossa.) Puhelimella solmujen nimet jäävät pieniksi, joten rajaa tiukemmin keskisolmun ympärille. Sopii myös karuselliin.
 4. **Karuselli (PDF-dokumenttipostaus), 4–6 sivua:** kansi (kysymys) → menetelmä → virheen leviäminen → mikä pysäyttää mitäkin → opit → linkit. LinkedInissä karusellit saavat usein hyvin näkyvyyttä, mutta ne ovat isompi työ.
 5. **Lyhyt video tai GIF (15–30 s):** näyttötallenne, jossa agentti ingestoi PDF:n ja wiki-sivu, index, references ja loki päivittyvät. Tämän jälkeen check.py ajetaan ja näyttää "0 errors". Vakuuttava "näin se toimii" -todiste, mutta vaatii editointia. Lisää tekstitys, koska videot katsotaan usein ilman ääntä.
 

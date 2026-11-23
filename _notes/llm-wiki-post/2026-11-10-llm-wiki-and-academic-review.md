@@ -44,11 +44,6 @@ The paper is called *Four Methodological Gaps in Field Potential Analysis of hiP
 
 The title went through several versions. The last change made it weaker on purpose: the earlier one claimed that the gaps *limit* comparability, which was the strongest statement in the paper while the text itself only calls it plausible.
 
-- [ ] TODO: update the Markmap screenshot; the current one still shows the old title ("Charting the Field…").
-
-[Markmap view of the paper structure](../pics/posts/llm-wiki_markmap_analysis.png "Markmap view of the paper")
-<figcaption><em>The structure of the paper (main.md) as a Markmap mind map.</em></figcaption>
-
 I am honest about the limits in the paper itself, too: the selection of studies is not systematic (it was assembled with AI assistance and citation tracing), and the review was written by a single author without independent screening.
 
 But enough about MEA, this post is about the method. 😊
@@ -74,8 +69,10 @@ I ask the agent to do four operations:
 
 My tools were VS Code, [Obsidian](https://obsidian.md/) or [Foam](https://foambubble.github.io/foam/) for linking and the graph view, and Claude Code as the agent.
 
-[Graph view of the wiki in Obsidian](../pics/posts/llm-wiki_graph_view_wiki_exclude_index.png "Graph view of the wiki")
-<figcaption><em>Graph view of the wiki in Obsidian. Red nodes are wiki pages (papers and concepts), green ones are tags. The filter <code>path:wiki -index.md</code> leaves the index out, because otherwise everything links to it.</em></figcaption>
+<!-- [CLAUDE 23.11.] Kuva vaihdettu samaksi kuin repon README:ssä; kopioitu pics/posts/-kansioon. -->
+
+[Graph view of the wiki in Obsidian](../pics/posts/llm-wiki_graph_view_fpd-end-conventions.png "Graph view of the wiki")
+<figcaption><em>The wiki in Obsidian's graph view: paper pages in blue, concept and method pages in orange, tags in green. Highlighted is the page that sets side by side how each source defines the end of the field potential duration, one of the four gaps of the paper. It holds no new evidence; it gathers what the paper pages record. A reference manager stores the sources; the wiki also stores how they relate.</em></figcaption>
 
 ## The harness: what surrounds the agent
 
@@ -129,7 +126,7 @@ In other words, I did steps 2 and 4 late and at full size. The `[CITATION NEEDED
 Every time the agent did something, the structure of the wiki helped. It remembered to update not only `main.md` but also the log, the index and the other related files. One change in the paper often touches several of them: the paragraph in `main.md`, the paper's wiki page, `claims-by-source.md` and the log. The agent made all of them in one go and reported what it changed. Then I reviewed the diff before committing.
 
 [Agent's report after updating several files](../pics/posts/llm-wiki_loop_work.png "Agent's report")
-<figcaption><em>The agent's report after one change: main.md, the wiki page of the source and the claims list were all updated, and check.py gives 0 errors.</em></figcaption>
+<figcaption><em>The agent's report (in Finnish) after one change: main.md, the wiki page of the source and the claims list were all updated, and check.py gives 0 errors.</em></figcaption>
 
 [Staged changes and the diff in VS Code](../pics/posts/llm-wiki_loop_work2.png "Staged changes in VS Code")
 <figcaption><em>The same change in VS Code: four files staged, the diff of main.md, and the suggested commit message.</em></figcaption>
@@ -145,7 +142,13 @@ The fix followed the rule-plus-check pattern above:
 
 So creating knowledge or connections in `main.md` now forces the wiki to keep up, and the wiki stays a map of the paper rather than of the sources alone.
 
-- [ ] TODO: new graph screenshot after the tag rework (colour groups by theme), before/after if it shows the difference.
+- [ ] TODO [CLAUDE 23.11.]: ota "after"-kuva samoilla ehdoilla kuin before-kuva (ohje: repon `docs/images/README.md`, "Before/after pair"), tallenna nimellä `llm-wiki_graph_view_after_tag_rework.png`, ja tarkista kuvatekstin tagiesimerkit uudesta kuvasta.
+
+[Graph view before the tag rework](../pics/posts/llm-wiki_graph_view_wiki_exclude_index.png "Graph view before the tag rework")
+<figcaption><em>Before: the wiki in Obsidian's graph view, with the tags as green nodes. Many of them were used once (<code>#brv</code>, <code>#video</code>, <code>#impedance</code>, <code>#chronic-assay</code>), a scatter of words rather than themes. The filter <code>path:wiki -index.md</code> leaves the index out, because otherwise everything links to it.</em></figcaption>
+
+[Graph view after the tag rework](../pics/posts/llm-wiki_graph_view_after_tag_rework.png "Graph view after the tag rework")
+<figcaption><em>After: the same view with the tags from a fixed vocabulary that follows the sections of the paper (<code>#fiducial-definition</code>, <code>#rate-correction</code>, <code>#maturation</code> …), paper pages in blue and concept pages in orange.</em></figcaption>
 
 Every report also ended with a decent commit message suggestion, for example "*reword the Declarations sentence about colleagues to name the CoEBoC collaboration*". I did not automate committing, because I want to check every change myself.
 
@@ -237,7 +240,7 @@ Scripts are still worth it for the boring parts. For example, abbreviations are 
 
 **C: a patch fix made a sentence contradict itself.** The opening sentence of the section on open analysis pipelines said that open pipelines had appeared after 2022, and the end of the same sentence said the opposite: "*open tools such as MultiElec and CardioMDA already existed before 2022*". The end had been added as a correction three days earlier, because both Lee et al. (2024, Table 3) and Dunham et al. (2022, p. 2) say that open tools existed before. The beginning was never changed to match. The automatic checks did not notice; I found it myself while reading. According to the sources, what is new after 2022 is not openness but new open tools for new types of data: CardioMEA for HD-MEA data (Lee) and PhysioMEA for cardiac organoids (Weiser-Bitoun).
 
-[Heading and paragraph rewritten after the contradiction was found](../pics/posts/llm-wiki_human-in-the-loop-tarkeys.png "Human in the loop")
+[Heading and paragraph rewritten after the contradiction was found](../pics/posts/llm-wiki_human-in-the-loop.png "Human in the loop")
 <figcaption><em>Human in the loop: the contradictory opening (red) and the rewritten heading and paragraph (green).</em></figcaption>
 
 Since then the agent has this rule: "*When correcting a claim, re-read and if needed rewrite the whole sentence, not only the part that was wrong.*"
@@ -293,7 +296,7 @@ And still, my own read-through comes last. Switching models does not replace it.
 
 - **A critical assessment page.** A wiki page where the agent critically assesses claims, including my own earlier claims, was a good addition to the LLM wiki. It also gets corrected when the details are wrong, for example which figure in a source actually shows what.
 
-  [Critical assessment page being corrected](../pics/posts/llm-wiki_critical_assignment.png "Critical assessment page")
+  [Critical assessment page being corrected](../pics/posts/llm-wiki_critical_assessment.png "Critical assessment page")
   <figcaption><em>A correction on the critical assessment page: "Figs. 5–6" became "Fig. 5A–C; Fig. 6 is a simulation".</em></figcaption>
 
 <!-- [CLAUDE 22.11.] -->
