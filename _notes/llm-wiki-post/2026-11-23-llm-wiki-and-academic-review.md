@@ -92,13 +92,13 @@ Without planning it that way, the result is close to what Anthropic's article [B
 
 What made the harness grow was not a design document but things going wrong:
 
-<!-- [CLAUDE 25.11.] Skills-rivi päivitetty -->
+<!-- [CLAUDE 25.11.] Permissions-, Hooks- ja Skills-rivit päivitetty -->
 | Part of the harness | In this repository | Added because… |
 |---|---|---|
 | Instructions | `AGENTS.md` (`CLAUDE.md` only points to it) | invented sources reached the draft (a "Galli et al. 2024" that does not exist, fabricated author lists), so "never invent citations" became an explicit rule |
 | Tools | seven small scripts, e.g. `check.py`, `claim_quotes.py`, `render_pdf_pages.py` | references, links and DOIs drift silently; and only the figures of one study showed that its key analysis used rat cells, not human ones, which the text-based summary had obscured, so the agent now renders PDF pages and looks at the figures |
-| Permissions | `.claude/settings.json`: no edits to my own `notes.md`, ask before any write to `raw/` | a rule in the prompt works as long as the agent remembers it; a rule in the settings works every time. A first, stricter version denied all writes to `raw/` and blocked legitimate file renames, so it became "ask" |
-| Hooks | after every edit of `main.md`: abbreviation check, consistency check, and whether the claims checklist is still in step | a script that fails by producing nothing reads as done; now the agent sees the result at the moment of the edit |
+| Permissions | `.claude/settings.json`: no edits to my own `notes.md`, ask before any write to `raw/` | a rule in the prompt works as long as the agent remembers it; a rule in the settings works every time, for the tools it covers. A first, stricter version denied all writes to `raw/` and blocked legitimate file renames, so it became "ask". A later review found that the rules cover only the file-editing tools, and a shell command goes round them, so a hook now reports any command that changed `notes.md` or a source |
+| Hooks | after every edit of `main.md`: abbreviation check, consistency check, and whether the claims checklist is still in step; before the agent finishes with uncommitted changes in the wiki or the paper: the consistency check again | a script that fails by producing nothing reads as done; now the agent sees the result at the moment of the edit. And "run the checks before finishing" stayed a rule that could be forgotten until a hook kept the agent working on an error |
 | Skills | `ingest`, `draft` and `lint`, loaded when a task matches; `/grinding` and `/grill-paper`, loaded only when called | `AGENTS.md` goes with every request, and with all the procedures in it, it had grown to 25 kB before an outside reader pointed it out. Now it keeps only the rules of every task, and the procedures load when needed |
 | Memory | Claude's memory files | conventions such as the commit message style should not need repeating in every new session |
 | Evaluation | `claims-by-source.md`: every claim listed under its source and ticked against the PDF; a separate register of my own inferences | the scripts check structure, not truth |
@@ -228,15 +228,17 @@ Error D, a summary outlives its claim:
 a claim in the body is corrected -> the title, highlights and abstract still say the old thing
 ```
 
-The lesson: **the earlier an error is born, the more places it is copied to.** So the check belongs in the ingest step, not at the end when reading `main.md`. Error D runs the other way: a correction travels down to the claims list but not up to the summaries, which restate the claim in their own words.
+The lesson: **the earlier an error is born, the more places it is copied to.** So the check belongs in the ingest step, not at the end when reading `main.md`. The repo now has a command for exactly that: `/grinding wiki <source>` checks a source's wiki page, and every wiki sentence that cites it, against the PDF before anything reaches `main.md`. When to run it is my choice, so the vibe-researching can go on for a few sources before the wiki is checked. <!-- [CLAUDE 25.11.] --> Error D runs the other way: a correction travels down to the claims list but not up to the summaries, which restate the claim in their own words.
 
 ### What catches what
 
+<!-- [CLAUDE 25.11.] /grinding wiki -rivi lisätty -->
 | Check | Catches | Misses |
 |---|---|---|
 | `check.py` | structural errors: missing references, DOI mismatches, broken links; connections made in `main.md` but missing from the wiki; tags outside the vocabulary | content, so A, B and C all pass |
 | Hook after every edit of `main.md` | missing abbreviations and broken references, immediately rather than at the end | content |
 | `claims-by-source.md` + reading the source | A and B, when the claim is checked against the source and not against the wiki page | C |
+| `/grinding wiki` (right after ingest) | A and B on the wiki page, before they are copied anywhere | C, and anything the agent misreads itself |
 | `/grinding` (the agent reads the whole source) | A and B claim by claim, with page references, as a first pass | C, and anything the agent misreads itself |
 | Register quote check (`claim_quotes.py`) | D, where the register quotes the summary's wording | D in a summary nobody quoted |
 | A human reading the whole text | C, D and contradictions between sections | |
