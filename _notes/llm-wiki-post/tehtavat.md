@@ -1,22 +1,33 @@
 # Avoimet tehtävät: postaukset
 
-Siirretty MEA_review_llm_wiki-repon `ToDo.md`:stä 23.11.2026, kun se poistettiin julkaisun jälkeen. Paperi on julkaistu: https://doi.org/10.5281/zenodo.24459573
+Paperi on julkaistu: https://doi.org/10.5281/zenodo.24459573
 
 ## Postaukset (kotisivun blogi kattava ensin, LinkedIn lyhyt sen jälkeen)
-Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, julkaisu vasta B:n jälkeen (tarvitsee linkin). Luvut pyöristetään ("yli 200 väitettä", "yli 30 lähdettä", "lähes 40 omaa päätelmää"), kun tarkka arvo ei ole oleellinen.
-- [ ] Blogipostaus ensin `2026-11-23-llm-wiki-and-academic-review.md`
-  - [ ] **pääviesti: wikin ylläpito on se osa, joka unohtuu.** Karpathyn gistin kohdat kuten "The synthesis already reflects everything you've read" ja "I browse the results in real time — following links, checking the graph view, reading the updated pages" 
-  - [ ] tarkista blogin `[CLAUDE 22.11.]`-merkityt kohdat (11 kpl) ja poista merkinnät
-  - [ ] blogin muut TODO-kommentit (mm. työnkulkukaavio, käännöksen tarkistus)
-  - [ ] postaus on noin 6 700 sanaa; lyhennysehdokkaat "Co-writing without git skills" (kokeilematon idea) ja "Where the paper is published"
-- [ ] LinkedIn-postaus blogin jälkeen `docs\private\llm-wiki-post\linkedin_draft.md`: viittaa repoon, Zenodoon ja blogiin
-  - [ ] tarkista, että `/grinding` skills mainittu
-  - [ ] valitse avaus A tai B ja mahdollinen bulletinvaihto (vaihtoehdot `linkedin_draft.md`:ssä, "Vaihtoehtoja versioon E")
-- [ ] Kun blogi on julkaistu: lisää sen linkki MEA_review_llm_wiki-repon README:hen (templaatin linkki on jo siellä)
+Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipostaus julkaistaan ensin koska LinkedIn teskti tarvitsee linkin. Luvut pyöristetään ("yli 200 väitettä", "yli 30 lähdettä", "lähes 40 omaa päätelmää"), kun tarkka arvo ei ole oleellinen.
+- [ ] Blogipostaus ensin `2026-11-23-llm-wiki-and-academic-review.md`: katso kohdat kuntoon [blogi-tehtävälistaus](#julkaisu-kotisivulle)
+
+- [ ] Kun blogi on julkaistu:
+  - [ ] lisää sen linkki MEA_review_llm_wiki-repon README:hen (templaatin linkki on jo siellä)
+  - [ ] tarkista blogin osoite MEA_review_llm_wiki-repon `docs/private/mainosviestit.md`:ssä, täytä LinkedIn-viestien `<name>`/`<nimi>` ja lähetä viestit (Slack, WhatsApp, LinkedIn)
+  - [ ] poista `_notes/llm-wiki-post/` tai merkitse valmiiksi ("Siirto julkaisuun", askel 7)
+
+- [ ] LinkedIn-postaus blogin jälkeen `linkedin_draft.md`: viittaa repoon, Zenodoon ja blogiin
+  - [ ] valitse versio (suositus E) ja avaus A tai B; B:n kanssa toinen kappale kirjoitetaan uudelleen (vaihtoehdot `linkedin_draft.md`:ssä, "Vaihtoehtoja versioon E")
+  - [ ] mahdolliset bulletinvaihdot: "Summaries drift" ja/tai pääviestin bulletti
+  - [ ] kuva: `linkedin_draft.md` suosittelee virheen leviämisen kaaviota, mutta 23.11. valittiin työnkulun kaavio (ks. "Työnkulun kaavio" alla). Jos piirrät vain yhden, työnkulun kaavio, koska se käy myös blogiin
+  - [ ] PaperOrchestra-rivi: pidä vai pudota; jos julkaisu viivästyy, poista sana "new"
+  - [ ] tarkista, että `/grinding` skills mainittu, ja karsi hashtagit
+  - [ ] korvaa `<BLOG-LINKKI>` (5 kohtaa)
 
 ## Julkaisu kotisivulle
-
-Koottu 23.11.2026 tiedostosta `notes_OHJEET.md`, joka poistettiin.
+[ ] **pääviesti: wikin ylläpito on se osa, joka unohtuu.** Karpathyn gistin kohdat kuten "The synthesis already reflects everything you've read" ja "I browse the results in real time — following links, checking the graph view, reading the updated pages" 
+- [ ] tarkista blogin kaikki `[CLAUDE]`-merkityt kohdat (20 kpl 23.11.; `[CLAUDE 22.11.]`, `[CLAUDE 23.11.]` ja päiväämättömät) ja poista merkinnät. Erityisesti "The part that is easy to skip" (ettei toistu lopun vinkeissä), koko "What I would do differently" ja Practical tips -listan `[CLAUDE]`-kohdat
+- [ ] postaus on noin 7 200 sanaa (kommentteineen); lyhennysehdokkaat "Co-writing without git skills" (kokeilematon idea) ja "Where the paper is published"
+- [ ] päätä valinnaiset TODOt: Claude Code vs. Gemini notebook -kappale ("Finding sources" -osion lopussa) ja konkreettinen esimerkki paperi → wikisivu → viite ("The workflow in practice")
+- [ ] kirjoita TODO "Why an LLM wiki?": 1–2 lausetta, miksi wiki eikä pelkkä chat tai viitteidenhallinta
+- [ ] tarkista käännös (TODO "Giving a new chat a well-scoped task" -osiossa)
+- [ ] kuvat, ks. "Kuvat" alla: työnkulun kaavio Excalidraw'ssa (korvaa The method -osion TODOn), after-kuva graafinäkymästä, päätös virheen leviämisen kaaviosta ja muistikuvasta
+- [ ] julkaisu: kts "Siirto julkaisuun" alla
 
 ### Työn aikana
 
@@ -57,11 +68,42 @@ Kaikki kansiossa `../pics/posts/` eli `_notes/pics/posts/`. Kotisivu on ainoa pa
 | `llm-wiki_human-in-the-loop.png` | Esimerkki C | Nimetty uudelleen 23.11. (oli `…-tarkeys.png`). |
 | `llm-wiki_critical_assessment.png` | What else worked | Nimetty uudelleen 23.11. (oli `…_critical_assignment.png`). |
 | `llm-wiki_claude_memory.png` | What else worked | Heikko: näyttää vain lokakuun tiedostolistan, kun teksti puhuu `MEMORY.md`:n indeksirivistä. Mietitään parempi kuva (esim. `MEMORY.md`:n sisältö, jossa commit-sääntö on indeksirivillä). |
-| (puuttuu) työnkulun kaavio | The method | `raw/` → ingest → `wiki/` → draft → `main.md`, lint takaisin wikiin; alla `AGENTS.md` ja skriptit. |
+| (puuttuu) työnkulun kaavio | The method + LinkedIn | `raw/` → ingest → `wiki/` → draft → `main.md`, lint takaisin wikiin; harness kehyksenä. Ihminen mukana neljässä kohdassa: `raw/`, wiki, `main.md` ja väitteet. Mermaid-pohja alla ("Työnkulun kaavio"). |
 | (puuttuu) virheen leviämisen kaavio | How a wrong claim spreads | Sama kuva kelpaa LinkedIniin (ks. linkedin_draft.md). |
 | (idea) ennen/jälkeen | The workflow in practice | Yksi kappale, jossa `[CITATION NEEDED]` korvautuu viitteellä; tai yksi paperi → wikisivu → viite main.md:ssä. |
 
 Markmap-kuva (`llm-wiki_markmap_analysis.png`) poistettu 23.11.: markmap jätettiin pois, ks. MEA_review_llm_wiki-repon `docs/images/README.md`.
+
+### Työnkulun kaavio (blogi + LinkedIn)
+
+Idea 23.11.: sama kuva blogin The method -osioon ja LinkedIn-postaukseen. Kuva kertoo pääviestin "kirjanpito halpaa, tarkistaminen ei": agentti hoitaa kirjanpidon (ingest, draft, lint; lint tarkistaa wikiä vain itseään vasten), mutta ihminen on mukana jokaisessa kerroksessa: valitsee lähteet `raw/`-kansioon, käy läpi ja tarkastaa wikin, kirjoittaa ja tarkastaa `main.md`:n ja tarkistaa väitteet lähdettä vasten. Ihmishahmo piirretään Excalidraw'ssa vasemmalle.
+
+Toimii Excalidraw'n Mermaid-tuonnissa (24.11.): solmut määritellään subgraphin sisällä ennen nuolia, `<br/>` eikä `<br>`, ei `·`-merkkejä eikä lainausmerkkejä nuolten teksteissä.
+
+```mermaid
+flowchart LR
+  human(("human"))
+  subgraph harness["harness: AGENTS.md, scripts, hooks, skills, log"]
+    raw["raw/<br/>source PDFs"]
+    wiki["wiki/<br/>a page per paper,<br/>concepts, log"]
+    main["main.md<br/>the paper"]
+  end
+  claims["200+ claims"]
+
+  raw -->|ingest| wiki
+  wiki -->|draft| main
+  main -->|lint| wiki
+  main --> claims
+
+  human -.->|1. chooses sources| raw
+  human -.->|2. reviews| wiki
+  human -.->|3. writes, reviews| main
+  human -.->|4. checks against the source| claims
+```
+
+- Excalidraw-pluginin Mermaid-tuonti: vain flowchart muuttuu muokattaviksi muodoiksi (muut kaaviotyypit tulevat kuvana). Värit ja tyylit vasta Excalidraw'ssa, ei `classDef`-määrittelyjä.
+- LinkedIn-koko 1200×627 (vaaka) tai 1080×1080 (neliö); isot tekstit, koska moni katsoo puhelimella.
+- Vaihtoehto, jota ei valittu: ennen/jälkeen-pari keksitystä lähteestä ("Galli et al. 2024"). Pysäyttää selaajan, mutta kertoo vain virheestä, ei menetelmästä; esimerkki sopii paremmin postauksen tekstiin.
 
 ## Alkuperäinen ohjeistuskehote uudelle chatille (käännöksen tarkistukseen)
 

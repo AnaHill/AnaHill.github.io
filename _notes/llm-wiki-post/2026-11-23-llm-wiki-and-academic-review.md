@@ -56,11 +56,12 @@ The repository has three layers:
 - `wiki/`: pages maintained by the LLM: one summary page per paper, concept pages, a page for the gaps in the literature, plus `index.md`, `log.md` and `references.md`.
 - `main.md`: the paper itself. This is the single source of truth.
 
-On top of these, `AGENTS.md` tells the agent how to work (`CLAUDE.md` only points to it), `.claude/skills/` holds two skills that load only when I call them (`/grill-paper` and `/grinding`, more on both below), and `llm-wiki.md` explains the method. Next to them, `docs/` holds supporting material such as `claims-by-source.md` (every claim in the paper listed by its source) and the search documentation, and seven small scripts do the mechanical work: `check.py` (references, DOIs, links), `claim_quotes.py` (copies the current sentences of `main.md` under each claim), `check_abbreviations.py`, `render_pdf_pages.py` (PDF text and figures for the agent), `figures.py` and `export.py` (rendered figures and the build copy for the PDF), and `rotate_log.py` (keeps the log short enough to read).
+<!-- [CLAUDE 25.11.] skillit: kaksi → viisi (ingest, draft, lint siirrettiin AGENTS.md:stä 25.11.) -->
+On top of these, `AGENTS.md` holds the rules that apply to every task (`CLAUDE.md` only points to it), `.claude/skills/` holds the procedures (`ingest`, `draft` and `lint` load when a task matches them; `/grill-paper` and `/grinding` only when I call them, more on both below), and `llm-wiki.md` explains the method. Next to them, `docs/` holds supporting material such as `claims-by-source.md` (every claim in the paper listed by its source) and the search documentation, and seven small scripts do the mechanical work: `check.py` (references, DOIs, links), `claim_quotes.py` (copies the current sentences of `main.md` under each claim), `check_abbreviations.py`, `render_pdf_pages.py` (PDF text and figures for the agent), `figures.py` and `export.py` (rendered figures and the build copy for the PDF), and `rotate_log.py` (keeps the log short enough to read).
 
 I ask the agent to do four operations:
 
-- **Ingest**: PDF → summary page, wiki updates and a reference entry.
+- **Ingest**: a file (e.g. PD)F → summary page, wiki updates and a reference entry.
 - **Query**: a question → an answer from the wiki, with sources.
 - **Draft**: write or rewrite a section of `main.md`.
 - **Lint**: a health check: outdated claims, orphan pages, unsupported claims.
@@ -91,13 +92,14 @@ Without planning it that way, the result is close to what Anthropic's article [B
 
 What made the harness grow was not a design document but things going wrong:
 
+<!-- [CLAUDE 25.11.] Skills-rivi päivitetty -->
 | Part of the harness | In this repository | Added because… |
 |---|---|---|
 | Instructions | `AGENTS.md` (`CLAUDE.md` only points to it) | invented sources reached the draft (a "Galli et al. 2024" that does not exist, fabricated author lists), so "never invent citations" became an explicit rule |
 | Tools | seven small scripts, e.g. `check.py`, `claim_quotes.py`, `render_pdf_pages.py` | references, links and DOIs drift silently; and only the figures of one study showed that its key analysis used rat cells, not human ones, which the text-based summary had obscured, so the agent now renders PDF pages and looks at the figures |
 | Permissions | `.claude/settings.json`: no edits to my own `notes.md`, ask before any write to `raw/` | a rule in the prompt works as long as the agent remembers it; a rule in the settings works every time. A first, stricter version denied all writes to `raw/` and blocked legitimate file renames, so it became "ask" |
 | Hooks | after every edit of `main.md`: abbreviation check, consistency check, and whether the claims checklist is still in step | a script that fails by producing nothing reads as done; now the agent sees the result at the moment of the edit |
-| Skills | `/grinding` and `/grill-paper`, loaded only when called | checking one source claim by claim, and grilling a decision before acting, are long procedures that should not crowd every session |
+| Skills | `ingest`, `draft` and `lint`, loaded when a task matches; `/grinding` and `/grill-paper`, loaded only when called | `AGENTS.md` goes with every request, and with all the procedures in it, it had grown to 25 kB before an outside reader pointed it out. Now it keeps only the rules of every task, and the procedures load when needed |
 | Memory | Claude's memory files | conventions such as the commit message style should not need repeating in every new session |
 | Evaluation | `claims-by-source.md`: every claim listed under its source and ticked against the PDF; a separate register of my own inferences | the scripts check structure, not truth |
 | Trace | `wiki/log.md` | every change and decision with its reason, which is also how I could write this table |
@@ -146,7 +148,7 @@ Late in the project I noticed a gap in the method itself. The four operations mo
 
 The fix followed the rule-plus-check pattern above:
 
-- **A rule:** the Draft operation in `AGENTS.md` got a "write back to the wiki" step. A connection made in `main.md` goes into the wiki too, as a link with a short reason ("T-wave peak versus APD90"), a recurring theme gets its own concept page, and a new tag enters a fixed vocabulary only if it fits at least three pages.
+- **A rule:** the Draft operation (now the `draft` skill) got a "write back to the wiki" step. <!-- [CLAUDE 25.11.] --> A connection made in `main.md` goes into the wiki too, as a link with a short reason ("T-wave peak versus APD90"), a recurring theme gets its own concept page, and a new tag enters a fixed vocabulary only if it fits at least three pages.
 - **A check:** `check.py` now lists sources that `main.md` cites in one sentence but the wiki does not connect, and tags outside the vocabulary. Because the hook runs it after every edit of `main.md`, a missing connection shows up the moment it is written.
 
 So creating knowledge or connections in `main.md` now forces the wiki to keep up, and the wiki stays a map of the paper rather than of the sources alone.
@@ -342,6 +344,7 @@ I have not tried the Word route in this project yet, so take this as a possibili
 - Search for sources in several ways from the beginning, not only through the agent.
 - Use grilling for decisions from day one. <!-- [CLAUDE] -->
 - Put the hard rules into the tool settings from the start, not only into `AGENTS.md`.
+- Keep `AGENTS.md` to the rules of every task and put the procedures in skills from the start. <!-- [CLAUDE 25.11.] -->
 - Let knowledge flow both ways from day one: whatever the paper connects, the wiki links too, with a fixed tag vocabulary.
 - Write memory index lines so that the rule itself is in them, not just its topic.
 - After rewording a claim, re-read the title, the highlights and the abstract. <!-- [CLAUDE 22.11.] -->
@@ -350,7 +353,7 @@ I have not tried the Word route in this project yet, so take this as a possibili
 ## Practical tips
 
 - Use Obsidian or Foam for linking and the graph view.
-- Put the working rules in `AGENTS.md`, for example "never invent citations". Keep `CLAUDE.md` as a pointer to it, so other agents can use the same rules.
+- Put the working rules in `AGENTS.md`, for example "never invent citations", and keep it short, since it goes with every request. Keep `CLAUDE.md` as a pointer to it, so other agents can use the same rules. <!-- [CLAUDE 25.11.] -->
 - Mark unsupported sentences with `[CITATION NEEDED]` instead of letting the agent guess a source.
 - Keep a claims-by-source list and check it against the sources, not against the wiki.
 - Use scripts like `check.py` for structural checks, but remember that they do not check content.
