@@ -22,7 +22,7 @@ LUONNOS. Siirto julkaisuun: ks. tehtavat.md, "Julkaisu kotisivulle".
 In this post, I describe how I wrote a scientific review paper with an AI agent and an **LLM wiki**, and what I learned along the way. Spoiler: the biggest lesson was not about AI at all but about **data quality**. 🤓
 
 - 📄 The paper: [Zenodo](https://doi.org/10.5281/zenodo.24459573) (preprint, 23 November 2026)
-- 💻 Everything behind it (sources, wiki, logs, scripts): [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki), archived as published: [Zenodo, v1.0](https://doi.org/10.5281/zenodo.24459822)
+- 💻 Everything behind it (sources, wiki, logs, scripts): [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki)
 - 🧰 Template to try it yourself: [llm-wiki-academic-template](https://github.com/AnaHill/llm-wiki-academic-template)
 
 ## Why an LLM wiki?
@@ -66,7 +66,27 @@ I ask the agent to do four operations:
 - **Draft**: write or rewrite a section of `main.md`.
 - **Lint**: a health check: outdated claims, orphan pages, unsupported claims.
 
-- [ ] TODO: workflow diagram: `raw/` → ingest → `wiki/` → draft → `main.md`, with lint going back to the wiki, and `AGENTS.md` + scripts underneath. (Same picture could be used for LinkedIn, see linkedin_draft.md.)
+<!-- [CLAUDE 25.11.] Työnkulun kaavio lisätty TODOn tilalle. Linkki osoittaa tulevaan nimeen; luonnos on nyt _notes/pics/posts/blogikuva_draft.png. Kuvateksti on ehdotus, ja se olettaa alla olevat korjaukset tehdyiksi (write back, selite, väitteet lähdettä vasten). -->
+
+- [ ] TODO [CLAUDE 25.11.]: viimeistele työnkulun kaavio (`blogikuva_draft.png`)
+  <!-- [CLAUDE 26.11.] Rastitettu toisen version (26.11.) mukaan kolme valmista kohtaa; lisätty toisen version uudet huomiot. -->
+  - [x] Korjaa: poista näkyvä `<br>` `main.md`-laatikosta ja kirjoita rivinvaihto itse
+  - [x] Korjaa: "huma / n" katkeaa ympyrässä, ja ihminen on kuvassa kahdesti; poista ympyrä ja vedä katkoviivat aivoista tai hahmosta
+  - [ ] Korjaa: kohta 4 ei osoita lähteeseen; lisää ohut katkoviiva "200+ claims" → `raw/` (esim. "checked against"), koska väitteet tarkistetaan PDF:ää eikä wikiä vasten. Tai kirjoita laatikkoon "checked against raw/". Tärkein jäljellä oleva kohta.
+  - [ ] Korjaa: "AVOID AI SLOPPY!" → "Avoid AI slop!" tai "No AI slop!" ("sloppy" on adjektiivi; disclaimerissa "avoid AI slop")
+  - [ ] Tarkenna: `main.md` → `wiki/` -nuolen teksti "lint" → "write back, lint" tai "write back" (paluusuunta on draft-skillin write back -askel, lint on erillinen terveystarkastus)
+  - [ ] Tarkenna: "200+ claims" → esim. "200+ claims, listed by source" tai "claims-by-source.md, 200+ claims". Nuoli `main.md` ↔ claims on nyt kaksisuuntainen tekstillä "writes", eikä ole selvää, kuka kirjoittaa mitä: joko teksti "listed / fixed" tai yksisuuntainen nuoli tekstillä "listed"
+  - [ ] Tarkenna: lisää selite: kiinteä viiva = agentti, katkoviiva = ihminen
+  - [ ] Tarkenna: `raw/` on nyt harnessin ulkopuolella (1. versiossa sisällä). Jos tarkoituksellista (lähteet tulevat ulkoa), pidä; muuten rajalle tai sisään, koska harness suojaa `raw/`:ta (asetuksissa "ask", hookit huomaavat shell-muutokset)
+  - [x] Muoto: mittasuhde noin 2,7:1 ja teksti pientä; LinkedIniin (1200×627 tai 1080×1080) tiivistä korkeammaksi ja suurenna fonttia. 2. versio on noin 2:1, lähellä 1200×627:ää (1,91:1), ja teksti on isompaa
+  - [ ] Muoto: siirrä robotti lähemmäs kiinteitä nuolia, jotta näkyy, että ne ovat sen työtä
+  - [ ] Muoto: "ingest"-teksti on harnessin katkoviivareunuksen päällä ja sekoittuu siihen; siirrä reunuksen ulko- tai sisäpuolelle
+  - [ ] Muoto (valinnainen): `main.md`:n vihreä korostus vie katseen kohdasta 4, joka on pääviesti; viiva lähteeseen (yllä) tasapainottaa
+  - [ ] Muoto: nimeä kuva uudelleen `llm-wiki_workflow.png` (tehtavat.md: yhteinen `llm-wiki_`-alku); linkki alla käyttää jo tätä nimeä
+  - [ ] Tarkista kuvateksti valmista kuvaa vasten
+
+[The workflow: raw sources, wiki and paper inside the harness, with the human at four points](../pics/posts/llm-wiki_workflow.png "The workflow")
+<figcaption><em>The workflow. The agent does the bookkeeping (solid arrows): ingest, draft, write back, and listing every claim by source. I am in the loop at four points (dashed): choosing the sources, reviewing the wiki, writing and reviewing the paper, and checking each claim against the source itself, not against the wiki. The harness around it (rules, scripts, hooks, skills and the log) is what keeps the bookkeeping honest.</em></figcaption>
 
 My tools were VS Code, [Obsidian](https://obsidian.md/) or [Foam](https://foambubble.github.io/foam/) for linking and the graph view, and Claude Code as the agent.
 

@@ -20,7 +20,7 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
   - [ ] korvaa `<BLOG-LINKKI>` (5 kohtaa)
 
 ## Julkaisu kotisivulle
-[ ] **pääviesti: wikin ylläpito on se osa, joka unohtuu.** Karpathyn gistin kohdat kuten "The synthesis already reflects everything you've read" ja "I browse the results in real time — following links, checking the graph view, reading the updated pages" 
+- [ ] **pääviesti: wikin ylläpito on se osa, joka unohtuu.** Karpathyn gistin kohdat kuten "*The synthesis already reflects everything you've read*" ja "*I browse the results in real time — following links, checking the graph view, reading the updated pages*" 
 - [ ] tarkista blogin kaikki `[CLAUDE]`-merkityt kohdat (20 kpl 23.11.; `[CLAUDE 22.11.]`, `[CLAUDE 23.11.]` ja päiväämättömät) ja poista merkinnät. Erityisesti "The part that is easy to skip" (ettei toistu lopun vinkeissä), koko "What I would do differently" ja Practical tips -listan `[CLAUDE]`-kohdat
 - [ ] postaus on noin 7 200 sanaa (kommentteineen); lyhennysehdokkaat "Co-writing without git skills" (kokeilematon idea) ja "Where the paper is published"
 - [ ] päätä valinnaiset TODOt: Claude Code vs. Gemini notebook -kappale ("Finding sources" -osion lopussa) ja konkreettinen esimerkki paperi → wikisivu → viite ("The workflow in practice")
