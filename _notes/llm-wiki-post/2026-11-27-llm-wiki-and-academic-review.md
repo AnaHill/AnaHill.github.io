@@ -18,8 +18,6 @@ In this post, I describe how I wrote a scientific review paper with an AI agent 
 - 💻 Everything behind it (sources, wiki, logs, scripts): [AnaHill/MEA_review_llm_wiki](https://github.com/AnaHill/MEA_review_llm_wiki)
 - 🧰 Template to try it yourself: [llm-wiki-academic-template](https://github.com/AnaHill/llm-wiki-academic-template)
 
-<!-- [CLAUDE 27.11.] Pienet korjaukset pyynnöstä: "(the log starts in June)", "e.g. a PDF", Fable 5.2, "the latter", "at the end … as I had", "Word documents", "came across Google Research's", ! kolmeen kuvalinkkiin, Gemini-TODO poistettu. -->
-
 ## Why an LLM wiki?
 
 I wanted to write a narrative review on how the analysis of cardiomyocyte microelectrode array (MEA) recordings has developed since 2022. A literature review is mostly bookkeeping: which papers have I read, what exactly did each of them show, and which of my sentences are actually supported by a source. That bookkeeping is where I wanted help from my 🤖 friend, without handing over the thinking.
@@ -117,7 +115,6 @@ That is the order I would recommend. What actually happened, according to the lo
 
 In other words, I did steps 2 and 4 late and at full size. The `[CITATION NEEDED]` markers did their job, though: four were open at one point, and each was closed by finding and reading a real source or by deleting the sentence, never by letting the agent guess.
 
-<!-- [CLAUDE 27.11.] TODO kirjoitettu. Lähteet: MEA-repon loki 2026-10-30 (ingest ja draft), 2026-11-01, 2026-11-04 ja 2026-11-12; wiki/papers/li-2025-maturation.md; main.md:n Maturation-osio ja Outlook. -->
 **One source from search to sentence.** Li et al. (2025) shows how a paper travels through the layers. The documented maturation search selected it on 30 October. At ingest, the agent renamed the PDF and its supplement in `raw/` and wrote the paper page: the conduction velocity and spike amplitude of each culture group from Supplementary Table 3, and the note that the patch-clamp and MEA data come from different cells. The same day, a draft step cited it in `main.md`, copied its reference line verbatim from `wiki/references.md` and opened a section for it in `claims-by-source.md`. Then the sentence in the paper kept changing. The exact values were cut five days later as too detailed for the argument, and the grinding pass on 12 November found that "MEA data from the same maturation conditions" in the outlook said too much, because the culture schedules of Li et al. and of the video study it was paired with (Scheurer et al., 2025) differ; it became "the same culture media". Today the paper says only that conduction velocity and spike amplitude increased as maturation stimuli were added, and that patch-clamp markers measured in other cells of the same groups changed in the same direction. The numbers live on the wiki page, where a reader of the repository can still find them.
 
 ### The wiki structure pays off every time
@@ -131,10 +128,10 @@ Every time the agent did something, the structure of the wiki helped. It remembe
 <figcaption><em>The same change in VS Code: four files staged, the diff of main.md, and the suggested commit message.</em></figcaption>
 
 ### Knowledge has to flow back from the paper to the wiki
-<!-- [CLAUDE 27.11.] poistettu liimautunut kuvapolku -->
+
 Late in the project I noticed a gap in the method itself. The four operations move knowledge in one direction: ingest takes a source into the wiki, and draft takes the wiki into `main.md`. But writing the paper creates knowledge too. When `main.md` compares two sources in one sentence, gathers a theme into a section or finds a good word for a concept, none of that reached the wiki. A check found ten pairs of sources that the paper compared but whose wiki pages did not link to each other, three paper sections (open platforms, 3D models, machine learning) without a wiki page of their own, and 53 tags, 34 of them used only once. The graph view showed the result: a scatter of one-off tag nodes instead of themes.
 
-The fix followed the rule-plus-check pattern above: <!-- [CLAUDE 27.11.] kuvapolku oli korvannut lopun; palautettu aiemman version mukaan -->
+The fix followed the rule-plus-check pattern above: 
 
 - **A rule:** the Draft operation (now the `draft` skill) got a "write back to the wiki" step. A connection made in `main.md` goes into the wiki too, as a link with a short reason ("T-wave peak versus APD90"), a recurring theme gets its own concept page, and a new tag enters a fixed vocabulary only if it fits at least three pages.
 - **A check:** `check.py` now lists sources that `main.md` cites in one sentence but the wiki does not connect, and tags outside the vocabulary. Because the hook runs it after every edit of `main.md`, a missing connection shows up the moment it is written.
@@ -154,7 +151,7 @@ Every report also ended with a decent commit message suggestion, for example "*r
 
 ### Giving a new chat a well-scoped task
 
-A lot of the work happened in fresh chats, each with one narrow task. The prompt matters more than I expected. <!-- [CLAUDE 27.11.] kuvapolku oli korvannut tekstiä; palautettu aiemman version mukaan --> Here is the prompt for a literature search on one gap in the review (translated from Finnish and shortened; the second rule it names has since moved from `AGENTS.md` into the `ingest` skill):
+A lot of the work happened in fresh chats, each with one narrow task. The prompt matters more than I expected. Here is the prompt for a literature search on one gap in the review (translated from Finnish and shortened; the second rule it names has since moved from `AGENTS.md` into the `ingest` skill):
 
 > Task: literature search for one gap in my review paper. Do not edit main.md or the wiki at this stage; report findings first.
 >
@@ -246,7 +243,6 @@ Scripts are still worth it for the boring parts. For example, abbreviations are 
 Since then the `draft` skill has this rule: "*When correcting a claim, re-read the whole sentence and rewrite it if needed, not only the wrong part.*" 
 
 **D: the title was the strongest claim in the paper.** After weeks of narrowing claims to what the sources support, the title still said that four gaps *limit* comparability, while the text only calls that plausible. A highlight had the same problem: the rate-correction section had just been reworded after an AI review, and the highlight above it still asserted what the section no longer claimed. No script saw either; both were found by reading. Now the register quotes the highlights, and a script reports a quoted wording that no longer occurs in the paper.
-<!-- [CLAUDE 27.11.] poistettu liimautunut kuvapolku -->
 
 **What the claim-by-claim check changed.** The value of ticking 200 boxes is not the ticks but what did not survive them. A sentence saying that no study measured how much analysis methods affect results became the narrower and checkable "none applies two conventions to the same recordings". A tool described as built for 3D preparations turned out to rest on the word "organoid" alone; its source never calls the construct three-dimensional. And a sentence beginning "Two of them" did not survive counting.
 
@@ -296,14 +292,12 @@ And still, my own read-through comes last. Switching models does not replace it.
 - **Reading the supplements, and recording the sources' own errors.** Supplementary files changed things more than once: in one paper, the ± values in the main text matched, for most groups, neither the standard deviation nor the standard error of the per-sample data in its supplement. The sources had their own slips too (a concentration given as 30 nM in one place and 100 nM in another, an error figure given three different ways). The wiki records these as found rather than smoothing them over, so a claim in the paper never quietly picks one of two conflicting values.
 - **Useful suggestions from the agent.** For example: "*When you fetch the PDFs, also get the supplementary file for Li 2025. Supplementary Table 3 has the numeric values for spike amplitude and slope.*"
 - **Memory between sessions, with a catch.** Claude's memory files kept things like commit message style and project conventions across chats. But a new chat loads only the index, `MEMORY.md`, one line per memory; the file behind a line is read only when the agent thinks it is relevant. My commit-style rule said "one line, no `Co-Authored-By`" in the file, while its index line said only "lowercase, present tense". Claude Code's own instructions, on the other hand, tell the agent to add a `Co-Authored-By` line to every commit. So in new chats the proposed message kept coming back with a body paragraph and the trailer, until I asked why. The fix was to put the rule into the index line itself. The lesson is the same as with `AGENTS.md`, one level down: **a memory works only if its one-line summary carries the rule, because the summary is all a new chat is sure to see.** And when a rule must hold every time, a memory is the wrong place for it.
-<!-- [CLAUDE 27.11.] poistettu liimautunut kuvapolku -->
   ![Claude's memory files](../pics/posts/llm-wiki_claude_memory.png "Claude's memory files")
   <figcaption><em>Claude Code's memory folder for the project: one file per remembered fact, and MEMORY.md as the index.</em></figcaption>
 
 - **"Grilling" decisions before acting.** Choosing which sources to include was in practice done by grilling: the agent proposed a choice with its reasoning, I iterated and decided, and only then was it documented. This became a `/grill-paper` skill in the repo (adapted from Matt Pocock's `grilling` skill, MIT): a round-by-round interview where the agent looks up the facts from the wiki itself and the decisions stay with the researcher. I took it into use late; used from the start, it would have saved many correction rounds.
 
 ## Co-writing without git skills
-<!-- [CLAUDE 27.11.] poistettu liimautunut kuvapolku -->
 
 The single source of truth is `main.md` under version control, but a co-author does not need to know git, or even markdown. I see three levels:
 
@@ -377,4 +371,3 @@ And **keep a human in the loop where it matters**. The agent can do the bookkeep
 ---
 <a href="{{ site.baseurl }}/blog/" style="color:green;"><strong>⬅ To My Blog list</strong></a><br>
 <a href="{{ site.baseurl }}/" style="color:green"><strong>⬅ To My Main Page</strong></a>
-<!-- [CLAUDE 27.11.] poistettu liimautunut rivi "<{{ site.baseurl }}/blog><{{ site.baseurl }}>" -->
