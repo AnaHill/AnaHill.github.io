@@ -167,7 +167,16 @@ Avainsanat tekstiin (LinkedIn-haku osuu myös tekstiin): AI-assisted writing, na
 
 ## Kuva tai video
 
-Vaihtoehdot paremmuusjärjestyksessä:
+<!-- [CLAUDE 27.11.] Valittu kuva lisätty; alla oleva vaihtoehtolista jää taustaksi. -->
+**Valittu (27.11.): työnkulun kaavio, LinkedIn-versio** `_notes/pics/posts/llm-wiki_workflow_linkedin.png` (1243×1137, noin 1,1:1; valmis 27.11.). <!-- [CLAUDE 27.11.] mitat päivitetty valmiin kuvan mukaan --> Sama kaavio kuin blogin The method -osiossa (`llm-wiki_workflow.png`), mutta export alaspäin, jotta kuva on lähes neliö ja näkyy syötteessä isompana. Kuva ladataan LinkedIniin käsin: sitä ei siirretä kansioon `pics/posts/`, koska blogi ei käytä sitä.
+
+Alt-teksti LinkedIniin (lisää kuvan latauksen yhteydessä, "Alt text"):
+
+> Workflow diagram. On the left, the human: choose the sources, review the wiki, write and review the paper, and check each claim against the source. On the right, the harness (AGENTS.md, scripts, hooks, skills, log), where the agent ingests the source files into a wiki, drafts the paper (main.md), writes connections back to the wiki and lists 200+ claims by source. The paper is then exported with export.py into the publication (PDF, Zenodo). Headline: Not just 'vibe-researching'! Stop AI slop, use your brain. You check the facts.
+
+Kuva tukee version E bulletteja "Every claim … I ticked each one off against the PDF" ja "Most of the work was … building the harness", joten tekstiin ei tarvitse lisätä kuvan selitystä.
+
+Alkuperäiset vaihtoehdot paremmuusjärjestyksessä (ennen 23.11. päätöstä):
 
 1. **Virheen leviämisen kaavio (oma kuva, suositus).** Kuvassa näkyy, kuinka yksi lähteen väärinluku leviää: raw PDF → wiki-sivu → käsitesivu → index → main.md → abstrakti. Vieressä on, mikä pysäyttää minkäkin: check.py, claims-rekisteri tai ihmisen luenta. Tämä on postauksen ydinviesti visuaalisena, ja se erottuu geneerisistä AI-kuvista. Muoto: neliö (1080×1080) tai pysty (1080×1350), iso fontti, koska kuvaa katsotaan puhelimella.
 2. **Kolmen kerroksen arkkitehtuuri:** `raw/` → `wiki/` → `main.md` ja niiden alla AGENTS.md ja skriptit. Selkeä mutta tavallisempi.

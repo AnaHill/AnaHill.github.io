@@ -68,25 +68,27 @@ I ask the agent to do four operations:
 
 <!-- [CLAUDE 25.11.] Työnkulun kaavio lisätty TODOn tilalle. Linkki osoittaa tulevaan nimeen; luonnos on nyt _notes/pics/posts/blogikuva_draft.png. Kuvateksti on ehdotus, ja se olettaa alla olevat korjaukset tehdyiksi (write back, selite, väitteet lähdettä vasten). -->
 
-- [ ] TODO [CLAUDE 25.11.]: viimeistele työnkulun kaavio (`blogikuva_draft.png`)
+- [x] TODO [CLAUDE 25.11.]: viimeistele työnkulun kaavio (`blogikuva_draft.png`)
   <!-- [CLAUDE 26.11.] Rastitettu toisen version (26.11.) mukaan kolme valmista kohtaa; lisätty toisen version uudet huomiot. -->
+  <!-- [CLAUDE 27.11.] Kaikki kohdat rastitettu: tehty kuvan 27.11. versiossa (llm-wiki_workflow.png). raw/ jäi tarkoituksella harnessin ja ihmisen alueen väliin; selitteen korvaavat värit (punainen = ihminen, harmaa = agentti). Lista on poistettavissa. -->
   - [x] Korjaa: poista näkyvä `<br>` `main.md`-laatikosta ja kirjoita rivinvaihto itse
   - [x] Korjaa: "huma / n" katkeaa ympyrässä, ja ihminen on kuvassa kahdesti; poista ympyrä ja vedä katkoviivat aivoista tai hahmosta
-  - [ ] Korjaa: kohta 4 ei osoita lähteeseen; lisää ohut katkoviiva "200+ claims" → `raw/` (esim. "checked against"), koska väitteet tarkistetaan PDF:ää eikä wikiä vasten. Tai kirjoita laatikkoon "checked against raw/". Tärkein jäljellä oleva kohta.
-  - [ ] Korjaa: "AVOID AI SLOPPY!" → "Avoid AI slop!" tai "No AI slop!" ("sloppy" on adjektiivi; disclaimerissa "avoid AI slop")
-  - [ ] Tarkenna: `main.md` → `wiki/` -nuolen teksti "lint" → "write back, lint" tai "write back" (paluusuunta on draft-skillin write back -askel, lint on erillinen terveystarkastus)
-  - [ ] Tarkenna: "200+ claims" → esim. "200+ claims, listed by source" tai "claims-by-source.md, 200+ claims". Nuoli `main.md` ↔ claims on nyt kaksisuuntainen tekstillä "writes", eikä ole selvää, kuka kirjoittaa mitä: joko teksti "listed / fixed" tai yksisuuntainen nuoli tekstillä "listed"
-  - [ ] Tarkenna: lisää selite: kiinteä viiva = agentti, katkoviiva = ihminen
-  - [ ] Tarkenna: `raw/` on nyt harnessin ulkopuolella (1. versiossa sisällä). Jos tarkoituksellista (lähteet tulevat ulkoa), pidä; muuten rajalle tai sisään, koska harness suojaa `raw/`:ta (asetuksissa "ask", hookit huomaavat shell-muutokset)
+  - [x] Korjaa: kohta 4 ei osoita lähteeseen; lisää ohut katkoviiva "200+ claims" → `raw/` (esim. "checked against"), koska väitteet tarkistetaan PDF:ää eikä wikiä vasten. Tai kirjoita laatikkoon "checked against raw/". Tärkein jäljellä oleva kohta.
+  - [x] Korjaa: "AVOID AI SLOPPY!" → "Avoid AI slop!" tai "No AI slop!" ("sloppy" on adjektiivi; disclaimerissa "avoid AI slop")
+  - [x] Tarkenna: `main.md` → `wiki/` -nuolen teksti "lint" → "write back, lint" tai "write back" (paluusuunta on draft-skillin write back -askel, lint on erillinen terveystarkastus)
+  - [x] Tarkenna: "200+ claims" → esim. "200+ claims, listed by source" tai "claims-by-source.md, 200+ claims". Nuoli `main.md` ↔ claims on nyt kaksisuuntainen tekstillä "writes", eikä ole selvää, kuka kirjoittaa mitä: joko teksti "listed / fixed" tai yksisuuntainen nuoli tekstillä "listed"
+  - [x] Tarkenna: lisää selite: kiinteä viiva = agentti, katkoviiva = ihminen
+  - [x] Tarkenna: `raw/` on nyt harnessin ulkopuolella (1. versiossa sisällä). Jos tarkoituksellista (lähteet tulevat ulkoa), pidä; muuten rajalle tai sisään, koska harness suojaa `raw/`:ta (asetuksissa "ask", hookit huomaavat shell-muutokset)
   - [x] Muoto: mittasuhde noin 2,7:1 ja teksti pientä; LinkedIniin (1200×627 tai 1080×1080) tiivistä korkeammaksi ja suurenna fonttia. 2. versio on noin 2:1, lähellä 1200×627:ää (1,91:1), ja teksti on isompaa
-  - [ ] Muoto: siirrä robotti lähemmäs kiinteitä nuolia, jotta näkyy, että ne ovat sen työtä
-  - [ ] Muoto: "ingest"-teksti on harnessin katkoviivareunuksen päällä ja sekoittuu siihen; siirrä reunuksen ulko- tai sisäpuolelle
-  - [ ] Muoto (valinnainen): `main.md`:n vihreä korostus vie katseen kohdasta 4, joka on pääviesti; viiva lähteeseen (yllä) tasapainottaa
-  - [ ] Muoto: nimeä kuva uudelleen `llm-wiki_workflow.png` (tehtavat.md: yhteinen `llm-wiki_`-alku); linkki alla käyttää jo tätä nimeä
+  - [x] Muoto: siirrä robotti lähemmäs kiinteitä nuolia, jotta näkyy, että ne ovat sen työtä
+  - [x] Muoto: "ingest"-teksti on harnessin katkoviivareunuksen päällä ja sekoittuu siihen; siirrä reunuksen ulko- tai sisäpuolelle
+  - [x] Muoto (valinnainen): `main.md`:n vihreä korostus vie katseen kohdasta 4, joka on pääviesti; viiva lähteeseen (yllä) tasapainottaa
+  - [x] Muoto: nimeä kuva uudelleen `llm-wiki_workflow.png` (tehtavat.md: yhteinen `llm-wiki_`-alku); linkki alla käyttää jo tätä nimeä
   - [ ] Tarkista kuvateksti valmista kuvaa vasten
 
-[The workflow: raw sources, wiki and paper inside the harness, with the human at four points](../pics/posts/llm-wiki_workflow.png "The workflow")
-<figcaption><em>The workflow. The agent does the bookkeeping (solid arrows): ingest, draft, write back, and listing every claim by source. I am in the loop at four points (dashed): choosing the sources, reviewing the wiki, writing and reviewing the paper, and checking each claim against the source itself, not against the wiki. The harness around it (rules, scripts, hooks, skills and the log) is what keeps the bookkeeping honest.</em></figcaption>
+<!-- [CLAUDE 27.11.] Kuvateksti ja alt-teksti päivitetty kuvan 27.11. version mukaan: harmaat ja punaiset nuolet, käskymuodon verbit, export.py ja julkaisu. -->
+[The workflow: the human chooses the sources and checks the claims, the agent keeps the wiki and the paper inside the harness, and export.py turns the paper into the publication](../pics/posts/llm-wiki_workflow.png "The workflow")
+<figcaption><em>The workflow. Inside the harness, the agent does the bookkeeping (grey arrows): ingest, draft, write back and lint, and listing every claim by source. The human stays in the loop at four points (red): choose the sources, review the wiki, write and review the paper, and check each claim against the source itself, not against the wiki. Only then is <code>main.md</code> exported, with <code>export.py</code>, into the PDF published on Zenodo.</em></figcaption>
 
 My tools were VS Code, [Obsidian](https://obsidian.md/) or [Foam](https://foambubble.github.io/foam/) for linking and the graph view, and Claude Code as the agent.
 
