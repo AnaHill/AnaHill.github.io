@@ -15,14 +15,15 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
   - [ ] valitse versio (suositus E) ja avaus A tai B; B:n kanssa toinen kappale kirjoitetaan uudelleen (vaihtoehdot `linkedin_draft.md`:ssä, "Vaihtoehtoja versioon E")
   - [ ] mahdolliset bulletinvaihdot: "Summaries drift" ja/tai pääviestin bulletti
   - [ ] PaperOrchestra-rivi: pidä vai pudota; jos julkaisu viivästyy, poista sana "new"
-  - [ ] tarkista, että `/grinding` skills mainittu, ja karsi hashtagit
+  - [x] `/grinding` mainittu versiossa F (27.11.)
+  - [ ] karsi hashtagit
   - [x] korvaa `<BLOG-LINKKI>` (5 kohtaa): https://anahill.github.io/blog/llm-wiki-and-academic-review.html
   - [ ] liitä kuvat ja niiden alt-tekstit (`linkedin_draft.md`): ensin `llm-wiki_workflow_linkedin.png` ("Kuva tai video"), sitten `llm-wiki_highlights_linkedin.png` ("Academic Highlights")
 
 ## Julkaisu kotisivulle
 - [x] luonnos ja sen 9 kuvaa siirretty `git mv`:llä (27.11.): `_posts/2026-11-27-llm-wiki-and-academic-review.md` ja `pics/posts/llm-wiki_*.png` ("Siirto julkaisuun", askeleet 1–5)
 - [x] commit ja push: julkaistu 27.11., https://anahill.github.io/blog/llm-wiki-and-academic-review.html
-- [ ] tarkista julkaistu sivu ("Siirto julkaisuun", askel 6): kuvat näkyvät, ja kuvatekstin jälkeen on väli ennen seuraavaa kappaletta (GitHubin esikatselussa väliä ei ole)
+- [x] tarkista julkaistu sivu ("Siirto julkaisuun", askel 6): kuvat näkyvät, ja kuvatekstin jälkeen on väli ennen seuraavaa kappaletta (GitHubin esikatselussa väliä ei ole)
 
 ### Työn aikana
 

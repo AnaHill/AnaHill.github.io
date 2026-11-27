@@ -135,6 +135,32 @@ AI makes errors cheap to create and expensive to find. In science, details do ma
 
 **Bulletti pääviestistä (23.11.), vaihtoehto jollekin nykyisistä:** "🔹 The LLM wiki pattern says the human curates sources and thinks about what it all means, and the LLM does everything else. "Everything else" was cheap. Checking it was not." Sama ajatus on blogissa osiona "The part that is easy to skip".
 
+## Versio F:
+
+<!-- [CLAUDE 27.11.] Kaksi pientä korjausta: "The result I wrote, together with…" → "The result, written together with…"; "several places; the wiki" → "several places: the wiki". Lisäksi ensimmäiseen bullettiin "later with a /grinding skill as a first pass" ("later", koska tarkistus alkoi 18.10. ja /grinding otettiin käyttöön 9.11.). -->
+
+
+Can an AI agent help write a scientific review without producing AI slop?
+
+I tried, applying my day job in data & AI to my old postdoc topic as a hobby scientist. 👨‍🔬 The result, written together with an AI agent and an "LLM wiki", is a narrative review of methodological gaps in MEA analysis of hiPSC-derived cardiomyocytes. The agent does the bookkeeping: it summarises every source into linked notes and keeps references, logs and checks in sync. I stay in the loop wherever judgement is needed: I choose the sources, make the decisions and check every claim against the original paper.
+
+What made human-in-the-loop work in practice:
+🔹 Every claim in the paper (200+) is listed under its source, and I ticked each one off against the original source file, later with a /grinding skill as a first pass.
+🔹 Check each source when it comes in. One misread summary is copied into several places: the wiki, the draft and finally the abstract.
+🔹 Use the strongest model where an error would go unnoticed (reading sources, wording claims), a lighter one for bookkeeping, and another model family for the final check. No model replaces my own read-through.
+🔹 Most of the work was not prompting but building the harness around the agent: rules, checks that run after every edit, hard permission limits. Each part exists because something went wrong without it.
+🔹 Knowledge flows both ways: when the paper connects two sources, the wiki has to learn it too, and a script flags it when it doesn't.
+🔹 Scripts check structure, not truth. Only the source, read by a human, does that.
+
+AI makes errors cheap to create and expensive to find. In science, details do matter. 90 % correct is not good enough.
+
+📝 Blog post, the whole story: https://anahill.github.io/blog/llm-wiki-and-academic-review.html
+📄 The paper (Zenodo, open access): https://doi.org/10.5281/zenodo.24459573
+💻 Everything behind it, including sources, wiki and logs: https://github.com/AnaHill/MEA_review_llm_wiki
+🧰 Template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template
+
+#AIinResearch #AIAgents #HumanInTheLoop #OpenScience #ResearchIntegrity #ScientificWriting
+
 ## Academic Highlights
 
 <!-- [CLAUDE 27.11.] Päivitetty viiden kohdan versioon (sama kuin highlights.html). Valmis kuva: _notes/pics/posts/llm-wiki_highlights_linkedin.png (1760×1678, Edge headless 2× ja rajaus). Kohdat 1 ja 2 sanatarkasti paperista; kohta 3 lyhennetty ("No … were found", tutkijan päätös 27.11.: LinkedIniin riittää, koska viitearvoja ei löytynyt), kohta 4 tiivistetty ("analysis, not cell, differences") ja kohta 5 main.md:n Outlookin (rivi 222) mukaan. Ladataan LinkedIniin toiseksi kuvaksi työnkulun kaavion jälkeen. -->
