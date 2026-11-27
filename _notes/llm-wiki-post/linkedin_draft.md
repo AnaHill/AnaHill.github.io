@@ -22,7 +22,7 @@ What I learned:
 
 In science, details do matter. A paper that is 90 % correct is not good enough.
 
-📝 Blog post, the whole story: <BLOG-LINKKI>
+📝 Blog post, the whole story: https://anahill.github.io/blog/llm-wiki-and-academic-review.html
 📄 The paper (Zenodo, open access): https://doi.org/10.5281/zenodo.24459573
 💻 Everything behind it, including sources, wiki and logs: https://github.com/AnaHill/MEA_review_llm_wiki
 🧰 Template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template
@@ -39,7 +39,7 @@ I wrote a review on cardiomyocyte MEA analysis using an LLM-maintained wiki. The
 
 The biggest lesson: AI makes errors cheap to create and expensive to find. Catch them at the source, early.
 
-📝 Blog: <BLOG-LINKKI>
+📝 Blog: https://anahill.github.io/blog/llm-wiki-and-academic-review.html
 📄 Paper: https://doi.org/10.5281/zenodo.24459573
 💻 Repo: https://github.com/AnaHill/MEA_review_llm_wiki
 
@@ -64,7 +64,7 @@ What I learned:
 
 In science, details do matter. 90 % correct is not good enough.
 
-📝 Blog, the whole story: <BLOG-LINKKI>
+📝 Blog, the whole story: https://anahill.github.io/blog/llm-wiki-and-academic-review.html
 📄 Paper (Zenodo): https://doi.org/10.5281/zenodo.24459573
 💻 Sources, wiki, logs and a template to try it: https://github.com/AnaHill/MEA_review_llm_wiki
 
@@ -87,7 +87,7 @@ The biggest lesson: AI makes errors cheap to create and expensive to find.
 
 In science, details do matter. 90 % correct is not good enough.
 
-📝 Blog, the whole story: <BLOG-LINKKI>
+📝 Blog, the whole story: https://anahill.github.io/blog/llm-wiki-and-academic-review.html
 📄 Paper (Zenodo): https://doi.org/10.5281/zenodo.24459573
 💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
 💻 a template to try it yourself: 
@@ -118,7 +118,7 @@ Fully automated pipelines, such as Google's new PaperOrchestra, optimise for a f
 
 AI makes errors cheap to create and expensive to find. In science, details do matter. 90 % correct is not good enough.
 
-📝 Blog, the whole story: <BLOG-LINKKI>
+📝 Blog, the whole story: https://anahill.github.io/blog/llm-wiki-and-academic-review.html
 📄 Paper (Zenodo): https://doi.org/10.5281/zenodo.24459573
 💻 Sources, wiki, logs and the text: https://github.com/AnaHill/MEA_review_llm_wiki
 🧰 A template to try it yourself: https://github.com/AnaHill/llm-wiki-academic-template

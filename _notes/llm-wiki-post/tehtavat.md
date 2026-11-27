@@ -4,7 +4,7 @@ Paperi on julkaistu: https://doi.org/10.5281/zenodo.24459573
 
 ## Postaukset (kotisivun blogi kattava ensin, LinkedIn lyhyt sen jälkeen)
 Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipostaus julkaistaan ensin koska LinkedIn teskti tarvitsee linkin. Luvut pyöristetään ("yli 200 väitettä", "yli 30 lähdettä", "lähes 40 omaa päätelmää"), kun tarkka arvo ei ole oleellinen.
-- [ ] Blogipostaus ensin `2026-11-27-llm-wiki-and-academic-review.md`: katso kohdat kuntoon [blogi-tehtävälistaus](#julkaisu-kotisivulle)
+- [x] Blogipostaus ensin `2026-11-27-llm-wiki-and-academic-review.md`: katso kohdat kuntoon [blogi-tehtävälistaus](#julkaisu-kotisivulle)
 
 - [ ] Kun blogi on julkaistu:
   - [ ] lisää sen linkki MEA_review_llm_wiki-repon README:hen (templaatin linkki on jo siellä)
@@ -16,12 +16,13 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
   - [ ] mahdolliset bulletinvaihdot: "Summaries drift" ja/tai pääviestin bulletti
   - [ ] PaperOrchestra-rivi: pidä vai pudota; jos julkaisu viivästyy, poista sana "new"
   - [ ] tarkista, että `/grinding` skills mainittu, ja karsi hashtagit
-  - [ ] korvaa `<BLOG-LINKKI>` (5 kohtaa)
+  - [x] korvaa `<BLOG-LINKKI>` (5 kohtaa): https://anahill.github.io/blog/llm-wiki-and-academic-review.html
   - [ ] liitä kuva `llm-wiki_workflow_linkedin.png` ja sen alt-teksti (`linkedin_draft.md`, "Kuva tai video")
 
 ## Julkaisu kotisivulle
 - [x] luonnos ja sen 9 kuvaa siirretty `git mv`:llä (27.11.): `_posts/2026-11-27-llm-wiki-and-academic-review.md` ja `pics/posts/llm-wiki_*.png` ("Siirto julkaisuun", askeleet 1–5)
-- [ ] commit ja push, sitten tarkista julkaistu sivu ("Siirto julkaisuun", askel 6): kuvat näkyvät, ja kuvatekstin jälkeen on väli ennen seuraavaa kappaletta (GitHubin esikatselussa väliä ei ole)
+- [x] commit ja push: julkaistu 27.11., https://anahill.github.io/blog/llm-wiki-and-academic-review.html
+- [ ] tarkista julkaistu sivu ("Siirto julkaisuun", askel 6): kuvat näkyvät, ja kuvatekstin jälkeen on väli ennen seuraavaa kappaletta (GitHubin esikatselussa väliä ei ole)
 
 ### Työn aikana
 
