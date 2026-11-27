@@ -17,7 +17,7 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
   - [ ] PaperOrchestra-rivi: pidä vai pudota; jos julkaisu viivästyy, poista sana "new"
   - [ ] tarkista, että `/grinding` skills mainittu, ja karsi hashtagit
   - [x] korvaa `<BLOG-LINKKI>` (5 kohtaa): https://anahill.github.io/blog/llm-wiki-and-academic-review.html
-  - [ ] liitä kuva `llm-wiki_workflow_linkedin.png` ja sen alt-teksti (`linkedin_draft.md`, "Kuva tai video")
+  - [ ] liitä kuvat ja niiden alt-tekstit (`linkedin_draft.md`): ensin `llm-wiki_workflow_linkedin.png` ("Kuva tai video"), sitten `llm-wiki_highlights_linkedin.png` ("Academic Highlights")
 
 ## Julkaisu kotisivulle
 - [x] luonnos ja sen 9 kuvaa siirretty `git mv`:llä (27.11.): `_posts/2026-11-27-llm-wiki-and-academic-review.md` ja `pics/posts/llm-wiki_*.png` ("Siirto julkaisuun", askeleet 1–5)
