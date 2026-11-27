@@ -29,7 +29,8 @@ In this post, I describe how I wrote a scientific review paper with an AI agent 
 
 I wanted to write a narrative review on how the analysis of cardiomyocyte microelectrode array (MEA) recordings has developed since 2022. A literature review is mostly bookkeeping: which papers have I read, what exactly did each of them show, and which of my sentences are actually supported by a source. That bookkeeping is where I wanted help from my 🤖 friend, without handing over the thinking.
 
-- [ ] TODO: 1–2 sentences on why an LLM wiki in particular, and not just chatting with an LLM or using a reference manager. Idea: a chat forgets, a reference manager does not know what the papers say; the wiki keeps both, as plain markdown under version control.
+<!-- [CLAUDE 27.11.] TODO kirjoitettu. "how they relate" jätetty pois tarkoituksella, koska se on jo graafinäkymän kuvatekstissä. -->
+Why a wiki, and not just a chat or a reference manager? A chat forgets what it read when the session ends, and a reference manager stores the papers but not what each of them actually showed. The wiki keeps both, written down once as plain markdown under version control, where I can read, correct and diff every page.
 
 ## The paper in brief
 
@@ -57,7 +58,9 @@ The repository has three layers:
 - `main.md`: the paper itself. This is the single source of truth.
 
 <!-- [CLAUDE 25.11.] skillit: kaksi → viisi (ingest, draft, lint siirrettiin AGENTS.md:stä 25.11.) -->
-On top of these, `AGENTS.md` holds the rules that apply to every task (`CLAUDE.md` only points to it), `.claude/skills/` holds the procedures (`ingest`, `draft` and `lint` load when a task matches them; `/grill-paper` and `/grinding` only when I call them, more on both below), and `llm-wiki.md` explains the method. Next to them, `docs/` holds supporting material such as `claims-by-source.md` (every claim in the paper listed by its source) and the search documentation, and seven small scripts do the mechanical work: `check.py` (references, DOIs, links), `claim_quotes.py` (copies the current sentences of `main.md` under each claim), `check_abbreviations.py`, `render_pdf_pages.py` (PDF text and figures for the agent), `figures.py` and `export.py` (rendered figures and the build copy for the PDF), and `rotate_log.py` (keeps the log short enough to read).
+On top of these, `AGENTS.md` holds the rules that apply to every task (`CLAUDE.md` only points to it), `.claude/skills/` holds the procedures (`ingest`, `draft` and `lint` load when a task matches them; `/grill-paper` and `/grinding` only when I call them, more on both below), and `llm-wiki.md` explains the method. Next to them, `docs/` holds supporting material such as `claims-by-source.md` (every claim in the paper listed by its source) and the search documentation, and seven small scripts do the mechanical work: `check.py` (references, DOIs, links), `claim_quotes.py` (copies the current sentences of `main.md` under each claim), `check_abbreviations.py`, `render_pdf_pages.py` (PDF text and figures for the agent), `figures.py` and `export.py` (rendered figures and the build copy for the PDF), and `rotate_log.py` (keeps the log short enough to read), plus `eval_skills.py`, which checks that each task still loads its skill. <!-- [CLAUDE 27.11.] eval_skills.py lisätty 25.11., muotoilu README:n mukaan -->
+
+
 
 I ask the agent to do four operations:
 
@@ -66,27 +69,7 @@ I ask the agent to do four operations:
 - **Draft**: write or rewrite a section of `main.md`.
 - **Lint**: a health check: outdated claims, orphan pages, unsupported claims.
 
-<!-- [CLAUDE 25.11.] Työnkulun kaavio lisätty TODOn tilalle. Linkki osoittaa tulevaan nimeen; luonnos on nyt _notes/pics/posts/blogikuva_draft.png. Kuvateksti on ehdotus, ja se olettaa alla olevat korjaukset tehdyiksi (write back, selite, väitteet lähdettä vasten). -->
-
-- [x] TODO [CLAUDE 25.11.]: viimeistele työnkulun kaavio (`blogikuva_draft.png`)
-  <!-- [CLAUDE 26.11.] Rastitettu toisen version (26.11.) mukaan kolme valmista kohtaa; lisätty toisen version uudet huomiot. -->
-  <!-- [CLAUDE 27.11.] Kaikki kohdat rastitettu: tehty kuvan 27.11. versiossa (llm-wiki_workflow.png). raw/ jäi tarkoituksella harnessin ja ihmisen alueen väliin; selitteen korvaavat värit (punainen = ihminen, harmaa = agentti). Lista on poistettavissa. -->
-  - [x] Korjaa: poista näkyvä `<br>` `main.md`-laatikosta ja kirjoita rivinvaihto itse
-  - [x] Korjaa: "huma / n" katkeaa ympyrässä, ja ihminen on kuvassa kahdesti; poista ympyrä ja vedä katkoviivat aivoista tai hahmosta
-  - [x] Korjaa: kohta 4 ei osoita lähteeseen; lisää ohut katkoviiva "200+ claims" → `raw/` (esim. "checked against"), koska väitteet tarkistetaan PDF:ää eikä wikiä vasten. Tai kirjoita laatikkoon "checked against raw/". Tärkein jäljellä oleva kohta.
-  - [x] Korjaa: "AVOID AI SLOPPY!" → "Avoid AI slop!" tai "No AI slop!" ("sloppy" on adjektiivi; disclaimerissa "avoid AI slop")
-  - [x] Tarkenna: `main.md` → `wiki/` -nuolen teksti "lint" → "write back, lint" tai "write back" (paluusuunta on draft-skillin write back -askel, lint on erillinen terveystarkastus)
-  - [x] Tarkenna: "200+ claims" → esim. "200+ claims, listed by source" tai "claims-by-source.md, 200+ claims". Nuoli `main.md` ↔ claims on nyt kaksisuuntainen tekstillä "writes", eikä ole selvää, kuka kirjoittaa mitä: joko teksti "listed / fixed" tai yksisuuntainen nuoli tekstillä "listed"
-  - [x] Tarkenna: lisää selite: kiinteä viiva = agentti, katkoviiva = ihminen
-  - [x] Tarkenna: `raw/` on nyt harnessin ulkopuolella (1. versiossa sisällä). Jos tarkoituksellista (lähteet tulevat ulkoa), pidä; muuten rajalle tai sisään, koska harness suojaa `raw/`:ta (asetuksissa "ask", hookit huomaavat shell-muutokset)
-  - [x] Muoto: mittasuhde noin 2,7:1 ja teksti pientä; LinkedIniin (1200×627 tai 1080×1080) tiivistä korkeammaksi ja suurenna fonttia. 2. versio on noin 2:1, lähellä 1200×627:ää (1,91:1), ja teksti on isompaa
-  - [x] Muoto: siirrä robotti lähemmäs kiinteitä nuolia, jotta näkyy, että ne ovat sen työtä
-  - [x] Muoto: "ingest"-teksti on harnessin katkoviivareunuksen päällä ja sekoittuu siihen; siirrä reunuksen ulko- tai sisäpuolelle
-  - [x] Muoto (valinnainen): `main.md`:n vihreä korostus vie katseen kohdasta 4, joka on pääviesti; viiva lähteeseen (yllä) tasapainottaa
-  - [x] Muoto: nimeä kuva uudelleen `llm-wiki_workflow.png` (tehtavat.md: yhteinen `llm-wiki_`-alku); linkki alla käyttää jo tätä nimeä
-  - [ ] Tarkista kuvateksti valmista kuvaa vasten
-
-<!-- [CLAUDE 27.11.] Kuvateksti ja alt-teksti päivitetty kuvan 27.11. version mukaan: harmaat ja punaiset nuolet, käskymuodon verbit, export.py ja julkaisu. -->
+<!-- [CLAUDE 27.11.] Työnkulun kaavio (llm-wiki_workflow.png) korvaa TODOn; kuvateksti ja alt-teksti kuvan 27.11. version mukaan: harmaat ja punaiset nuolet, käskymuodon verbit, export.py ja julkaisu. -->
 [The workflow: the human chooses the sources and checks the claims, the agent keeps the wiki and the paper inside the harness, and export.py turns the paper into the publication](../pics/posts/llm-wiki_workflow.png "The workflow")
 <figcaption><em>The workflow. Inside the harness, the agent does the bookkeeping (grey arrows): ingest, draft, write back and lint, and listing every claim by source. The human stays in the loop at four points (red): choose the sources, review the wiki, write and review the paper, and check each claim against the source itself, not against the wiki. Only then is <code>main.md</code> exported, with <code>export.py</code>, into the PDF published on Zenodo.</em></figcaption>
 
@@ -115,6 +98,7 @@ Without planning it that way, the result is close to what Anthropic's article [B
 What made the harness grow was not a design document but things going wrong:
 
 <!-- [CLAUDE 25.11.] Permissions-, Hooks- ja Skills-rivit päivitetty -->
+<!-- [CLAUDE 27.11.] Evaluation-riville eval_skills.py -->
 | Part of the harness | In this repository | Added because… |
 |---|---|---|
 | Instructions | `AGENTS.md` (`CLAUDE.md` only points to it) | invented sources reached the draft (a "Galli et al. 2024" that does not exist, fabricated author lists), so "never invent citations" became an explicit rule |
@@ -123,7 +107,7 @@ What made the harness grow was not a design document but things going wrong:
 | Hooks | after every edit of `main.md`: abbreviation check, consistency check, and whether the claims checklist is still in step; before the agent finishes with uncommitted changes in the wiki or the paper: the consistency check again | a script that fails by producing nothing reads as done; now the agent sees the result at the moment of the edit. And "run the checks before finishing" stayed a rule that could be forgotten until a hook kept the agent working on an error |
 | Skills | `ingest`, `draft` and `lint`, loaded when a task matches; `/grinding` and `/grill-paper`, loaded only when called | `AGENTS.md` goes with every request, and with all the procedures in it, it had grown to 25 kB before an outside reader pointed it out. Now it keeps only the rules of every task, and the procedures load when needed |
 | Memory | Claude's memory files | conventions such as the commit message style should not need repeating in every new session |
-| Evaluation | `claims-by-source.md`: every claim listed under its source and ticked against the PDF; a separate register of my own inferences | the scripts check structure, not truth |
+| Evaluation | `claims-by-source.md`: every claim listed under its source and ticked against the PDF; a separate register of my own inferences; `eval_skills.py`, which runs test tasks and checks that each still loads its skill | the scripts check structure, not truth; and once the procedures moved into skills, whether a task still finds its skill had to be checked, not assumed |
 | Trace | `wiki/log.md` | every change and decision with its reason, which is also how I could write this table |
 
 **Each part of the harness exists because something went wrong without it, and the log says what.** I have not measured whether the error rate fell as the harness grew, so I will not claim it. What I can show is the failure behind each part, and parts catching the next case. Two small examples from the last day: right after I added a citation to the paper, the hook reported that the claims checklist had no entry for it yet; and a new check for the register of my own inferences found, on its first run, three entries still quoting wordings that had since changed in the paper.
@@ -131,7 +115,7 @@ What made the harness grow was not a design document but things going wrong:
 <!-- [CLAUDE 22.11.] -->
 Silent failures were the recurring theme. My favourite: one invisible NUL byte, written into the log a month earlier, made `grep` treat the whole log as a binary file and return nothing at all. Nothing complained; searches just came back empty. A tool that fails by saying nothing looks exactly like a tool that found nothing.
 
-The pattern I ended up with: **a rule in `AGENTS.md` and a mechanical check in a script, together.** A rule alone gets forgotten, and a script alone cannot judge what makes a good tag or link.
+The pattern I ended up with: **a rule (in `AGENTS.md` or a skill) and a mechanical check in a script, together.** <!-- [CLAUDE 27.11.] säännöt ovat 25.11. alkaen myös skilleissä --> A rule alone gets forgotten, and a script alone cannot judge what makes a good tag or link.
 
 ## The workflow in practice
 
@@ -187,15 +171,17 @@ Every report also ended with a decent commit message suggestion, for example "*r
 
 ### Giving a new chat a well-scoped task
 
-A lot of the work happened in fresh chats, each with one narrow task. The prompt matters more than I expected. Here is the prompt for a literature search on one gap in the review (translated from Finnish and shortened):
+A lot of the work happened in fresh chats, each with one narrow task. The prompt matters more than I expected. Here is the prompt for a literature search on one gap in the review (translated from Finnish and shortened; the second rule it names has since moved from `AGENTS.md` into the `ingest` skill):
 
-- [ ] TODO: check the translation.
+<!-- [CLAUDE 27.11.] Käännös tarkistettu tehtavat.md:n alkuperäistä vasten: vastaa. Lisätty hakuohjeen virke (tietokannat ja viiteketjut), koska osio "Finding sources" nojaa juuri niihin; hakusanat jäävät (...):n taakse. Johdantoon huomautus säännön siirrosta ingest-skilliin. -->
 
 > Task: literature search for one gap in my review paper. Do not edit main.md or the wiki at this stage; report findings first.
 >
 > Read first: AGENTS.md (especially "Never invent citations" and "Batch or undirected additions — verify before ingesting"), the relevant section of main.md, the related wiki pages, wiki/index.md (sources already processed, so they are not suggested again) and docs/search-strategy.md.
 >
 > Question: is there published work that proposes or validates MEA-derived reference values or a classifier for hiPSC-cardiomyocyte maturation? (...)
+>
+> Search at least PubMed, Google Scholar and bioRxiv, and follow the references of the papers found and the works that cite them. (...)
 >
 > For each candidate, report: authors, year, title, journal, DOI (only if verified from the source; otherwise mark "unverified"), which MEA parameters it links to maturation, whether it is validated against something, and whether it covers the gap fully, partially or not at all. Also record the search queries, databases and date, so the "targeted search" sentence in main.md can be based on an actual search.
 >
@@ -278,7 +264,7 @@ Scripts are still worth it for the boring parts. For example, abbreviations are 
 [Heading and paragraph rewritten after the contradiction was found](../pics/posts/llm-wiki_human-in-the-loop.png "Human in the loop")
 <figcaption><em>Human in the loop: the contradictory opening (red) and the rewritten heading and paragraph (green).</em></figcaption>
 
-Since then the agent has this rule: "*When correcting a claim, re-read and if needed rewrite the whole sentence, not only the part that was wrong.*"
+Since then the `draft` skill has this rule: "*When correcting a claim, re-read the whole sentence and rewrite it if needed, not only the wrong part.*" <!-- [CLAUDE 27.11.] lainaus sanatarkaksi draft-skillin mukaan (.claude/skills/draft/SKILL.md, kohta 3) -->
 
 <!-- [CLAUDE 22.11.] -->
 **D: the title was the strongest claim in the paper.** After weeks of narrowing claims to what the sources support, the title still said that four gaps *limit* comparability, while the text only calls that plausible. A highlight had the same problem: the rate-correction section had just been reworded after an AI review, and the highlight above it still asserted what the section no longer claimed. No script saw either; both were found by reading. Now the register quotes the highlights, and a script reports a quoted wording that no longer occurs in the paper.
@@ -384,7 +370,7 @@ I have not tried the Word route in this project yet, so take this as a possibili
 - Run a lint round (a health check of the wiki: contradictions, stale claims, orphan pages, unsupported claims in `main.md`) after every few ingests, findings only, and decide yourself what gets fixed. Lint checks the wiki against itself, not against the sources, so it does not replace reading the PDFs.
 - Give each new chat one narrow task, the files to read first, and what it may not touch.
 - Use a strong model for reading sources and wording claims, a lighter one for bookkeeping, and another model family for the final review.
-- Put absolute rules into the tool settings, not only into the prompt: deny edits to the sources, and run the checks automatically with a hook.
+- Put absolute rules into the tool settings, not only into the prompt: deny edits to your own notes, ask before any change to the sources, and run the checks automatically with a hook. The settings cover the agent's file tools, not its shell commands, so let a hook watch those too. <!-- [CLAUDE 27.11.] raw/ on "ask", notes.md "deny"; shell-hook 25.11. -->
 - Pair each important rule with a script that checks it. The rule says what to do; the script notices when it was not done.
 - When the paper connects sources, write the connection back to the wiki, so the graph shows the paper's themes and not one-off tags.
 - Ask for findings first and fixes only after your go-ahead. The agent proposes, you decide.
@@ -407,7 +393,7 @@ I don't think so, because it optimises for something else. As far as the README 
 
 ## Summary
 
-AI agents make writing faster, but at the same time they make a high-quality data foundation, good data management and the right architecture decisions even more important. In an LLM wiki, the sources are the data, the three layers and `AGENTS.md` are the architecture, and the scripts and the claims list are the data management. An error in the data does not stay in one place; it spreads. So check the sources early, and read everything yourself at the end. 🤓
+AI agents make writing faster, but at the same time they make a high-quality data foundation, good data management and the right architecture decisions even more important. In an LLM wiki, the sources are the data, the three layers, `AGENTS.md` and the skills are the architecture, <!-- [CLAUDE 27.11.] --> and the scripts and the claims list are the data management. An error in the data does not stay in one place; it spreads. So check the sources early, and read everything yourself at the end. 🤓
 
 And **keep a human in the loop where it matters**. The agent can do the bookkeeping, and it does it well, but choosing the sources, deciding what the paper claims and ticking each claim against its source stay with me.
 

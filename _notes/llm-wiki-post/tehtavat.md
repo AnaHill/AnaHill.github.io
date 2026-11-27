@@ -26,7 +26,7 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
 - [ ] päätä valinnaiset TODOt: Claude Code vs. Gemini notebook -kappale ("Finding sources" -osion lopussa) ja konkreettinen esimerkki paperi → wikisivu → viite ("The workflow in practice")
 - [ ] kirjoita TODO "Why an LLM wiki?": 1–2 lausetta, miksi wiki eikä pelkkä chat tai viitteidenhallinta
 - [ ] tarkista käännös (TODO "Giving a new chat a well-scoped task" -osiossa)
-- [ ] kuvat, ks. "Kuvat" alla: työnkulun kaavio Excalidraw'ssa (korvaa The method -osion TODOn), after-kuva graafinäkymästä, päätös virheen leviämisen kaaviosta ja muistikuvasta
+- [ ] kuvat, ks. "Kuvat" alla: after-kuva graafinäkymästä, päätös virheen leviämisen kaaviosta ja muistikuvasta
 - [ ] julkaisu: kts "Siirto julkaisuun" alla
 
 ### Työn aikana
@@ -68,7 +68,7 @@ Kaikki kansiossa `../pics/posts/` eli `_notes/pics/posts/`. Kotisivu on ainoa pa
 | `llm-wiki_human-in-the-loop.png` | Esimerkki C | Nimetty uudelleen 23.11. (oli `…-tarkeys.png`). |
 | `llm-wiki_critical_assessment.png` | What else worked | Nimetty uudelleen 23.11. (oli `…_critical_assignment.png`). |
 | `llm-wiki_claude_memory.png` | What else worked | Heikko: näyttää vain lokakuun tiedostolistan, kun teksti puhuu `MEMORY.md`:n indeksirivistä. Mietitään parempi kuva (esim. `MEMORY.md`:n sisältö, jossa commit-sääntö on indeksirivillä). |
-| (puuttuu) työnkulun kaavio | The method + LinkedIn | `raw/` → ingest → `wiki/` → draft → `main.md`, lint takaisin wikiin; harness kehyksenä. Ihminen mukana neljässä kohdassa: `raw/`, wiki, `main.md` ja väitteet. Mermaid-pohja alla ("Työnkulun kaavio"). |
+| `llm-wiki_workflow.png` | The method | Valmis 27.11. LinkedIn-versio `llm-wiki_workflow_linkedin.png` ladataan LinkedIniin käsin, ei siirretä `pics/posts/`-kansioon. |
 | (puuttuu) virheen leviämisen kaavio | How a wrong claim spreads | Sama kuva kelpaa LinkedIniin (ks. linkedin_draft.md). |
 | (idea) ennen/jälkeen | The workflow in practice | Yksi kappale, jossa `[CITATION NEEDED]` korvautuu viitteellä; tai yksi paperi → wikisivu → viite main.md:ssä. |
 
