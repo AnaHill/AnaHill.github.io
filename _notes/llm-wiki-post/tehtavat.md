@@ -20,13 +20,8 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
   - [ ] liitä kuva `llm-wiki_workflow_linkedin.png` ja sen alt-teksti (`linkedin_draft.md`, "Kuva tai video")
 
 ## Julkaisu kotisivulle
-- [ ] **pääviesti: wikin ylläpito on se osa, joka unohtuu.** Osio "The part that is easy to skip" lainaa Karpathyn gististä "*I browse the results in real time — following links, checking the graph view, reading the updated pages*"; päätä, tarvitaanko myös "*The synthesis already reflects everything you've read*"
-- [ ] tarkista blogin `[CLAUDE]`-merkityt kohdat ja poista merkinnät (27.11.: 3 × `[CLAUDE 27.11.]`)
-- [ ] tarkista julkaistulta sivulta figcaptionien perään lisätty `<br>`: tuoko se sopivan välin vai liian ison (lisätty 27.11. GitHubin esikatselua varten)
-- [ ] päätä muistikuvasta (`llm-wiki_claude_memory.png`): pidä, vaihda tai pudota, ks. "Kuvat" alla
-- [ ] päätä virheen leviämisen kaaviosta: piirretäänkö kuva vai riittääkö postauksen tekstikaavio ("How a wrong claim spreads")
-- [ ] postaus on noin 7 600 sanaa (ilman kommentteja, 27.11.); lyhennysehdokkaat "Co-writing without git skills" (kokeilematon idea) ja "Where the paper is published"
-- [ ] julkaisu: kts "Siirto julkaisuun" alla
+- [x] luonnos ja sen 9 kuvaa siirretty `git mv`:llä (27.11.): `_posts/2026-11-27-llm-wiki-and-academic-review.md` ja `pics/posts/llm-wiki_*.png` ("Siirto julkaisuun", askeleet 1–5)
+- [ ] commit ja push, sitten tarkista julkaistu sivu ("Siirto julkaisuun", askel 6): kuvat näkyvät, ja kuvatekstin jälkeen on väli ennen seuraavaa kappaletta (GitHubin esikatselussa väliä ei ole)
 
 ### Työn aikana
 
@@ -69,4 +64,3 @@ Kaikki kansiossa `../pics/posts/` eli `_notes/pics/posts/`. Kotisivu on ainoa pa
 | `llm-wiki_human-in-the-loop.png` | Esimerkki C | |
 | `llm-wiki_critical_assessment.png` | What else worked | |
 | `llm-wiki_claude_memory.png` | What else worked | Heikko: näyttää vain lokakuun tiedostolistan, kun teksti puhuu `MEMORY.md`:n indeksirivistä. Parempi kuva olisi esim. `MEMORY.md`:n sisältö, jossa commit-sääntö on indeksirivillä. |
-| (puuttuu) virheen leviämisen kaavio | How a wrong claim spreads | Valinnainen: postauksessa on jo tekstikaavio. |
