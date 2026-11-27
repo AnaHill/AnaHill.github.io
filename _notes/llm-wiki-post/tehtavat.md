@@ -6,17 +6,17 @@ Paperi on julkaistu: https://doi.org/10.5281/zenodo.24459573
 Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipostaus julkaistaan ensin koska LinkedIn teskti tarvitsee linkin. Luvut pyöristetään ("yli 200 väitettä", "yli 30 lähdettä", "lähes 40 omaa päätelmää"), kun tarkka arvo ei ole oleellinen.
 - [x] Blogipostaus ensin `2026-11-27-llm-wiki-and-academic-review.md`: katso kohdat kuntoon [blogi-tehtävälistaus](#julkaisu-kotisivulle)
 
-- [ ] Kun blogi on julkaistu:
-  - [ ] lisää sen linkki MEA_review_llm_wiki-repon README:hen (templaatin linkki on jo siellä)
-  - [ ] tarkista blogin osoite MEA_review_llm_wiki-repon `docs/private/mainosviestit.md`:ssä, täytä LinkedIn-viestien `<name>`/`<nimi>` ja lähetä viestit (Slack, WhatsApp, LinkedIn)
-  - [ ] poista `_notes/llm-wiki-post/` tai merkitse valmiiksi ("Siirto julkaisuun", askel 7)
+- [x] Kun blogi on julkaistu:
+  - [x] lisää sen linkki MEA_review_llm_wiki-repon README:hen (templaatin linkki on jo siellä)
+  - [x] tacrkista blogin osoite MEA_review_llm_wiki-repon `docs/private/mainosviestit.md`:ssä, täytä LinkedIn-viestien `<name>`/`<nimi>` ja lähetä viestit (Slack, WhatsApp, LinkedIn)
+  - [x] poista `_notes/llm-wiki-post/` tai merkitse valmiiksi ("Siirto julkaisuun", askel 7)
 
-- [ ] LinkedIn-postaus blogin jälkeen `linkedin_draft.md`: viittaa repoon, Zenodoon ja blogiin
-  - [ ] valitse versio (suositus E) ja avaus A tai B; B:n kanssa toinen kappale kirjoitetaan uudelleen (vaihtoehdot `linkedin_draft.md`:ssä, "Vaihtoehtoja versioon E")
-  - [ ] mahdolliset bulletinvaihdot: "Summaries drift" ja/tai pääviestin bulletti
-  - [ ] PaperOrchestra-rivi: pidä vai pudota; jos julkaisu viivästyy, poista sana "new"
+- [x] LinkedIn-postaus blogin jälkeen `linkedin_draft.md`: viittaa repoon, Zenodoon ja blogiin
+  - [x] valitse versio (suositus E) ja avaus A tai B; B:n kanssa toinen kappale kirjoitetaan uudelleen (vaihtoehdot `linkedin_draft.md`:ssä, "Vaihtoehtoja versioon E")
+  - [x] mahdolliset bulletinvaihdot: "Summaries drift" ja/tai pääviestin bulletti
+  - [x] PaperOrchestra-rivi: pidä vai pudota; jos julkaisu viivästyy, poista sana "new"
   - [x] `/grinding` mainittu versiossa F (27.11.)
-  - [ ] karsi hashtagit
+  - [x] karsi hashtagit
   - [x] korvaa `<BLOG-LINKKI>` (5 kohtaa): https://anahill.github.io/blog/llm-wiki-and-academic-review.html
   - [ ] liitä kuvat ja niiden alt-tekstit (`linkedin_draft.md`): ensin `llm-wiki_workflow_linkedin.png` ("Kuva tai video"), sitten `llm-wiki_highlights_linkedin.png` ("Academic Highlights")
 

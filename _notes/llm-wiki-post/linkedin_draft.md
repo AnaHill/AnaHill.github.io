@@ -135,10 +135,7 @@ AI makes errors cheap to create and expensive to find. In science, details do ma
 
 **Bulletti pääviestistä (23.11.), vaihtoehto jollekin nykyisistä:** "🔹 The LLM wiki pattern says the human curates sources and thinks about what it all means, and the LLM does everything else. "Everything else" was cheap. Checking it was not." Sama ajatus on blogissa osiona "The part that is easy to skip".
 
-## Versio F:
-
-<!-- [CLAUDE 27.11.] Kaksi pientä korjausta: "The result I wrote, together with…" → "The result, written together with…"; "several places; the wiki" → "several places: the wiki". Lisäksi ensimmäiseen bullettiin "later with a /grinding skill as a first pass" ("later", koska tarkistus alkoi 18.10. ja /grinding otettiin käyttöön 9.11.). -->
-
+## Versio F:lopullinen
 
 Can an AI agent help write a scientific review without producing AI slop?
 
