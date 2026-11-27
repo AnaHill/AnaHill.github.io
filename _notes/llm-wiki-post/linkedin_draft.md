@@ -135,6 +135,30 @@ AI makes errors cheap to create and expensive to find. In science, details do ma
 
 **Bulletti pääviestistä (23.11.), vaihtoehto jollekin nykyisistä:** "🔹 The LLM wiki pattern says the human curates sources and thinks about what it all means, and the LLM does everything else. "Everything else" was cheap. Checking it was not." Sama ajatus on blogissa osiona "The part that is easy to skip".
 
+## Academic Highlights
+
+<!-- [CLAUDE 27.11.] Toinen kuva LinkedIniin: paperin Highlights sanatarkasti MEA-repon main.md:stä (rivit 30–36; main.md ei ole muuttunut 23.11. julkaisun jälkeen), lyhenteet main.md:n Abbreviations-listan mukaan. Kuvakaappaus VS Coden Markdown-esikatselusta (Ctrl+Shift+V): kortti on 1080 px leveä, joten zoomaa esikatselua tarvittaessa ja rajaa kortin reunoihin. Alt-teksti alla. -->
+
+<div style="width:1080px; box-sizing:border-box; padding:64px 72px; background:#ffffff; color:#1f2933; font-family:Georgia,'Times New Roman',serif; border:1px solid #d9dee3; border-radius:16px;">
+  <div style="font-family:'Segoe UI',Arial,sans-serif; font-size:20px; letter-spacing:3px; text-transform:uppercase; color:#b4234a; font-weight:600; margin-bottom:12px;">Highlights</div>
+  <div style="font-size:30px; line-height:1.3; font-weight:bold; margin-bottom:8px;">Four Methodological Gaps in Field Potential Analysis of hiPSC-Cardiomyocytes</div>
+  <div style="font-size:22px; line-height:1.4; color:#52606d; font-style:italic; margin-bottom:36px;">A Narrative Review of Multielectrode Array Studies Since 2022</div>
+  <ul style="font-family:'Segoe UI',Arial,sans-serif; font-size:25px; line-height:1.45; padding-left:30px; margin:0 0 36px 0;">
+    <li style="margin-bottom:14px;">MEA tools define FPD differently; their FPD values are not directly comparable</li>
+    <li style="margin-bottom:14px;">FPD drifts over days in culture even under pacing</li>
+    <li style="margin-bottom:14px;">Machine learning on MEA parameters may learn analysis differences, not cell differences</li>
+    <li>Raw MEA signals mix cell, tissue and device; separating them is proposed as a hypothesis</li>
+  </ul>
+  <div style="font-family:'Segoe UI',Arial,sans-serif; font-size:17px; line-height:1.5; color:#52606d; border-top:1px solid #d9dee3; padding-top:18px;">
+    <b>APD90</b>, action potential duration at 90% repolarization; <b>FPD</b>, field potential duration; <b>hiPSC-CM</b>, human induced pluripotent stem cell–derived cardiomyocyte; <b>MEA</b>, multielectrode array.<br>
+    Antti-Juhana Mäki · Preprint, Zenodo, 2026 · <span style="color:#b4234a;">doi.org/10.5281/zenodo.24459573</span>
+  </div>
+</div>
+
+Alt-teksti LinkedIniin:
+
+> Highlights of the preprint "Four Methodological Gaps in Field Potential Analysis of hiPSC-Cardiomyocytes: A Narrative Review of Multielectrode Array Studies Since 2022": MEA tools define FPD differently, so their FPD values are not directly comparable. In rat cells, the T-wave peak correlates with APD90 only when the T wave is biphasic. Rate correction can reverse the direction of an FPD change. FPD drifts over days in culture even under pacing. A PubMed search found no MEA-derived reference values for hiPSC-CM maturation. Machine learning on MEA parameters may learn analysis differences, not cell differences. Raw MEA signals mix cell, tissue and device; separating them is proposed as a hypothesis. Preprint on Zenodo, doi.org/10.5281/zenodo.24459573.
+
 ## Muistiinpanot postaukseen
 
 - **Linkkien sijainti:** LinkedIn rajoittaa ulkoisten linkkien näkyvyyttä. Vaihtoehto on laittaa linkit ensimmäiseen kommenttiin ja tekstiin "links in the first comment 👇". Päätä itse. Linkit tekstissä ovat suoraviivaisempi ratkaisu, ja ne kertovat avoimuudesta.
