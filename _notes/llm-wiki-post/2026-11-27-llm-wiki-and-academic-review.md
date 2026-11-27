@@ -56,13 +56,14 @@ I ask the agent to do four operations:
 - **Draft**: write or rewrite a section of `main.md`.
 - **Lint**: a health check: outdated claims, orphan pages, unsupported claims.
 
+<!-- [CLAUDE 27.11.] Kaikkien yhdeksän figcaptionin perään lisätty <br>, jotta kuvatekstin ja seuraavan kappaleen väliin tulee tyhjä rivi (GitHubin esikatselussa kappaleella ei ole ylämarginaalia). Tarkista myös julkaistulta sivulta; jos väli on siellä liian iso, <br> pois. -->
 ![The workflow: the human chooses the sources and checks the claims, the agent keeps the wiki and the paper inside the harness, and export.py turns the paper into the publication](../pics/posts/llm-wiki_workflow.png "The workflow")
-<figcaption><em>The workflow. Inside the harness, the agent does the bookkeeping (grey arrows): ingest, draft, write back and lint, and listing every claim by source. The human stays in the loop at four points (red): choose the sources, review the wiki, write and review the paper, and check each claim against the source itself, not against the wiki. Only then is <code>main.md</code> exported, with <code>export.py</code>, into the PDF published on Zenodo.</em></figcaption>
+<figcaption><em>The workflow. Inside the harness, the agent does the bookkeeping (grey arrows): ingest, draft, write back and lint, and listing every claim by source. The human stays in the loop at four points (red): choose the sources, review the wiki, write and review the paper, and check each claim against the source itself, not against the wiki. Only then is <code>main.md</code> exported, with <code>export.py</code>, into the PDF published on Zenodo.</em></figcaption><br>
 
 My tools were VS Code and [Obsidian](https://obsidian.md/) or [Foam](https://foambubble.github.io/foam/) for linking and the graph view, and Claude Code as the agent.
 
-![Graph view of the wiki in Obsidian](../pics/posts/llm-wiki_graph_view_fpd-end-conventions.png "Graph view of the wiki") <!-- [CLAUDE 27.11.] poistettu rivin perään liimautunut kuvapolku -->
-<figcaption><em>The wiki in Obsidian's graph view: paper pages in blue, concept and method pages in orange, tags in green. Highlighted is the page that sets side by side how each source defines the end of the field potential duration, one of the four gaps of the paper. It holds no new evidence; it gathers what the paper pages record. A reference manager stores the sources; the wiki also stores how they relate.</em></figcaption>
+![Graph view of the wiki in Obsidian](../pics/posts/llm-wiki_graph_view_fpd-end-conventions.png "Graph view of the wiki") 
+<figcaption><em>The wiki in Obsidian's graph view: paper pages in blue, concept and method pages in orange, tags in green. Highlighted is the page that sets side by side how each source defines the end of the field potential duration, one of the four gaps of the paper. It holds no new evidence; it gathers what the paper pages record. A reference manager stores the sources; the wiki also stores how they relate.</em></figcaption><br>
 
 ## The part that is easy to skip
 
@@ -122,10 +123,10 @@ In other words, I did steps 2 and 4 late and at full size. The `[CITATION NEEDED
 Every time the agent did something, the structure of the wiki helped. It remembered to update not only `main.md` but also the log, the index and the other related files. One change in the paper often touches several of them: the paragraph in `main.md`, the paper's wiki page, `claims-by-source.md` and the log. The agent made all of them in one go and reported what it changed. Then I reviewed the diff before committing.
 
 ![Agent's report after updating several files](../pics/posts/llm-wiki_loop_work.png "Agent's report")
-<figcaption><em>The agent's report (in Finnish) after one change: main.md, the wiki page of the source and the claims list were all updated, and check.py gives 0 errors.</em></figcaption>
+<figcaption><em>The agent's report (in Finnish) after one change: main.md, the wiki page of the source and the claims list were all updated, and check.py gives 0 errors.</em></figcaption><br>
 
 ![Staged changes and the diff in VS Code](../pics/posts/llm-wiki_loop_work2.png "Staged changes in VS Code")
-<figcaption><em>The same change in VS Code: four files staged, the diff of main.md, and the suggested commit message.</em></figcaption>
+<figcaption><em>The same change in VS Code: four files staged, the diff of main.md, and the suggested commit message.</em></figcaption><br>
 
 ### Knowledge has to flow back from the paper to the wiki
 
@@ -138,16 +139,16 @@ The fix followed the rule-plus-check pattern above:
 
 So creating knowledge or connections in `main.md` now forces the wiki to keep up, and the wiki stays a map of the paper rather than of the sources alone.
 
-- [ ] TODO [CLAUDE 23.11.]: ota "after"-kuva samoilla ehdoilla kuin before-kuva (ohje: repon `docs/images/README.md`, "Before/after pair"), tallenna nimellä `llm-wiki_graph_view_after_tag_rework.png`, ja tarkista kuvatekstin tagiesimerkit uudesta kuvasta.
+<!-- [CLAUDE 27.11.] after-kuvan TODO poistettu: kuva otettu 27.11. ja kuvateksti päivitetty sen mukaan. -->
 
 ![Graph view before the tag rework](../pics/posts/llm-wiki_graph_view_wiki_exclude_index.png "Graph view before the tag rework")
-<figcaption><em>Before: the wiki in Obsidian's graph view, with the tags as green nodes. Many of them were used once (<code>#brv</code>, <code>#video</code>, <code>#impedance</code>, <code>#chronic-assay</code>), a scatter of words rather than themes. The filter <code>path:wiki -index.md</code> leaves the index out, because otherwise everything links to it.</em></figcaption>
+<figcaption><em>Before: the wiki in Obsidian's graph view, with the tags as green nodes. Many of them were used once (<code>#brv</code>, <code>#video</code>, <code>#impedance</code>, <code>#chronic-assay</code>), a scatter of words rather than themes. The filter <code>path:wiki -index.md</code> leaves the index out, because otherwise everything links to it.</em></figcaption><br>
 
 ![Graph view after the tag rework](../pics/posts/llm-wiki_graph_view_after_tag_rework.png "Graph view after the tag rework")
-<figcaption><em>After: the same view with the tags from a fixed vocabulary that follows the sections of the paper (<code>#fiducial-definition</code>, <code>#rate-correction</code>, <code>#maturation</code> …), paper pages in blue and concept pages in orange.</em></figcaption>
+<figcaption><em>After: a similar view with the paper pages in blue, the concept pages in orange and the tags from a fixed vocabulary that follows the sections of the paper. Highlighted is <code>#rate-correction</code>, the most used tag: it gathers twelve paper pages and the concept page on Fridericia correction, the theme of the paper's first gap. The other tags (<code>#fiducial-definition</code>, <code>#3d-model</code>, <code>#machine-learning</code> …) are themes of the same kind, not one-off words.</em></figcaption><br>
+<!-- [CLAUDE 27.11.] after-kuvan kuvateksti uudesta kuvasta: #rate-correction on 13 sivun front matterissa (12 paperisivua + fridericia-rate-correction), käytetyin tagi; #maturation ei näy rajauksessa, joten esimerkit vaihdettu näkyviin tageihin. "the same view" → "a similar view", koska ryhmävärit ja "Existing files only" eroavat before-kuvasta. -->
 
 Every report also ended with a decent commit message suggestion, for example "*reword the Declarations sentence about colleagues to name the CoEBoC collaboration*". I did not automate committing, because I want to check every change myself.
-<!-- [CLAUDE 27.11.] poistettu liimautunut kuvapolku -->
 
 ### Giving a new chat a well-scoped task
 
@@ -238,7 +239,7 @@ Scripts are still worth it for the boring parts. For example, abbreviations are 
 **C: a patch fix made a sentence contradict itself.** The opening sentence of the section on open analysis pipelines said that open pipelines had appeared after 2022, and the end of the same sentence said the opposite: "*open tools such as MultiElec and CardioMDA already existed before 2022*". The end had been added as a correction three days earlier, because both Lee et al. (2024, Table 3) and Dunham et al. (2022, p. 2) say that open tools existed before. The beginning was never changed to match. The automatic checks did not notice; I found it myself while reading. According to the sources, what is new after 2022 is not openness but new open tools for new types of data: CardioMEA for HD-MEA data (Lee) and PhysioMEA for cardiac organoids (Weiser-Bitoun).
 
 ![Heading and paragraph rewritten after the contradiction was found](../pics/posts/llm-wiki_human-in-the-loop.png "Human in the loop")
-<figcaption><em>Human in the loop: the contradictory opening (red) and the rewritten heading and paragraph (green).</em></figcaption>
+<figcaption><em>Human in the loop: the contradictory opening (red) and the rewritten heading and paragraph (green).</em></figcaption><br>
 
 Since then the `draft` skill has this rule: "*When correcting a claim, re-read the whole sentence and rewrite it if needed, not only the wrong part.*" 
 
@@ -287,13 +288,13 @@ And still, my own read-through comes last. Switching models does not replace it.
 - **A critical assessment page.** A wiki page where the agent critically assesses claims, including my own earlier claims, was a good addition to the LLM wiki. It also gets corrected when the details are wrong, for example which figure in a source actually shows what.
 
   ![Critical assessment page being corrected](../pics/posts/llm-wiki_critical_assessment.png "Critical assessment page")
-  <figcaption><em>A correction on the critical assessment page: "Figs. 5–6" became "Fig. 5A–C; Fig. 6 is a simulation".</em></figcaption>
+  <figcaption><em>A correction on the critical assessment page: "Figs. 5–6" became "Fig. 5A–C; Fig. 6 is a simulation".</em></figcaption><br>
 
 - **Reading the supplements, and recording the sources' own errors.** Supplementary files changed things more than once: in one paper, the ± values in the main text matched, for most groups, neither the standard deviation nor the standard error of the per-sample data in its supplement. The sources had their own slips too (a concentration given as 30 nM in one place and 100 nM in another, an error figure given three different ways). The wiki records these as found rather than smoothing them over, so a claim in the paper never quietly picks one of two conflicting values.
 - **Useful suggestions from the agent.** For example: "*When you fetch the PDFs, also get the supplementary file for Li 2025. Supplementary Table 3 has the numeric values for spike amplitude and slope.*"
 - **Memory between sessions, with a catch.** Claude's memory files kept things like commit message style and project conventions across chats. But a new chat loads only the index, `MEMORY.md`, one line per memory; the file behind a line is read only when the agent thinks it is relevant. My commit-style rule said "one line, no `Co-Authored-By`" in the file, while its index line said only "lowercase, present tense". Claude Code's own instructions, on the other hand, tell the agent to add a `Co-Authored-By` line to every commit. So in new chats the proposed message kept coming back with a body paragraph and the trailer, until I asked why. The fix was to put the rule into the index line itself. The lesson is the same as with `AGENTS.md`, one level down: **a memory works only if its one-line summary carries the rule, because the summary is all a new chat is sure to see.** And when a rule must hold every time, a memory is the wrong place for it.
   ![Claude's memory files](../pics/posts/llm-wiki_claude_memory.png "Claude's memory files")
-  <figcaption><em>Claude Code's memory folder for the project: one file per remembered fact, and MEMORY.md as the index.</em></figcaption>
+  <figcaption><em>Claude Code's memory folder for the project: one file per remembered fact, and MEMORY.md as the index.</em></figcaption><br>
 
 - **"Grilling" decisions before acting.** Choosing which sources to include was in practice done by grilling: the agent proposed a choice with its reasoning, I iterated and decided, and only then was it documented. This became a `/grill-paper` skill in the repo (adapted from Matt Pocock's `grilling` skill, MIT): a round-by-round interview where the agent looks up the facts from the wiki itself and the decisions stay with the researcher. I took it into use late; used from the start, it would have saved many correction rounds.
 

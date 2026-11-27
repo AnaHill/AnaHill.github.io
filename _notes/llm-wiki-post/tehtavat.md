@@ -21,8 +21,8 @@ Sisältö ja ideat `docs\private\llm-wiki-post`. Luonnostelu rinnakkain, blogipo
 
 ## Julkaisu kotisivulle
 - [ ] **pääviesti: wikin ylläpito on se osa, joka unohtuu.** Osio "The part that is easy to skip" lainaa Karpathyn gististä "*I browse the results in real time — following links, checking the graph view, reading the updated pages*"; päätä, tarvitaanko myös "*The synthesis already reflects everything you've read*"
-- [ ] tarkista blogin `[CLAUDE]`-merkityt kohdat ja poista merkinnät (27.11.: 11 kpl, 10 × `[CLAUDE 27.11.]` ja 1 × `[CLAUDE 23.11.]`, joka on after-kuvan TODO)
-- [ ] after-kuva graafinäkymästä: ota samoilla ehdoilla kuin before-kuva (ohje MEA_review_llm_wiki-repon `docs/images/README.md`:ssä, "Before/after pair"), tai pudota before/after-pari ja jätä before-kuva
+- [ ] tarkista blogin `[CLAUDE]`-merkityt kohdat ja poista merkinnät (27.11.: 3 × `[CLAUDE 27.11.]`)
+- [ ] tarkista julkaistulta sivulta figcaptionien perään lisätty `<br>`: tuoko se sopivan välin vai liian ison (lisätty 27.11. GitHubin esikatselua varten)
 - [ ] päätä muistikuvasta (`llm-wiki_claude_memory.png`): pidä, vaihda tai pudota, ks. "Kuvat" alla
 - [ ] päätä virheen leviämisen kaaviosta: piirretäänkö kuva vai riittääkö postauksen tekstikaavio ("How a wrong claim spreads")
 - [ ] postaus on noin 7 600 sanaa (ilman kommentteja, 27.11.); lyhennysehdokkaat "Co-writing without git skills" (kokeilematon idea) ja "Where the paper is published"
@@ -63,7 +63,7 @@ Kaikki kansiossa `../pics/posts/` eli `_notes/pics/posts/`. Kotisivu on ainoa pa
 | `llm-wiki_workflow.png` | The method | Valmis 27.11. LinkedIn-versio `llm-wiki_workflow_linkedin.png` ladataan LinkedIniin käsin, ei siirretä `pics/posts/`-kansioon. |
 | `llm-wiki_graph_view_fpd-end-conventions.png` | The method | Sama kuin MEA_review_llm_wiki-repon README:ssä (`docs/images/fpd-end-conventions-graph-view.png`, 23.11.), kopioitu tänne. Asetukset: repon `docs/images/README.md`. |
 | `llm-wiki_graph_view_wiki_exclude_index.png` | Knowledge has to flow back (before) | Ennen tagiremonttia: kertakäyttötagit (`#brv`, `#video`, `#impedance` …) näkyvät. Filtteripaneeli saa jäädä, se selittää indexin puuttumisen. |
-| `llm-wiki_graph_view_after_tag_rework.png` | Knowledge has to flow back (after) | **Ottamatta.** Samat ehdot kuin before-kuvassa, ohje MEA_review_llm_wiki-repon `docs/images/README.md`:ssä ("Before/after pair"). |
+| `llm-wiki_graph_view_after_tag_rework.png` | Knowledge has to flow back (after) | Otettu 27.11. Korostettuna `#rate-correction` (13 sivua). Ryhmävärit ja "Existing files only" eroavat before-kuvasta, siksi kuvatekstissä "a similar view". |
 | `llm-wiki_loop_work.png` | The wiki structure pays off | Suomenkielinen agentin raportti; figcaptionissa "(in Finnish)". |
 | `llm-wiki_loop_work2.png` | The wiki structure pays off | |
 | `llm-wiki_human-in-the-loop.png` | Esimerkki C | |
